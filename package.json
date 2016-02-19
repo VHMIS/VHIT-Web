@@ -1,0 +1,15 @@
+{
+    "name": "VHIT-Web",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/VHMIS/VHIT-Web.git"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-uglify": "~0.5.1",
+        "grunt-contrib-concat": "~0.5.0",
+        "grunt-contrib-sass": "~0.8.1",
+        "grunt-shell": "~1.1.1"
+    }
+}
