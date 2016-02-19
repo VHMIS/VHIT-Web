@@ -1,10 +1,19 @@
-# Viethanit Website
+# Trang web ViethanIT mới (2016)
+
+## Về dự án
+
+Nhằm thay đổi website cũ, dự án xây dựng website mới được bắt đầu từ tháng 1.2016, chính thức bắt đầu thiết kế và code từ tháng giữa tháng 2.
+
+Dự án sẽ kế thừa từ trang tuyển sinh 2015.
+
+### Thành viên
 
 ## Kế hoạch
 
-- 0.1 : Phát thảo
-- 0.5 : Trình bày nội dung, họp thống nhất
-- 1.0 : Hoàn thành
+- [ ] 02.20 : Xong phát thảo (v0.0.1)
+- [ ] 02.24 : Hoàn thiện cấu trúc, các nội dung chính, thống nhất phương án thiết kế cuối cùng. (v0.1.0)
+- [ ] 03.01 : Hoàn thành các nội dung chính, có thể chạy được, phục vụ tuyển sinh 2016. (v1.0.0)
+- [ ] 04.__ : Xây dựng hoàn chỉnh, có phương án xây dựng trang tiếng Anh, tiếng Hàn dựa theo trang tiếng Việt. (v1.x.0)
 
 ## Build website
 
