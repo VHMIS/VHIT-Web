@@ -1,0 +1,122 @@
+/**
+ * SITE CSS
+ */
+
+* {
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+body {
+    background-color: $body-bg-color;
+
+    &.fixed-header-global {
+        margin-top: 30px;
+
+        header {
+            .global {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                z-index: 20;
+            }
+        }
+    }
+}
+
+.container {
+    width: $container-width;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+
+    .container {
+        background-color: $container-bg-color;
+        position: relative;
+    }
+
+    .global {
+        height: 30px;
+        background-color: $primary-color;
+        overflow: hidden;
+        color: $primary-bg-font-color;
+
+        a {
+            color: $primary-bg-font-color;
+        }
+
+        .container {
+            background-color: $primary-color;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            font-size: 13px;
+
+            li {
+                display: inline-block;
+            }
+        }
+    }
+
+    .header-main {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .header-title {
+        background: url(../img/logo.png) 5px 0 no-repeat;
+        background-size: 74px 70px; /* 100 94 */
+        padding-top: 25px;
+        padding-left: 85px;
+        margin: 0;
+        font-size: 22px;
+        color: $primary-color;
+        height: 70px;
+    }
+
+    .header-subtitle {
+        position: absolute;
+        top: 7px;
+        left: 85px;
+        color: $primary-color;
+        font-size: 15px;
+    }
+}
+
+header a,
+header a:visited,
+header a:hover,
+header a:active {
+    text-decoration: none;
+}
+
+header h1 small {
+    color: #1A77CD;
+}
+
+.section {
+    .section-header {
+        h2 {
+            font: 'Roboto', sans-serif;
+            font-size: 18px;
+            color: #000;
+        }
+    }
+
+    .section-container {
+        background-color: $section-bg-color;
+    }
+}
+
+.slider {
+    .container {
+        height: 300px;
+        overflow: hidden;
+    }
+}

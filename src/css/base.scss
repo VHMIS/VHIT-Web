@@ -1,0 +1,25 @@
+// color
+$primary-color: #1a77cd;
+$primary-bg-color: #1a77cd;
+$body-bg-color: #e8e8e8;
+$section-bg-color: #fff;
+$container-bg-color: #fff;
+
+// width
+$container-width: 1120px;
+
+// font color
+$primary-bg-font-color: #fff;
+
+// clearfix
+@mixin clearfix {
+    &:after,
+    &:before {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
