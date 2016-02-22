@@ -5,3 +5,4 @@ npm-debug.log
 .sass-cache
 client/css/*.css
 client/js/*.js
+_site
