@@ -28,11 +28,11 @@ body {
 .container {
     width: $container-width;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 header {
     position: relative;
+    background-color: #fff;
 
     .container {
         background-color: $container-bg-color;
@@ -41,9 +41,22 @@ header {
 
     .global {
         height: 30px;
+        padding-top: 7px;
         background-color: $primary-color;
         overflow: hidden;
         color: $primary-bg-font-color;
+
+        .intro_text {
+            width: 50%;
+            float: left;
+
+            span {
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: 700;
+                line-height: 18px;
+            }
+        }
 
         a {
             color: $primary-bg-font-color;
@@ -53,51 +66,107 @@ header {
             background-color: $primary-color;
         }
 
-        ul {
-            list-style: none;
-            margin: 0px;
-            padding: 0px;
-            font-size: 13px;
+        .links {
+            float: right;
+            ul {
+                li {
+                    display: block;
+                    float: left;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    line-height: 18px;
 
-            li {
-                display: inline-block;
+                    + li {
+                        margin-left: 20px;
+                    }
+
+                    a {
+                        font-size: 12px;
+                    }
+                }
             }
         }
     }
 
-    .header-main {
-        font-family: 'Roboto', sans-serif;
+    .title {
+        margin-top: 5px;
+        border-bottom: 1px solid #eee;
+
+        .header-main {
+            font-family: 'Roboto', sans-serif;
+            padding: 10px 0;
+        }
+
+        .header-title {
+            background: url(../img/logo.png) 0 0 no-repeat;
+            background-size: 50px 47px; /* 100 94 */
+            padding-top: 8px;
+            padding-left: 63px;
+            margin: 0;
+            font-size: 27px;
+            color: $primary-color;
+            height: 50px;
+            text-transform: uppercase;
+        }
     }
 
-    .header-title {
-        background: url(../img/logo.png) 5px 0 no-repeat;
-        background-size: 74px 70px; /* 100 94 */
-        padding-top: 25px;
-        padding-left: 85px;
-        margin: 0;
-        font-size: 22px;
-        color: $primary-color;
-        height: 70px;
+    .header-menu {
+        @include clearfix;
+        // border-top: 1px solid #ddd;
+        position: relative;
+
+        .main-menu {
+            > ul {
+                > li {
+                    padding: 8px 0;
+                    display: block;
+                    float: left;
+                    margin-right: 20px;
+
+                    > a {
+                        color: #000;
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 700;
+                    }
+
+                    &:hover {
+                        .menu-panel {
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+            &.right {
+                float: right;
+                > ul {
+                    > li {
+                        margin-right: 0px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            .menu-panel {
+                display: none;
+                position: absolute;
+                top: 33px;
+                left: 0px;
+                width: 100%;
+                background-color: $section-bg-color;
+                border-top: 3px solid $primary-color;
+                border-bottom: 3px solid $primary-color;
+                z-index: 19;
+                height: 300px;
+            }
+        }
     }
 
-    .header-subtitle {
-        position: absolute;
-        top: 7px;
-        left: 85px;
-        color: $primary-color;
-        font-size: 15px;
+    a, a:visited, a:hover, a:active {
+        text-decoration: none;
     }
-}
-
-header a,
-header a:visited,
-header a:hover,
-header a:active {
-    text-decoration: none;
-}
-
-header h1 small {
-    color: #1A77CD;
 }
 
 .section {
@@ -115,6 +184,8 @@ header h1 small {
 }
 
 .slider {
+    padding-top: 5px;
+
     .container {
         height: 300px;
         overflow: hidden;
