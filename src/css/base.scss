@@ -11,6 +11,9 @@ $container-width: 1180px;
 // font color
 $primary-bg-font-color: #fff;
 
+// size
+$grid-gutter: 15px;
+
 // clearfix
 @mixin clearfix {
     &:after,
@@ -22,4 +25,27 @@ $primary-bg-font-color: #fff;
     &:after {
         clear: both;
     }
+}
+
+// grid, row, col, size ...
+// grid
+@mixin row($gutter) {
+    margin-left: $gutter / -1;
+    margin-right: $gutter / -1;
+    @include clearfix;
+}
+
+@mixin col($gutter) {
+    float: left;
+    padding-left: $gutter;
+    padding-right: $gutter;
+    min-height: 1px;
+}
+
+@function -col-width($blocks, $block-width, $gutter-width) {
+    @return $block-width * $blocks + ($blocks - 1) * $gutter-width * 2;
+}
+
+@function -col-percent-width($blocks, $total) {
+    @return $blocks / $total * 100%;
 }
