@@ -2,11 +2,6 @@
  * SITE CSS
  */
 
-* {
-    box-sizing: border-box;
-    font-size: 13px;
-}
-
 body {
     background-color: $body-bg-color;
 
@@ -171,15 +166,30 @@ header {
 
 .section {
     .section-header {
-        h2 {
+        padding: 15px 0;
+
+        h1 {
             font: 'Roboto', sans-serif;
-            font-size: 18px;
+            font-size: 20px;
+            text-transform: uppercase;
             color: #000;
         }
     }
 
     .section-container {
         background-color: $section-bg-color;
+
+        &.for_card {
+            background-color: $body-bg-color;
+        }
+
+        .card_info {
+            @include row($grid-gutter);
+
+            .card {
+                @include col($grid-gutter);
+            }
+        }
     }
 }
 

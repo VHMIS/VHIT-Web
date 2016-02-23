@@ -7,12 +7,13 @@ $container-bg-color: #fff;
 
 // width
 $container-width: 1180px;
-
+$grid-gutter: 15px;
 // font color
 $primary-bg-font-color: #fff;
 
-// size
-$grid-gutter: 15px;
+// font size
+$default-font-size: 14px;
+$default-line-height: 18px;
 
 // clearfix
 @mixin clearfix {
