@@ -40,8 +40,14 @@
             .sub {
                 margin: 0 auto;
                 width: 200px;
-                padding-top: 4px;
-                background: #fff;
+                padding: 4px 0 1px 0;
+                color: #fff;
+                border: 1px solid #fff;
+                background-color: #d9534f;
+
+                &::after {
+                    display: none;
+                }
             }
         }
 
@@ -54,9 +60,9 @@
         }
 
         h2 {
-            border-bottom: 2px solid #ff0000;
+            border-bottom: 2px solid #d9534f;
             margin-bottom: 10px;
-            color: #ff0000;
+            color: #d9534f;
             font-size: 16px;
         }
 
@@ -86,7 +92,34 @@
         }
 
         &.links {
-            
+            ul.register_button {
+                @include clearfix;
+                background-color: $primary-color;
+                color: #fff;
+
+                li {
+                    float: left;
+                    display: block;
+                    width: 50%;
+                    height: 45px;
+                    padding: 15px;
+                    font-size: 15px;
+                    font-weight: 700;
+                    text-align: center;
+
+                    + li {
+                        border-left: 1px solid #fff;
+                    }
+
+                    a {
+                        color: #fff;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
         }
     }
 }
