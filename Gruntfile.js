@@ -16,6 +16,7 @@ var
 
     // js files
     jsFiles = [
+        "jquery",
         "main"
     ].map(function(js) {
         return "src/js/" + js + ".js";
@@ -29,7 +30,8 @@ var
                 style: 'compressed'
             },
             files: {
-                'client/css/main.css': 'src/css/main.scss'
+                'client/css/main.css': 'src/css/main.scss',
+                'client/css/aciids.css': 'src/css/aciids.scss'
             }
         },
         site: {
@@ -38,7 +40,8 @@ var
                 style: 'expanded'
             },
             files: {
-                'client/css/main.css': 'src/css/main.scss'
+                'client/css/main.css': 'src/css/main.scss',
+                'client/css/aciids.css': 'src/css/aciids.scss'
             }
         }
 

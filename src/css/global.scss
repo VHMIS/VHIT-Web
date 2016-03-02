@@ -95,7 +95,7 @@ header {
         .header-title {
             background: url(../img/logo.png) 0 0 no-repeat;
             background-size: 50px 47px; /* 100 94 */
-            padding-top: 8px;
+            padding-top: 15px;
             padding-left: 63px;
             margin: 0;
             font-size: 27px;
@@ -113,7 +113,7 @@ header {
         .main-menu {
             > ul {
                 > li {
-                    padding: 8px 0;
+                    padding: 10px 0 8px 0;
                     display: block;
                     float: left;
                     margin-right: 20px;
@@ -166,7 +166,7 @@ header {
 
 .section {
     .section-header {
-        padding: 15px 0;
+        padding: 20px 0 18px 0;
 
         h1 {
             font: 'Roboto', sans-serif;
@@ -193,11 +193,28 @@ header {
     }
 }
 
+.sc-coming-soon {
+    padding-top: 20px;
+    
+    .container {
+        padding: 15px;
+        background-color: #fff;
+    }
+}
+
 .slider {
     padding-top: 5px;
 
     .container {
         height: 300px;
         overflow: hidden;
+    }
+}
+
+footer {
+    padding-top: 20px;
+
+    .container {
+        margin-bottom: 20px;
     }
 }
