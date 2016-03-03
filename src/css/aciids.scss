@@ -22,6 +22,12 @@
     }
 }
 
+.comfirm-booking {
+    padding: 15px;
+    background-color: #fff;
+    
+}
+
 .pr {
     @include clearfix;
 
@@ -69,6 +75,49 @@
         div {
             background-color: #fff;
             padding: 15px;
+        }
+    }
+}
+
+.fb {
+    @include clearfix;
+
+    margin-left: -15px;
+    margin-right: -15px;
+
+    .form-booking, .info {
+        padding-left: 15px;
+        padding-right: 15px;
+        float: left;
+    }
+
+    .form-booking {
+        width: -col-percent-width(2, 3);
+
+        .form {
+            padding: 15px;
+            background-color: #fff;
+        }
+    }
+
+    .info {
+        width: -col-percent-width(1, 3);
+
+        h2 {
+            background-color: $primary-bg-color;
+            color: #fff;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        div {
+            background-color: #fff;
+            padding: 15px;
+
+            + h2 {
+                margin-top: 30px;
+            }
         }
     }
 }
