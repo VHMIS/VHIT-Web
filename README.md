@@ -13,6 +13,7 @@ Dự án sẽ kế thừa từ trang tuyển sinh 2015.
 - [x] 02.20 : Xong phát thảo (v0.0.1)
 - [ ] 02.24 : Hoàn thiện cấu trúc, các nội dung chính, thống nhất phương án thiết kế cuối cùng. (v0.1.0)
 - [x] 03.02 : Thử nghiệm trang con ACIIDS (http://viethanit.edu.vn/aciids-2016/)
+- [ ] 03.07 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
 - [ ] 03.15 : Hoàn thành chạy thử nghiệm (v.1.0.0)
 - [ ] 04.__ : Xây dựng hoàn chỉnh, có phương án xây dựng trang tiếng Anh, tiếng Hàn dựa theo trang tiếng Việt. (v1.x.0)
 
