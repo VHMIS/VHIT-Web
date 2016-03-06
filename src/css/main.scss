@@ -1,9 +1,9 @@
-@import "base";
-@import "normalize";
-@import "reset";
+@import "modules/base";
+@import "modules/normalize";
+@import "modules/reset";
 
-@import "global";
+@import "modules/global";
 
-@import "section_admission";
-@import "section_headline";
-@import "section_about";
+@import "modules/section_admission";
+@import "modules/section_headline";
+@import "modules/section_about";
