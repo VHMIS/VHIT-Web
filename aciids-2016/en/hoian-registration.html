@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Booking | ACIIDS 2016</title>
+        <title>Hội An Tour Registation | ACIIDS 2016</title>
         <meta name="description" content="Hội nghị ACIIDS, ACIIDS 2016, Korea-Vietnam Friendship Information Technology College, Da Nang, Vietnam.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -57,7 +57,7 @@
                         </nav>
                         <nav class="main-menu right">
                             <ul>
-                                <li><a href="/aciids-2016/datphong.html">Tiếng Việt</a></li>
+                                <li><a href="/aciids-2016/dangky-hoian.html">Tiếng Việt</a></li>
                                 <li><a href="https://aciids.pwr.edu.pl/">Official Website</a></li>
                             </ul>
                         </nav>
@@ -66,47 +66,25 @@
             </div>
         </header>
 
+        <section class="slider">
+            <div class="container">
+                <div class="slides">
+                    <div class="slide ha">
+                        <img src="/photo/slide/hoian.jpg" alt="Hoian Night by Alex" title="Hoian Night by Alex">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="section sc-admission">
             <div class="container">
                 <div class="section-header">
-                    <h1>Booking</h1>
+                    <h1>Hoian Tour Registration</h1>
                 </div>
                 <div class="section-container for_card">
-                    <div id="fb" class="fb">
-                        <div class="form-booking">
-                            <form class="form" id="aciids-booking" action="" method="post">
-                                <div class="form_row">
-                                    <label>Room *</label>
-                                    <select class="form-control" name="room">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                    </select>
-                                </div>
-                                <div class="form_row">
-                                    <label>Date in *</label>
-                                    <select class="form-control" name="in">
-                                        <option value="10">10 Mar 2016</option>
-                                        <option value="11">11 Mar 2016</option>
-                                        <option value="12">12 Mar 2016</option>
-                                        <option value="13" selected>13 Mar 2016</option>
-                                        <option value="14">14 Mar 2016</option>
-                                        <option value="15">15 Mar 2016</option>
-                                        <option value="16">16 Mar 2016</option>
-                                    </select>
-                                </div>
-                                <div class="form_row">
-                                    <label>Date out *</label>
-                                    <select class="form-control" name="out">
-                                        <option value="15">15 Mar 2016</option>
-                                        <option value="16">16 Mar 2016</option>
-                                        <option value="17" selected>17 Mar 2016</option>
-                                        <option value="18">18 Mar 2016</option>
-                                    </select>
-                                </div>
+                    <div id="fr" class="fb">
+                        <div class="form-registration">
+                            <form class="form" id="aciids-hoian-registration" action="" method="post">
                                 <div class="form_row">
                                     <label>Title *</label>
                                     <select class="form-control" name="title">
@@ -127,61 +105,44 @@
                                     <input class="form-control" name="email" type="text">
                                 </div>
                                 <div class="form_row">
-                                    <label>Tel *</label>
+                                    <label>Tel</label>
                                     <input class="form-control" name="tel" type="text">
                                 </div>
                                 <div class="form_row">
                                     <label>Paper ID</label>
                                     <input class="form-control" name="paperid" type="text">
                                 </div>
-                                <form class="form">
-                                    <div class="form_row">
-                                    <label>Other</label>
-                                    <textarea class="form-control" name="other"></textarea>
-                                </div>
                                 <div class="form_row">
-                                    <button id="button-confirm" type="button" class="btn btn-default">Confirm</button>
-                                    <!-- <button type="submit" class="btn btn-default">Book</button> -->
+                                    <button id="button-registration-confirm" type="button" class="btn btn-default">Confirm</button>
                                 </div>
                             </form>
-                            <div class="comfirm-booking" style="display:none">
-                                <b>Your booking info</b><br><br>
-                                Rooms: <span class="data-room">5</span> (1 person per room)<br>
-                                Days: <span class="data-total">2</span> (from <span class="data-in">13</span> to <span class="data-out">17</span> March 2016)<br>
+                            <div class="comfirm-registration" style="display:none">
+                                <b>Your registration info</b><br><br>
+                                Fullname: <span class="data-fullname">5</span><br>
+                                Passport or ID Number: <span class="data-idnumber">5</span><br>
+                                Paper ID: <span class="data-paperid">5</span><br>
                                 Tel: <span class="data-tel">9406960450</span><br>
                                 Email: <span class="data-email">email</span>
                                 <br><br>
-                                <button id="button-book" type="button" class="button-for-hide btn btn-default">Book</button>
-                                <a href="#" id="button-comeback" class="button-for-hide">Come back</a>
-                                <p class="is-booking" style="display:none">Booking now... Please wait!</p>
-                                <p class="done-booking" style="display:none">Booked successfully ! We will contact you soon! Thanks!</p>
+                                <button id="button-registration" type="button" class="button-for-hide btn btn-default">Register</button>
+                                <a href="#" id="button-registration-comeback" class="button-for-hide">Come back</a>
+                                <p class="is-booking" style="display:none">Registering... Please wait!</p>
+                                <p class="done-booking" style="display:none">Registered successfully! We will contact you soon!</p>
                             </div>
                         </div>
                         <div class="info">
-                            <h2>Room Info</h2>
+                            <h2>Event Info</h2>
                             <div>
-                                <b>Campus Room</b><br><br>
-                                1 person per room<br>
-                                Price: 10$ / night<br>
-                                Wifi Internet Free<br>
-                                Address: <a href="https://goo.gl/maps/3x9qaaYHAdR2" target="_blank">Campus Zone, Korea-Vietnam Friendship IT College, Hoa Quy ward, Ngu Hanh Son district, Danang city</a>
+                                <b>Excursion to Hoi An City</b><br><br>
+                                Date: Day 3 - 5:00pm, 16th March 2016<br>
+                                Max. Registrations: 60 (<span id="count-registration">...</span> registrations)<br>
+                                PIC: Dr. The Son Tran, Viethanit<br>
+                                Dinner in Hoi An City<br>
                             </div>
                             <h2>Contact Info</h2>
                             <div>
-                                <b>Dinh An Hoang</b><br><br>
-                                Vietnamese<br>
-                                Tel: 0913404977<br><br>
-                                <b>Thi Bich Thao Le</b><br><br>
-                                English<br>
+                                <b>Ms Thi Bich Thao Le</b><br><br>
                                 Tel: 0905840908
-                            </div>
-                            <h2>Payment by bank transfer</h2>
-                            <div>
-                                <b>Agribank</b><br><br>
-                                Account name: Korea-Vietnam Friendship IT College<br>
-                                Account no: 2006201001299<br>
-                                Swift code: VBAAVNVX522<br>
-                                Bank: Agribank, Ngu Hanh Son District, Danang
                             </div>
                         </div>
                     </div>
@@ -195,7 +156,7 @@
             </div>
         </footer>
 
-        <script src="/client/js/main.js?20150303240600"></script>
+        <script src="/client/js/main.js?20150307240600"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

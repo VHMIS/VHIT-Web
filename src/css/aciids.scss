@@ -5,6 +5,10 @@
         img {
             margin-top: -60px;
         }
+
+        &.ha img {
+            margin-top: -170px;
+        }
     }
 
     .sc-admission {
@@ -22,7 +26,7 @@
     }
 }
 
-.comfirm-booking {
+.comfirm-booking, .comfirm-registration {
     padding: 15px;
     background-color: #fff;
 
@@ -85,13 +89,13 @@
     margin-left: -15px;
     margin-right: -15px;
 
-    .form-booking, .info {
+    .form-booking, .form-registration, .info {
         padding-left: 15px;
         padding-right: 15px;
         float: left;
     }
 
-    .form-booking {
+    .form-booking, .form-registration {
         width: -col-percent-width(2, 3);
 
         .form {
@@ -211,14 +215,4 @@ textarea.form-control {
 
 .btn-default.inactive {
     background-color: #8a8a8a;
-}
-
-form .personal_photo {
-    width: 80px;
-    margin-bottom: 10px;
-}
-
-form .personal_photo img {
-    width: 100%;
-    height: auto;
 }
