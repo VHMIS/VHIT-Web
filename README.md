@@ -42,6 +42,7 @@ Tại thư mục gốc mã nguồn, chạy các lệnh grunt sau
 - ``Grunt clear`` : Xóa các file CSS và Javascript đã build
 - ``Grunt css`` : Chỉ build mỗi file CSS
 - ``Grunt js`` : Chỉ build mỗi file JS
+- ``Grunt watch`` : Tự động kiểm tra thay đổi các file js và scss để build lại
 
 Để build hoặc xem trang web có thể chạy các lệnh sau
 

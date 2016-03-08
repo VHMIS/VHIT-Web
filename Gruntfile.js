@@ -68,19 +68,33 @@ var
                 'client/js/main.js' : jsFiles
             }
         }
+    },
+
+    // Watch files
+    watch = {
+        css: {
+            files: ['src/css/**/*.scss'],
+            tasks: ['sass:site']
+        },
+        js: {
+            files: ['src/js/*.js'],
+            tasks: ['concat:js']
+        }
     };
 
 grunt.loadNpmTasks('grunt-contrib-concat');
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-shell');
+grunt.loadNpmTasks('grunt-contrib-watch');
 
 grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     concat: join,
     uglify: minify,
     sass: sass,
-    shell: commands
+    shell: commands,
+    watch: watch
 });
 
 // Tasks
