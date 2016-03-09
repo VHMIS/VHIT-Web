@@ -76,6 +76,10 @@ var
             files: ['src/css/**/*.scss'],
             tasks: ['sass:site']
         },
+        maincss: {
+            files: ['src/css/*.scss'],
+            tasks: ['sass:site']
+        },
         js: {
             files: ['src/js/*.js'],
             tasks: ['concat:js']
