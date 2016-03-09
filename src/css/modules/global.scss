@@ -25,7 +25,7 @@ body {
     margin: 0 auto;
 }
 
-header {
+.page-header {
     position: relative;
     background-color: #fff;
 
@@ -46,10 +46,11 @@ header {
             float: left;
 
             span {
-                font-size: 12px;
+                font-size: .8rem;
+                display: block;
+                float: left;
                 text-transform: uppercase;
                 font-weight: 700;
-                line-height: 18px;
             }
         }
 
@@ -66,17 +67,13 @@ header {
             ul {
                 li {
                     display: block;
+                    font-size: .8rem;
                     float: left;
                     text-transform: uppercase;
                     font-weight: 700;
-                    line-height: 18px;
 
                     + li {
                         margin-left: 20px;
-                    }
-
-                    a {
-                        font-size: 12px;
                     }
                 }
             }
@@ -88,17 +85,16 @@ header {
         border-bottom: 1px solid #eee;
 
         .header-main {
-            font-family: 'Roboto', sans-serif;
-            padding: 10px 0;
+            padding: 12px 0;
         }
 
         .header-title {
             background: url(../img/logo.png) 0 0 no-repeat;
             background-size: 50px 47px; /* 100 94 */
-            padding-top: 15px;
-            padding-left: 63px;
+            padding-top: .3rem;
+            padding-left: 67px;
             margin: 0;
-            font-size: 27px;
+            font-size: 2rem;
             color: $primary-color;
             height: 50px;
             text-transform: uppercase;
@@ -113,7 +109,7 @@ header {
         .main-menu {
             > ul {
                 > li {
-                    padding: 10px 0 8px 0;
+                    padding: 12px 0 8px 0;
                     display: block;
                     float: left;
                     margin-right: 20px;
@@ -121,8 +117,6 @@ header {
                     > a {
                         color: #000;
                         text-transform: uppercase;
-                        font-size: 15px;
-                        font-family: 'Roboto', sans-serif;
                         font-weight: 700;
                     }
 
@@ -166,11 +160,11 @@ header {
 
 .section {
     .section-header {
-        padding: 20px 0 18px 0;
+        padding: 23px 0 18px 0;
+        text-align: center;
 
         h1 {
-            font: 'Roboto', sans-serif;
-            font-size: 20px;
+            font-size: 2.2rem;
             text-transform: uppercase;
             color: #000;
         }
@@ -211,10 +205,43 @@ header {
     }
 }
 
-footer {
-    padding-top: 20px;
+.page-footer {
+    padding-top: 30px;
+    background-color: $primary-bg-color;
+    color: #eee;
+    padding-bottom: 30px;
 
-    .container {
-        margin-bottom: 20px;
+    h2 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .links {
+        @include clearfix;
+        @include row($grid-gutter);
+
+        .group {
+            @include col($grid-gutter);
+            width: -col-percent-width(1, 5);
+
+            ul {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .slogan {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
     }
 }

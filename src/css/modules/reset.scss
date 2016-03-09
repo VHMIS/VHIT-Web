@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-size: $default-font-size
+    font-size: $font-size;
 }
 
 *,
@@ -9,9 +9,20 @@ html {
     box-sizing: inherit;
 }
 
+@at-root {
+  @-ms-viewport { width: device-width; }
+}
+
 body {
-    font-size: $default-font-size;
-    line-height: $default-line-height;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: $line-height;
+}
+
+[tabindex="-1"]:focus {
+  outline: none !important;
 }
 
 h1,
@@ -37,4 +48,8 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+img {
+    vertical-align: middle;
 }

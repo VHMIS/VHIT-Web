@@ -1,0 +1,28 @@
+.sc-partners {
+    margin-bottom: 30px;
+
+    .container {
+        overflow-x: hidden;
+    }
+
+    .partners {
+        @include clearfix;
+
+        .partner {
+            float: left;
+            width: -col-percent-width(1, 6);
+
+            .logo {
+                // width: 100%;
+                height: 150px;
+                overflow: hidden;
+                line-height: 150px;
+                text-align: center;
+
+                img {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
