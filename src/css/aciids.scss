@@ -10,16 +10,60 @@
             margin-top: -170px;
         }
     }
+}
 
-    .sc-admission {
-        .section-container {
-            .card_info {
-                .card {
-                    width: -col-percent-width(1, 2);
+.sc-aciids {
+    .section-container {
+        .card_info {
+            .card {
+                width: -col-percent-width(1, 2);
+            }
+        }
+    }
 
-                    p {
-                        margin-bottom: 10px;
-                    }
+    .card {
+        > div {
+            background-color: $section-bg-color;
+            padding: 15px;
+            position: relative;
+        }
+
+        .sub {
+            color: #ccc;
+            text-transform: uppercase;
+            font-size: 12px;
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: 700;
+
+            &::after {
+                display: block;
+                content: ' ';
+                border-top: 1px solid #ddd;
+                width: 40%;
+                margin: 0 auto;
+            }
+        }
+
+        &.intro {
+            p, ul {
+                margin-bottom: 10px;
+            }
+        }
+
+        &.programs {
+            span {
+                font-weight: 700;
+            }
+            li {
+                display: block;
+                margin-bottom: 6px;
+                border-top: 1px solid #eee;
+                padding-top: 5px;
+                margin-top: 5px;
+
+                a {
+                    color: #000;
                 }
             }
         }
