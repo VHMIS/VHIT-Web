@@ -1,13 +1,12 @@
 @import "modules/base";
 
 .pg-aciids {
+    .slider .container {
+        height: auto;
+    }
     .slide {
         img {
-            margin-top: -60px;
-        }
-
-        &.ha img {
-            margin-top: -170px;
+            width: 100%;
         }
     }
 }
@@ -168,10 +167,6 @@
         }
 
         .photo {
-            width: 100%;
-            height: 225px;
-            overflow: hidden;
-
             img {
                 width: 100%;
             }
@@ -405,5 +400,85 @@ textarea.form-control {
                 text-decoration: none;
             }
         }
+    }
+}
+
+
+// responsive
+@media (max-width: 1179px) {
+    .container {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 790px) {
+    .page-header .global .intro_text {
+        display: none;
+    }
+
+    .page-header .global .links {
+        float: left;
+    }
+}
+
+@media (max-width: 770px) {
+    .pr .press-release, .fb .form-booking, .fb .form-registration {
+        width: 60%;
+    }
+
+    .pr .contact, .fb .info {
+        width: 40%;
+    }
+}
+
+@media (max-width: 750px) {
+    .sc-intro .section-container .card_info .card {
+        width: 100%;
+
+        + .card {
+            margin-top: 30px;
+        }
+    }
+
+    .page-header .title .header-title span {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .sc-aciids .section-container .card_info .card {
+        width: 100%;
+
+        + .card {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .pr .press-release, .pr .contact, .fb .form-booking, .fb .form-registration, .fb .info {
+        width: 100%;
+    }
+
+    .pr .contact, .fb .info {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .sc-events .section-container .card_info .card {
+        width: 100%;
+
+        + .card {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .sc-partners .partners .partner {
+        width: 50%;
     }
 }
