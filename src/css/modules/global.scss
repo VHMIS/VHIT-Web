@@ -172,6 +172,7 @@ body {
 
     .section-container {
         background-color: $section-bg-color;
+        overflow: hidden;
 
         &.for_card {
             background-color: $body-bg-color;
