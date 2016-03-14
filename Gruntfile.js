@@ -24,16 +24,16 @@ var
 
     // Sass
     sass = {
-        deloy: {
-            options: {
-                sourcemap: 'none',
-                style: 'compressed'
-            },
-            files: {
-                'client/css/main.css': 'src/css/main.scss',
-                'client/css/aciids.css': 'src/css/aciids.scss'
-            }
-        },
+        // deloy: {
+        //     options: {
+        //         sourcemap: 'none',
+        //         style: 'compressed'
+        //     },
+        //     files: {
+        //         'client/css/main.css': 'src/css/main.scss',
+        //         'client/css/aciids.css': 'src/css/aciids.scss'
+        //     }
+        // },
         site: {
             options: {
                 sourcemap: 'none',
@@ -74,22 +74,51 @@ var
     watch = {
         css: {
             files: ['src/css/**/*.scss'],
-            tasks: ['sass:site']
+            tasks: ['sass:site', 'postcss']
         },
         maincss: {
             files: ['src/css/*.scss'],
-            tasks: ['sass:site']
+            tasks: ['sass:site', 'postcss']
         },
         js: {
             files: ['src/js/*.js'],
             tasks: ['concat:js']
         }
+    },
+
+    // Auto prefixer css
+    postcss = {
+        options: {
+            map: false,
+            processors: [
+                require('autoprefixer')({browsers: 'last 2 versions'})
+            ]
+        },
+        dist: {
+            src: 'client/css/*.css'
+        }
+    },
+
+    // Min css
+    cssnano = {
+        options: {
+            sourcemap: false
+        },
+        dist: {
+            files: {
+                'client/css/main.css' : 'client/css/main.css',
+                'client/css/aciids.css' : 'client/css/aciids.css'
+            }
+        }
     };
+
 
 grunt.loadNpmTasks('grunt-contrib-concat');
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-shell');
+grunt.loadNpmTasks('grunt-postcss');
+grunt.loadNpmTasks('grunt-cssnano');
 grunt.loadNpmTasks('grunt-contrib-watch');
 
 grunt.initConfig({
@@ -98,6 +127,8 @@ grunt.initConfig({
     uglify: minify,
     sass: sass,
     shell: commands,
+    postcss: postcss,
+    cssnano: cssnano,
     watch: watch
 });
 
@@ -105,7 +136,8 @@ grunt.initConfig({
 grunt.registerTask('clear', ['shell:clear'])
 grunt.registerTask('css', ['sass:site'])
 grunt.registerTask('js', ['concat:js'])
-grunt.registerTask('production', ['sass:deloy', 'concat:js', 'uglify:js']);
-grunt.registerTask('default', ['sass:site', 'concat:js']);
+grunt.registerTask('min', ['cssnano', 'uglify:js'])
+grunt.registerTask('production', ['sass:site', 'postcss', 'cssnano', 'concat:js', 'uglify:js'])
+grunt.registerTask('default', ['sass:site', 'postcss', 'concat:js'])
 
 };
