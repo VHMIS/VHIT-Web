@@ -84,7 +84,7 @@
                 <div class="section-container for_card">
                     <div id="fr" class="fb">
                         <div class="form-registration">
-                            <!-- <form class="form" id="aciids-hoian-registration" action="" method="post">
+                            <form class="form" id="aciids-hoian-registration" action="" method="post">
                                 <div class="form_row">
                                     <label>Title *</label>
                                     <select class="form-control" name="title">
@@ -115,10 +115,10 @@
                                 <div class="form_row">
                                     <button id="button-registration-confirm" type="button" class="btn btn-default">Confirm</button>
                                 </div>
-                            </form> -->
-                            <div class="comfirm-registration">
-                                We had full number of registration currently! Thank you very much!
-                                <!-- <b>Your registration info</b><br><br>
+                            </form>
+                            <div class="comfirm-registration" style="display:none">
+                                <!-- We had full number of registration currently! Thank you very much! -->
+                                <b>Your registration info</b><br><br>
                                 Fullname: <span class="data-fullname">5</span><br>
                                 Passport or ID Number: <span class="data-idnumber">5</span><br>
                                 Paper ID: <span class="data-paperid">5</span><br>
@@ -128,7 +128,7 @@
                                 <button id="button-registration" type="button" class="button-for-hide btn btn-default">Register</button>
                                 <a href="#" id="button-registration-comeback" class="button-for-hide">Come back</a>
                                 <p class="is-booking" style="display:none">Registered successfully! We will contact you soon!</p>
-                                <p class="done-booking" style="display:none">Registered successfully! We will contact you soon!</p> -->
+                                <p class="done-booking" style="display:none">Registered successfully! We will contact you soon!</p>
                             </div>
                         </div>
                         <div class="info">
@@ -136,7 +136,7 @@
                             <div>
                                 <b>Excursion to Hoi An City</b><br><br>
                                 Date: Day 3, 14:00 - 21:00, 16th March 2016<br>
-                                Max. Registrations: 80<br>
+                                Max. Registrations: 80 (<span id="count-registration">...</span> registrations)<br>
                                 PIC: Dr. The Son Tran, Viethanit<br><br>
                                 We will support transportation only. The remaining costs will be paid by the participants at each of sights.<br>
                             </div>
@@ -158,7 +158,7 @@
             </div>
         </footer>
 
-        <script src="/client/js/main.js?20150307240600"></script>
+        <script src="/client/js/main.js?20150314240600"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

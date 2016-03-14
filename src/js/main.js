@@ -129,6 +129,10 @@ $(document).ready(function () {
         var countregistration = function() {
             $.getJSON('https://vhmis.viethanit.edu.vn/office/public-api/aciids/registration-count', function (data) {
             // $.getJSON('http://localhost/VHMIS_WWW/office/public-api/aciids/registration-count', function (data) {
+                if (parseInt(data.total) >= 80) {
+                    $('form#aciids-hoian-registration').hide()
+                    $('.comfirm-registration').text('We had full number of registration currently! Thank you very much!').show()
+                }
                 $('#count-registration').text(data.total)
             })
         }

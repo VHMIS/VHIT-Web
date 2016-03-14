@@ -83,7 +83,7 @@
                 <div class="section-container for_card">
                     <div id="fr" class="fb">
                         <div class="form-registration">
-                            <!-- <form class="form" id="aciids-hoian-registration" action="" method="post">
+                            <form class="form" id="aciids-hoian-registration" action="" method="post">
                                 <div class="form_row">
                                     <label>Danh xưng *</label>
                                     <select class="form-control" name="title">
@@ -114,10 +114,10 @@
                                 <div class="form_row">
                                     <button id="button-registration-confirm" type="button" class="btn btn-default">Xác nhận</button>
                                 </div>
-                            </form> -->
-                            <div class="comfirm-registration">
-                                Chúng tôi đã nhận đủ số lượng đăng ký! xin cảm ơn!
-                                <!-- <b>Thông tin đăng ký của bạn</b><br><br>
+                            </form>
+                            <div class="comfirm-registration" style="display:none">
+                                <!-- Chúng tôi đã nhận đủ số lượng đăng ký! xin cảm ơn! -->
+                                <b>Thông tin đăng ký của bạn</b><br><br>
                                 Tên đầy đủ: <span class="data-fullname">5</span><br>
                                 Số CMND hoặc hộ chiếu: <span class="data-idnumber">5</span><br>
                                 ID Bài báo: <span class="data-paperid">5</span><br>
@@ -127,7 +127,7 @@
                                 <button id="button-registration" type="button" class="button-for-hide btn btn-default">Đăng ký</button>
                                 <a href="#" id="button-registration-comeback" class="button-for-hide">Quay trở lại</a>
                                 <p class="is-booking" style="display:none">Đăng ký thành công! Chúng tôi sẽ liên hệ với bạn sớm!</p>
-                                <p class="done-booking" style="display:none">Đăng ký thành công! Chúng tôi sẽ liên hệ với bạn sớm!</p> -->
+                                <p class="done-booking" style="display:none">Đăng ký thành công! Chúng tôi sẽ liên hệ với bạn sớm!</p>
                             </div>
                         </div>
                         <div class="info">
@@ -135,7 +135,7 @@
                             <div>
                                 <b>Tham quan thành phố Hội An</b><br><br>
                                 Ngày: 14:00 - 21:00, 16 tháng 3 2016 - Ngày 3<br>
-                                Số lượng đăng ký tối đa: 80<br>
+                                Số lượng đăng ký tối đa: 80 (<span id="count-registration">...</span> đăng ký)<br>
                                 Điều hành: Tiến sĩ Trần Thế Sơn, trường Việt Hàn<br><br>
                                 Chúng tôi sẽ chỉ hỗ trợ phương tiện đi lại. Các chi phí còn lại sẽ được thanh toán bởi những người tham gia tại mỗi điểm tham quan.<br>
                             </div>
@@ -157,7 +157,7 @@
             </div>
         </footer>
 
-        <script src="/client/js/main.js?20160307154344"></script>
+        <script src="/client/js/main.js?20160314154344"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
