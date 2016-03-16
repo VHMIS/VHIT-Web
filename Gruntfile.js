@@ -24,22 +24,13 @@ var
 
     // Sass
     sass = {
-        // deloy: {
-        //     options: {
-        //         sourcemap: 'none',
-        //         style: 'compressed'
-        //     },
-        //     files: {
-        //         'client/css/main.css': 'src/css/main.scss',
-        //         'client/css/aciids.css': 'src/css/aciids.scss'
-        //     }
-        // },
         site: {
             options: {
                 sourcemap: 'none',
                 style: 'expanded'
             },
             files: {
+                'client/css/font_icon.css': 'src/css/font_icon.scss',
                 'client/css/main.css': 'src/css/main.scss',
                 'client/css/aciids.css': 'src/css/aciids.scss'
             }
@@ -106,6 +97,7 @@ var
         },
         dist: {
             files: {
+                'client/css/font_icon.css': 'src/css/font_icon.css',
                 'client/css/main.css' : 'client/css/main.css',
                 'client/css/aciids.css' : 'client/css/aciids.css'
             }
