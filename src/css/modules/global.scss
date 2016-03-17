@@ -64,11 +64,14 @@ body {
             background-size: 50px 47px; /* 100 94 */
             padding-top: .3rem;
             padding-left: 67px;
+            padding-right: 67px;
             margin: 0;
             font-size: 2rem;
             color: $primary-color;
             height: 50px;
             text-transform: uppercase;
+
+            @include text-truncate;
         }
 
         .intro_text {
