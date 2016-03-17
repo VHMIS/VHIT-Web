@@ -51,6 +51,14 @@ $default-line-height: 18px;
     min-height: 1px;
 }
 
+// Text truncate
+// Very long tit...
+@mixin text-truncate() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 @function -col-width($blocks, $block-width, $gutter-width) {
     @return $block-width * $blocks + ($blocks - 1) * $gutter-width * 2;
 }
