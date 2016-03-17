@@ -1,4 +1,11 @@
 $(document).ready(function () {
+    // Toggle menu button
+    $('#open-menu-button').click(function(e) {
+        $('body').addClass('show_left_menu')
+    })
+    $('#close-menu-button').click(function(e) {
+        $('body').removeClass('show_left_menu')
+    })
 
     // Aciids booking form
     $('form#aciids-booking select[name=in]').on('change', function(){
