@@ -76,15 +76,16 @@ body {
 
         .intro_text {
             position: absolute;
-            width: 50%;
-            top: -29px;
+            top: -31px;
             left: 0;
             color: $primary-bg-font-color;
+            width: 100%;
+            @include text-truncate;
 
             span {
                 font-size: .8rem;
-                display: block;
-                float: left;
+                // display: block;
+                // float: left;
                 text-transform: uppercase;
                 font-weight: 700;
             }
