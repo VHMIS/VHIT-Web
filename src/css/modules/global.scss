@@ -102,6 +102,22 @@ body {
                 font-size: 28px;
             }
         }
+
+        .quickmenu-button {
+            position: absolute;
+            top: -31px;
+            right: 10px;
+            color: $primary-bg-font-color;
+            display: none;
+
+            span {
+                font-size: .8rem;
+                // display: block;
+                // float: left;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+        }
     }
 
     .header-menu {
@@ -195,6 +211,63 @@ body {
 
     a, a:visited, a:hover, a:active {
         text-decoration: none;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 810px) {
+    .page-header {
+        .title {
+            .quickmenu-button {
+                display: block;
+            }
+        }
+
+        .header-menu {
+            .top-menu.for-md {
+                top: -85px;
+                width: 100px;
+                visibility: hidden;
+                opacity: 0;
+                transition: top 0.3s ease 0s, opacity 0.6s ease 0s;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: -14px;
+                    left: 32px;
+                    height: 0;
+                    width: 0;
+                    border: 7px solid transparent;
+                    border-bottom: 7px solid #fff;
+                }
+
+                ul {
+                    background: #fff;
+                    border-radius: 2px;
+                    box-shadow: 0 2px 4px rgba(0,0,0,.36),0 0 0 1px rgba(0,0,0,.06);
+                    padding: 10px;
+
+                    li {
+                        float: none;
+                        margin-left: 0px;
+
+                        + li {
+                            margin-top: 8px;
+                        }
+                    }
+                }
+
+                a {
+                    color: #000;
+                }
+
+                &.active {
+                    visibility: visible;
+                    opacity: 1;
+                    top: -80px;
+                }
+            }
+        }
     }
 }
 
