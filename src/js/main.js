@@ -7,6 +7,46 @@ $(document).ready(function () {
         $('body').removeClass('show_left_menu')
     })
 
+    // Layer (dropdown, menu, popup ...) handle
+    $(document).on('layer.clear', function(e) {
+        $('.layer-toggle').each(function () {
+            var toggle = $(this)
+            // ? can remove and don't check =))
+            if(!toggle.hasClass('active')) {
+                return;
+            }
+
+            var layer = $(toggle.data('layer'))
+
+            layer.removeClass('active')
+            toggle.removeClass('active')
+        })
+    })
+
+    $(document).on('click', function(e) {
+        var notInLayer = $(e.target).closest(".layer-container").length === 0
+        var notInToggle = $(e.target).closest(".layer-toggle").length === 0
+
+        if (notInLayer && notInToggle) {
+            $(document).trigger('layer.clear')
+        }
+    })
+
+    $(document).on('click', '.layer-toggle', function(e) {
+        console.log('b');
+        var toggle = $(this)
+        var layer = $(toggle.data('layer'))
+        var isActived = toggle.hasClass('active')
+
+        // remove current open
+        $(document).trigger('layer.clear')
+
+        if (!isActived) {
+            layer.addClass('active')
+            toggle.addClass('active')
+        }
+    })
+
     // Aciids booking form
     $('form#aciids-booking select[name=in]').on('change', function(){
         var din = $(this)
