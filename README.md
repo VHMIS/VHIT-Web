@@ -8,6 +8,11 @@ Dự án sẽ kế thừa từ trang tuyển sinh 2015.
 
 ### Thành viên
 
+### Các mục và trang con
+- [ ] Tuyển sinh http://viethanit.edu.vn/tuyensinh
+- [x] ACIIDS 2016 http://viethanit.edu.vn/aciids-2016
+- [ ] Quan hệ doanh nghiệp và hỗ trợ việc làm
+
 ## Kế hoạch
 
 - [x] 02.20 : Xong phát thảo (v0.0.1)
