@@ -1,0 +1,470 @@
+-
+    stt: 1
+    sbd: DCN000016
+    ten: ĐỒNG THÁI AN
+    ns: 08/12/1997
+    gt: Nam
+    d: 12
+    ut: 0.5
+    td: 12.5
+    n: Thiết kế đồ họa
+-
+    stt: 2
+    sbd: DHU000173
+    ten: DƯƠNG HÀ ANH
+    ns: 14/09/1997
+    gt: Nam
+    d: 15.25
+    ut: 1
+    td: 16.25
+    n: Truyền thông đa phương tiện
+-
+    stt: 3
+    sbd: DHU000334
+    ten: LÊ DỨC NHẬT ANH
+    ns: 02/11/1997
+    gt: Nam
+    d: 14.75
+    ut: 0.5
+    td: 15.25
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 4
+    sbd: NLS000367
+    ten: TRẦN TUẤN ANH
+    ns: 17/05/1997
+    gt: Nam
+    d: 11.5
+    ut: 1.5
+    td: 13
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 5
+    sbd: DND001434
+    ten: TRẦN THỊ Y BÌNH
+    ns: 08/06/1997
+    gt: Nữ
+    d: 13.75
+    ut: 1
+    td: 14.75
+    n: Truyền thông và mạng máy tính
+-
+    stt: 6
+    sbd: TTN001657
+    ten: LỤC MINH CHIẾN
+    ns: 18/10/1996
+    gt: Nam
+    d: 12
+    ut: 3.5
+    td: 15.5
+    n: Công nghệ kỹ thuật kiến trúc
+-
+    stt: 7
+    sbd: NLS001005
+    ten: LÊ HOÀNG CHINH
+    ns: 15/07/1997
+    gt: Nam
+    d: 10.75
+    ut: 1.5
+    td: 12.25
+    n: Công nghệ thông tin
+-
+    stt: 8
+    sbd: TTN004099
+    ten: TRẦN TRUNG ĐỨC
+    ns: 02/10/1996
+    gt: Nam
+    d: 11.75
+    ut: 0.5
+    td: 12.25
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 9
+    sbd: TDV005695
+    ten: VÕ TÙNG DƯƠNG
+    ns: 05/03/1997
+    gt: Nam
+    d: 12
+    ut: 1.5
+    td: 13.5
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 10
+    sbd: DND003678
+    ten: NGUYỄN THỊ BÍCH DUYÊN
+    ns: 28/08/1997
+    gt: Nữ
+    d: 12
+    ut: 0
+    td: 12
+    n: Quản trị kinh doanh
+-
+    stt: 11
+    sbd: DHU004533
+    ten: LÊ THỊ NGÂN GIANG
+    ns: 04/07/1997
+    gt: Nữ
+    d: 11
+    ut: 1
+    td: 12
+    n: Thiết kế đồ họa
+-
+    stt: 12
+    sbd: NLS003027
+    ten: BÙI VIẾT HẢI
+    ns: 05/10/1997
+    gt: Nam
+    d: 11.75
+    ut: 1.5
+    td: 13.25
+    n: Thiết kế đồ họa
+-
+    stt: 13
+    sbd: DND005694
+    ten: PHAN VĂN HẢI
+    ns: 05/05/1997
+    gt: Nam
+    d: 14.5
+    ut: 1
+    td: 15.5
+    n: Quản trị kinh doanh
+-
+    stt: 14
+    sbd: DND005835
+    ten: LƯƠNG THỊ MỸ HẠNH
+    ns: 08/01/1997
+    gt: Nữ
+    d: 12.25
+    ut: 1
+    td: 13.25
+    n: Marketing
+-
+    stt: 15
+    sbd: TDV010404
+    ten: HỒ TRUNG HIẾU
+    ns: 03/10/1997
+    gt: Nam
+    d: 14
+    ut: 1
+    td: 15
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 16
+    sbd: DND007260
+    ten: LÊ TRUNG HIẾU
+    ns: 14/01/1997
+    gt: Nam
+    d: 14.25
+    ut: 0.5
+    td: 14.75
+    n: Công nghệ thông tin
+-
+    stt: 17
+    sbd: DND007295
+    ten: NGUYỄN ĐÌNH HIẾU
+    ns: 15/12/1996
+    gt: Nam
+    d: 12.25
+    ut: 1
+    td: 13.25
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 18
+    sbd: DND007346
+    ten: NGUYỄN THỊ MINH HIẾU
+    ns: 28/06/1997
+    gt: Nữ
+    d: 17
+    ut: 1
+    td: 18
+    n: Thiết kế đồ họa
+-
+    stt: 19
+    sbd: DND008004
+    ten: NGUYỄN HÙNG HOÀNG
+    ns: 09/04/1997
+    gt: Nam
+    d: 13.25
+    ut: 0.5
+    td: 13.75
+    n: Thiết kế đồ họa
+-
+    stt: 20
+    sbd: NLS005526
+    ten: TRẦN ĐÌNH KHIÊM
+    ns: 23/12/1997
+    gt: Nam
+    d: 12.5
+    ut: 1.5
+    td: 14
+    n: Công nghệ thông tin
+-
+    stt: 21
+    sbd: DND011861
+    ten: PHẠM THỊ THUỲ LINH
+    ns: 28/04/1997
+    gt: Nữ
+    d: 16.5
+    ut: 0
+    td: 16.5
+    n: Quản trị kinh doanh
+-
+    stt: 22
+    sbd: DND012844
+    ten: ĐINH VŨ DIỆU LY
+    ns: 28/12/1997
+    gt: Nữ
+    d: 14
+    ut: 0.5
+    td: 14.5
+    n: Thiết kế đồ họa
+-
+    stt: 23
+    sbd: NLS007099
+    ten: VŨ VĂN MẠNH
+    ns: 10/09/1997
+    gt: Nam
+    d: 16
+    ut: 1.5
+    td: 17.5
+    n: Công nghệ thông tin
+-
+    stt: 24
+    sbd: DND014113
+    ten: CHẾ HOÀI NAM
+    ns: 29/03/1997
+    gt: Nam
+    d: 17
+    ut: 0
+    td: 17
+    n: Thiết kế đồ họa
+-
+    stt: 25
+    sbd: DQN013443
+    ten: LƯƠNG THỊ NAM
+    ns: 18/07/1997
+    gt: Nữ
+    d: 14.75
+    ut: 1.5
+    td: 16.25
+    n: Quản trị kinh doanh
+-
+    stt: 26
+    sbd: NLS008378
+    ten: ĐẶNG QUANG NHÂN
+    ns: 12/05/1997
+    gt: Nam
+    d: 13.5
+    ut: 1.5
+    td: 15
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 27
+    sbd: DQN015308
+    ten: ĐỖ TRỌNG NHI
+    ns: 08/06/1997
+    gt: Nam
+    d: 14.75
+    ut: 2
+    td: 16.75
+    n: Thiết kế đồ họa
+-
+    stt: 28
+    sbd: DND016235
+    ten: TRẦN THỊ HỒNG NHI
+    ns: 25/09/1997
+    gt: Nữ
+    d: 13
+    ut: 1.5
+    td: 14.5
+    n: Quản trị kinh doanh
+-
+    stt: 29
+    sbd: NLS008996
+    ten: NGUYỄN THỊ MỸ OANH
+    ns: 28/02/1997
+    gt: Nữ
+    d: 11.75
+    ut: 1.5
+    td: 13.25
+    n: Thiết kế đồ họa
+-
+    stt: 30
+    sbd: NLS009059
+    ten: NGUYỄN VĂN PHÁT
+    ns: 05/06/1997
+    gt: Nam
+    d: 13
+    ut: 1.5
+    td: 14.5
+    n: Công nghệ thông tin
+-
+    stt: 31
+    sbd: DND017290
+    ten: TRẦN THỊ THANH PHONG
+    ns: 26/06/1997
+    gt: Nữ
+    d: 12.5
+    ut: 1.5
+    td: 14
+    n: Quản trị kinh doanh
+-
+    stt: 32
+    sbd: DND017961
+    ten: HỨA VIỆT PHƯƠNG
+    ns: 11/10/1997
+    gt: Nam
+    d: 15.5
+    ut: 0
+    td: 15.5
+    n: Truyền thông đa phương tiện
+-
+    stt: 33
+    sbd: DND018337
+    ten: ĐẶNG THỊ HỒNG PHƯỢNG
+    ns: 29/10/1997
+    gt: Nữ
+    d: 15.25
+    ut: 0
+    td: 15.25
+    n: Quản trị kinh doanh
+-
+    stt: 34
+    sbd: TSN012750
+    ten: TRẦN KIM QUANH
+    ns: 29/09/1997
+    gt: Nữ
+    d: 17.25
+    ut: 0.5
+    td: 17.75
+    n: Quản trị kinh doanh
+-
+    stt: 35
+    sbd: DND018925
+    ten: PHẠM VĂN QUỐC
+    ns: 01/03/1997
+    gt: Nam
+    d: 11.5
+    ut: 1
+    td: 12.5
+    n: Công nghệ thông tin
+-
+    stt: 36
+    sbd: DND019998
+    ten: LƯƠNG THÁI SƯ
+    ns: 01/08/1997
+    gt: Nam
+    d: 13.25
+    ut: 1.5
+    td: 14.75
+    n: Công nghệ thông tin
+-
+    stt: 37
+    sbd: DND020196
+    ten: BÙI THỊ SỬU
+    ns: 04/01/1997
+    gt: Nữ
+    d: 17.25
+    ut: 1.5
+    td: 18.75
+    n: Quản trị kinh doanh
+-
+    stt: 38
+    sbd: NLS010757
+    ten: PHẠM VĂN TÀI
+    ns: 06/11/1997
+    gt: Nam
+    d: 10.5
+    ut: 1.5
+    td: 12
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 39
+    sbd: DND020422
+    ten: LƯƠNG TRẦN ANH TÁNH
+    ns: 14/01/1997
+    gt: Nam
+    d: 13
+    ut: 0.5
+    td: 13.5
+    n: Quản trị kinh doanh
+-
+    stt: 40
+    sbd: NLS011229
+    ten: TRẦN TRUNG THÀNH
+    ns: 04/04/1995
+    gt: Nam
+    d: 10.75
+    ut: 3.5
+    td: 14.25
+    n: Truyền thông đa phương tiện
+-
+    stt: 41
+    sbd: TDV029150
+    ten: HOÀNG THỊ THIÊN
+    ns: 14/06/1996
+    gt: Nữ
+    d: 14.5
+    ut: 2.5
+    td: 17
+    n: Khoa học máy tính
+-
+    stt: 42
+    sbd: DND022502
+    ten: LƯƠNG VĂN THIÊN
+    ns: 19/07/1997
+    gt: Nam
+    d: 17
+    ut: 1
+    td: 18
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 43
+    sbd: DQN023162
+    ten: PHÙNG VĂN THỨC
+    ns: 20/01/1997
+    gt: Nam
+    d: 12.25
+    ut: 1.5
+    td: 13.75
+    n: Công nghệ thông tin
+-
+    stt: 44
+    sbd: TDV033020
+    ten: TRẦN THỊ HUYỀN TRANG
+    ns: 19/09/1997
+    gt: Nữ
+    d: 11
+    ut: 1
+    td: 12
+    n: Marketing
+-
+    stt: 45
+    sbd: NLS014483
+    ten: NGUYỄN VĂN TƯ
+    ns: 17/12/1997
+    gt: Nam
+    d: 12.25
+    ut: 1.5
+    td: 13.75
+    n: Công nghệ thông tin
+-
+    stt: 46
+    sbd: DHU026040
+    ten: NGUYỄN THANH TÙNG
+    ns: 12/04/1994
+    gt: Nam
+    d: 13.25
+    ut: 0.5
+    td: 13.75
+    n: Công nghệ thông tin
+-
+    stt: 47
+    sbd: DND028999
+    ten: ĐOÀN THỊ VI
+    ns: 08/06/1997
+    gt: Nữ
+    d: 16.5
+    ut: 0.5
+    td: 17
+    n: Công nghệ thông tin

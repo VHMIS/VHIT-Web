@@ -1,0 +1,1630 @@
+-
+    stt: 1
+    ten: Trần Quang Ấn
+    ns: 20/11/97
+    gt: Nam
+    d: 5.8
+    hk1: Tốt
+    hk2: Khá
+    hk3: Khá
+    n: Công nghệ thông tin
+-
+    stt: 2
+    ten: Bùi Thị Anh
+    ns: 10/01/97
+    gt: Nữ
+    d: 7.3
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 3
+    ten: Hạ Phương Anh
+    ns: 16/11/97
+    gt: Nữ
+    d: 6.6
+    hk1: Tốt
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ kĩ thuật kiến trúc
+-
+    stt: 4
+    ten: Vĩnh Bảo Anh
+    ns: 01/06/97
+    gt: Nam
+    d: 6.3
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 5
+    ten: Trần Xuân Bằng
+    ns: 17/04/97
+    gt: Nam
+    d: 5.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 6
+    ten: Nguyễn Thành Biên
+    ns: 12/10/97
+    gt: Nam
+    d: 6.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 7
+    ten: Đặng Văn Bình
+    ns: 13/06/97
+    gt: Nam
+    d: 6
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 8
+    ten: Nguyễn Văn Boon
+    ns: 07/09/97
+    gt: Nam
+    d: 5.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Khoa học máy tính
+-
+    stt: 9
+    ten: Alăng Brơi
+    ns: 17/08/97
+    gt: Nam
+    d: 6.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 10
+    ten: Nguyễn Xuân Cảnh
+    ns: 26/09/95
+    gt: Nam
+    d: 8.199999999999999
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 11
+    ten: Trần Cầu
+    ns: 02/07/97
+    gt: Nam
+    d: 5.5
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 12
+    ten: Nguyễn Thị Giang Châu
+    ns: 15/02/97
+    gt: Nữ
+    d: 6.3
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 13
+    ten: Nguyễn Chí Công
+    ns: 23/05/97
+    gt: Nam
+    d: 7.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 14
+    ten: Nguyễn Văn Cừ
+    ns: 27/06/97
+    gt: Nam
+    d: 6
+    hk1: Khá
+    hk2: Khá
+    hk3: Khá
+    n: Công nghệ thông tin
+-
+    stt: 15
+    ten: Nguyễn Văn Cường
+    ns: 02/06/96
+    gt: Nam
+    d: 6.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 16
+    ten: Cao Thị Ngọc Diễm
+    ns: 10/04/97
+    gt: Nữ
+    d: 5.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 17
+    ten: Dương Hoàng Diệp
+    ns: 10/10/97
+    gt: Nam
+    d: 6.3
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 18
+    ten: Mai Xuân Đức
+    ns: 11/05/97
+    gt: Nam
+    d: 5.8
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 19
+    ten: Huỳnh Trí Dũng
+    ns: 30/01/89
+    gt: Nam
+    d: 5.9
+    hk1: Khá
+    hk2: Khá
+    hk3: Khá
+    n: Quản trị kinh doanh
+-
+    stt: 20
+    ten: Nguyễn Văn Quốc Dũng
+    ns: 11/12/97
+    gt: Nam
+    d: 5.8
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 21
+    ten: Nguyễn Đức Thái Dương
+    ns: 01/10/96
+    gt: Nam
+    d: 7.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông và mạng máy tính
+-
+    stt: 22
+    ten: Tòng Thị Duyên
+    ns: 03/10/96
+    gt: Nữ
+    d: 6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 23
+    ten: Nguyễn Thị Kim Giác
+    ns: 20/11/97
+    gt: Nữ
+    d: 5.9
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Marketing
+-
+    stt: 24
+    ten: Nguyễn Hữu Giáp
+    ns: 13/09/94
+    gt: Nam
+    d: 5.9
+    hk1: Tốt
+    hk2: Khá
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 25
+    ten: Nguyễn Thanh Hà
+    ns: 10/12/97
+    gt: Nam
+    d: 5.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 26
+    ten: Nguyễn Thị Hà
+    ns: 17/06/96
+    gt: Nữ
+    d: 5.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 27
+    ten: Phạm Thị Hà
+    ns: 17/08/96
+    gt: Nữ
+    d: 5.8
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Marketing
+-
+    stt: 28
+    ten: Nguyễn Thanh Hạ
+    ns: 09/11/97
+    gt: Nam
+    d: 6.4
+    hk1: Khá
+    hk2: Tốt
+    hk3: Khá
+    n: Công nghệ thông tin
+-
+    stt: 29
+    ten: Phan Thị Khánh Hạ
+    ns: 20/03/96
+    gt: Nữ
+    d: 8.199999999999999
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 30
+    ten: Lý Văn Hải
+    ns: 22/12/96
+    gt: Nam
+    d: 5.5
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 31
+    ten: Trần Ngọc Bảo Hân
+    ns: 02/07/97
+    gt: Nữ
+    d: 6.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 32
+    ten: Đặng Thị Minh Hằng
+    ns: 20/07/97
+    gt: Nữ
+    d: 5.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 33
+    ten: Nguyễn Thu Hằng
+    ns: 29/11/96
+    gt: Nữ
+    d: 5.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 34
+    ten: Bùi Nguyễn Hồng Hạnh
+    ns: 13/02/97
+    gt: Nữ
+    d: 6.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Khá
+    n: Quản trị kinh doanh
+-
+    stt: 35
+    ten: Nguyễn Hữu Hạnh
+    ns: 06/01/96
+    gt: Nam
+    d: 6.3
+    hk1: Khá
+    hk2: Khá
+    hk3: Khá
+    n: Công nghệ thông tin
+-
+    stt: 36
+    ten: Phạm Lương Hảo
+    ns: 27/04/97
+    gt: Nam
+    d: 6.4
+    hk1: Tốt
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 37
+    ten: Nguyễn Hậu
+    ns: 21/02/96
+    gt: Nam
+    d: 7.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 38
+    ten: Phạm Thị Mai Hậu
+    ns: 26/12/97
+    gt: Nữ
+    d: 6.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 39
+    ten: Lê Thị Thu Hiền
+    ns: 20/02/97
+    gt: Nữ
+    d: 6.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 40
+    ten: Trần Quang Hiền
+    ns: 23/12/97
+    gt: Nam
+    d: 7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Khoa học máy tính
+-
+    stt: 41
+    ten: Trịnh Thị Minh Hiền
+    ns: 22/03/97
+    gt: Nữ
+    d: 5.9
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 42
+    ten: Nguyễn Đại Hiệp
+    ns: 18/07/97
+    gt: Nam
+    d: 5.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 43
+    ten: Nguyễn Hữu Hiệp
+    ns: 24/07/97
+    gt: Nam
+    d: 5.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 44
+    ten: Bùi Ngọc Hiếu
+    ns: 14/06/97
+    gt: Nam
+    d: 6.1
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 45
+    ten: Đỗ Minh Hòa
+    ns: 35450
+    gt: Nam
+    d: 6.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 46
+    ten: Huỳnh Công Hòa
+    ns: 27/10/97
+    gt: Nam
+    d: 5.9
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 47
+    ten: Lê Văn Hòa
+    ns: 21/01/97
+    gt: Nam
+    d: 6.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 48
+    ten: Trần Thị Hồng
+    ns: 25/03/97
+    gt: Nữ
+    d: 6.4
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Khá
+    n: Công nghệ thông tin
+-
+    stt: 49
+    ten: Nguyễn Duy Hưng
+    ns: 02/11/96
+    gt: Nam
+    d: 5.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 50
+    ten: Nguyễn Phú Hưng
+    ns: 27/09/91
+    gt: Nam
+    d: 5.9
+    hk1: Khá
+    hk2: Khá
+    hk3: Khá
+    n: Khoa học máy tính
+-
+    stt: 51
+    ten: Vũ Quang Huy
+    ns: 05/08/95
+    gt: Nam
+    d: 7.2
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 52
+    ten: Nguyễn Kiều Thảo Huyền
+    ns: 07/10/97
+    gt: Nữ
+    d: 6.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Marketing
+-
+    stt: 53
+    ten: Nguyễn Lê Ngọc Huyền
+    ns: 08/08/97
+    gt: Nữ
+    d: 6.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 54
+    ten: Nguyễn Minh Khải
+    ns: 27/08/97
+    gt: Nam
+    d: 5.9
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 55
+    ten: Hoàng Đức Khanh
+    ns: 05/06/97
+    gt: Nam
+    d: 6.4
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 56
+    ten: Lê Quang Khánh
+    ns: 02/09/97
+    gt: Nam
+    d: 8.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông và mạng máy tính
+-
+    stt: 57
+    ten: Nguyễn Tùng Khương
+    ns: 07/07/97
+    gt: Nam
+    d: 5.5
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Khoa học máy tính
+-
+    stt: 58
+    ten: Dương Trung Kiên
+    ns: 05/04/93
+    gt: Nam
+    d: 6.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Khoa học máy tính
+-
+    stt: 59
+    ten: Trần Thị Phương Kiều
+    ns: 17/05/97
+    gt: Nữ
+    d: 6.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 60
+    ten: Trần Kim Lâm
+    ns: 02/07/86
+    gt: Nam
+    d: 7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 61
+    ten: Huỳnh Thị Yến Lan
+    ns: 07/03/96
+    gt: Nữ
+    d: 6.1
+    hk1: Tốt
+    hk2: Khá
+    hk3: Tốt
+    n: Marketing
+-
+    stt: 62
+    ten: Bùi Thế Lăng
+    ns: 27/07/97
+    gt: Nam
+    d: 6.8
+    hk1: Tốt
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 63
+    ten: Nguyễn Viết Lập
+    ns: 10/06/97
+    gt: Nam
+    d: 6.5
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 64
+    ten: Nguyễn Thị Phương Lê
+    ns: 22/12/97
+    gt: Nữ
+    d: 6.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 65
+    ten: Nguyễn Khoa Mỹ Lệ
+    ns: 06/01/96
+    gt: Nữ
+    d: 6.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 66
+    ten: Đặng Nữ Hoài Linh
+    ns: 13/04/93
+    gt: Nữ
+    d: 6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 67
+    ten: Lê Đình Linh
+    ns: 25/05/95
+    gt: Nam
+    d: 7.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông và mạng máy tính
+-
+    stt: 68
+    ten: Võ Đặng Thuỳ Linh
+    ns: 10/11/97
+    gt: Nữ
+    d: 5.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 69
+    ten: Đoàn Văn Lĩnh
+    ns: 03/02/97
+    gt: Nam
+    d: 8.199999999999999
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Khoa học máy tính
+-
+    stt: 70
+    ten: Bùi Ngọc Loan
+    ns: 17/01/97
+    gt: Nữ
+    d: 5.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 71
+    ten: Hoàng Thị Lộc
+    ns: 06/07/97
+    gt: Nữ
+    d: 5.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Khá
+    n: Công nghệ thông tin
+-
+    stt: 72
+    ten: Ngô Quý Lộc
+    ns: 24/03/90
+    gt: Nam
+    d: 6.7
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 73
+    ten: Võ Văn Lộc
+    ns: 20/06/94
+    gt: Nam
+    d: 7
+    hk1: Khá
+    hk2: Tốt
+    hk3: Khá
+    n: Khoa học máy tính
+-
+    stt: 74
+    ten: Nguyễn Thành Long
+    ns: 02/08/97
+    gt: Nam
+    d: 6.6
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 75
+    ten: Nguyễn Hữu Luận
+    ns: 29/10/97
+    gt: Nam
+    d: 7.2
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 76
+    ten: Nguyễn Ngọc Lượng
+    ns: 17/03/97
+    gt: Nam
+    d: 7.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 77
+    ten: Phạm Công Phước Mẩn
+    ns: 02/10/97
+    gt: Nam
+    d: 5.7
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 78
+    ten: Nguyễn Duy Mạnh
+    ns: 01/10/97
+    gt: Nam
+    d: 6
+    hk1: Khá
+    hk2: Khá
+    hk3: Khá
+    n: Khoa học máy tính
+-
+    stt: 79
+    ten: Nguyễn Thị Như Mây
+    ns: 02/12/97
+    gt: Nữ
+    d: 8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 80
+    ten: Phạm Hoài Mến
+    ns: 29/04/95
+    gt: Nam
+    d: 5.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 81
+    ten: Nguyễn Thiện Minh
+    ns: 08/02/96
+    gt: Nam
+    d: 8.300000000000001
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 82
+    ten: Phạm Thị Trà My
+    ns: 28/03/97
+    gt: Nữ
+    d: 5.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 83
+    ten: Lê Trần Tấn Nam
+    ns: 23/08/97
+    gt: Nam
+    d: 6.2
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 84
+    ten: Nguyễn Đình Nam
+    ns: 12/12/96
+    gt: Nam
+    d: 7.2
+    hk1: Tốt
+    hk2: Khá
+    hk3: Khá
+    n: Quản trị kinh doanh
+-
+    stt: 85
+    ten: Nguyễn Phương Nam
+    ns: 28/12/96
+    gt: Nam
+    d: 5.7
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 86
+    ten: Đoàn Thị Nga
+    ns: 03/08/97
+    gt: Nữ
+    d: 6.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Marketing
+-
+    stt: 87
+    ten: Phạm Thị Thanh Nga
+    ns: 21/03/97
+    gt: Nữ
+    d: 6.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 88
+    ten: Nguyễn Đại Nghĩa
+    ns: 05/06/97
+    gt: Nam
+    d: 7.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 89
+    ten: Nguyễn Nguyên Nghĩa
+    ns: 03/11/96
+    gt: Nam
+    d: 5.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 90
+    ten: Nguyễn Nghiêm
+    ns: 20/11/97
+    gt: Nam
+    d: 5.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 91
+    ten: Nguyễn Thị Hồng Ngọc
+    ns: 14/08/94
+    gt: Nữ
+    d: 7.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 92
+    ten: Lê Trần Khánh Nguyên
+    ns: 35732
+    gt: Nữ
+    d: 7.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Marketing
+-
+    stt: 93
+    ten: Nguyễn Tiến Nhân
+    ns: 27/11/88
+    gt: Nam
+    d: 6.3
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 94
+    ten: Nguyễn Viết Nhân
+    ns: 28/10/97
+    gt: Nam
+    d: 5.8
+    hk1: Khá
+    hk2: Khá
+    hk3: Khá
+    n: Công nghệ kĩ thuật kiến trúc
+-
+    stt: 95
+    ten: Lê Quang Nhật
+    ns: 07/04/97
+    gt: Nam
+    d: 7.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 96
+    ten: Nguyễn Văn Nhật
+    ns: 13/02/95
+    gt: Nam
+    d: 6.3
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Khá
+    n: Công nghệ kĩ thuật kiến trúc
+-
+    stt: 97
+    ten: Huỳnh Thị Nhi
+    ns: 15/03/97
+    gt: Nữ
+    d: 7.4
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Khoa học máy tính
+-
+    stt: 98
+    ten: La Thị Nhung
+    ns: 04/05/94
+    gt: Nữ
+    d: 7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 99
+    ten: Phan Thị Oanh
+    ns: 26/08/97
+    gt: Nữ
+    d: 7.3
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 100
+    ten: Ung Văn Phi
+    ns: 29/03/97
+    gt: Nam
+    d: 5.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 101
+    ten: Lý Hồng Phong
+    ns: 28/12/97
+    gt: Nam
+    d: 5.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 102
+    ten: Nguyễn Trần Khả Phú
+    ns: 07/05/97
+    gt: Nam
+    d: 5.5
+    hk1: Khá
+    hk2: Khá
+    hk3: Khá
+    n: Truyền thông và mạng máy tính
+-
+    stt: 103
+    ten: Lê Huỳnh Phúc
+    ns: 10/12/93
+    gt: Nam
+    d: 6
+    hk1: Tốt
+    hk2: Khá
+    hk3: Tốt
+    n: Khoa học máy tính
+-
+    stt: 104
+    ten: Trần Văn Quang
+    ns: 30/12/96
+    gt: Nam
+    d: 6.3
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 105
+    ten: Trương Đình Quang
+    ns: 29/09/97
+    gt: Nam
+    d: 5.8
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 106
+    ten: Lê Hùng Quốc
+    ns: 02/08/97
+    gt: Nam
+    d: 5.6
+    hk1: Tốt
+    hk2: Khá
+    hk3: Khá
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 107
+    ten: Nguyễn Phước Quốc
+    ns: 10/01/97
+    gt: Nam
+    d: 5.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 108
+    ten: Nguyễn Phạm Lệ Quyên
+    ns: 01/09/97
+    gt: Nữ
+    d: 6.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 109
+    ten: Nguyễn Hồng Sơn
+    ns: 13/05/96
+    gt: Nam
+    d: 5.9
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 110
+    ten: Trần Sơn
+    ns: 26/03/97
+    gt: Nam
+    d: 5.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 111
+    ten: Võ Hữu Sỹ
+    ns: 22/10/96
+    gt: Nam
+    d: 5.6
+    hk1: Tốt
+    hk2: Khá
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 112
+    ten: Thái Thị Thanh Tâm
+    ns: 13/09/96
+    gt: Nữ
+    d: 7.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông và mạng máy tính
+-
+    stt: 113
+    ten: Ngô Văn Tấn
+    ns: 02/09/97
+    gt: Nam
+    d: 5.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 114
+    ten: Tạ Văn Tánh
+    ns: 30/11/97
+    gt: Nam
+    d: 6.8
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ kĩ thuật kiến trúc
+-
+    stt: 115
+    ten: Nguyễn Thái
+    ns: 01/01/97
+    gt: Nam
+    d: 6.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 116
+    ten: Nguyễn Quang Thanh
+    ns: 22/06/97
+    gt: Nam
+    d: 6.3
+    hk1: Khá
+    hk2: Khá
+    hk3: Khá
+    n: Truyền thông và mạng máy tính
+-
+    stt: 117
+    ten: Bùi Thị Phương Thảo
+    ns: 10/07/97
+    gt: Nữ
+    d: 5.7
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 118
+    ten: Lê Phương Thảo
+    ns: 09/12/97
+    gt: Nữ
+    d: 5.6
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 119
+    ten: Phạm Thị Phương Thảo
+    ns: 21/12/94
+    gt: Nữ
+    d: 7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Marketing
+-
+    stt: 120
+    ten: Vì Thị Thu Thảo
+    ns: 21/05/97
+    gt: Nữ
+    d: 7.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 121
+    ten: Nguyễn Đức Thế
+    ns: 27/06/95
+    gt: Nữ
+    d: 7.2
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 122
+    ten: Lê Công Thêm
+    ns: 19/11/97
+    gt: Nam
+    d: 5.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 123
+    ten: Võ Thị Thi
+    ns: 30/08/97
+    gt: Nữ
+    d: 5.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 124
+    ten: Trần Thanh Thiên
+    ns: 17/12/97
+    gt: Nam
+    d: 7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 125
+    ten: Đàm Văn Thịnh
+    ns: 20/11/97
+    gt: Nam
+    d: 6.1
+    hk1: Tốt
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 126
+    ten: Trương Thị Thoa
+    ns: 10/03/97
+    gt: Nữ
+    d: 6.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 127
+    ten: Ngô Hữu Thông
+    ns: 03/11/97
+    gt: Nam
+    d: 5.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 128
+    ten: Hồ Văn Thuận
+    ns: 02/02/96
+    gt: Nam
+    d: 6
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 129
+    ten: Văn Thuận
+    ns: 30/07/97
+    gt: Nam
+    d: 6.2
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông và mạng máy tính
+-
+    stt: 130
+    ten: Hồ Văn Thức
+    ns: 20/11/96
+    gt: Nam
+    d: 6
+    hk1: Tốt
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 131
+    ten: Trần Văn Thường
+    ns: 02/11/97
+    gt: Nam
+    d: 6.7
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 132
+    ten: Dương Minh Thúy
+    ns: 07/10/96
+    gt: Nữ
+    d: 6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 133
+    ten: Nguyễn Thị Thúy
+    ns: 22/06/97
+    gt: Nữ
+    d: 6.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 134
+    ten: Nguyễn Bảo Tích
+    ns: 24/05/94
+    gt: Nam
+    d: 6.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông và mạng máy tính
+-
+    stt: 135
+    ten: Nguyễn Khắc Tín
+    ns: 21/08/96
+    gt: Nam
+    d: 5.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 136
+    ten: Nguyễn Văn Tịnh
+    ns: 07/09/97
+    gt: Nam
+    d: 5.9
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 137
+    ten: Nguyễn Thị Kim Trang
+    ns: 20/03/97
+    gt: Nữ
+    d: 7.2
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Marketing
+-
+    stt: 138
+    ten: Phạm Thị Trang
+    ns: 04/11/96
+    gt: Nữ
+    d: 6.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Marketing
+-
+    stt: 139
+    ten: Trương Thị Ngọc Trinh
+    ns: 19/08/97
+    gt: Nữ
+    d: 6.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 140
+    ten: Nguyễn Văn Trịnh
+    ns: 15/02/97
+    gt: Nam
+    d: 6.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 141
+    ten: Phan Kim Trụ
+    ns: 20/11/97
+    gt: Nữ
+    d: 6.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 142
+    ten: Trần Văn Trung
+    ns: 10/03/97
+    gt: Nam
+    d: 6.2
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 143
+    ten: Nguyễn Minh Trưởng
+    ns: 21/10/97
+    gt: Nam
+    d: 6.7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 144
+    ten: Đặng Văn Tuấn
+    ns: 14/10/97
+    gt: Nam
+    d: 6.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 145
+    ten: Nông văn Tuấn
+    ns: 30/05/97
+    gt: Nam
+    d: 6.9
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 146
+    ten: Phan Đình Tuấn
+    ns: 11/08/97
+    gt: Nam
+    d: 5.6
+    hk1: Khá
+    hk2: Khá
+    hk3: Khá
+    n: Thiết kế đồ họa
+-
+    stt: 147
+    ten: Ngô Thanh Tùng
+    ns: 26/09/91
+    gt: Nam
+    d: 6
+    hk1: Khá
+    hk2: Khá
+    hk3: Tốt
+    n: Truyền thông và mạng máy tính
+-
+    stt: 148
+    ten: Võ Đăng Tưởng
+    ns: 08/09/97
+    gt: Nam
+    d: 7.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 149
+    ten: Nguyễn Thị Dạ Tuyền
+    ns: 11/07/97
+    gt: Nữ
+    d: 5.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 150
+    ten: Nguyễn Thị Thanh Tuyền
+    ns: 29/01/97
+    gt: Nữ
+    d: 6.4
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Truyền thông đa phương tiện
+-
+    stt: 151
+    ten: Võ Thị Ty
+    ns: 10/10/96
+    gt: Nữ
+    d: 6.1
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 152
+    ten: Đặng Thị Bình Uyên
+    ns: 04/07/97
+    gt: Nữ
+    d: 6.6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 153
+    ten: Hồ Việt Uyên
+    ns: 15/06/97
+    gt: Nữ
+    d: 5.5
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 154
+    ten: Nguyễn Thị Thảo Uyên
+    ns: 18/01/96
+    gt: Nữ
+    d: 6
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 155
+    ten: Bùi Thị Hải Vân
+    ns: 25/07/97
+    gt: Nữ
+    d: 6.8
+    hk1: Khá
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 156
+    ten: Nguyễn Thị Thúy Vân
+    ns: 09/03/97
+    gt: Nữ
+    d: 7.2
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 157
+    ten: Trần Đình Việt
+    ns: 18/08/97
+    gt: Nam
+    d: 6.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 158
+    ten: Thái Thị Y Vọng
+    ns: 29/08/97
+    gt: Nữ
+    d: 7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa
+-
+    stt: 159
+    ten: Huỳnh Thị Thảo Vy
+    ns: 19/11/97
+    gt: Nữ
+    d: 7
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ kĩ thuật điện tử, truyền thông
+-
+    stt: 160
+    ten: Nguyễn Thị Xuân Xuân
+    ns: 29/09/97
+    gt: Nữ
+    d: 6.8
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 161
+    ten: Võ Thị Thanh Xuân
+    ns: 16/07/96
+    gt: Nữ
+    d: 6.4
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Công nghệ thông tin
+-
+    stt: 162
+    ten: Sầm Thị Hải Yến
+    ns: 28/07/97
+    gt: Nữ
+    d: 6.4
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Quản trị kinh doanh
+-
+    stt: 163
+    ten: Võ Thị Ngọc Yến
+    ns: 22/12/94
+    gt: Nữ
+    d: 5.9
+    hk1: Tốt
+    hk2: Tốt
+    hk3: Tốt
+    n: Thiết kế đồ họa

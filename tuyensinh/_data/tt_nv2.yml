@@ -1,0 +1,240 @@
+-
+    stt: 1
+    sbd: DHU000479
+    ten: Nguyễn Đức Tuấn Anh
+    ns: 04/03/1997
+    gt: Nam
+    d: 11.75
+    ut: 0.5
+    td: 12.25
+    n: Khoa học máy tính
+-
+    stt: 2
+    sbd: NLS000888
+    ten: Nguyễn Văn Châu
+    ns: 28/06/1997
+    gt: Nam
+    d: 16.5
+    ut: 1.5
+    td: 18
+    n: Công nghệ thông tin
+-
+    stt: 3
+    sbd: DHU002446
+    ten: Nguyễn Mạnh Cường
+    ns: 30/01/1996
+    gt: Nam
+    d: 14.75
+    ut: 1.5
+    td: 16.25
+    n: Công nghệ thông tin
+-
+    stt: 4
+    sbd: DND004447
+    ten: Trương Công Điện
+    ns: 09/08/1996
+    gt: Nam
+    d: 17.5
+    ut: 1
+    td: 18.5
+    n: Thiết kế đồ họa
+-
+    stt: 5
+    sbd: DND005217
+    ten: Lưu Hồng Hà
+    ns: 20/02/1997
+    gt: Nam
+    d: 18.75
+    ut: 1
+    td: 19.75
+    n: Công nghệ thông tin
+-
+    stt: 6
+    sbd: DHU008336
+    ten: Lê Đức Huy
+    ns: 25/08/1997
+    gt: Nam
+    d: 16.75
+    ut: 0.5
+    td: 17.25
+    n: Công nghệ thông tin
+-
+    stt: 7
+    sbd: DND008982
+    ten: Nguyễn Viết Huy
+    ns: 04/08/1997
+    gt: Nam
+    d: 17
+    ut: 0.5
+    td: 17.5
+    n: Truyền thông và mạng máy tính
+-
+    stt: 8
+    sbd: NLS006913
+    ten: Nguyễn Thị Bích Ly
+    ns: 24/05/1997
+    gt: Nữ
+    d: 11.5
+    ut: 1.5
+    td: 13
+    n: Quản trị kinh doanh
+-
+    stt: 9
+    sbd: DND016075
+    ten: Nguyễn Hoàng Hải Nhi
+    ns: 05/05/1996
+    gt: Nữ
+    d: 17.25
+    ut: 0.5
+    td: 17.75
+    n: Truyền thông đa phương tiện
+-
+    stt: 10
+    sbd: SPS014792
+    ten: Thái Thị Cẩm Nhung
+    ns: 10/09/1996
+    gt: Nữ
+    d: 15.25
+    ut: 1.5
+    td: 16.75
+    n: Quản trị kinh doanh
+-
+    stt: 11
+    sbd: NLS010838
+    ten: Nguyễn Minh Tâm
+    ns: 06/04/1996
+    gt: Nam
+    d: 13.5
+    ut: 1.5
+    td: 15
+    n: Công nghệ kỹ thuật điện tử, truyền thông
+-
+    stt: 12
+    sbd: DND020794
+    ten: Phạm Ngọc Tân
+    ns: 28/08/1997
+    gt: Nam
+    d: 17.5
+    ut: 1
+    td: 18.5
+    n: Công nghệ thông tin
+-
+    stt: 13
+    sbd: TTN016989
+    ten: Hồ Xuân Thạch
+    ns: 22/09/1996
+    gt: Nam
+    d: 10.5
+    ut: 1.5
+    td: 12
+    n: Công nghệ thông tin
+-
+    stt: 14
+    sbd: DHU020637
+    ten: Nguyễn Thị Thanh
+    ns: 10/08/1997
+    gt: Nữ
+    d: 17.75
+    ut: 1.5
+    td: 19.25
+    n: Quản trị kinh doanh
+-
+    stt: 15
+    sbd: TTN017595
+    ten: Nguyễn Thị Dạ Thảo
+    ns: 15/10/1997
+    gt: Nữ
+    d: 16.75
+    ut: 1.5
+    td: 18.25
+    n: Quản trị kinh doanh
+-
+    stt: 16
+    sbd: TTN018264
+    ten: Tống Phước Thiện
+    ns: 16/05/1997
+    gt: Nam
+    d: 21.5
+    ut: 1.5
+    td: 23
+    n: Truyền thông đa phương tiện
+-
+    stt: 17
+    sbd: DQN021616
+    ten: Lương Văn Thiệu
+    ns: 11/06/1997
+    gt: Nam
+    d: 16
+    ut: 1
+    td: 17
+    n: Khoa học máy tính
+-
+    stt: 18
+    sbd: TSN016675
+    ten: Nguyễn Thị Thanh Thương
+    ns: 17/08/1997
+    gt: Nữ
+    d: 15.5
+    ut: 1.5
+    td: 17
+    n: Quản trị kinh doanh
+-
+    stt: 19
+    sbd: DND023376
+    ten: Nguyễn Thị Phương Thuỳ
+    ns: 09/08/1997
+    gt: Nữ
+    d: 20.25
+    ut: 1
+    td: 21.25
+    n: Thiết kế đồ họa
+-
+    stt: 20
+    sbd: TTN019168
+    ten: Nguyễn Thị Thúy
+    ns: 27/01/1997
+    gt: Nữ
+    d: 16.5
+    ut: 1.5
+    td: 18
+    n: Quản trị kinh doanh
+-
+    stt: 21
+    sbd: NLS013392
+    ten: Lộc Hoàng Ánh Trâm
+    ns: 11/05/1997
+    gt: Nữ
+    d: 16.5
+    ut: 3.5
+    td: 20
+    n: Công nghệ thông tin
+-
+    stt: 22
+    sbd: DQN025412
+    ten: Võ Triệu
+    ns: 16/02/1997
+    gt: Nam
+    d: 16.5
+    ut: 1.5
+    td: 18
+    n: Thiết kế đồ họa
+-
+    stt: 23
+    sbd: DND027558
+    ten: Nguyễn Ngọc Tuân
+    ns: 15/01/1996
+    gt: Nam
+    d: 12
+    ut: 1
+    td: 13
+    n: Quản trị kinh doanh
+-
+    stt: 24
+    sbd: TTN022088
+    ten: Nguyễn Thị Thu Tuyền
+    ns: 14/12/1997
+    gt: Nữ
+    d: 17.75
+    ut: 1.5
+    td: 19.25
+    n: Quản trị kinh doanh

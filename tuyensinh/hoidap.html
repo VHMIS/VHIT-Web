@@ -1,0 +1,71 @@
+---
+layout: default
+title: Hỏi đáp | Tuyển sinh 2016
+page: hoidap
+---
+
+        <div class="container sc-breadcrumb">
+            <div>
+                <ol class="breadcrumb">
+                    <li><a href="{{ site.baseurl }}/index.html">Trang tuyển sinh 2016</a></li>
+                    <li class="active">Hỏi đáp</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container sc-main">
+            <div class="row">
+                <div class="col-md-4 pull-right">
+                    <div class="flash-card flash-intro">
+                        <h1 class="flash-header"><a href="hoidap.html" class="open_send_question" data-target="send_question_modal"><i class="glyphicon glyphicon-pencil"></i> Gửi câu hỏi</a></h1>
+                    </div>
+                    <div class="flash-card flash-about">
+                        <h1 class="flash-header">Thông tin tuyển sinh 2016</h1>
+                        <div class="flash-photo">
+                            <img src="img/flash_info.jpg" alt=""/>
+                        </div>
+                        <div class="flash-body">
+                            <p><strong>Chỉ tiêu tuyển sinh:</strong> 1100 CĐ (toàn quốc)</p>
+                            <p><strong>Hình thức tuyển sinh:</strong></p>
+                            <ul>
+                                <li>Theo kết quả kỳ thi THPT Quốc gia</li>
+                                <li>Xét tuyển học bạ THPT</li>
+                            </ul>
+                            <p><strong>Tổ hợp xét tuyển:</strong></p>
+                            <ul>
+                                <li>Ngữ văn, Lịch sử, Địa lí (C00)</li>
+                                <li>Ngữ văn, Toán, Tiếng Anh (D01)</li>
+                                <li>Ngữ văn, Lịch sử, Tiếng Anh (D14)</li>
+                                <li>Ngữ văn, Địa lí, Tiếng Anh (D15)</li>
+                                <li>Toán, Vật lý, Anh văn (A01)</li>
+                                <li>Ngữ văn, Toán, Vật lí (C01)</li>
+                                <li>Ngữ văn, Toán, Địa lí (C04)</li>
+                                <li>Toán, Ngữ văn, Anh văn (D01)</li>
+                            </ul>
+                        </div>
+                        <div class="flash-detail-link">
+                            <a href="thongtin_tuyensinh2016.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> Xem chi tiết</a>
+                            <a href="dkxt_hocba_online.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> Xét tuyển trực tuyến</a>
+                        </div>
+                        <div class="flash-more">
+                            <p>Quy chế tuyển sinh 2016 của bộ GDĐT</p>
+                            <ul>
+                                <li>Quy chế thi trung học phổ thông 2016 <!-- <a href="data/quy_che_thi_thpt_qg_ban_chinh.doc"><span class="glyphicon glyphicon-download"></span></a> --></li>
+                                <li>Quy chế tuyển sinh ĐH, CĐ 2016 <!-- <a href="data/quy_che_tuyen_sinh_dh-cd_ban_chinh.doc"><span class="glyphicon glyphicon-download"></span></a> --></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 pull-left">
+                    <div class="block_component">
+                        <h1 class="hidden">Danh sách câu hỏi</h1>
+                        <div id="question-list" class="questions-list">
+                            <p>Đang tải nội dung</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% include ask_question_modal.html %}

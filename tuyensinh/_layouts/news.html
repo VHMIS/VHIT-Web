@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+        <div class="container sc-breadcrumb">
+            <div>
+                <ol class="breadcrumb">
+                    <li><a href="{{ site.baseurl }}/index.html">Trang tuyển sinh 2016</a></li>
+                    <li><a href="{{ site.baseurl }}/tintuc.html">Tin tức</a></li>
+                    <li class="active">{{ page.title }}</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container sc-main">
+            <div class="row">
+                <div class="col-md-4 pull-right">
+                    {% include news_card.html %}
+                </div>
+
+                <div class="col-md-8 pull-lef">
+
+                    <div class="block_component">
+
+                        <article>
+                            <header role="sectionhead">
+                                <h2>{{ page.title }}</h2>
+                            </header>
+                            <div class="sectioncontent">
+                                {{ content }}
+                            </div>
+                            <footer class="sectionfooter">
+                              <p>
+                                {{ page.writer }}
+                                {% if page.source %}
+                                | <a href="{{ page.source }}" target="_blank">Nguồn</a>
+                                {% endif %}
+                              </p>
+                            </footer>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>

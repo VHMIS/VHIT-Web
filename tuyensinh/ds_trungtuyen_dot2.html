@@ -1,0 +1,151 @@
+---
+layout: default
+title: Danh sách trúng tuyển đợt 2 | Tuyển sinh 2015
+header_css: no-banner
+---
+
+        <div class="container sc-breadcrumb">
+            <div>
+                <ol class="breadcrumb">
+                    <li><a href="{{ site.baseurl }}/index.html">Trang tuyển sinh 2015</a></li>
+                    <li class="active">Danh sách trúng tuyển đợt 2 </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container sc-main">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block_component form_register">
+                        <h2>Danh sách thí sinh trúng tuyển đợt 2 theo kết quả thi</h2>
+                        <div class="list-container">
+                            <div class="list-row list-row-header row">
+                                <div class="list-cell col-md-1">
+                                    &nbsp;&nbsp;STT
+                                </div>
+                                <div class="list-cell col-md-2">
+                                    Họ và tên
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    SBD
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    Ngày sinh
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    Giới tính
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    Điểm thi
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    Điểm ƯT
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    Tổng
+                                </div>
+                                <div class="list-cell col-md-2">
+                                    Ngành trúng tuyển
+                                </div>
+                            </div>
+                            {% for ts in site.data.tt_nv2 %}
+                            <div class="list-row row">
+                                <div class="list-cell col-md-1">
+                                    &nbsp;&nbsp;{{ ts.stt }}
+                                </div>
+                                <div class="list-cell col-md-2">
+                                    {{ ts.ten }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.sbd }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.ns }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.gt }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.d }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.ut }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.td }}
+                                </div>
+                                <div class="list-cell col-md-3">
+                                    {{ ts.n }}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <br><br>
+                        <h2>Danh sách thí sinh trúng tuyển đợt 2 theo kết quả học bạ</h2>
+                        <div class="list-container">
+                            <div class="list-row list-row-header row">
+                                <div class="list-cell col-md-1">
+                                    &nbsp;&nbsp;STT
+                                </div>
+                                <div class="list-cell col-md-2">
+                                    Họ và tên
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    Ngày sinh
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    Giới tính
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    Điểm TB
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    HK L10
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    HK L11
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    HK L12
+                                </div>
+                                <div class="list-cell col-md-2">
+                                    Ngành trúng tuyển
+                                </div>
+                            </div>
+                            {% for ts in site.data.tt_nv2_hb %}
+                            <div class="list-row row">
+                                <div class="list-cell col-md-1">
+                                    &nbsp;&nbsp;{{ ts.stt }}
+                                </div>
+                                <div class="list-cell col-md-2">
+                                    {{ ts.ten }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.ns }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.gt }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.d }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.hk1 }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.hk2 }}
+                                </div>
+                                <div class="list-cell col-md-1">
+                                    {{ ts.hk3 }}
+                                </div>
+                                <div class="list-cell col-md-3">
+                                    {{ ts.n }}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
