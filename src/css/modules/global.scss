@@ -128,9 +128,10 @@ body {
         .main-menu {
             > ul {
                 > li {
-                    padding: 12px 0 8px 0;
+                    padding: 12px 0 5px 0;
                     float: left;
                     margin-right: 20px;
+                    border-bottom: 3px solid #fff;
 
                     > a {
                         color: #000;
@@ -139,8 +140,13 @@ body {
                     }
 
                     &:hover {
+                        border-bottom: 3px solid $primary-bg-color;
                         .menu-panel {
                             display: block;
+                        }
+
+                        > a {
+                            color: $primary-color;
                         }
                     }
                 }
@@ -159,14 +165,48 @@ body {
             .menu-panel {
                 display: none;
                 position: absolute;
-                top: 33px;
+                top: 43px;
                 left: 0px;
                 width: 100%;
                 background-color: $section-bg-color;
-                border-top: 3px solid $primary-color;
-                border-bottom: 3px solid $primary-color;
                 z-index: 19;
-                height: 300px;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: -17px;
+                    left: 32px;
+                    height: 0;
+                    width: 0;
+                    border: 7px solid transparent;
+                    border-bottom: 7px solid $primary-bg-color;
+                }
+
+                &.for-education {
+                    &::before {
+                        left: 115px;
+                    }
+                }
+
+                &.for-coop {
+                    &::before {
+                        left: 225px;
+                    }
+                }
+
+                > div {
+                    float: left;
+
+                    ul {
+                        margin: 20px;
+
+                        li {
+                            font-size: 1.1rem;
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
             }
         }
 

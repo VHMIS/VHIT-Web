@@ -11,7 +11,7 @@
             padding: 15px 30px;
 
             h2 {
-                color: #ccddee;
+                // color: #ccddee;
                 padding-bottom: 5px;
                 border-bottom: 1px solid #eee;
             }
@@ -67,7 +67,16 @@
         }
     }
 
+    .notices li {
+        margin-top: 15px;
+
+        .date {
+            font-weight: 600;
+        }
+    }
+
     .news {
+
         .news-detail {
             @include clearfix;
             margin-left: -15px;
@@ -76,6 +85,7 @@
             > div {
                 float: left;
                 padding: 0px 15px;
+                margin-top: 15px;
 
                 &.photo {
                     width: -col-percent-width(3, 10);
