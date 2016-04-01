@@ -1,0 +1,23 @@
+default:
+    title: Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
+    sub_title: Trường công lập thuộc Bộ Thông Tin - Truyền Thông
+    locale: vi-VN
+
+tuyensinh:
+    title: Tuyển sinh 2016
+    sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
+    locale: vi-VN
+
+aciids:
+    title: <span>Hội thảo </span>ACIIDS<span> lần thứ 8 - Đà Nẵng</span> 2016
+    sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
+    locale: vi-VN
+    css:
+        - aciids
+
+aciids_en:
+    title: <span>8th </span>ACIIDS<span> - Danang</span> 2016
+    sub_title: Korea-Vietnam Friendship Information Technology College
+    locale: en
+    css:
+        - aciids
