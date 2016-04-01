@@ -97,7 +97,7 @@ var
         },
         dist: {
             files: {
-                'client/css/font_icon.css': 'src/css/font_icon.css',
+                'client/css/font_icon.css': 'client/css/font_icon.css',
                 'client/css/main.css' : 'client/css/main.css',
                 'client/css/aciids.css' : 'client/css/aciids.css'
             }
