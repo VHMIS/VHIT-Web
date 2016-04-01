@@ -1,0 +1,43 @@
+        <div id="site_overlay" class="site_overlay">
+            <div id="send_question_modal" class="site_modal send_question_modal">
+                <div class="site_modal_container">
+                    <div class="site_modal_header">
+                        <h1 class="for_question"><i class="glyphicon glyphicon-pencil"></i> Gửi câu hỏi trực tuyến</h1>
+                        <h1 class="for_response hide"><i class="glyphicon glyphicon-check"></i> Câu hỏi đã được gửi thành công</h1>
+                        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div>
+                        <p class="alert alert-info for_question">Bạn có thể hỏi trực tiếp với phòng đào tạo qua số <strong>05113 962 888</strong> hoặc xem các <a href="hoidap.html"><strong>câu hỏi đã được giải đáp tại đây.</strong></a></p>
+                        <form id="ask_question" class="form-horizontal for_question">
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Tên của bạn</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" name="name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Email và điện thoại</label>
+                                <div class="col-md-5">
+                                    <input type="text" class="form-control" name="email" placeholder="Địa chỉ email">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" name="tel" placeholder="Số điện thoại">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Câu hỏi</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" name="question" rows="4"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-offset-3 col-md-8">
+                                    <button type="submit" class="btn btn-primary">Gửi câu hỏi</button>
+                                </div>
+                            </div>
+                        </form>
+                        <p class="alert alert-info for_response hide">Cảm ơn bạn đã gửi câu hỏi, chúng tôi sẽ liên lạc và trả lời trong thời gian sớm nhất.<br><br><a href="#" id="ask_other_question" ><strong>Gửi câu hỏi khác</strong></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
