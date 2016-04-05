@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: tuyensinh
 title: Tin tức tuyển sinh | Tuyển sinh 2016
 header_css: no-banner
 ---
@@ -16,17 +16,17 @@ header_css: no-banner
         <div class="container sc-main">
             <div class="row">
                 <div class="col-md-4 pull-right">
-                    {% include news_card.html %}
+                    {% include tuyensinh/news_card.html %}
                 </div>
 
                 <div class="col-md-8 pull-left">
 
                     <div class="block_component">
                         <div class="questions-list">
-                            {% for post in site.posts %}
+                            {% for post in site.categories.tuyensinh %}
                             <article>
                                 <h2>
-                                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                                  <a href="{{ post.url }}">{{ post.title }}</a>
                                 </h2>
 
                                 {{ post.excerpt }}

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: tuyensinh
 title: Tuyển sinh 2016
 page: index
 ---
@@ -10,7 +10,7 @@ page: index
                     <div class="flash-card flash-intro">
                         <h1 class="flash-header">Thông báo tuyển sinh 2016</h1>
                         <div class="flash-photo">
-                            <img src="img/flash_info.jpg" alt=""/>
+                            <img src="/client/tuyensinh/img/flash_info.jpg" alt=""/>
                         </div>
                         <div class="flash-body">
                             <p><strong>Chỉ tiêu tuyển sinh:</strong> 1100 CĐ (toàn quốc)</p>
@@ -55,7 +55,7 @@ page: index
                     <div class="flash-card flash-majors">
                         <h1 class="flash-header">Các ngành tuyển sinh</h1>
                         <div class="flash-photo">
-                            <img src="img/flash_marjors.jpg" alt=""/>
+                            <img src="/client/tuyensinh/img/flash_marjors.jpg" alt=""/>
                         </div>
                         <div class="flash-body">
                             <ul>
@@ -125,7 +125,7 @@ page: index
                     <div class="block-info exam-info">
                         <h2 class="">Kỳ thi TNPT quốc gia 2016</h2>
                         <div class="block-info-1">
-                            <a href="https://www.google.com/maps/place/VIETHANIT/@15.97515,108.253526,17z/data=!3m1!4b1!4m2!3m1!1s0x314210893d968749:0x71ee879c7b27734a"><img src="img/info_map.png" alt=""/></a>
+                            <a href="https://www.google.com/maps/place/VIETHANIT/@15.97515,108.253526,17z/data=!3m1!4b1!4m2!3m1!1s0x314210893d968749:0x71ee879c7b27734a"><img src="/client/tuyensinh/img/info_map.png" alt=""/></a>
                         </div>
                         <div class="block-info-2">
                             Thông tin cần biết dành cho thí sinh và phụ huynh về điểm thi trường Việt-Hàn.
@@ -137,8 +137,8 @@ page: index
                         <h2 class="">Tin tức</h2>
                         <div class="block-info-2">
                             <ul>
-                            {% for post in site.posts limit:3 %}
-                                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                            {% for post in site.categories.tuyensinh limit:3 %}
+                                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                             {% endfor %}
                             </ul>
                         </div>
@@ -147,4 +147,4 @@ page: index
             </div>
         </div>
 
-{% include ask_question_modal.html %}
+{% include tuyensinh/ask_question_modal.html %}

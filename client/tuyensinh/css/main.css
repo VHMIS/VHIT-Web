@@ -459,7 +459,7 @@ body.site_overlay_active {
 
 .site_overlay {
     position: fixed;
-    z-index: 1000;
+    z-index: 10000;
     top: 0px;
     right: 0px;
     bottom: 0px;
