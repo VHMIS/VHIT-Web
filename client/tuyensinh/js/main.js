@@ -115,20 +115,40 @@ $(document).ready(function () {
 
     // Var
     var nhommon = {
-        'A00': {
-            1: 'Toán',
-            2: 'Lý',
-            3: 'Hóa'
-        },
         'A01': {
             1: 'Toán',
-            2: 'Lý',
-            3: 'Anh'
+            2: 'Vật lí',
+            3: 'Tiếng Anh'
         },
         'D01': {
-            1: 'Văn',
+            1: 'Ngữ văn',
             2: 'Toán',
-            3: 'Anh'
+            3: 'Tiếng Anh'
+        },
+        'D14': {
+            1: 'Ngữ văn',
+            2: 'Lịch sử',
+            3: 'Tiếng Anh'
+        },
+        'D15': {
+            1: 'Ngữ văn',
+            2: 'Địa lí',
+            3: 'Tiếng Anh'
+        },
+        'C01': {
+            1: 'Ngữ văn',
+            2: 'Toán',
+            3: 'Vật lí'
+        },
+        'C04': {
+            1: 'Ngữ văn',
+            2: 'Toán',
+            3: 'Địa lí'
+        },
+        'C00': {
+            1: 'Ngữ văn',
+            2: 'Lịch sử',
+            3: 'Địa lí'
         }
     }
 
