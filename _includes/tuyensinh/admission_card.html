@@ -8,14 +8,17 @@
                         </ul>
                         <p>Tổ hợp xét tuyển:</p>
                         <ul>
-                            <li>Ngữ văn, Lịch sử, Địa lí (C00)</li>
-                            <li>Ngữ văn, Toán, Tiếng Anh (D01)</li>
-                            <li>Ngữ văn, Lịch sử, Tiếng Anh (D14)</li>
-                            <li>Ngữ văn, Địa lí, Tiếng Anh (D15)</li>
+{% if page.major == 'dt_tt' or page.major == 'khmt' or page.major == 'cntt' or page.major == 'tt_mmt' %}
                             <li>Toán, Vật lý, Anh văn (A01)</li>
                             <li>Ngữ văn, Toán, Vật lí (C01)</li>
                             <li>Ngữ văn, Toán, Địa lí (C04)</li>
                             <li>Toán, Ngữ văn, Anh văn (D01)</li>
+{% else %}
+                            <li>Ngữ văn, Lịch sử, Địa lí (C00)</li>
+                            <li>Ngữ văn, Toán, Tiếng Anh (D01)</li>
+                            <li>Ngữ văn, Lịch sử, Tiếng Anh (D14)</li>
+                            <li>Ngữ văn, Địa lí, Tiếng Anh (D15)</li>
+{% endif %}
                         </ul>
                         <!-- <p>Thời gian tuyển sinh:</p>
                         <ul>
