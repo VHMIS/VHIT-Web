@@ -424,6 +424,26 @@ $(document).ready(function () {
         })
     })
 
+    $('form#xettuyen_ne select.chonnganh').on('change', function (e) {
+        var me = $(this)
+        var mysister = me.parent().parent().find('select.chontohop')
+        var type = me.find('option:selected').data('type')
+        mysister.val('').find('option').each(function () {
+            var option = $(this)
+
+            if(option.val() == '') {
+                return;
+            }
+
+            if(option.data('type') == type || option.data('type') == '1,2') {
+                option.prop('disabled', false).show()
+                return;
+            }
+
+            option.prop('disabled', true).hide()
+        })
+    })
+
     $('form#xettuyen_ne').on('submit', function (e) {
         e.preventDefault()
         var me = $(this)
