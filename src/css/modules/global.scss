@@ -30,8 +30,8 @@ body {
 @media (max-width: 1179px) {
     .container {
         width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -60,6 +60,8 @@ body {
         }
 
         .header-title {
+            display: block;
+            font-weight: 700;
             background: url(../img/logo.png) 0 0 no-repeat;
             background-size: 50px 47px; /* 100 94 */
             padding-top: .3rem;
@@ -378,7 +380,6 @@ body {
         text-align: center;
 
         h1 {
-            font-size: 2.2rem;
             text-transform: uppercase;
             color: #000;
         }
@@ -418,46 +419,5 @@ body {
     .container {
         height: 300px;
         overflow: hidden;
-    }
-}
-
-.page-footer {
-    padding-top: 30px;
-    background-color: $primary-bg-color;
-    color: #eee;
-    padding-bottom: 30px;
-
-    h2 {
-        font-size: 1.1rem;
-        margin-bottom: .5rem;
-        color: #fff;
-        text-transform: uppercase;
-    }
-
-    .links {
-        @include clearfix;
-        @include row($grid-gutter);
-
-        .group {
-            @include col($grid-gutter);
-            width: -col-percent-width(1, 5);
-
-            ul {
-                margin-bottom: 20px;
-            }
-        }
-    }
-
-    .slogan {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-size: 1.3rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        text-align: center;
-    }
-
-    .copyright {
-        text-align: center;
     }
 }

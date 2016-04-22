@@ -193,4 +193,27 @@ $(document).ready(function () {
         }, 60000)
     }
 
+    // Index page, partner logos slider
+    $('.sc-partners .move-right').on('click', function(e){
+        var width = $('.partners').width()
+        var left = $('.partner-container').position().left + width * -1
+        var container_width = $('.partner-container').width()
+
+        if (left < width - container_width) {
+            left = width - container_width
+        }
+
+        $('.partner-container').css('left', left + 'px')
+    })
+    $('.sc-partners .move-left').on('click', function(e){
+        var width = $('.partners').width()
+        var left = $('.partner-container').position().left + width
+        // var container_width = $('.partner-container').width()
+
+        if (left > 0) {
+            left = 0
+        }
+
+        $('.partner-container').css('left', left + 'px')
+    })
 })

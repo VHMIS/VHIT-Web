@@ -1,19 +1,35 @@
+/** index - partner logos **/
 .sc-partners {
     margin-bottom: 30px;
 
-    .container {
-        overflow-x: hidden;
+    .section-container {
+        position: relative;
     }
 
     .partners {
-        @include clearfix;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1050px;
+        overflow: hidden;
+        position: relative;
+        height: 150px;
+
+        .partner-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1500px;
+            height: 150px;
+            overflow: hidden;
+            transition: .2s left;
+        }
 
         .partner {
+            display: block;
             float: left;
-            width: -col-percent-width(1, 6);
+            width: 150px;
 
             .logo {
-                // width: 100%;
                 height: 150px;
                 overflow: hidden;
                 line-height: 150px;
@@ -23,6 +39,62 @@
                     width: 50%;
                 }
             }
+        }
+    }
+
+    .move-left, .move-right {
+        position: absolute;
+        top: 50%;
+        font-size: 42px;
+        line-height: 42px;
+        margin-top: -21px;
+    }
+
+    .move-left {
+        left: 10px;
+    }
+
+    .move-right {
+        right: 10px;
+    }
+}
+
+@media (max-width: 1079px) {
+    .sc-partners {
+        .partners {
+            width: 900px;
+        }
+    }
+}
+
+@media (max-width: 929px) {
+    .sc-partners {
+        .partners {
+            width: 750px;
+        }
+    }
+}
+
+@media (max-width: 779px) {
+    .sc-partners {
+        .partners {
+            width: 600px;
+        }
+    }
+}
+
+@media (max-width: 629px) {
+    .sc-partners {
+        .partners {
+            width: 450px;
+        }
+    }
+}
+
+@media (max-width: 479px) {
+    .sc-partners {
+        .partners {
+            width: 300px;
         }
     }
 }

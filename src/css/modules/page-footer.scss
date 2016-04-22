@@ -1,0 +1,48 @@
+.page-footer {
+    padding-top: 30px;
+    background-color: $primary-bg-color;
+    color: #eee;
+    padding-bottom: 30px;
+
+    h2 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .links {
+        @include clearfix;
+        @include row($grid-gutter);
+
+        .group {
+            @include col($grid-gutter);
+            width: -col-percent-width(1, 4);
+
+            ul {
+                margin-bottom: 20px;
+            }
+        }
+
+        a {
+            color: #eee;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    .slogan {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
