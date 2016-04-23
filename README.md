@@ -12,6 +12,16 @@ Dự án sẽ kế thừa từ trang tuyển sinh 2015.
 - [ ] Tuyển sinh http://viethanit.edu.vn/tuyensinh
 - [x] ACIIDS 2016 http://viethanit.edu.vn/aciids-2016
 - [ ] Quan hệ doanh nghiệp và hỗ trợ việc làm
+- [ ] Trang thư viện
+
+#### Trang thư viện
+
+Trang thư viện là trang con thuộc website mới, trang này sẽ thay thế trang public của KOHA, sử dụng các API của KOHA để truy cập danh mục sách. Dự kiến trang thư viện phải đạt được các mục đích sau
+
+- [ ] Hiển thị được danh mục sách
+- [ ] Hiển thị danh sách sách theo các tiêu chí, gồm mới nhất, đọc nhiều, ...
+- [ ] Tìm kiếm
+- [ ] Duyệt toàn bộ sách
 
 ## Kế hoạch
 
@@ -21,6 +31,7 @@ Dự án sẽ kế thừa từ trang tuyển sinh 2015.
 - [ ] 03.07 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
 - [ ] 03.15 : Hoàn thành chạy thử nghiệm (v.1.0.0)
 - [ ] 04.__ : Xây dựng hoàn chỉnh, có phương án xây dựng trang tiếng Anh, tiếng Hàn dựa theo trang tiếng Việt. (v1.x.0)
+- [ ] 05.10 : Hoàn thiện trang thư viện
 
 ## Build website
 
