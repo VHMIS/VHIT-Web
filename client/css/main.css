@@ -1689,26 +1689,6 @@ body.fixed-header-global header .global {
     margin-top: 30px;
   }
 }
-.sc-headline .all-news {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.sc-headline .all-news:after, .sc-headline .all-news:before {
-  content: " ";
-  display: table;
-}
-.sc-headline .all-news:after {
-  clear: both;
-}
-.sc-headline .all-news > div {
-  float: left;
-  width: 50%;
-  padding: 15px 30px;
-}
-.sc-headline .all-news > div h2 {
-  padding-bottom: 5px;
-  border-bottom: 1px solid #eee;
-}
 .sc-headline .features {
   margin-left: -15px;
   margin-right: -15px;
@@ -1755,6 +1735,26 @@ body.fixed-header-global header .global {
   font-weight: 600;
   margin-bottom: 15px;
 }
+.sc-headline .all-news {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.sc-headline .all-news:after, .sc-headline .all-news:before {
+  content: " ";
+  display: table;
+}
+.sc-headline .all-news:after {
+  clear: both;
+}
+.sc-headline .all-news > div {
+  float: left;
+  width: 50%;
+  padding: 15px 30px;
+}
+.sc-headline .all-news > div h2 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
 .sc-headline .notices li {
   margin-top: 15px;
 }
@@ -1788,6 +1788,48 @@ body.fixed-header-global header .global {
   width: 70%;
 }
 
+@media (max-width: 950px) {
+  .sc-headline .features > div {
+    width: 100%;
+  }
+  .sc-headline .features > div .photo {
+    float: left;
+    width: 33.33333%;
+  }
+  .sc-headline .features > div .content {
+    float: right;
+    width: 66.66667%;
+    padding-top: 0px;
+    padding-left: 20px;
+  }
+  .sc-headline .features > div .content .subject {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .sc-headline .features > div .photo {
+    width: 100%;
+  }
+  .sc-headline .features > div .content {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+  .sc-headline .features > div .content .subject {
+    position: absolute;
+    top: -13px;
+    left: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .sc-headline .all-news > div {
+    width: 100%;
+    padding: 15px 30px;
+  }
+}
 /** index - partner logos **/
 .sc-partners {
   margin-bottom: 30px;
