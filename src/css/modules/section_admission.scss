@@ -12,6 +12,7 @@
             background-color: $section-bg-color;
             padding: 15px;
             position: relative;
+            width: 100%;
         }
 
         .sub {
@@ -71,9 +72,16 @@
         }
 
         &.info {
-            ul > li {
-                // margin-left: 40px;
-                // text-align: center;
+            li {
+                display: block;
+                margin-bottom: 6px;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+
+                a {
+                    color: #000;
+                }
             }
         }
 
@@ -132,6 +140,39 @@
                         &:hover {
                             text-decoration: none;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1039px) {
+    .sc-admission {
+        .section-container {
+            .card_info {
+                .card {
+                    width: -col-percent-width(1, 2);
+
+                    &.links {
+                        width: -col-percent-width(1, 1);
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .sc-admission {
+        .section-container {
+            .card_info {
+                .card {
+                    width: -col-percent-width(1, 1);
+
+                    &.majors {
+                        margin-top: 30px;
                     }
                 }
             }
