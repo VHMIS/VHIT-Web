@@ -21,3 +21,8 @@ aciids_en:
     locale: en
     css:
         - aciids
+
+doanhnghiep:
+    title: Doanh nghiệp
+    sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
+    locale: vi-VN
