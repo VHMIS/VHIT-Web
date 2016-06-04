@@ -8,13 +8,6 @@
     }
 
     .card {
-        > div {
-            background-color: $section-bg-color;
-            padding: 15px;
-            position: relative;
-            width: 100%;
-        }
-
         .sub {
             color: #ccc;
             text-transform: uppercase;

@@ -1,0 +1,106 @@
+.btn {
+  display: inline-block;
+  padding: 8px 15px 6px 15px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+.btn.disabled,
+.btn[disabled] {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  opacity: .65;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-default.inactive {
+  background-color: #8a8a8a;
+}
+
+.sc-scv .card {
+  width: 33.33333%;
+  text-align: center;
+}
+.sc-scv .card > div.cv-container {
+  height: 380px;
+  overflow: hidden;
+  padding-top: 30px !important;
+  position: relative;
+  margin-bottom: 30px;
+}
+.sc-scv .card a {
+  color: #1a77cd;
+}
+.sc-scv .card a:hover {
+  text-decoration: none;
+}
+.sc-scv .card a:focus {
+  text-decoration: none;
+}
+.sc-scv .card .photo {
+  margin-bottom: 30px;
+}
+.sc-scv .card .photo .photo-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.sc-scv .card .photo .photo-container img {
+  width: 100%;
+}
+.sc-scv .card .title-name {
+  margin-bottom: 30px;
+}
+.sc-scv .card .title-name small {
+  font-weight: normal;
+}
+.sc-scv .card .field {
+  width: auto;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.sc-scv .card .field span {
+  display: inline-block;
+  background: #ce352c;
+  color: #fff;
+  padding: 5px 8px 3px 8px;
+  border-radius: 2px;
+}

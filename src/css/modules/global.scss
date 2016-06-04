@@ -398,6 +398,13 @@ body {
 
             .card {
                 @include col($grid-gutter);
+
+                > div {
+                    background-color: $section-bg-color;
+                    padding: 15px;
+                    position: relative;
+                    width: 100%;
+                }
             }
         }
     }
