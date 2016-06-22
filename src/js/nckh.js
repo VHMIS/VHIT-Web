@@ -20,21 +20,21 @@ $(document).ready(function () {
         minimumResultsForSearch: Infinity
     })
 
-    // Lấy danh sách lý lịch
-    var pub = true;
+    // Lấy danh sách & chi tiết lý lịch
+    var pub = false;
     var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
-    $.get(domain + 'research/public-api/scv/list/viethan', function (data) {
-        $('div#cv_list').html(data)
+
+    $('div#cv_list').each(funtion() {
+        $.get(domain + 'research/public-api/scv/list/viethan', function (data) {
+            $('div#cv_list').html(data)
+        })
     })
 
-    $('#cv-full').each(function(){
+    $('div#cv-full').each(function() {
         var $this = $(this)
         var sc = $.url('query')
         $.get(domain + 'research/public-api/scv/get-cv/' + sc, function (data) {
             $this.html(data)
         })
     })
-
-
-
 })
