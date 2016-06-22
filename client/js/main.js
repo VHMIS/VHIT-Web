@@ -17397,7 +17397,7 @@ $(document).ready(function () {
     var pub = false;
     var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
 
-    $('div#cv_list').each(funtion() {
+    $('div#cv_list').each(function() {
         $.get(domain + 'research/public-api/scv/list/viethan', function (data) {
             $('div#cv_list').html(data)
         })
