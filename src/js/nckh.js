@@ -22,7 +22,7 @@ $(document).ready(function () {
 
     // Lấy danh sách lý lịch
     var pub = true;
-    var domain = pub ? 'https://vhmis.viethanit.edu.vn/' ? 'http://localhost/VHMIS_WWW/'
+    var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
     $.get(domain + 'research/public-api/scv/list/viethan', function (data) {
         $('div#cv_list').html(data)
     })
