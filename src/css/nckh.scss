@@ -122,3 +122,89 @@
         }
     }
 }
+
+.scv-info {
+    @include clearfix;
+
+    .photo {
+
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+        float: left;
+
+        .photo-container {
+            width: 120px;
+            height: 120px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .bio {
+        float: left;
+        padding: 15px;
+
+        h2 {
+            color: $primary-bg-color;
+        }
+
+        .field {
+            margin-top: 10px;
+            span {
+                display: inline-block;
+                margin-right: 5px;
+                background: #ddd;
+                padding: 3px 6px 1px 6px;
+                border-radius: 2px;
+
+                &.mainfield {
+                    background: #ce352c;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .more {
+        float: right;
+        padding: 15px;
+        width: 280px;
+    }
+}
+
+.scv-works {
+    margin-bottom: 30px;
+    
+    .works-list {
+        width: calc(100% - 400px);
+        float: left;
+
+        .works-group {
+            h2 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            + .works-group {
+                margin-top: 2px;
+            }
+
+            .works {
+                .work {
+                    .title {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+
+    .works-fields {
+        width: 400px;
+        float: left;
+    }
+}

@@ -104,3 +104,73 @@
   padding: 5px 8px 3px 8px;
   border-radius: 2px;
 }
+
+.scv-info:after, .scv-info:before {
+  content: " ";
+  display: table;
+}
+.scv-info:after {
+  clear: both;
+}
+.scv-info .photo {
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  float: left;
+}
+.scv-info .photo .photo-container {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+.scv-info .photo .photo-container img {
+  width: 100%;
+}
+.scv-info .bio {
+  float: left;
+  padding: 15px;
+}
+.scv-info .bio h2 {
+  color: #1a77cd;
+}
+.scv-info .bio .field {
+  margin-top: 10px;
+}
+.scv-info .bio .field span {
+  display: inline-block;
+  margin-right: 5px;
+  background: #ddd;
+  padding: 3px 6px 1px 6px;
+  border-radius: 2px;
+}
+.scv-info .bio .field span.mainfield {
+  background: #ce352c;
+  color: #fff;
+}
+.scv-info .more {
+  float: right;
+  padding: 15px;
+  width: 280px;
+}
+
+.scv-works {
+  margin-bottom: 30px;
+}
+.scv-works .works-list {
+  width: calc(100% - 400px);
+  float: left;
+}
+.scv-works .works-list .works-group h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.scv-works .works-list .works-group + .works-group {
+  margin-top: 2px;
+}
+.scv-works .works-list .works-group .works .work .title {
+  font-weight: bold;
+}
+.scv-works .works-fields {
+  width: 400px;
+  float: left;
+}

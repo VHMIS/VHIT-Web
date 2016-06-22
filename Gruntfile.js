@@ -18,6 +18,7 @@ var
     jsFiles = [
         "jquery",
         "select2",
+        "url",
         "main",
         "nckh"
     ].map(function(js) {
