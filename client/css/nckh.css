@@ -1,1 +1,214 @@
-.btn{display:inline-block;padding:8px 15px 6px;margin-bottom:0;font-size:15px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent}.btn.disabled,.btn[disabled]{cursor:not-allowed;filter:alpha(opacity=65);opacity:.65}.btn.focus,.btn:focus,.btn:hover{color:#000;text-decoration:none}.btn-default{color:#fff;background-color:#000;text-transform:uppercase;font-weight:700}.btn-default.focus,.btn-default:focus,.btn-default:hover{color:#fff;text-decoration:none}.btn-default.inactive{background-color:#8a8a8a}.sc-scv .card{width:33.33333%;text-align:center}.sc-scv .card>div.cv-container{height:380px;overflow:hidden;padding-top:30px!important;position:relative;margin-bottom:30px}.sc-scv .card a{color:#1a77cd}.sc-scv .card a:focus,.sc-scv .card a:hover{text-decoration:none}.sc-scv .card .photo{margin-bottom:30px}.sc-scv .card .photo .photo-container{width:100px;height:100px;overflow:hidden;margin:0 auto}.sc-scv .card .photo .photo-container img{width:100%}.sc-scv .card .title-name{margin-bottom:30px}.sc-scv .card .title-name small{font-weight:400}.sc-scv .card .field{width:auto;position:absolute;bottom:15px;left:0;text-align:center;width:100%}.sc-scv .card .field span{display:inline-block;background:#ce352c;color:#fff;padding:5px 8px 3px;border-radius:2px}.scv-info:after,.scv-info:before{content:" ";display:table}.scv-info:after{clear:both}.scv-info .photo{width:150px;height:150px;padding:15px;float:left}.scv-info .photo .photo-container{width:120px;height:120px;overflow:hidden}.scv-info .photo .photo-container img{width:100%}.scv-info .bio{float:left;padding:15px}.scv-info .bio h2{color:#1a77cd}.scv-info .bio .field{margin-top:10px}.scv-info .bio .field span{display:inline-block;margin-right:5px;background:#ddd;padding:3px 6px 1px;border-radius:2px}.scv-info .bio .field span.mainfield{background:#ce352c;color:#fff}.scv-info .more{float:right;padding:15px;width:280px}.scv-works{margin-bottom:30px}.scv-works .works-list{width:calc(100% - 400px);float:left}.scv-works .works-list .works-group h2{font-size:24px;margin-bottom:10px}.scv-works .works-list .works-group+.works-group{margin-top:2px}.scv-works .works-list .works-group .works .work .title{font-weight:700}.scv-works .works-fields{width:400px;float:left}
+.btn {
+  display: inline-block;
+  padding: 8px 15px 6px 15px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+.btn.disabled,
+.btn[disabled] {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  opacity: .65;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-default.inactive {
+  background-color: #8a8a8a;
+}
+
+.sc-scv .card {
+  width: 33.33333%;
+  text-align: center;
+}
+.sc-scv .card > div.cv-container {
+  height: 380px;
+  overflow: hidden;
+  padding-top: 30px !important;
+  position: relative;
+  margin-bottom: 30px;
+}
+.sc-scv .card a {
+  color: #1a77cd;
+}
+.sc-scv .card a:hover {
+  text-decoration: none;
+}
+.sc-scv .card a:focus {
+  text-decoration: none;
+}
+.sc-scv .card .photo {
+  margin-bottom: 30px;
+}
+.sc-scv .card .photo .photo-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.sc-scv .card .photo .photo-container img {
+  width: 100%;
+}
+.sc-scv .card .title-name {
+  margin-bottom: 30px;
+}
+.sc-scv .card .title-name small {
+  font-weight: normal;
+}
+.sc-scv .card .field {
+  width: auto;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.sc-scv .card .field span {
+  display: inline-block;
+  background: #ce352c;
+  color: #fff;
+  padding: 5px 8px 3px 8px;
+  border-radius: 2px;
+}
+
+.scv-info:after, .scv-info:before {
+  content: " ";
+  display: table;
+}
+.scv-info:after {
+  clear: both;
+}
+.scv-info .photo {
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  float: left;
+}
+.scv-info .photo .photo-container {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+.scv-info .photo .photo-container img {
+  width: 100%;
+}
+.scv-info .bio {
+  float: left;
+  padding: 15px;
+}
+.scv-info .bio h2 {
+  color: #1a77cd;
+}
+.scv-info .bio .field {
+  margin-top: 10px;
+}
+.scv-info .bio .field span {
+  display: inline-block;
+  margin-right: 5px;
+  background: #ddd;
+  padding: 3px 6px 1px 6px;
+  border-radius: 2px;
+}
+.scv-info .bio .field span.mainfield {
+  background: #ce352c;
+  color: #fff;
+}
+.scv-info .more {
+  float: right;
+  padding: 15px;
+  width: 280px;
+}
+
+.scv-works {
+  margin-bottom: 30px;
+}
+.scv-works .works-list {
+  width: calc(100% - 400px);
+  float: left;
+}
+.scv-works .works-list .works-group h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.scv-works .works-list .works-group + .works-group {
+  margin-top: 2px;
+}
+.scv-works .works-list .works-group .works .work .title {
+  font-weight: bold;
+}
+.scv-works .works-fields {
+  width: 400px;
+  float: left;
+}
+
+.sc-search .search {
+  padding: 15px;
+}
+.sc-search .type-container {
+  margin-bottom: 15px;
+}
+.sc-search .type-container span {
+  display: inline-block;
+  background: #ddd;
+  padding: 8px 10px 4px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+}
+.sc-search .type-container span.active {
+  background: #1a77cd;
+  color: #fff;
+}
+.sc-search .scientist-container, .sc-search .work-container {
+  margin-bottom: 15px;
+}
+.sc-search .form_row label {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+.sc-search .form_row input {
+  width: 100%;
+  padding: 4px 5px 2px 4px;
+}
+.sc-search .form_row + .form_row {
+  margin-top: 5px;
+}
+
+#search-result {
+  margin-top: 15px;
+}

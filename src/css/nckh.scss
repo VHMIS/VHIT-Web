@@ -178,7 +178,7 @@
 
 .scv-works {
     margin-bottom: 30px;
-    
+
     .works-list {
         width: calc(100% - 400px);
         float: left;
@@ -207,4 +207,53 @@
         width: 400px;
         float: left;
     }
+}
+
+.sc-search {
+    .search {
+        padding: 15px;
+    }
+
+    .type-container {
+        margin-bottom: 15px;
+
+        span {
+            display: inline-block;
+            background: #ddd;
+            padding: 8px 10px 4px 10px;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-weight: 700;
+
+            &.active {
+                background: $primary-bg-color;
+                color: #fff;
+            }
+        }
+    }
+
+    .scientist-container, .work-container {
+        margin-bottom: 15px;
+    }
+
+    .form_row {
+        label {
+            display: block;
+            margin-bottom: 3px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 4px 5px 2px 4px;
+        }
+
+        & + .form_row {
+            margin-top: 5px;
+        }
+    }
+}
+
+#search-result {
+    margin-top: 15px;
 }
