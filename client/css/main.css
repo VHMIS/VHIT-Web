@@ -1497,6 +1497,46 @@ body.fixed-header-global header .global {
   overflow: hidden;
 }
 
+body.site-overlay-active {
+  overflow: hidden !important;
+  margin-right: 15px;
+}
+
+.site-overlay {
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(250, 250, 250, 0.6);
+  overflow-x: auto;
+  overflow-y: scroll;
+  display: none;
+  cursor: pointer;
+}
+.site-overlay .site-modal {
+  position: static;
+  margin: 50px auto;
+  width: 800px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px rgba(34, 25, 25, 0.4);
+  min-height: 200px;
+  border-radius: 8px;
+  cursor: default;
+  display: none;
+}
+.site-overlay .site-modal .site-modal-container {
+  width: 100%;
+  overflow: hidden;
+}
+.site-overlay.active {
+  display: block;
+}
+.site-overlay.active .site-modal {
+  display: block;
+}
+
 .page-footer {
   padding-top: 30px;
   background-color: #1a77cd;

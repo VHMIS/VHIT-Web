@@ -17424,8 +17424,26 @@ $(document).ready(function () {
 
     $("#search-form button").on('click', function (e) {
         var searchFor = $("#search-form").data('searchFor')
+
         if (searchFor === "work") {
-            alert("Đang triển khai")
+            var data = {
+                title: $("#search-form input[name=work-title]").val().trim(),
+                description: $("#search-form input[name=work-description]").val().trim(),
+                author: $("#search-form input[name=work-author]").val().trim(),
+                year: $("#search-form input[name=work-year]").val().trim(),
+                field: $("#search-form input[name=work-field]").val().trim()
+            }
+
+            if (data.title === "" && data.description === "" && data.author === "" && data.year === "" && data.field === "") {
+                alert("Vui lòng cung cấp một nội dung cần tìm kiếm")
+                $("#search-form input[name=work-title]").focus()
+                return false
+            }
+
+            $.post(domain + 'research/public-api/scv/search/work', data, function (data) {
+                $("#search-result").html(data)
+            })
+
             return true;
         }
 
@@ -17438,6 +17456,7 @@ $(document).ready(function () {
         if (data.name === "" && data.work === "" && data.field === "") {
             alert("Vui lòng cung cấp một nội dung cần tìm kiếm")
             $("#search-form input[name=scientist-name]").focus()
+            return false
         }
 
         $.post(domain + 'research/public-api/scv/search/scientist', data, function (data) {

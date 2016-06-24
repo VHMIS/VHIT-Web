@@ -257,3 +257,32 @@
 #search-result {
     margin-top: 15px;
 }
+
+.sc-wl {
+    margin-bottom: 15px;
+
+    .works {
+        padding: 15px;
+
+        .work {
+            h2 {
+                font-size: 1.2rem;
+
+                i {
+                    font-size: 1rem;
+                    margin-right: 5px;
+                }
+
+                a:hover, a:active, a:focus {
+                    text-decoration: none;
+                }
+            }
+
+            & + .work {
+                padding-top: 15px;
+                margin-top: 15px;
+                border-top: 1px solid #eee;
+            }
+        }
+    }
+}

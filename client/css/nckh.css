@@ -212,3 +212,25 @@
 #search-result {
   margin-top: 15px;
 }
+
+.sc-wl {
+  margin-bottom: 15px;
+}
+.sc-wl .works {
+  padding: 15px;
+}
+.sc-wl .works .work h2 {
+  font-size: 1.2rem;
+}
+.sc-wl .works .work h2 i {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+.sc-wl .works .work h2 a:hover, .sc-wl .works .work h2 a:active, .sc-wl .works .work h2 a:focus {
+  text-decoration: none;
+}
+.sc-wl .works .work + .work {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #eee;
+}
