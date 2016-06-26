@@ -2,7 +2,7 @@
  * File javascript của các trang liên quan đến nội dung NCKH
  */
 $(document).ready(function () {
-    var pub = false;
+    var pub = true;
     var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
 
     // Form tra cứu lý lịch khoa khọc
