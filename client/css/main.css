@@ -1497,9 +1497,9 @@ body.fixed-header-global header .global {
   overflow: hidden;
 }
 
-body.site-overlay-active {
-  overflow: hidden !important;
-  margin-right: 15px;
+body.overlay {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .site-overlay {
@@ -1515,7 +1515,11 @@ body.site-overlay-active {
   display: none;
   cursor: pointer;
 }
-.site-overlay .site-modal {
+.site-overlay.active {
+  display: block;
+}
+
+.site-modal {
   position: static;
   margin: 50px auto;
   width: 800px;
@@ -1526,14 +1530,11 @@ body.site-overlay-active {
   cursor: default;
   display: none;
 }
-.site-overlay .site-modal .site-modal-container {
+.site-modal .container {
   width: 100%;
   overflow: hidden;
 }
-.site-overlay.active {
-  display: block;
-}
-.site-overlay.active .site-modal {
+.site-modal.active {
   display: block;
 }
 
@@ -1597,6 +1598,10 @@ body.site-overlay-active {
 
 .img-circle {
   border-radius: 50%;
+}
+
+.img-rounded {
+  border-radius: 5px;
 }
 
 .select2-container {
@@ -2593,4 +2598,9 @@ body.site-overlay-active {
 }
 .hidden {
   display: none !important;
+}
+
+.noscroll {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
 }

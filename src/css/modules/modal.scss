@@ -1,6 +1,6 @@
-body.site-overlay-active {
-    overflow: hidden !important;
-    margin-right: 15px;
+body.overlay {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .site-overlay {
@@ -16,28 +16,28 @@ body.site-overlay-active {
     display: none;
     cursor: pointer;
 
-    .site-modal {
-        position: static;
-        margin: 50px auto;
-        width: 800px;
-        background: #ffffff;
-        box-shadow: 0px 3px 6px rgba(34, 25, 25, 0.4);
-        min-height: 200px;
-        border-radius: 8px;
-        cursor: default;
-        display: none;
+    &.active {
+        display: block;
+    }
+}
 
-        .site-modal-container {
-            width: 100%;
-            overflow: hidden;
-        }
+.site-modal {
+    position: static;
+    margin: 50px auto;
+    width: 800px;
+    background: #ffffff;
+    box-shadow: 0px 3px 6px rgba(34, 25, 25, 0.4);
+    min-height: 200px;
+    border-radius: 8px;
+    cursor: default;
+    display: none;
+
+    .container {
+        width: 100%;
+        overflow: hidden;
     }
 
     &.active {
         display: block;
-
-        .site-modal {
-            display: block;
-        }
     }
 }

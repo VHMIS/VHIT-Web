@@ -2,7 +2,7 @@
  * File javascript của các trang liên quan đến nội dung NCKH
  */
 $(document).ready(function () {
-    var pub = true;
+    var pub = false;
     var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
 
     // Form tra cứu lý lịch khoa khọc
@@ -89,5 +89,19 @@ $(document).ready(function () {
         $.post(domain + 'research/public-api/scv/search/scientist', data, function (data) {
             $("#search-result").html(data)
         })
+    })
+
+    // Hiển thị thông tin cơ bản của công trình lên
+    $("#search-result").vhmisModal('work-detail', {
+        element: "a.work-detail",
+        beforeShow: function(ele, modal) {
+            $(modal).html('')
+            var id = $(ele).data('id')
+            var type = $(ele).data('type')
+
+            $.get(domain + 'research/public-api/scv/detail/' + type +'/' + id, function (data) {
+                $(modal).html(data)
+            })
+        }
     })
 })

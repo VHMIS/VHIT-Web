@@ -18,6 +18,7 @@ var
     jsFiles = [
         "jquery",
         "select2",
+        "vhmis-modal",
         "url",
         "main",
         "nckh"

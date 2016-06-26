@@ -286,3 +286,61 @@
         }
     }
 }
+
+.modal-wd {
+    width: 700px;
+
+    .container {
+        padding: 30px;
+    }
+
+    h2 {
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    .fields {
+        border-bottom: 1px solid #eee;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    h3 {
+        font-weight: normal;
+    }
+
+    .sc-list {
+        margin-top: 10px;
+
+        .scientist {
+            @include clearfix;
+
+            .photo {
+                width: 40px;
+                float: left;
+                height: 40px;
+                overflow: hidden;
+                margin-right: 10px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .info {
+                float: left;
+            }
+
+            & + .scientist {
+                margin-top: 10px;
+            }
+        }
+    }
+}

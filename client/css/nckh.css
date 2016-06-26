@@ -234,3 +234,54 @@
   margin-top: 15px;
   border-top: 1px solid #eee;
 }
+
+.modal-wd {
+  width: 700px;
+}
+.modal-wd .container {
+  padding: 30px;
+}
+.modal-wd h2 {
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+.modal-wd .description {
+  font-size: 1.2rem;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.modal-wd .fields {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.modal-wd h3 {
+  font-weight: normal;
+}
+.modal-wd .sc-list {
+  margin-top: 10px;
+}
+.modal-wd .sc-list .scientist:after, .modal-wd .sc-list .scientist:before {
+  content: " ";
+  display: table;
+}
+.modal-wd .sc-list .scientist:after {
+  clear: both;
+}
+.modal-wd .sc-list .scientist .photo {
+  width: 40px;
+  float: left;
+  height: 40px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.modal-wd .sc-list .scientist .photo img {
+  width: 100%;
+}
+.modal-wd .sc-list .scientist .info {
+  float: left;
+}
+.modal-wd .sc-list .scientist + .scientist {
+  margin-top: 10px;
+}
