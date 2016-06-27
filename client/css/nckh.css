@@ -170,6 +170,9 @@
 .scv-works .works-list .works-group .works .work .title {
   font-weight: bold;
 }
+.scv-works .works-list .works-group .works .work + .work {
+  margin-top: 4px;
+}
 .scv-works .works-fields {
   width: 400px;
   float: left;

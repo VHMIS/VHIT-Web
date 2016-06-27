@@ -198,6 +198,10 @@
                     .title {
                         font-weight: bold;
                     }
+
+                    & + .work {
+                        margin-top: 4px;
+                    }
                 }
             }
         }

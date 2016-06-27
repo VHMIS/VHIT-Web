@@ -92,7 +92,7 @@ $(document).ready(function () {
     })
 
     // Hiển thị thông tin cơ bản của công trình lên
-    $("#search-result").vhmisModal('work-detail', {
+    $("#search-result, #cv-full").vhmisModal('work-detail', {
         element: "a.work-detail",
         beforeShow: function(ele, modal) {
             $(modal).html('')
