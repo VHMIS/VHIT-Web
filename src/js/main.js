@@ -47,6 +47,61 @@ $(document).ready(function () {
         }
     })
 
+    // Main slider
+    // Slider
+    var has_slide = $('.slider .slides');
+	if ( has_slide.length > 0 ) {
+		var totalSlides = has_slide.children('article').length,
+			currentSlideNo = 0,
+			playinterval,
+			delay = 5000,
+            endAnimationEvents = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
+
+        var nextSlide = function() {
+            currentSlide = has_slide.find('.active')
+            currentSlideNo += 1;
+
+            currentSlide
+                .removeClass('active from_right from_left')
+                .addClass('is_moving')
+                .one(endAnimationEvents, function(){
+                    currentSlide.removeClass('is_moving')
+                })
+
+            has_slide.children('article').eq(currentSlideNo)
+                .addClass('active').prevAll().addClass('move_left');
+        }
+
+        var prevSlide = function() {
+            currentSlide = has_slide.find('.active')
+            currentSlideNo -= 1;
+
+            currentSlide
+                .removeClass('active from_right from_left')
+                .addClass('is_moving')
+                .one(endAnimationEvents, function(){
+                    currentSlide.removeClass('is_moving')
+                })
+
+            has_slide.children('article').eq(currentSlideNo)
+                .addClass('active').removeClass('move_left').nextAll().removeClass('move_left');
+        }
+
+        var autoPlaySlide = function() {
+            if( currentSlideNo < totalSlides - 1) {
+            	nextSlide();
+            } else {
+                currentSlideNo = 1
+            	prevSlide();
+            }
+        }
+
+        clearInterval(playinterval);
+		playinterval = window.setInterval(function(){
+            autoPlaySlide()
+        }, delay);
+    }
+
     // Aciids booking form
     $('form#aciids-booking select[name=in]').on('change', function(){
         var din = $(this)

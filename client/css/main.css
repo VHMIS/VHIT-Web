@@ -1158,6 +1158,9 @@ body.fixed-header-global header .global {
   width: 100%;
   z-index: 20;
 }
+body.splash {
+  background-color: #fff;
+}
 
 .container {
   width: 1180px;
@@ -1278,6 +1281,9 @@ body.fixed-header-global header .global {
 .page-header .header-menu .main-menu > ul > li:hover > a {
   color: #1a77cd;
 }
+.page-header .header-menu .main-menu > ul > li .flag img {
+  margin-top: -3px;
+}
 .page-header .header-menu .main-menu.right {
   float: right;
 }
@@ -1345,7 +1351,7 @@ body.fixed-header-global header .global {
 .page-header .header-menu .close-menu-button {
   position: absolute;
   right: 10px;
-  top: -30px;
+  top: -35px;
   color: #fff;
   display: none;
   font-size: 2rem;
@@ -1355,7 +1361,33 @@ body.fixed-header-global header .global {
   text-decoration: none;
 }
 
-@media (min-width: 401px) and (max-width: 810px) {
+@media (max-width: 970px) {
+  .page-header .header-menu .main-menu {
+    float: none;
+  }
+  .page-header .header-menu .main-menu:after, .page-header .header-menu .main-menu:before {
+    content: " ";
+    display: table;
+  }
+  .page-header .header-menu .main-menu:after {
+    clear: both;
+  }
+  .page-header .header-menu .main-menu.right {
+    float: none;
+  }
+  .page-header .header-menu .main-menu.right > ul > li {
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+  .page-header .header-menu .main-menu.right.fixed-right {
+    float: right;
+  }
+  .page-header .header-menu .main-menu.right.fixed-right > ul > li {
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 501px) and (max-width: 810px) {
   .page-header .title .quickmenu-button {
     display: block;
   }
@@ -1398,7 +1430,7 @@ body.fixed-header-global header .global {
     top: -80px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body.show_left_menu {
     overflow-y: hidden;
   }
@@ -1436,6 +1468,9 @@ body.fixed-header-global header .global {
   .page-header .header-menu .top-menu {
     top: -23px;
     left: 10px;
+  }
+  .page-header .header-menu .top-menu .text {
+    display: none;
   }
   .page-header .header-menu .close-menu-button {
     display: block;
@@ -1487,14 +1522,6 @@ body.fixed-header-global header .global {
 .sc-coming-soon .container {
   padding: 15px;
   background-color: #fff;
-}
-
-.slider {
-  padding-top: 5px;
-}
-.slider .container {
-  height: 300px;
-  overflow: hidden;
 }
 
 body.overlay {
@@ -1596,6 +1623,23 @@ body.overlay {
   text-align: center;
 }
 
+@media (max-width: 900px) {
+  .page-footer .links .group {
+    width: 50%;
+  }
+  .page-footer .links .group:nth-child(2n) {
+    text-align: right;
+  }
+  .page-footer .links .group:nth-child(2n+1) {
+    clear: left;
+  }
+}
+@media (max-width: 600px) {
+  .page-footer .links .group {
+    width: 100%;
+    text-align: center !important;
+  }
+}
 .img-circle {
   border-radius: 50%;
 }
@@ -2235,6 +2279,69 @@ body.overlay {
 
 .select2-container--classic.select2-container--open .select2-dropdown {
   border-color: #5897fb;
+}
+
+.slider {
+  padding-top: 5px;
+}
+.slider .slides {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.slider .slides article.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+.slider .slides article.slide.active {
+  position: relative;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transition: transform 0.5s;
+}
+.slider .slides article.slide.move_left {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+.slider .slides article.slide.move_right {
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+.slider .slides article.slide.is_moving {
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transition: transform 0.5s;
+}
+.slider .slides article.slide .content {
+  position: absolute;
+  width: 100%;
+  padding: 6px;
+  bottom: 0;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.slider .slides article.slide .content h1 a {
+  color: #fff;
+}
+.slider .slides article.slide .content h1 a:active, .slider .slides article.slide .content h1 a:hover {
+  text-decoration: none;
+}
+
+body.splash .slider .slides {
+  height: 450px;
 }
 
 .sc-admission .section-container .card_info .card {

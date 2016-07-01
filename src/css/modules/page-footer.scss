@@ -46,3 +46,32 @@
         text-align: center;
     }
 }
+
+@media (max-width: 900px) {
+    .page-footer {
+        .links {
+            .group {
+                width: -col-percent-width(1, 2);
+
+                &:nth-child(2n) {
+                    text-align: right;
+                }
+
+                &:nth-child(2n+1) {
+                    clear: left;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .page-footer {
+        .links {
+            .group {
+                width: -col-percent-width(1, 1);
+                text-align: center !important;
+            }
+        }
+    }
+}
