@@ -17494,7 +17494,7 @@ $(document).ready(function () {
  * File javascript của các trang liên quan đến nội dung NCKH
  */
 $(document).ready(function () {
-    var pub = false;
+    var pub = true;
     var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
 
     // Form tra cứu lý lịch khoa khọc
@@ -17620,7 +17620,7 @@ $(document).ready(function () {
             $('.scv-works .work').show()
             return true
         }
-        
+
         var select = 'field_' + $this.data('field')
         $('.scv-works .work').hide()
         $('.scv-works .work.' + select).show()
