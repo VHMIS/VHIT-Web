@@ -104,4 +104,35 @@ $(document).ready(function () {
             })
         }
     })
+
+    // Lộc công trình ở lý lích
+    $('#cv-full1, #cv-full').on('click', '.works-fields .years li', function (e) {
+        var $this = $(this)
+        if ($this.hasClass('active')) {
+            $this.removeClass('active')
+            $('.scv-works .work').show()
+            return true
+        }
+
+        var select = 'year_' + $this.data('year')
+        $('.scv-works .work').hide()
+        $('.scv-works .work.' + select).show()
+        $('.works-fields li').removeClass('active')
+        $this.addClass('active')
+    })
+
+    $('#cv-full1, #cv-full').on('click', '.works-fields .fields li', function (e) {
+        var $this = $(this)
+        if ($this.hasClass('active')) {
+            $this.removeClass('active')
+            $('.scv-works .work').show()
+            return true
+        }
+
+        var select = 'field_' + $this.data('field')
+        $('.scv-works .work').hide()
+        $('.scv-works .work.' + select).show()
+        $('.works-fields li').removeClass('active')
+        $this.addClass('active')
+    })
 })

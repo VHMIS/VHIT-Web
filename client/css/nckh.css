@@ -157,7 +157,7 @@
   margin-bottom: 30px;
 }
 .scv-works .works-list {
-  width: calc(100% - 400px);
+  width: calc(100% - 300px);
   float: left;
 }
 .scv-works .works-list .works-group h2 {
@@ -174,10 +174,66 @@
   margin-top: 4px;
 }
 .scv-works .works-fields {
-  width: 400px;
+  width: 300px;
+  float: right !important;
+}
+.scv-works .works-fields ul:after, .scv-works .works-fields ul:before {
+  content: " ";
+  display: table;
+}
+.scv-works .works-fields ul:after {
+  clear: both;
+}
+.scv-works .works-fields ul li {
+  margin: 0 4px 8px 0;
+  padding: 4px 8px;
   float: left;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  transition: .2s ease background;
+  cursor: pointer;
+}
+.scv-works .works-fields ul li .count {
+  color: rgba(0, 0, 0, 0.6);
+}
+.scv-works .works-fields ul li:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.scv-works .works-fields ul li.active {
+  background: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
+.scv-works .works-fields ul li.active .count {
+  color: rgba(255, 255, 255, 0.6);
+}
+.scv-works .works-fields ul li.active:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.scv-works .works-fields ul + ul {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+  padding-top: 1.2rem;
 }
 
+@media (max-width: 800px) {
+  .scv-works .works-list {
+    width: calc(100% - 200px);
+  }
+  .scv-works .works-fields {
+    width: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .scv-works .works-list {
+    width: 100%;
+  }
+  .scv-works .works-fields {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
 .sc-search .search {
   padding: 15px;
 }

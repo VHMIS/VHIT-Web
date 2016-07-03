@@ -180,7 +180,7 @@
     margin-bottom: 30px;
 
     .works-list {
-        width: calc(100% - 400px);
+        width: calc(100% - 300px);
         float: left;
 
         .works-group {
@@ -208,8 +208,76 @@
     }
 
     .works-fields {
-        width: 400px;
-        float: left;
+        width: 300px;
+        float: right !important;
+
+        ul {
+            @include clearfix;
+
+            li {
+                margin: 0 4px 8px 0;
+                padding: 4px 8px;
+                float: left;
+                overflow: hidden;
+                color: rgba(0,0,0,.8);
+                background: rgba(0,0,0,.05);
+                border-radius: 2px;
+                transition: .2s ease background;
+                cursor: pointer;
+
+                .count {
+                    color: rgba(0,0,0,.6);
+                }
+
+                &:hover {
+                    background: rgba(0,0,0,.1);
+                }
+
+                &.active {
+                    background: rgba(0,0,0,.8);
+                    color: rgba(255, 255, 255,.8);
+
+                    .count {
+                        color: rgba(255, 255, 255,.6);
+                    }
+
+                    &:hover {
+                        background: rgba(0,0,0,.8);
+                    }
+                }
+            }
+        }
+
+        ul + ul {
+            border-top: 1px solid rgba(0,0,0,.05);
+            margin-top: 1rem;
+            padding-top: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .scv-works {
+        .works-list {
+            width: calc(100% - 200px);
+        }
+
+        .works-fields {
+            width: 200px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .scv-works {
+        .works-list {
+            width: 100%;
+        }
+
+        .works-fields {
+            width: 100%;
+            margin-bottom: 25px;
+        }
     }
 }
 
