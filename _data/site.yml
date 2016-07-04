@@ -2,15 +2,11 @@ default:
     title: Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     sub_title: Trường công lập thuộc Bộ Thông Tin - Truyền Thông
     locale: vi-VN
-    css:
-        - nckh
 
 sub_index:
     title: Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     sub_title: Trường công lập thuộc Bộ Thông Tin - Truyền Thông
     locale: vi-VN
-    css:
-        - nckh
 
 splash:
     title: Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
