@@ -23,15 +23,18 @@ Trang thư viện là trang con thuộc website mới, trang này sẽ thay th�
 - [ ] Tìm kiếm
 - [ ] Duyệt toàn bộ sách
 
+#### Trang cựu sinh viên và doanh nghiệp
+
 ## Kế hoạch
 
 - [x] 02.20 : Xong phát thảo (v0.0.1)
-- [ ] 02.24 : Hoàn thiện cấu trúc, các nội dung chính, thống nhất phương án thiết kế cuối cùng. (v0.1.0)
+- [x] 02.24 : Hoàn thiện cấu trúc, các nội dung chính, thống nhất phương án thiết kế cuối cùng. (v0.1.0)
 - [x] 03.02 : Thử nghiệm trang con ACIIDS (http://viethanit.edu.vn/aciids-2016/)
-- [ ] 03.07 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
-- [ ] 03.15 : Hoàn thành chạy thử nghiệm (v.1.0.0)
+- [x] 03.07 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
+- [x] 03.15 : Hoàn thành chạy thử nghiệm (v.1.0.0)
 - [ ] 04.__ : Xây dựng hoàn chỉnh, có phương án xây dựng trang tiếng Anh, tiếng Hàn dựa theo trang tiếng Việt. (v1.x.0)
-- [ ] 05.10 : Hoàn thiện trang thư viện
+- [ ] 07.15 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
+- [ ] 09.01 : Hoàn thiện trang thư viện
 
 ## Build website
 
