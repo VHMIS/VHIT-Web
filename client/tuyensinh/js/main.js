@@ -303,6 +303,68 @@ $(document).ready(function () {
         }
     })
 
+    var diachihk = {}
+    var makeDistrictSelect = function (data) {
+        var html = ''
+        $.each(data, function (index, value) {
+            html += '<option value="' + index + '">' + value.name + '</option>'
+        })
+        $('form#xettuyen select[name=fa_district]').html(html).prop('disabled', false)
+    }
+    var makeWardSelect = function (pro, dis) {
+        var html = ''
+        $.each(diachihk[pro][dis]['ward'], function (index, value) {
+            html += '<option value="' + index + '">' + value + '</option>'
+        })
+        $('form#xettuyen select[name=fa_ward]').html(html).prop('disabled', false)
+    }
+
+    $('form#xettuyen select[name=fa_province]').on('change', function (e) {
+        var me = $(this)
+        var pro = me.val();
+        if (pro == "") {
+            $('form#xettuyen select[name=fa_district]').html('<option value="">Chọn Huyện thị</option>').prop('disabled', true)
+            $('form#xettuyen select[name=fa_ward]').html('<option value="">Chọn Xã phường</option>').prop('disabled', true)
+        } else {
+            if (typeof diachihk[pro] == 'undefined') {
+                $('form#xettuyen select[name=fa_district]').html('<option value="">Đang tải</option>').prop('disabled', true)
+                $('form#xettuyen select[name=fa_ward]').html('<option value="">Đang tải</option>').prop('disabled', true)
+                $('form#xettuyen select[name=fa_province]').prop('disabled', true)
+                $.getJSON('data/fa_' + pro + '.json', function (data) {
+                    diachihk[pro] = data
+                    makeDistrictSelect(data)
+                    $('form#xettuyen select[name=fa_district]').trigger('change')
+                    $('form#xettuyen select[name=fa_ward]').trigger('change')
+                    $('form#xettuyen select[name=fa_province]').prop('disabled', false)
+                });
+            } else {
+                makeDistrictSelect(truongpt[pro])
+                $('form#xettuyen select[name=fa_district]').trigger('change')
+                $('form#xettuyen select[name=fa_ward]').trigger('change')
+            }
+
+            $('form#xettuyen select[name=province]').val(pro).trigger('change')
+        }
+    })
+
+    $('form#xettuyen select[name=fa_district]').on('change', function (e) {
+        var me = $(this)
+        var pro = $('form#xettuyen select[name=fa_province]').val()
+        var dis = me.val()
+        makeWardSelect(pro, dis)
+    })
+
+    $('form#xettuyen select[name=fa_ward]').on('change', function (e) {
+        var me = $(this)
+        var ward = me.val()
+
+        if (ward === "00") {
+            $('#xettuyen .fa_ward_other').show()
+        } else {
+            $('#xettuyen .fa_ward_other').hide()
+        }
+    })
+
     $('form#xettuyen select[name=subject_combination]').on('change', function (e) {
         var me = $(this)
         var group = me.val();
@@ -361,10 +423,26 @@ $(document).ready(function () {
         form.find('.ketqua').val(count == 0 ? '' : _math_round(sum / count, 1))
     })
 
+    $('form#xettuyen input[name=gradute]').on('change', function (e) {
+        var me = $(this)
+        if(me.prop('checked')) {
+            $('#xettuyen .gradute_year').show()
+        } else {
+            $('#xettuyen .gradute_year').hide()
+        }
+    })
+
     $('form#xettuyen').on('submit', function (e) {
         e.preventDefault()
+
+        $('form#xettuyen input[name=fa_province_name]').val($('form#xettuyen select[name=fa_province] option:selected').text())
+        $('form#xettuyen input[name=fa_district_name]').val($('form#xettuyen select[name=fa_district] option:selected').text())
+        $('form#xettuyen input[name=fa_ward_name]').val($('form#xettuyen select[name=fa_ward] option:selected').text())
+
         var me = $(this)
+
         var data = me.serialize();
+
         me.find('button').prop('disabled', true);
         $.post('https://vhmis.viethanit.edu.vn/education/public-api/admission/school-report/add', data, function (data) {
             if (data.error == '0') {
