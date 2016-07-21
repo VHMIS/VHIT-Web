@@ -687,8 +687,8 @@ $(document).ready(function () {
         var form = me.parent().parent()
         var count = 0;
         var sum = 0;
-        var count_k = {k12: 0, k11: 0, k10: 0}
-        var sum_k = {k12: 0, k11: 0, k10: 0}
+        //var count_k = {k12: 0, k11: 0, k10: 0}
+        //var sum_k = {k12: 0, k11: 0, k10: 0}
         var error = false;
         form.removeClass('has-error')
 
@@ -698,12 +698,12 @@ $(document).ready(function () {
             if (sub.val() != '') {
                 sub.val(sub.val().replace(',', '.'))
                 if ($.isNumeric(sub.val()) && parseFloat(sub.val()) >= 0 && parseFloat(sub.val()) <= 10) {
-                    var heso = sub.data('count')
-                    var k = sub.data('k')
-                    count += heso
-                    sum += parseFloat(sub.val()) * heso
-                    count_k[k] += heso;
-                    sum_k[k] += parseFloat(sub.val()) * heso
+                    //var heso = sub.data('count')
+                    //var k = sub.data('k')
+                    count += 1//heso
+                    sum += parseFloat(sub.val())// * heso
+                    //count_k[k] += heso;
+                    //sum_k[k] += parseFloat(sub.val())// * heso
                 } else {
                     error = true;
                 }
@@ -716,10 +716,10 @@ $(document).ready(function () {
             return;
         }
 
-        form.find('.ketqua_k10').val(count_k.k10 == 0 ? '' : _math_round(sum_k.k10 / count_k.k10, 1))
-        form.find('.ketqua_k11').val(count_k.k11 == 0 ? '' : _math_round(sum_k.k11 / count_k.k11, 1))
-        form.find('.ketqua_k12').val(count_k.k12 == 0 ? '' : _math_round(sum_k.k12 / count_k.k12, 1))
-        form.find('.ketqua').val(count == 0 ? '' : _math_round(sum / count, 1))
+        //form.find('.ketqua_k10').val(count_k.k10 == 0 ? '' : _math_round(sum_k.k10 / count_k.k10, 1))
+        //form.find('.ketqua_k11').val(count_k.k11 == 0 ? '' : _math_round(sum_k.k11 / count_k.k11, 1))
+        //form.find('.ketqua_k12').val(count_k.k12 == 0 ? '' : _math_round(sum_k.k12 / count_k.k12, 1))
+        form.find('.ketqua').val(count == 0 ? '' : _math_round(sum / 3, 1))
     })
 
     $('form#xettuyen input[name=gradute]').on('change', function (e) {
