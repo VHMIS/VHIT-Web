@@ -556,27 +556,27 @@ $(document).ready(function () {
         $.each(data, function (index, value) {
             html += '<option value="' + index + '">' + value.name + '</option>'
         })
-        $('form#xettuyen select[name=school]').html(html).prop('disabled', false)
+        $('form#xettuyen select[name=school], form#xettuyen_ne select[name=school]').html(html).prop('disabled', false)
     }
 
-    $('form#xettuyen select[name=province]').on('change', function (e) {
+    $('form#xettuyen select[name=province], form#xettuyen_ne select[name=province]').on('change', function (e) {
         var me = $(this)
         var pro = me.val();
         if (pro == "") {
-            $('form#xettuyen select[name=school]').html('<option value="0">Chọn trường</option>').prop('disabled', true)
+            $('form#xettuyen select[name=school], form#xettuyen_ne select[name=school]').html('<option value="0">Chọn trường</option>').prop('disabled', true)
         } else {
             if (typeof truongpt[pro] == 'undefined') {
-                $('form#xettuyen select[name=school]').html('<option value="0">Đang tải</option>').prop('disabled', true)
-                $('form#xettuyen select[name=province]').prop('disabled', true)
+                $('form#xettuyen select[name=school], form#xettuyen_ne select[name=school]').html('<option value="0">Đang tải</option>').prop('disabled', true)
+                $('form#xettuyen select[name=province], form#xettuyen_ne select[name=province]').prop('disabled', true)
                 $.getJSON('data/pt_' + pro + '.json', function (data) {
                     truongpt[pro] = data
                     makeSchoolSelect(data)
-                    $('form#xettuyen select[name=province]').prop('disabled', false)
-                    $('form#xettuyen select[name=school]').trigger('change')
+                    $('form#xettuyen select[name=province], form#xettuyen_ne select[name=province]').prop('disabled', false)
+                    $('form#xettuyen select[name=school], form#xettuyen_ne select[name=school]').trigger('change')
                 });
             } else {
                 makeSchoolSelect(truongpt[pro])
-                $('form#xettuyen select[name=school]').trigger('change')
+                $('form#xettuyen select[name=school], form#xettuyen_ne select[name=school]').trigger('change')
             }
         }
     })
@@ -588,17 +588,17 @@ $(document).ready(function () {
         '3': 'Khu vực 3',
     }
 
-    $('form#xettuyen select[name=school]').on('change', function (e) {
+    $('form#xettuyen select[name=school], form#xettuyen_ne select[name=school]').on('change', function (e) {
         var me = $(this)
         var school = me.val()
         if (school == "") {
-            $('form#xettuyen input[name=priority_area]').val('')
-            $('form#xettuyen input[name=priority_area_text]').val('Khu vực')
+            $('form#xettuyen input[name=priority_area], form#xettuyen_ne input[name=priority_area]').val('')
+            $('form#xettuyen input[name=priority_area_text], form#xettuyen_ne input[name=priority_area_text]').val('Khu vực')
         } else {
-            var pro = $('form#xettuyen select[name=province]').val()
+            var pro = $('form#xettuyen select[name=province], form#xettuyen_ne select[name=province]').val()
             var area = truongpt[pro][school]['area']
-            $('form#xettuyen input[name=priority_area]').val(area)
-            $('form#xettuyen input[name=priority_area_text]').val(areas[area])
+            $('form#xettuyen input[name=priority_area], form#xettuyen_ne input[name=priority_area').val(area)
+            $('form#xettuyen input[name=priority_area_text], form#xettuyen_ne input[name=priority_area_text]').val(areas[area])
         }
     })
 
@@ -608,59 +608,59 @@ $(document).ready(function () {
         $.each(data, function (index, value) {
             html += '<option value="' + index + '">' + value.name + '</option>'
         })
-        $('form#xettuyen select[name=fa_district]').html(html).prop('disabled', false)
+        $('form#xettuyen select[name=fa_district], form#xettuyen_ne select[name=fa_district]').html(html).prop('disabled', false)
     }
     var makeWardSelect = function (pro, dis) {
         var html = ''
         $.each(diachihk[pro][dis]['ward'], function (index, value) {
             html += '<option value="' + index + '">' + value + '</option>'
         })
-        $('form#xettuyen select[name=fa_ward]').html(html).prop('disabled', false)
+        $('form#xettuyen select[name=fa_ward], form#xettuyen_ne select[name=fa_ward]').html(html).prop('disabled', false)
     }
 
-    $('form#xettuyen select[name=fa_province]').on('change', function (e) {
+    $('form#xettuyen select[name=fa_province], form#xettuyen_ne select[name=fa_province]').on('change', function (e) {
         var me = $(this)
         var pro = me.val();
         if (pro == "") {
-            $('form#xettuyen select[name=fa_district]').html('<option value="">Chọn Huyện thị</option>').prop('disabled', true)
-            $('form#xettuyen select[name=fa_ward]').html('<option value="">Chọn Xã phường</option>').prop('disabled', true)
+            $('form#xettuyen select[name=fa_district], form#xettuyen_ne select[name=fa_district]').html('<option value="">Chọn Huyện thị</option>').prop('disabled', true)
+            $('form#xettuyen select[name=fa_ward], form#xettuyen_ne select[name=fa_ward]').html('<option value="">Chọn Xã phường</option>').prop('disabled', true)
         } else {
             if (typeof diachihk[pro] == 'undefined') {
-                $('form#xettuyen select[name=fa_district]').html('<option value="">Đang tải</option>').prop('disabled', true)
-                $('form#xettuyen select[name=fa_ward]').html('<option value="">Đang tải</option>').prop('disabled', true)
-                $('form#xettuyen select[name=fa_province]').prop('disabled', true)
+                $('form#xettuyen select[name=fa_district], form#xettuyen_ne select[name=fa_district]').html('<option value="">Đang tải</option>').prop('disabled', true)
+                $('form#xettuyen select[name=fa_ward], form#xettuyen_ne select[name=fa_ward]').html('<option value="">Đang tải</option>').prop('disabled', true)
+                $('form#xettuyen select[name=fa_province], form#xettuyen_ne select[name=fa_province]').prop('disabled', true)
                 $.getJSON('data/fa_' + pro + '.json', function (data) {
                     diachihk[pro] = data
                     makeDistrictSelect(data)
-                    $('form#xettuyen select[name=fa_district]').trigger('change')
-                    $('form#xettuyen select[name=fa_ward]').trigger('change')
-                    $('form#xettuyen select[name=fa_province]').prop('disabled', false)
+                    $('form#xettuyen select[name=fa_district], form#xettuyen_ne select[name=fa_district]').trigger('change')
+                    $('form#xettuyen select[name=fa_ward], form#xettuyen_ne select[name=fa_ward]').trigger('change')
+                    $('form#xettuyen select[name=fa_province], form#xettuyen_ne select[name=fa_province]').prop('disabled', false)
                 });
             } else {
                 makeDistrictSelect(truongpt[pro])
-                $('form#xettuyen select[name=fa_district]').trigger('change')
-                $('form#xettuyen select[name=fa_ward]').trigger('change')
+                $('form#xettuyen select[name=fa_district], form#xettuyen_ne select[name=fa_district]').trigger('change')
+                $('form#xettuyen select[name=fa_ward], form#xettuyen_ne select[name=fa_ward]').trigger('change')
             }
 
-            $('form#xettuyen select[name=province]').val(pro).trigger('change')
+            $('form#xettuyen select[name=province], form#xettuyen_ne select[name=province]').val(pro).trigger('change')
         }
     })
 
-    $('form#xettuyen select[name=fa_district]').on('change', function (e) {
+    $('form#xettuyen select[name=fa_district], form#xettuyen_ne select[name=fa_district]').on('change', function (e) {
         var me = $(this)
-        var pro = $('form#xettuyen select[name=fa_province]').val()
+        var pro = $('form#xettuyen select[name=fa_province], form#xettuyen_ne select[name=fa_province]').val()
         var dis = me.val()
         makeWardSelect(pro, dis)
     })
 
-    $('form#xettuyen select[name=fa_ward]').on('change', function (e) {
+    $('form#xettuyen select[name=fa_ward], form#xettuyen_ne select[name=fa_ward]').on('change', function (e) {
         var me = $(this)
         var ward = me.val()
 
         if (ward === "00") {
-            $('#xettuyen .fa_ward_other').show()
+            $('#xettuyen .fa_ward_other, #xettuyen_ne .fa_ward_other').show()
         } else {
-            $('#xettuyen .fa_ward_other').hide()
+            $('#xettuyen .fa_ward_other, #xettuyen_ne .fa_ward_other').hide()
         }
     })
 
@@ -870,6 +870,11 @@ $(document).ready(function () {
 
     $('form#xettuyen_ne').on('submit', function (e) {
         e.preventDefault()
+
+        $('form#xettuyen_ne input[name=fa_province_name]').val($('form#xettuyen_ne select[name=fa_province] option:selected').text())
+        $('form#xettuyen_ne input[name=fa_district_name]').val($('form#xettuyen_ne select[name=fa_district] option:selected').text())
+        $('form#xettuyen_ne input[name=fa_ward_name]').val($('form#xettuyen_ne select[name=fa_ward] option:selected').text())
+
         var me = $(this)
         var data = me.serialize();
         me.find('button').prop('disabled', true);
