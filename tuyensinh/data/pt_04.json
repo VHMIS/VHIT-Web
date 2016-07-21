@@ -1,50 +1,114 @@
 {
-    "001": "THPT Nguyễn Hiền",
-    "002": "THPT Phan Châu Trinh",
-    "003": "THPT Trần Phú",
-    "004": "THPT TT Diên Hồng",
-    "005": "THPT Chuyên Lê Quý Đôn",
-    "006": "TTGDTX-HN Hải Châu+BTBK+CĐCN",
-    "007": "THPT Thái Phiên",
-    "008": "TT GDTX-HN Thanh Khê",
-    "009": "THPT TT Quang Trung",
-    "010": "THPT Hoàng Hoa Thám",
-    "011": "THPT Ngô Quyền",
-    "012": "TT GDTX Thành Phố",
-    "013": "TT KTTH-HN Sơn Trà",
-    "014": "THPT Ngũ Hành Sơn",
-    "015": "TT GDTX -HN N.H. Sơn+ BTĐH Kinh tế",
-    "016": "Dân Lập Hermann Gmeiner",
-    "017": "THPT Nguyễn Trãi",
-    "018": "THPT TT Khai Trí",
-    "019": "TT GDTX-HN Liên Chiểu",
-    "020": "THPT Hòa Vang",
-    "021": "THPT Phan Thành Tài",
-    "022": "THPT Ông ích Khiêm",
-    "023": "THPT Phạm Phú Thứ",
-    "024": "TT GDTX-HN Cẩm Lệ",
-    "025": "TT GDTX-HN Hòa Vang",
-    "026": "THPT Nguyễn Thượng Hiền",
-    "027": "THPT Tôn Thất Tùng",
-    "028": "THPT Thanh Khê",
-    "029": "THPT Cẩm Lệ",
-    "030": "CĐ Đông á",
-    "031": "CĐ Phương Đông",
-    "032": "TC CKN Việt Tiến",
-    "033": "TC KTNV Thăng Long",
-    "034": "TC KT-KT Miền Trung",
-    "035": "TC KT-NV Việt á",
-    "036": "TC KT-KT Đức Minh",
-    "037": "CĐ nghề Đà Nẵng",
-    "038": "CĐ nghề Hoàng Diệu",
-    "039": "CĐ nghề Nguyễn Văn Trỗi",
-    "040": "CĐ nghề Du Lịch Đà Nẵng",
-    "041": "TC nghề Giao thông vận tải Đường bộ",
-    "042": "TC nghề số 5",
-    "043": "TC nghề Công nghiệp Tàu thuỷ III",
-    "044": "TC nghề Giao thông Công chính ĐN",
-    "045": "TC nghề Kỹ thuật Công nghệ Đà Nẵng",
-    "046": "TC cấp nghề Cao Thắng Đà Nẵng",
-    "047": "TC nghề Công nghiệp tàu thuỷ Đà Nẵng",
-    "048": "TC cấp nghề Việt  úc"
+    "001": {
+        "name": "THPT Nguy\u1ec5n Hi\u1ec1n",
+        "area": "3"
+    },
+    "002": {
+        "name": "THPT Phan Ch\u00e2u Trinh",
+        "area": "3"
+    },
+    "003": {
+        "name": "THPT Tr\u1ea7n Ph\u00fa",
+        "area": "3"
+    },
+    "006": {
+        "name": "TT GDTX, KTTH-HN&DN qu\u1eadn H\u1ea3i Ch\u00e2u",
+        "area": "3"
+    },
+    "007": {
+        "name": "THPT Th\u00e1i Phi\u00ean",
+        "area": "3"
+    },
+    "008": {
+        "name": "TT TT GDTX, KTTH-HN&DN  Thanh Kh\u00ea",
+        "area": "3"
+    },
+    "009": {
+        "name": "THPT TT Quang Trung",
+        "area": "3"
+    },
+    "028": {
+        "name": "THPT Thanh Kh\u00ea",
+        "area": "3"
+    },
+    "005": {
+        "name": "THPT Chuy\u00ean L\u00ea Qu\u00fd \u0110\u00f4n",
+        "area": "3"
+    },
+    "010": {
+        "name": "THPT Ho\u00e0ng Hoa Th\u00e1m",
+        "area": "3"
+    },
+    "011": {
+        "name": "THPT Ng\u00f4 Quy\u1ec1n",
+        "area": "3"
+    },
+    "012": {
+        "name": "TT GDTX Th\u00e0nh Ph\u1ed1",
+        "area": "3"
+    },
+    "013": {
+        "name": "TT GDTX, KTTH-HN&DN  S\u01a1n Tr\u00e0",
+        "area": "3"
+    },
+    "027": {
+        "name": "THPT T\u00f4n Th\u1ea5t T\u00f9ng",
+        "area": "3"
+    },
+    "014": {
+        "name": "THPT Ng\u0169 H\u00e0nh S\u01a1n",
+        "area": "3"
+    },
+    "015": {
+        "name": "TT GDTX, KTTH-HN&DN  Ng\u0169 H\u00e0nh S\u01a1n",
+        "area": "3"
+    },
+    "016": {
+        "name": "PTDL Hermann Gmeiner",
+        "area": "3"
+    },
+    "017": {
+        "name": "THPT Nguy\u1ec5n Tr\u00e3i",
+        "area": "3"
+    },
+    "018": {
+        "name": "THPT TT Khai Tr\u00ed",
+        "area": "3"
+    },
+    "019": {
+        "name": "TT GDTX, KTTH-HN&DN  Li\u00ean Chi\u1ec3u",
+        "area": "3"
+    },
+    "026": {
+        "name": "THPT Nguy\u1ec5n Th\u01b0\u1ee3ng Hi\u1ec1n",
+        "area": "3"
+    },
+    "021": {
+        "name": "THPT Phan Th\u00e0nh T\u00e0i",
+        "area": "2"
+    },
+    "022": {
+        "name": "THPT \u00d4ng \u00cdch Khi\u00eam",
+        "area": "2"
+    },
+    "023": {
+        "name": "THPT Ph\u1ea1m Ph\u00fa Th\u1ee9",
+        "area": "2"
+    },
+    "025": {
+        "name": "TT GDTX, KTTH-HN&DN  H\u00f2a Vang",
+        "area": "2"
+    },
+    "020": {
+        "name": "THPT H\u00f2a Vang",
+        "area": "2"
+    },
+    "024": {
+        "name": "TT GDTX, KTTH-HN&DN  C\u1ea9m L\u1ec7",
+        "area": "2"
+    },
+    "029": {
+        "name": "THPT C\u1ea9m L\u1ec7",
+        "area": "2"
+    }
 }

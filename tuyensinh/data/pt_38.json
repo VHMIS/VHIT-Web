@@ -1,74 +1,258 @@
 {
-    "001": "Trường THPT Pleiku",
-    "002": "Trường THPT Phan Bội Châu",
-    "003": "Trường PT Dân tộc Nội trú tỉnh",
-    "004": "Trường THPT Lê Lợi",
-    "005": "Trường THPT Chuyên Hùng Vương",
-    "006": "Trường THPT Hoàng Hoa Thám",
-    "007": "Trường THPT Mạc Đĩnh Chi",
-    "008": "Trường THPT Ia Ly",
-    "009": "Trường THPT Trần Hưng Đạo",
-    "010": "Trường THPT Lương Thế Vinh",
-    "011": "Trường THPT Quang Trung",
-    "012": "Trường THPT Nguyễn Khuyến",
-    "013": "Trường THPT Hà Huy Tập",
-    "014": "Trường THPT Lê Hoàn",
-    "015": "Trường THPT Lê Quý Đôn",
-    "016": "Trường THPT Nguyễn Bỉnh Khiêm",
-    "017": "Trường THPT Lê Thánh Tông",
-    "018": "Trường THPT Trần Quốc Tuấn",
-    "019": "Trường THPT Chu Văn An",
-    "020": "Trường THPT Huỳnh Thúc Kháng",
-    "021": "Trường THPT Phạm Văn Đồng",
-    "022": "Trường THPT Nguyễn Huệ",
-    "023": "TT GDTX tỉnh",
-    "024": "TT GDTX Chư Sê",
-    "025": "Trường  Cao đẳng nghề Gia Lai",
-    "026": "TT Kỹ thuật - Tổng hợp - Hướng nghiệp",
-    "027": "TT GDTX Ayun Pa",
-    "028": "TT GDTX An Khê",
-    "029": "Trường THPT Nguyễn Du",
-    "030": "Trường THPT Trần Phú",
-    "031": "Trường THPT Nguyễn Trãi",
-    "032": "Trường THPT Nguyễn Thái Học",
-    "033": "Trường THPT Nguyễn Tất Thành",
-    "034": "Trường THPT Nguyễn Chí Thanh",
-    "035": "Trường THPT Lê Hồng Phong",
-    "036": "Trường THPT Phan Chu Trinh",
-    "037": "Trường THPT Lý Thường Kiệt",
-    "038": "Trường THPT Nguyễn Trường Tộ",
-    "039": "Trường THPT Trường Chinh",
-    "040": "Trường THPT Anh hùng Núp",
-    "041": "Trường THCS&THPT Kpă Klơng",
-    "042": "Trường Quốc tế Châu Á Thái Bình Dương - Gia Lai",
-    "043": "Trường THPT Phạm Hồng Thái",
-    "044": "Trường THPT Nguyễn Văn Cừ",
-    "045": "Trường THPT Y Đôn",
-    "046": "Trường THPT Đinh Tiên Hoàng",
-    "047": "TT GDTX Chư Păh",
-    "048": "TT DN&GDTX  KBang",
-    "049": "TT GDTX  Kông Chro",
-    "050": "TT GDTX  Đức Cơ",
-    "051": "TT DN&GDTX  Chư Prông",
-    "052": "TT GDTX  Krông Pa",
-    "053": "TT GDTX  Đak Đoa",
-    "054": "TT GDTX  Đak Pơ",
-    "055": "TT GDTX Phú Thiện",
-    "056": "TT GDTX-HN Ia Pa",
-    "057": "Trường THPT Võ Văn Kiệt",
-    "058": "Trường TC nghề An Khê",
-    "059": "Trường TC nghề Ayun Pa",
-    "060": "Trường TC nghề số 15",
-    "061": "Trường TC nghề số 21",
-    "062": "Trường CĐ nghề số 05 Chi nhánh Gia Lai",
-    "063": "Trường THPT Tôn Đức Thắng",
-    "064": "Trường THPT Nguyễn Thị Minh Khai",
-    "065": "Trường THPT Pleime",
-    "066": "TT GDTX-HN Chư Pưh",
-    "067": "TT DN&GDTX  Mang Yang",
-    "068": "TT DN&GDTX  Ia Grai",
-    "069": "Trường TC Y tế Gia Lai",
-    "070": "Trường TC VH-NT Gia Lai",
-    "071": "Trường Thiếu sinh quân-Quân khu V",
-    "072": "Trường TH, THCS, THPT Nguyễn văn Linh"
+    "075": {
+        "name": "Tr\u01b0\u1eddng THPT A Sanh",
+        "area": "1"
+    },
+    "001": {
+        "name": "Tr\u01b0\u1eddng THPT Pleiku",
+        "area": "1"
+    },
+    "002": {
+        "name": "Tr\u01b0\u1eddng THPT Phan B\u1ed9i Ch\u00e2u",
+        "area": "1"
+    },
+    "003": {
+        "name": "Tr\u01b0\u1eddng PT D\u00e2n t\u1ed9c N\u1ed9i tr\u00fa t\u1ec9nh",
+        "area": "1"
+    },
+    "004": {
+        "name": "Tr\u01b0\u1eddng THPT L\u00ea L\u1ee3i",
+        "area": "1"
+    },
+    "005": {
+        "name": "Tr\u01b0\u1eddng THPT Chuy\u00ean H\u00f9ng V\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "006": {
+        "name": "Tr\u01b0\u1eddng THPT Ho\u00e0ng Hoa Th\u00e1m",
+        "area": "1"
+    },
+    "023": {
+        "name": "TT GDTX t\u1ec9nh",
+        "area": "1"
+    },
+    "034": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Ch\u00ed Thanh",
+        "area": "1"
+    },
+    "072": {
+        "name": "Tr\u01b0\u1eddng TH, THCS, THPT Nguy\u1ec5n v\u0103n Linh",
+        "area": "1"
+    },
+    "073": {
+        "name": "Tr\u01b0\u1eddng B\u1ed5 t\u00fac v\u0103n h\u00f3a Gia Lai Kon Tum",
+        "area": "1"
+    },
+    "007": {
+        "name": "Tr\u01b0\u1eddng THPT M\u1ea1c \u0110\u0129nh Chi",
+        "area": "1"
+    },
+    "008": {
+        "name": "Tr\u01b0\u1eddng THPT Ia Ly",
+        "area": "1"
+    },
+    "043": {
+        "name": "Tr\u01b0\u1eddng THPT Ph\u1ea1m H\u1ed3ng Th\u00e1i",
+        "area": "1"
+    },
+    "047": {
+        "name": "TT GDTX Ch\u01b0 P\u0103h",
+        "area": "1"
+    },
+    "009": {
+        "name": "Tr\u01b0\u1eddng THPT Tr\u1ea7n H\u01b0ng \u0110\u1ea1o",
+        "area": "1"
+    },
+    "041": {
+        "name": "Tr\u01b0\u1eddng THCS&THPT Kp\u0103 Kl\u01a1ng",
+        "area": "1"
+    },
+    "067": {
+        "name": "TT DN&GDTX  Mang Yang",
+        "area": "1"
+    },
+    "010": {
+        "name": "Tr\u01b0\u1eddng THPT L\u01b0\u01a1ng Th\u1ebf Vinh",
+        "area": "1"
+    },
+    "040": {
+        "name": "Tr\u01b0\u1eddng THPT Anh h\u00f9ng N\u00fap",
+        "area": "1"
+    },
+    "048": {
+        "name": "TT DN&GDTX  KBang",
+        "area": "1"
+    },
+    "011": {
+        "name": "Tr\u01b0\u1eddng THPT Quang Trung",
+        "area": "1"
+    },
+    "012": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Khuy\u1ebfn",
+        "area": "1"
+    },
+    "028": {
+        "name": "TT GDTX An Kh\u00ea",
+        "area": "1"
+    },
+    "031": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Tr\u00e3i",
+        "area": "1"
+    },
+    "074": {
+        "name": "Tr\u01b0\u1eddng THPT D\u00e2n T\u1ed9c N\u1ed9i Tr\u00fa \u0110\u00f4ng Gia Lai",
+        "area": "1"
+    },
+    "013": {
+        "name": "Tr\u01b0\u1eddng THPT H\u00e0 Huy T\u1eadp",
+        "area": "1"
+    },
+    "049": {
+        "name": "TT GDTX  K\u00f4ng Chro",
+        "area": "1"
+    },
+    "014": {
+        "name": "Tr\u01b0\u1eddng THPT L\u00ea Ho\u00e0n",
+        "area": "1"
+    },
+    "038": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Tr\u01b0\u1eddng T\u1ed9",
+        "area": "1"
+    },
+    "050": {
+        "name": "TT GDTX  \u0110\u1ee9c C\u01a1",
+        "area": "1"
+    },
+    "063": {
+        "name": "Tr\u01b0\u1eddng THPT T\u00f4n \u0110\u1ee9c Th\u1eafng",
+        "area": "1"
+    },
+    "015": {
+        "name": "Tr\u01b0\u1eddng THPT L\u00ea Qu\u00fd \u0110\u00f4n",
+        "area": "1"
+    },
+    "030": {
+        "name": "Tr\u01b0\u1eddng THPT Tr\u1ea7n Ph\u00fa",
+        "area": "1"
+    },
+    "051": {
+        "name": "TT DN&GDTX  Ch\u01b0 Pr\u00f4ng",
+        "area": "1"
+    },
+    "065": {
+        "name": "Tr\u01b0\u1eddng THPT Pleime",
+        "area": "1"
+    },
+    "016": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n B\u1ec9nh Khi\u00eam",
+        "area": "1"
+    },
+    "024": {
+        "name": "TT GDTX Ch\u01b0 S\u00ea",
+        "area": "1"
+    },
+    "039": {
+        "name": "Tr\u01b0\u1eddng THPT Tr\u01b0\u1eddng Chinh",
+        "area": "1"
+    },
+    "044": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n V\u0103n C\u1eeb",
+        "area": "1"
+    },
+    "017": {
+        "name": "Tr\u01b0\u1eddng THPT L\u00ea Th\u00e1nh T\u00f4ng",
+        "area": "1"
+    },
+    "027": {
+        "name": "TT GDTX Ayun Pa",
+        "area": "1"
+    },
+    "037": {
+        "name": "Tr\u01b0\u1eddng THPT L\u00fd Th\u01b0\u1eddng Ki\u1ec7t",
+        "area": "1"
+    },
+    "019": {
+        "name": "Tr\u01b0\u1eddng THPT Chu V\u0103n An",
+        "area": "1"
+    },
+    "029": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Du",
+        "area": "1"
+    },
+    "046": {
+        "name": "Tr\u01b0\u1eddng THPT \u0110inh Ti\u00ean Ho\u00e0ng",
+        "area": "1"
+    },
+    "052": {
+        "name": "TT GDTX  Kr\u00f4ng Pa",
+        "area": "1"
+    },
+    "020": {
+        "name": "Tr\u01b0\u1eddng THPT Hu\u1ef3nh Th\u00fac Kh\u00e1ng",
+        "area": "1"
+    },
+    "021": {
+        "name": "Tr\u01b0\u1eddng THPT Ph\u1ea1m V\u0103n \u0110\u1ed3ng",
+        "area": "1"
+    },
+    "068": {
+        "name": "TT DN&GDTX  Ia Grai",
+        "area": "1"
+    },
+    "022": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Hu\u1ec7",
+        "area": "1"
+    },
+    "035": {
+        "name": "Tr\u01b0\u1eddng THPT L\u00ea H\u1ed3ng Phong",
+        "area": "1"
+    },
+    "053": {
+        "name": "TT GDTX  \u0110ak \u0110oa",
+        "area": "1"
+    },
+    "064": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Th\u1ecb Minh Khai",
+        "area": "1"
+    },
+    "033": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n T\u1ea5t Th\u00e0nh",
+        "area": "1"
+    },
+    "036": {
+        "name": "Tr\u01b0\u1eddng THPT Phan Chu Trinh",
+        "area": "1"
+    },
+    "056": {
+        "name": "TT GDTX-HN Ia Pa",
+        "area": "1"
+    },
+    "045": {
+        "name": "Tr\u01b0\u1eddng THPT Y \u0110\u00f4n",
+        "area": "1"
+    },
+    "054": {
+        "name": "TT GDTX  \u0110ak P\u01a1",
+        "area": "1"
+    },
+    "018": {
+        "name": "Tr\u01b0\u1eddng THPT Tr\u1ea7n Qu\u1ed1c Tu\u1ea5n",
+        "area": "1"
+    },
+    "055": {
+        "name": "TT GDTX Ph\u00fa Thi\u1ec7n",
+        "area": "1"
+    },
+    "057": {
+        "name": "Tr\u01b0\u1eddng THPT V\u00f5 V\u0103n Ki\u1ec7t",
+        "area": "1"
+    },
+    "032": {
+        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Th\u00e1i H\u1ecdc",
+        "area": "1"
+    },
+    "066": {
+        "name": "TT GDTX-HN Ch\u01b0 P\u01b0h",
+        "area": "1"
+    }
 }

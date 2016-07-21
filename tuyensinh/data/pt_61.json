@@ -1,42 +1,198 @@
 {
-    "002": "THPT Hồ Thị Kỷ",
-    "003": "THPT Tắc Vân",
-    "004": "THPT Thới Bình",
-    "005": "THPT Lê Công Nhân",
-    "006": "THPT U Minh",
-    "007": "THPT Trần Văn Thời",
-    "008": "THPT Huỳnh Phi Hùng",
-    "009": "THPT Đầm Dơi",
-    "010": "THPT Thái Thanh Hoà",
-    "011": "THPT Cái Nước",
-    "012": "THPT Nguyễn Mai",
-    "013": "THPT Nguyễn Thị Minh Khai",
-    "014": "THPT Phan Ngọc Hiển",
-    "015": "THPT Cà Mau",
-    "016": "THPT Chuyên Phan Ngọc Hiển",
-    "017": "TTGDTX TP. Cà Mau",
-    "018": "THPT Khánh Hưng",
-    "019": "PT Dân tộc nội trú",
-    "020": "THPT Nguyễn Việt Khái",
-    "021": "THPT Sông Đốc",
-    "022": "TTGDTX Thới Bình",
-    "23": "TTGDTX U Minh",
-    "024": "TTGDTX Trần Văn Thời",
-    "025": "TTGDTX Cái Nước",
-    "026": "TTGDTX Đầm Dơi",
-    "027": "TTGDTX Năm Căn",
-    "028": "THPT Nguyễn Văn Nguyễn",
-    "029": "THPT Phú Hưng",
-    "030": "Phổ thông HermannGmeiner",
-    "031": "THPT Khánh Lâm",
-    "032": "TTGDTX Ngọc Hiển",
-    "033": "TTGDTX Phú Tân",
-    "034": "THPT Tân Đức",
-    "035": "THPT Viên An",
-    "036": "THPT Phú Tân",
-    "037": "THPT Thanh Bình Cà Mau",
-    "038": "THPT Ngọc Hiển",
-    "039": "THPT Võ Thị Hồng",
-    "040": "THPT Khánh An",
-    "041": "Trường TC Nghề Cà Mau"
+    "002": {
+        "name": "THPT H\u1ed3 Th\u1ecb K\u1ef7",
+        "area": "1"
+    },
+    "003": {
+        "name": "THPT T\u1eafc V\u00e2n",
+        "area": "1"
+    },
+    "015": {
+        "name": "THPT C\u00e0 Mau",
+        "area": "1"
+    },
+    "016": {
+        "name": "THPT Chuy\u00ean Phan Ng\u1ecdc Hi\u1ec3n",
+        "area": "2"
+    },
+    "017": {
+        "name": "TTGDTX TP. C\u00e0 Mau",
+        "area": "1"
+    },
+    "019": {
+        "name": "Ph\u1ed5 th\u00f4ng D\u00e2n t\u1ed9c n\u1ed9i tr\u00fa",
+        "area": "2"
+    },
+    "020": {
+        "name": "THPT Nguy\u1ec5n Vi\u1ec7t Kh\u00e1i",
+        "area": "1"
+    },
+    "030": {
+        "name": "Ph\u1ed5 th\u00f4ng Hermann Gmeiner",
+        "area": "1"
+    },
+    "037": {
+        "name": "THPT Thanh B\u00ecnh C\u00e0 Mau",
+        "area": "1"
+    },
+    "042": {
+        "name": "THPT L\u00fd V\u0103n L\u00e2m",
+        "area": "1"
+    },
+    "043": {
+        "name": "TTGDNN TP. C\u00e0 Mau",
+        "area": "1"
+    },
+    "004": {
+        "name": "THPT Th\u1edbi B\u00ecnh",
+        "area": "1"
+    },
+    "005": {
+        "name": "THPT L\u00ea C\u00f4ng Nh\u00e2n",
+        "area": "1"
+    },
+    "022": {
+        "name": "TTGDTX Th\u1edbi B\u00ecnh",
+        "area": "1"
+    },
+    "028": {
+        "name": "THPT Nguy\u1ec5n V\u0103n Nguy\u1ec5n",
+        "area": "2NT"
+    },
+    "044": {
+        "name": "TTGDNN Th\u1edbi B\u00ecnh",
+        "area": "1"
+    },
+    "006": {
+        "name": "THPT U Minh",
+        "area": "1"
+    },
+    "023": {
+        "name": "TTGDTX U Minh",
+        "area": "1"
+    },
+    "031": {
+        "name": "THPT Kh\u00e1nh L\u00e2m",
+        "area": "1"
+    },
+    "040": {
+        "name": "THPT Kh\u00e1nh An",
+        "area": "1"
+    },
+    "045": {
+        "name": "TTGDNN U Minh",
+        "area": "1"
+    },
+    "007": {
+        "name": "THPT Tr\u1ea7n V\u0103n Th\u1eddi",
+        "area": "1"
+    },
+    "008": {
+        "name": "THPT Hu\u1ef3nh Phi H\u00f9ng",
+        "area": "1"
+    },
+    "018": {
+        "name": "THPT Kh\u00e1nh H\u01b0ng",
+        "area": "1"
+    },
+    "021": {
+        "name": "THPT S\u00f4ng \u0110\u1ed1c",
+        "area": "1"
+    },
+    "024": {
+        "name": "TTGDTX Tr\u1ea7n V\u0103n Th\u1eddi",
+        "area": "1"
+    },
+    "039": {
+        "name": "THPT V\u00f5 Th\u1ecb H\u1ed3ng",
+        "area": "1"
+    },
+    "046": {
+        "name": "TTGDNN Tr\u1ea7n V\u0103n Th\u1eddi",
+        "area": "1"
+    },
+    "011": {
+        "name": "THPT C\u00e1i N\u01b0\u1edbc",
+        "area": "2NT"
+    },
+    "012": {
+        "name": "THPT Nguy\u1ec5n Mai",
+        "area": "2NT"
+    },
+    "025": {
+        "name": "TTGDTX C\u00e1i N\u01b0\u1edbc",
+        "area": "2NT"
+    },
+    "029": {
+        "name": "THPT Ph\u00fa H\u01b0ng",
+        "area": "2NT"
+    },
+    "047": {
+        "name": "TTGDNN C\u00e1i N\u01b0\u1edbc",
+        "area": "1"
+    },
+    "009": {
+        "name": "THPT \u0110\u1ea7m D\u01a1i",
+        "area": "1"
+    },
+    "010": {
+        "name": "THPT Th\u00e1i Thanh Ho\u00e0",
+        "area": "1"
+    },
+    "026": {
+        "name": "TTGDTX \u0110\u1ea7m D\u01a1i",
+        "area": "1"
+    },
+    "034": {
+        "name": "THPT T\u00e2n \u0110\u1ee9c",
+        "area": "2NT"
+    },
+    "048": {
+        "name": "TTGDNN \u0110\u1ea7m D\u01a1i",
+        "area": "1"
+    },
+    "032": {
+        "name": "TTGDTX Ng\u1ecdc Hi\u1ec3n",
+        "area": "2NT"
+    },
+    "035": {
+        "name": "THPT Vi\u00ean An",
+        "area": "1"
+    },
+    "038": {
+        "name": "THPT Ng\u1ecdc Hi\u1ec3n",
+        "area": "2NT"
+    },
+    "049": {
+        "name": "TTGDNN Ng\u1ecdc Hi\u1ec3n",
+        "area": "2NT"
+    },
+    "014": {
+        "name": "THPT Phan Ng\u1ecdc Hi\u1ec3n",
+        "area": "2NT"
+    },
+    "027": {
+        "name": "TTGDTX N\u0103m C\u0103n",
+        "area": "2NT"
+    },
+    "050": {
+        "name": "TTGDNN N\u0103m C\u0103n",
+        "area": "2NT"
+    },
+    "013": {
+        "name": "THPT Nguy\u1ec5n Th\u1ecb Minh Khai",
+        "area": "2NT"
+    },
+    "033": {
+        "name": "TTGDTX Ph\u00fa T\u00e2n",
+        "area": "2NT"
+    },
+    "036": {
+        "name": "THPT Ph\u00fa T\u00e2n",
+        "area": "1"
+    },
+    "051": {
+        "name": "TTGDNN Ph\u00fa T\u00e2n",
+        "area": "2NT"
+    }
 }

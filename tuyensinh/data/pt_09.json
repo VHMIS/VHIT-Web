@@ -1,32 +1,122 @@
 {
-    "008": "Trường Phổ thông Dân tộc nội trú THPT tỉnh Tuyên Quang",
-    "009": "THPT Chuyên tỉnh",
-    "010": "THPT Tân Trào",
-    "011": "THPT ỷ La",
-    "012": "THPT Nguyễn Văn Huyên",
-    "013": "THPT Sông Lô",
-    "014": "TT GDTX-Hướng nghiệp tỉnh",
-    "015": "THPT Thượng Lâm",
-    "016": "THPT Na Hang",
-    "017": "THPT Yên Hoa",
-    "018": "THPT Chiêm Hóa",
-    "019": "THPT Kim Bình",
-    "020": "THPT Minh Quang",
-    "021": "THPT Hà Lang",
-    "022": "THPT Đầm Hồng",
-    "023": "THPT Hòa Phú",
-    "024": "THPT Hàm Yên",
-    "025": "THPT Phù Lưu",
-    "026": "THPT Thái Hòa",
-    "027": "THPT Xuân Huy",
-    "028": "THPT Trung Sơn",
-    "029": "THPT Xuân Vân",
-    "030": "THPT Tháng 10",
-    "031": "THPT Sơn Dương",
-    "032": "THPT Kim Xuyên",
-    "033": "THPT ATK Tân Trào",
-    "034": "THPT Đông Thọ",
-    "035": "THPT Kháng Nhật",
-    "036": "THPT Sơn Nam",
-    "037": "THPT Lâm Bình"
+    "008": {
+        "name": "Tr\u01b0\u1eddng Ph\u1ed5 th\u00f4ng D\u00e2n t\u1ed9c n\u1ed9i tr\u00fa THPT t\u1ec9nh Tuy\u00ean Quang",
+        "area": "1"
+    },
+    "009": {
+        "name": "THPT Chuy\u00ean t\u1ec9nh",
+        "area": "1"
+    },
+    "010": {
+        "name": "THPT T\u00e2n Tr\u00e0o",
+        "area": "1"
+    },
+    "011": {
+        "name": "THPT \u1ef6 La",
+        "area": "1"
+    },
+    "012": {
+        "name": "THPT Nguy\u1ec5n V\u0103n Huy\u00ean",
+        "area": "1"
+    },
+    "013": {
+        "name": "THPT S\u00f4ng L\u00f4",
+        "area": "1"
+    },
+    "014": {
+        "name": "Trung t\u00e2m GDTX-HN t\u1ec9nh",
+        "area": "1"
+    },
+    "015": {
+        "name": "THPT Th\u01b0\u1ee3ng L\u00e2m",
+        "area": "1"
+    },
+    "037": {
+        "name": "THPT L\u00e2m B\u00ecnh",
+        "area": "1"
+    },
+    "016": {
+        "name": "THPT Na Hang",
+        "area": "1"
+    },
+    "017": {
+        "name": "THPT Y\u00ean Hoa",
+        "area": "1"
+    },
+    "018": {
+        "name": "THPT Chi\u00eam H\u00f3a",
+        "area": "1"
+    },
+    "019": {
+        "name": "THPT Kim B\u00ecnh",
+        "area": "1"
+    },
+    "020": {
+        "name": "THPT Minh Quang",
+        "area": "1"
+    },
+    "021": {
+        "name": "THPT H\u00e0 Lang",
+        "area": "1"
+    },
+    "022": {
+        "name": "THPT \u0110\u1ea7m H\u1ed3ng",
+        "area": "1"
+    },
+    "023": {
+        "name": "THPT H\u00f2a Ph\u00fa",
+        "area": "1"
+    },
+    "024": {
+        "name": "THPT H\u00e0m Y\u00ean",
+        "area": "1"
+    },
+    "025": {
+        "name": "THPT Ph\u00f9 L\u01b0u",
+        "area": "1"
+    },
+    "026": {
+        "name": "THPT Th\u00e1i H\u00f2a",
+        "area": "1"
+    },
+    "027": {
+        "name": "THPT Xu\u00e2n Huy",
+        "area": "1"
+    },
+    "028": {
+        "name": "THPT Trung S\u01a1n",
+        "area": "1"
+    },
+    "029": {
+        "name": "THPT Xu\u00e2n V\u00e2n",
+        "area": "1"
+    },
+    "030": {
+        "name": "THPT Th\u00e1ng 10",
+        "area": "1"
+    },
+    "031": {
+        "name": "THPT S\u01a1n D\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "032": {
+        "name": "THPT Kim Xuy\u00ean",
+        "area": "1"
+    },
+    "033": {
+        "name": "THPT ATK T\u00e2n Tr\u00e0o",
+        "area": "1"
+    },
+    "034": {
+        "name": "THPT \u0110\u00f4ng Th\u1ecd",
+        "area": "1"
+    },
+    "035": {
+        "name": "THPT Kh\u00e1ng Nh\u1eadt",
+        "area": "1"
+    },
+    "036": {
+        "name": "THPT S\u01a1n Nam",
+        "area": "1"
+    }
 }

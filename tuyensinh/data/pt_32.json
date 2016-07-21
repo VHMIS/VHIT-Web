@@ -1,59 +1,182 @@
 {
-    "000": "Sở GD&ĐT Quảng Trị",
-    "011": "THPT Bùi Dục Tài",
-    "012": "THPT Hải Lăng",
-    "013": "THPT Trần Thị Tâm",
-    "014": "THPT Nguyễn Bỉnh Khiêm",
-    "016": "THPT TX Quảng Trị",
-    "017": "Phổ thông DTNT tỉnh",
-    "018": "THPT Nguyễn Huệ",
-    "020": "THPT Triệu Phong",
-    "021": "THPT Chu Văn An",
-    "022": "THPT Vĩnh Định",
-    "024": "THPT Chuyên Lê Quý Đôn",
-    "025": "THPT  Đông Hà",
-    "026": "THPT Lê Lợi Đông Hà",
-    "027": "THPT Phan Châu Trinh",
-    "028": "Trung tâm KTTH-HN tỉnh",
-    "030": "THPT Tân Lâm",
-    "031": "THPT Cam Lộ",
-    "032": "THPT Lê Thế Hiếu",
-    "034": "THPT Hướng Hoá",
-    "035": "THPT Lao Bảo",
-    "037": "THPT Đakrông",
-    "039": "THPT Cồn Tiên",
-    "040": "THPT Gio Linh",
-    "041": "THPT Nguyễn Du",
-    "043": "THPT Vĩnh Linh",
-    "044": "THPT Cửa Tùng",
-    "045": "THPT Nguyễn Công Trứ",
-    "046": "THPT Bến Quan",
-    "048": "Trung tâm GDTX Hướng Hoá",
-    "049": "Trung tâm GDTX Đakrông",
-    "050": "Trung tâm GDTX Cam Lộ",
-    "051": "Trung tâm GDTX Đông Hà",
-    "052": "Trung tâm GDTX Hải Lăng",
-    "053": "Trung tâm GDTX TX Quảng trị",
-    "054": "Trung tâm GDTX Triệu Phong",
-    "055": "Trung tâm GDTX Gio Linh",
-    "056": "Trung tâm GDTX Vĩnh Linh",
-    "057": "Trung tâm KTTH-HN TX Quảng trị",
-    "058": "Trung tâm KTTH-HN Vĩnh Linh",
-    "059": "THPT Hướng Phùng",
-    "060": "THPT Số 2 Đakrông",
-    "061": "THPT A Túc",
-    "062": "THPT Nguyễn Hữu Thận",
-    "063": "TC nghề Quảng Trị",
-    "064": "THPT Chế Lan Viên",
-    "065": "Huyện đảo Cồn Cỏ",
-    "066": "TH, THCS và THPT Trưng Vương",
-    "901": "Phòng GD&ĐT TP Đông Hà",
-    "902": "Phòng GD&ĐT TX Quảng Trị",
-    "903": "Phòng GD&ĐT Vĩnh Linh",
-    "904": "Phòng GD&ĐT Gio Linh",
-    "905": "Phòng GD&ĐT Cam Lộ",
-    "906": "Phòng GD&ĐT Triệu Phong",
-    "907": "Phòng GD&ĐT Hải Lăng",
-    "908": "Phòng GD&ĐT Hướng Hóa",
-    "909": "Phòng GD&ĐT Đakrông"
+    "024": {
+        "name": "THPT chuy\u00ean L\u00ea Qu\u00fd \u0110\u00f4n",
+        "area": "2"
+    },
+    "025": {
+        "name": "THPT \u0110\u00f4ng H\u00e0",
+        "area": "2"
+    },
+    "026": {
+        "name": "THPT L\u00ea L\u1ee3i ",
+        "area": "2"
+    },
+    "027": {
+        "name": "THPT Phan Ch\u00e2u Trinh",
+        "area": "2"
+    },
+    "028": {
+        "name": "Trung t\u00e2m KTTH-HN t\u1ec9nh",
+        "area": "2"
+    },
+    "051": {
+        "name": "Trung t\u00e2m GDTX \u0110\u00f4ng H\u00e0",
+        "area": "2"
+    },
+    "066": {
+        "name": "TH, THCS v\u00e0 THPT Tr\u01b0ng V\u01b0\u01a1ng",
+        "area": "2"
+    },
+    "016": {
+        "name": "THPT TX Qu\u1ea3ng Tr\u1ecb",
+        "area": "2"
+    },
+    "017": {
+        "name": "Ph\u1ed5 th\u00f4ng DTNT t\u1ec9nh ",
+        "area": "2"
+    },
+    "018": {
+        "name": "THPT Nguy\u1ec5n Hu\u1ec7",
+        "area": "2"
+    },
+    "053": {
+        "name": "Trung t\u00e2m GDTX TX Qu\u1ea3ng tr\u1ecb",
+        "area": "2"
+    },
+    "057": {
+        "name": "Trung t\u00e2m KTTH-HN TX Qu\u1ea3ng tr\u1ecb",
+        "area": "2"
+    },
+    "043": {
+        "name": "THPT V\u0129nh Linh",
+        "area": "2NT"
+    },
+    "044": {
+        "name": "THPT C\u1eeda T\u00f9ng",
+        "area": "2NT"
+    },
+    "045": {
+        "name": "THPT Nguy\u1ec5n C\u00f4ng Tr\u1ee9",
+        "area": "2NT"
+    },
+    "046": {
+        "name": "THCS&THPT B\u1ebfn Quan",
+        "area": "1"
+    },
+    "056": {
+        "name": "Trung t\u00e2m GDTX V\u0129nh Linh",
+        "area": "2NT"
+    },
+    "058": {
+        "name": "Trung t\u00e2m KTTH-HN V\u0129nh Linh",
+        "area": "2NT"
+    },
+    "039": {
+        "name": "THPT C\u1ed3n Ti\u00ean",
+        "area": "1"
+    },
+    "040": {
+        "name": "THPT Gio Linh",
+        "area": "2NT"
+    },
+    "041": {
+        "name": "THPT Nguy\u1ec5n Du",
+        "area": "2NT"
+    },
+    "055": {
+        "name": "Trung t\u00e2m GDTX Gio Linh",
+        "area": "2NT"
+    },
+    "030": {
+        "name": "THPT T\u00e2n L\u00e2m",
+        "area": "1"
+    },
+    "031": {
+        "name": "THPT Cam L\u1ed9",
+        "area": "2NT"
+    },
+    "032": {
+        "name": "THPT L\u00ea Th\u1ebf Hi\u1ebfu",
+        "area": "1"
+    },
+    "050": {
+        "name": "Trung t\u00e2m GDTX Cam L\u1ed9",
+        "area": "2NT"
+    },
+    "064": {
+        "name": "THPT Ch\u1ebf Lan Vi\u00ean",
+        "area": "2NT"
+    },
+    "020": {
+        "name": "THPT Tri\u1ec7u Phong",
+        "area": "1"
+    },
+    "021": {
+        "name": "THPT Chu V\u0103n An",
+        "area": "2NT"
+    },
+    "022": {
+        "name": "THPT V\u0129nh \u0110\u1ecbnh",
+        "area": "2NT"
+    },
+    "054": {
+        "name": "Trung t\u00e2m GDTX Tri\u1ec7u Phong",
+        "area": "2NT"
+    },
+    "062": {
+        "name": "THPT Nguy\u1ec5n H\u1eefu Th\u1eadn",
+        "area": "2NT"
+    },
+    "011": {
+        "name": "THPT B\u00f9i D\u1ee5c T\u00e0i",
+        "area": "2NT"
+    },
+    "012": {
+        "name": "THPT H\u1ea3i L\u0103ng",
+        "area": "2NT"
+    },
+    "013": {
+        "name": "THPT Tr\u1ea7n Th\u1ecb T\u00e2m",
+        "area": "2NT"
+    },
+    "014": {
+        "name": "THPT Nguy\u1ec5n B\u1ec9nh Khi\u00eam",
+        "area": "2NT"
+    },
+    "052": {
+        "name": "Trung t\u00e2m GDTX H\u1ea3i L\u0103ng",
+        "area": "2NT"
+    },
+    "034": {
+        "name": "THPT H\u01b0\u1edbng Ho\u00e1",
+        "area": "1"
+    },
+    "035": {
+        "name": "THPT Lao B\u1ea3o",
+        "area": "1"
+    },
+    "048": {
+        "name": "Trung t\u00e2m GDTX H\u01b0\u1edbng Ho\u00e1",
+        "area": "1"
+    },
+    "059": {
+        "name": "THPT H\u01b0\u1edbng Ph\u00f9ng",
+        "area": "1"
+    },
+    "061": {
+        "name": "THPT A T\u00fac",
+        "area": "1"
+    },
+    "037": {
+        "name": "THPT \u0110akr\u00f4ng",
+        "area": "1"
+    },
+    "049": {
+        "name": "Trung t\u00e2m GDTX \u0110akr\u00f4ng",
+        "area": "1"
+    },
+    "060": {
+        "name": "THPT S\u1ed1 2 \u0110akr\u00f4ng",
+        "area": "1"
+    }
 }

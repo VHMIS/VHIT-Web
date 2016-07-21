@@ -1,74 +1,338 @@
 {
-    "000": "Sở GD-ĐT",
-    "001": "THPT Long Xuyên",
-    "002": "THPT Thoại Ngọc Hầu",
-    "003": "THPT ISCHOOL Long Xuyên",
-    "004": "THPT Mỹ Thới",
-    "005": "CĐ Nghề An Giang",
-    "006": "TT GDTX tỉnh",
-    "007": "THPT Chưởng Binh Lễ",
-    "008": "THPT Thủ Khoa Nghiã",
-    "009": "THPT Võ Thị Sáu",
-    "010": "THPT An Phú",
-    "011": "THPT  An Phú 2",
-    "012": "THPT Quốc Thái",
-    "013": "THPT Tân Châu",
-    "014": "THPT  Đức Trí",
-    "015": "THPT Vĩnh Xương",
-    "016": "THPT Chu Văn An",
-    "017": "Trường phổ thông Phú Tân",
-    "018": "THPT Nguyễn Chí Thanh",
-    "019": "THPT Trần Văn Thành",
-    "020": "THPT Châu Phú",
-    "021": "THPT Thạnh Mỹ Tây",
-    "022": "THPT Bình Mỹ",
-    "023": "Trường Phổ thông  Bình Long",
-    "024": "THPT Tịnh Biên",
-    "025": "THPT Chi Lăng",
-    "026": "THPT Xuân Tô",
-    "027": "THPT Nguyễn Trung Trực",
-    "028": "THPT Dân Tộc Nội Trú",
-    "029": "THPT Ba Chúc",
-    "030": "THPT Nguyễn Hữu Cảnh",
-    "031": "THPT Châu Văn Liêm",
-    "032": "THPT Huỳnh Thị Hưởng",
-    "033": "THPT Long Kiến",
-    "034": "THPT Mỹ Hiệp",
-    "037": "THPT Nguyễn Bỉnh Khiêm",
-    "039": "THPT Vĩnh Bình",
-    "040": "THPT Nguyễn Văn Thoại",
-    "041": "THPT Nguyễn Khuyến",
-    "044": "THPT Vọng Thê",
-    "045": "TH Y Tế",
-    "046": "THPT Hoà Lạc",
-    "047": "THPT Mỹ Hội Đông",
-    "048": "THPT Vĩnh Trạch",
-    "049": "THPT Hòa Bình",
-    "050": "THPT Châu Phong",
-    "051": "THPT Bình Khánh",
-    "052": "THPT Bình Thạnh Đông",
-    "053": "THPT Cần Đăng",
-    "055": "TT. GDTX Châu Đốc",
-    "056": "TT. GDTX Tân Châu",
-    "057": "TTDN-GDTX Phú Tân",
-    "058": "TT. GDTX Chợ Mới",
-    "059": "TT. GDTX Mỹ Luông",
-    "060": "TTDN-GDTX Thoại Sơn",
-    "061": "TTDN-GDTX Châu Phú",
-    "062": "TTDN-GDTX An Phú",
-    "063": "TTDN-GDTX Châu Thành",
-    "064": "TTDN-GDTX Tịnh Biên",
-    "065": "TT. GDTX Tri Tôn",
-    "066": "THPT Vĩnh Lộc",
-    "067": "THPT Nguyễn Quang Diêu",
-    "068": "Trường Năng khiếu thể thao",
-    "069": "THPT Mỹ Hòa Hưng",
-    "070": "TC Nghề KTKT Công Đoàn An Giang",
-    "071": "TC Nghề Châu Đốc",
-    "072": "TC Nghề Tân Châu",
-    "073": "TC Nghề Dân tộc Nội Trú An Giang",
-    "074": "Trường Phổ thông Thực hành Sư phạm",
-    "075": "Trường Phổ thông Quốc tế GIS",
-    "076": "Trường TC Kinh tế - Kỹ thuật An Giang",
-    "077": "Trường Phổ thông Cô Tô"
+    "001": {
+        "name": "THPT Long Xuy\u00ean",
+        "area": "2"
+    },
+    "002": {
+        "name": "THPT Chuy\u00ean Tho\u1ea1i Ng\u1ecdc H\u1ea7u",
+        "area": "2"
+    },
+    "003": {
+        "name": "PT ISCHOOL Long Xuy\u00ean",
+        "area": "2"
+    },
+    "004": {
+        "name": "THPT M\u1ef9 Th\u1edbi",
+        "area": "2"
+    },
+    "006": {
+        "name": "TT GDTX An Giang",
+        "area": "2"
+    },
+    "007": {
+        "name": "PT Ch\u01b0\u1edfng Binh L\u1ec5",
+        "area": "2"
+    },
+    "045": {
+        "name": "TH Y T\u1ebf",
+        "area": "2"
+    },
+    "051": {
+        "name": "THPT B\u00ecnh Kh\u00e1nh",
+        "area": "2"
+    },
+    "069": {
+        "name": "THPT M\u1ef9 H\u00f2a H\u01b0ng",
+        "area": "2"
+    },
+    "074": {
+        "name": "PT Th\u1ef1c h\u00e0nh S\u01b0 ph\u1ea1m",
+        "area": "2"
+    },
+    "075": {
+        "name": "PT Qu\u1ed1c t\u1ebf GIS",
+        "area": "2"
+    },
+    "078": {
+        "name": "THPT Nguy\u1ec5n C\u00f4ng Tr\u1ee9",
+        "area": "2"
+    },
+    "086": {
+        "name": "THPT Nguy\u1ec5n Hi\u1ec1n",
+        "area": "2"
+    },
+    "096": {
+        "name": "THCS-THPT M\u1ef9 H\u00f2a H\u01b0ng",
+        "area": "2"
+    },
+    "008": {
+        "name": "THPT Chuy\u00ean Th\u1ee7 Khoa Ngh\u0129a",
+        "area": "2"
+    },
+    "009": {
+        "name": "THPT V\u00f5 Th\u1ecb S\u00e1u",
+        "area": "2"
+    },
+    "055": {
+        "name": "TT. GDTX Ch\u00e2u \u0110\u1ed1c",
+        "area": "2"
+    },
+    "010": {
+        "name": "THPT An Ph\u00fa",
+        "area": "2NT"
+    },
+    "011": {
+        "name": "THPT  An Ph\u00fa 2",
+        "area": "2NT"
+    },
+    "012": {
+        "name": "THPT Qu\u1ed1c Th\u00e1i",
+        "area": "1"
+    },
+    "062": {
+        "name": "TTDN-GDTX An Ph\u00fa",
+        "area": "2NT"
+    },
+    "066": {
+        "name": "THPT V\u0129nh L\u1ed9c",
+        "area": "2NT"
+    },
+    "092": {
+        "name": "TT GDNN-GDTX An Ph\u00fa",
+        "area": "2NT"
+    },
+    "013": {
+        "name": "THPT T\u00e2n Ch\u00e2u",
+        "area": "2"
+    },
+    "014": {
+        "name": "THPT  \u0110\u1ee9c Tr\u00ed",
+        "area": "2"
+    },
+    "015": {
+        "name": "THPT V\u0129nh X\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "050": {
+        "name": "THPT Ch\u00e2u Phong",
+        "area": "1"
+    },
+    "056": {
+        "name": "TT. GDTX T\u00e2n Ch\u00e2u",
+        "area": "2"
+    },
+    "067": {
+        "name": "THPT Nguy\u1ec5n Quang Di\u00eau",
+        "area": "2"
+    },
+    "016": {
+        "name": "THPT Chu V\u0103n An",
+        "area": "2NT"
+    },
+    "017": {
+        "name": "PT Ph\u00fa T\u00e2n",
+        "area": "2NT"
+    },
+    "018": {
+        "name": "THPT Nguy\u1ec5n Ch\u00ed Thanh",
+        "area": "2NT"
+    },
+    "046": {
+        "name": "THPT Ho\u00e0 L\u1ea1c",
+        "area": "2NT"
+    },
+    "052": {
+        "name": "THPT B\u00ecnh Th\u1ea1nh \u0110\u00f4ng",
+        "area": "2NT"
+    },
+    "057": {
+        "name": "TTDN-GDTX Ph\u00fa T\u00e2n",
+        "area": "2NT"
+    },
+    "079": {
+        "name": "THCS-THPT Ph\u00fa T\u00e2n",
+        "area": "2NT"
+    },
+    "087": {
+        "name": "TT GDNN-GDTX Ph\u00fa T\u00e2n",
+        "area": "2NT"
+    },
+    "024": {
+        "name": "THPT T\u1ecbnh Bi\u00ean",
+        "area": "1"
+    },
+    "025": {
+        "name": "THPT Chi L\u0103ng",
+        "area": "1"
+    },
+    "026": {
+        "name": "THPT Xu\u00e2n T\u00f4",
+        "area": "1"
+    },
+    "064": {
+        "name": "TTDN-GDTX T\u1ecbnh Bi\u00ean",
+        "area": "1"
+    },
+    "094": {
+        "name": "TT GDNN-GDTX T\u1ecbnh Bi\u00ean",
+        "area": "1"
+    },
+    "027": {
+        "name": "THPT Nguy\u1ec5n Trung Tr\u1ef1c",
+        "area": "1"
+    },
+    "028": {
+        "name": "THPT D\u00e2n T\u1ed9c N\u1ed9i Tr\u00fa",
+        "area": "1"
+    },
+    "029": {
+        "name": "THPT Ba Ch\u00fac",
+        "area": "1"
+    },
+    "065": {
+        "name": "TT. GDTX Tri T\u00f4n",
+        "area": "1"
+    },
+    "073": {
+        "name": "TC Ngh\u1ec1 D\u00e2n t\u1ed9c N\u1ed9i Tr\u00fa AG",
+        "area": "1"
+    },
+    "077": {
+        "name": "PT C\u00f4 T\u00f4",
+        "area": "1"
+    },
+    "081": {
+        "name": "PT DTNT THPT An Giang",
+        "area": "1"
+    },
+    "095": {
+        "name": "TT GDNN-GDTX Tri T\u00f4n",
+        "area": "1"
+    },
+    "097": {
+        "name": "THCS-THPT C\u00f4 T\u00f4",
+        "area": "1"
+    },
+    "019": {
+        "name": "THPT Tr\u1ea7n V\u0103n Th\u00e0nh",
+        "area": "2NT"
+    },
+    "020": {
+        "name": "THPT Ch\u00e2u Ph\u00fa",
+        "area": "2NT"
+    },
+    "021": {
+        "name": "THPT Th\u1ea1nh M\u1ef9 T\u00e2y",
+        "area": "2NT"
+    },
+    "022": {
+        "name": "THPT B\u00ecnh M\u1ef9",
+        "area": "1"
+    },
+    "023": {
+        "name": "PT  B\u00ecnh Long",
+        "area": "2NT"
+    },
+    "061": {
+        "name": "TTDN-GDTX Ch\u00e2u Ph\u00fa",
+        "area": "2NT"
+    },
+    "080": {
+        "name": "THCS-THPT  B\u00ecnh Long",
+        "area": "2NT"
+    },
+    "091": {
+        "name": "TT GDNN-GDTX Ch\u00e2u Ph\u00fa",
+        "area": "2NT"
+    },
+    "030": {
+        "name": "THPT Nguy\u1ec5n H\u1eefu C\u1ea3nh",
+        "area": "2NT"
+    },
+    "031": {
+        "name": "THPT Ch\u00e2u V\u0103n Li\u00eam",
+        "area": "2NT"
+    },
+    "032": {
+        "name": "THPT Hu\u1ef3nh Th\u1ecb H\u01b0\u1edfng",
+        "area": "2NT"
+    },
+    "033": {
+        "name": "THPT Long Ki\u1ebfn",
+        "area": "2NT"
+    },
+    "034": {
+        "name": "THPT M\u1ef9 Hi\u1ec7p",
+        "area": "2NT"
+    },
+    "047": {
+        "name": "THPT M\u1ef9 H\u1ed9i \u0110\u00f4ng",
+        "area": "2NT"
+    },
+    "049": {
+        "name": "THPT H\u00f2a B\u00ecnh",
+        "area": "2NT"
+    },
+    "058": {
+        "name": "TT. GDTX Ch\u1ee3 M\u1edbi",
+        "area": "2NT"
+    },
+    "059": {
+        "name": "TT. GDTX M\u1ef9 Lu\u00f4ng",
+        "area": "2NT"
+    },
+    "082": {
+        "name": "THPT Ung V\u0103n Khi\u00eam",
+        "area": "2NT"
+    },
+    "083": {
+        "name": "THPT Nguy\u1ec5n V\u0103n H\u01b0\u1edfng",
+        "area": "2NT"
+    },
+    "084": {
+        "name": "THPT L\u01b0\u01a1ng V\u0103n C\u00f9",
+        "area": "2NT"
+    },
+    "085": {
+        "name": "THPT V\u00f5 Th\u00e0nh Trinh",
+        "area": "2NT"
+    },
+    "088": {
+        "name": "TT GDNN-GDTX Ch\u1ee3 M\u1edbi",
+        "area": "2NT"
+    },
+    "037": {
+        "name": "THPT Nguy\u1ec5n B\u1ec9nh Khi\u00eam",
+        "area": "2NT"
+    },
+    "039": {
+        "name": "THPT V\u0129nh B\u00ecnh",
+        "area": "2NT"
+    },
+    "053": {
+        "name": "THPT C\u1ea7n \u0110\u0103ng",
+        "area": "1"
+    },
+    "063": {
+        "name": "TTDN-GDTX Ch\u00e2u Th\u00e0nh",
+        "area": "2NT"
+    },
+    "093": {
+        "name": "TT GDNN-GDTX Ch\u00e2u Th\u00e0nh",
+        "area": "2NT"
+    },
+    "040": {
+        "name": "THPT Nguy\u1ec5n V\u0103n Tho\u1ea1i",
+        "area": "2NT"
+    },
+    "041": {
+        "name": "THPT Nguy\u1ec5n Khuy\u1ebfn",
+        "area": "2NT"
+    },
+    "044": {
+        "name": "THPT V\u1ecdng Th\u00ea",
+        "area": "1"
+    },
+    "048": {
+        "name": "THPT V\u0129nh Tr\u1ea1ch",
+        "area": "2NT"
+    },
+    "060": {
+        "name": "TTDN-GDTX Tho\u1ea1i S\u01a1n",
+        "area": "2NT"
+    },
+    "090": {
+        "name": "TT GDNN-GDTX Tho\u1ea1i S\u01a1n",
+        "area": "2NT"
+    }
 }

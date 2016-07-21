@@ -1,56 +1,186 @@
 {
-    "010": "CĐ nghề Việt Đức",
-    "011": "THPT Trần Phú",
-    "012": "THPT Chuyên Vĩnh Phúc",
-    "013": "THPT Liên Bảo",
-    "014": "THPT Vĩnh Yên",
-    "015": "THPT DTNT Tỉnh",
-    "016": "THPT Nguyễn Thái Học",
-    "017": "TTGDTX Tỉnh",
-    "018": "CĐ Kinh tế Kỹ thuật Vĩnh Phúc",
-    "019": "TC Kỹ thuật Vĩnh Phúc",
-    "020": "Trường Quân sự Quân khu 2",
-    "021": "THPT Tam Dương",
-    "022": "TTGDTX & DN Tam Dương",
-    "023": "THPT Trần Hưng Đạo",
-    "024": "THPT Tam Dương 2",
-    "031": "THPT Ngô Gia Tự",
-    "032": "THPT Liễn Sơn",
-    "034": "THPT TrầnNguyên Hãn",
-    "035": "THPT Triệu Thái",
-    "036": "TTGDTX & DN  Lập Thạch",
-    "037": "THPT Thái Hoà",
-    "039": "THPT Văn Quán",
-    "041": "THPT Lê Xoay",
-    "042": {},
-    "043": "THPT Đội Cấn",
-    "044": "TTGDTX & DN Vĩnh Tường",
-    "045": "THPT  Vĩnh Tường",
-    "046": "THPT Nguyễn Thị Giang",
-    "047": "THPT Hồ Xuân Hương",
-    "051": "THPT Yên Lạc",
-    "052": "THPT Yên Lạc 2",
-    "053": "THPT Phạm Công Bình",
-    "054": "TTGDTX  & DN Yên Lạc",
-    "055": "THPT Đồng Đậu",
-    "061": "THPT Bình Xuyên",
-    "062": "THPT Quang Hà",
-    "063": "THPT Võ Thị Sáu",
-    "064": "TTGDTX & DN Bình Xuyên",
-    "065": "CĐ nghề cơ khí nông nghiệp",
-    "066": "THPT Nguyễn Duy Thì",
-    "071": "THPT Sáng Sơn",
-    "072": "THPT Bình Sơn",
-    "073": "THPT Sông Lô",
-    "081": "THPT Bến Tre",
-    "082": "THPT Hai Bà Trưng",
-    "083": "THPT Xuân Hòa",
-    "084": "TC nghề kỹ thuật xây dựng và nghiệp vụ",
-    "085": "THPT Phúc Yên",
-    "086": "TTGDTX Thị xã Phúc Yên",
-    "087": "CĐ Công nghiệp Phúc Yên",
-    "089": "CĐ nghề cơ khí cơ giới xây dựng số 1",
-    "091": "THPT Tam Đảo",
-    "092": "TTGDTX & DN Tam Đảo",
-    "093": "THPT Tam Đảo 2"
+    "011": {
+        "name": "THPT Tr\u1ea7n Ph\u00fa",
+        "area": "2"
+    },
+    "012": {
+        "name": "THPT Chuy\u00ean V\u0129nh Ph\u00fac",
+        "area": "2"
+    },
+    "013": {
+        "name": "THPT Li\u00ean B\u1ea3o",
+        "area": "2"
+    },
+    "014": {
+        "name": "THPT V\u0129nh Y\u00ean",
+        "area": "2"
+    },
+    "015": {
+        "name": "THPT DTNT C\u1ea5p 2,3 T\u1ec9nh V\u0129nh Ph\u00fac",
+        "area": "1"
+    },
+    "016": {
+        "name": "THPT Nguy\u1ec5n Th\u00e1i H\u1ecdc",
+        "area": "2"
+    },
+    "017": {
+        "name": "TTGDTX T\u1ec9nh",
+        "area": "2"
+    },
+    "021": {
+        "name": "THPT Tam D\u01b0\u01a1ng",
+        "area": "2NT"
+    },
+    "022": {
+        "name": "TTGDTX & DN Tam D\u01b0\u01a1ng",
+        "area": "2NT"
+    },
+    "023": {
+        "name": "THPT Tr\u1ea7n H\u01b0ng \u0110\u1ea1o",
+        "area": "2NT"
+    },
+    "024": {
+        "name": "THPT Tam D\u01b0\u01a1ng 2",
+        "area": "2NT"
+    },
+    "031": {
+        "name": "THPT Ng\u00f4 Gia T\u1ef1",
+        "area": "1"
+    },
+    "032": {
+        "name": "THPT Li\u1ec5n S\u01a1n",
+        "area": "1"
+    },
+    "034": {
+        "name": "THPT Tr\u1ea7n Nguy\u00ean H\u00e3n",
+        "area": "2NT"
+    },
+    "035": {
+        "name": "THPT Tri\u1ec7u Th\u00e1i",
+        "area": "1"
+    },
+    "036": {
+        "name": "TTGDTX & DN  L\u1eadp Th\u1ea1ch",
+        "area": "1"
+    },
+    "037": {
+        "name": "THPT Th\u00e1i Ho\u00e0",
+        "area": "1"
+    },
+    "039": {
+        "name": "THPT V\u0103n Qu\u00e1n",
+        "area": "2NT"
+    },
+    "041": {
+        "name": "THPT L\u00ea Xoay",
+        "area": "2NT"
+    },
+    "042": {
+        "name": "THPT Nguy\u1ec5n Vi\u1ebft Xu\u00e2n",
+        "area": "2NT"
+    },
+    "043": {
+        "name": "THPT \u0110\u1ed9i C\u1ea5n",
+        "area": "2NT"
+    },
+    "044": {
+        "name": "TTGDTX & DN V\u0129nh T\u01b0\u1eddng",
+        "area": "2NT"
+    },
+    "045": {
+        "name": "THPT  V\u0129nh T\u01b0\u1eddng",
+        "area": "2NT"
+    },
+    "046": {
+        "name": "THPT Nguy\u1ec5n Th\u1ecb Giang",
+        "area": "2NT"
+    },
+    "047": {
+        "name": "THPT H\u1ed3 Xu\u00e2n H\u01b0\u01a1ng",
+        "area": "2NT"
+    },
+    "051": {
+        "name": "THPT Y\u00ean L\u1ea1c",
+        "area": "2NT"
+    },
+    "052": {
+        "name": "THPT Y\u00ean L\u1ea1c 2",
+        "area": "2NT"
+    },
+    "053": {
+        "name": "THPT Ph\u1ea1m C\u00f4ng B\u00ecnh",
+        "area": "2NT"
+    },
+    "054": {
+        "name": "TTGDTX  & DN Y\u00ean L\u1ea1c",
+        "area": "2NT"
+    },
+    "055": {
+        "name": "THPT \u0110\u1ed3ng \u0110\u1eadu",
+        "area": "2NT"
+    },
+    "061": {
+        "name": "THPT B\u00ecnh Xuy\u00ean",
+        "area": "2NT"
+    },
+    "062": {
+        "name": "THPT Quang H\u00e0",
+        "area": "2NT"
+    },
+    "063": {
+        "name": "THPT V\u00f5 Th\u1ecb S\u00e1u",
+        "area": "2NT"
+    },
+    "064": {
+        "name": "TTGDTX & DN B\u00ecnh Xuy\u00ean",
+        "area": "2NT"
+    },
+    "066": {
+        "name": "THPT Nguy\u1ec5n Duy Th\u00ec",
+        "area": "2NT"
+    },
+    "071": {
+        "name": "THPT S\u00e1ng S\u01a1n",
+        "area": "2NT"
+    },
+    "072": {
+        "name": "THPT B\u00ecnh S\u01a1n",
+        "area": "1"
+    },
+    "073": {
+        "name": "THPT S\u00f4ng L\u00f4",
+        "area": "1"
+    },
+    "081": {
+        "name": "THPT B\u1ebfn Tre",
+        "area": "2"
+    },
+    "082": {
+        "name": "THCS&THPT Hai B\u00e0 Tr\u01b0ng",
+        "area": "2"
+    },
+    "083": {
+        "name": "THPT Xu\u00e2n H\u00f2a",
+        "area": "2"
+    },
+    "085": {
+        "name": "THPT Ph\u00fac Y\u00ean",
+        "area": "2"
+    },
+    "086": {
+        "name": "TT GDTX&DN Ph\u00fac Y\u00ean",
+        "area": "2"
+    },
+    "091": {
+        "name": "THPT Tam \u0110\u1ea3o",
+        "area": "1"
+    },
+    "092": {
+        "name": "TTGDTX & DN Tam \u0110\u1ea3o",
+        "area": "1"
+    },
+    "093": {
+        "name": "THPT Tam \u0110\u1ea3o 2",
+        "area": "1"
+    }
 }

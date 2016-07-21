@@ -1,27 +1,102 @@
 {
-    "009": "THPT Bắc Kạn",
-    "010": "THPT Chợ Đồn",
-    "011": "THPT Chợ Mới",
-    "012": "THPT Na Rỳ",
-    "013": "THPT Ngân Sơn",
-    "014": "Trường PTDTNT tỉnh",
-    "015": "THPT Nà Phặc",
-    "016": "THPT Bộc Bố",
-    "017": "THPT Phủ Thông",
-    "018": "THPT Ba Bể",
-    "019": "THPT Chuyên",
-    "020": "THPT Yên Hân",
-    "021": "TT GDTX tỉnh",
-    "022": "THPT Dân lập Hùng Vương",
-    "023": "THPT Quảng Khê",
-    "024": "THPT Bình Trung",
-    "025": "TT Kỹ thuật TH- HN Bắc Kạn",
-    "026": "TT GDTX H. Ba Bể tỉnh Bắc Kạn",
-    "027": "TC nghề Bắc Kạn",
-    "028": "TT GDTX H. Ngân Sơn, tỉnh Bắc Kạn",
-    "029": "TT GDTX H. Pác Nặm, tỉnh Bắc Kạn",
-    "030": "TT GDTX-DN H. Chợ Đồn, tỉnh Bắc Kạn",
-    "031": "TT GDTX H. Na Rì, tỉnh Bắc Kạn",
-    "032": "TT GDTX H. Chợ Mới, tỉnh Bắc Kạn",
-    "033": "TT GDTX H. Bạch Thông, tỉnh Bắc Kạn"
+    "009": {
+        "name": "THPT B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "014": {
+        "name": "Tr\u01b0\u1eddng PT DTNT t\u1ec9nh B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "019": {
+        "name": "THPT Chuy\u00ean",
+        "area": "1"
+    },
+    "021": {
+        "name": "TT GDTX t\u1ec9nh",
+        "area": "1"
+    },
+    "022": {
+        "name": "THPT D\u00e2n l\u1eadp H\u00f9ng V\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "025": {
+        "name": "TT K\u1ef9 thu\u1eadt TH-HN B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "027": {
+        "name": "TC ngh\u1ec1 B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "010": {
+        "name": "THPT Ch\u1ee3 \u0110\u1ed3n",
+        "area": "1"
+    },
+    "024": {
+        "name": "THPT B\u00ecnh Trung",
+        "area": "1"
+    },
+    "030": {
+        "name": "TT GDTX-DN H. Ch\u1ee3 \u0110\u1ed3n, t\u1ec9nh B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "017": {
+        "name": "THPT Ph\u1ee7 Th\u00f4ng",
+        "area": "1"
+    },
+    "033": {
+        "name": "TT GDTX H. B\u1ea1ch Th\u00f4ng, t\u1ec9nh B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "012": {
+        "name": "THPT Na R\u00ec",
+        "area": "1"
+    },
+    "031": {
+        "name": "TT GDTX H. Na R\u00ec, t\u1ec9nh B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "013": {
+        "name": "THPT Ng\u00e2n S\u01a1n",
+        "area": "1"
+    },
+    "015": {
+        "name": "THCS&THPT N\u00e0 Ph\u1eb7c",
+        "area": "1"
+    },
+    "028": {
+        "name": "TT GDTX H. Ng\u00e2n S\u01a1n, t\u1ec9nh B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "018": {
+        "name": "THPT Ba B\u1ec3",
+        "area": "1"
+    },
+    "023": {
+        "name": "THPT Qu\u1ea3ng Kh\u00ea",
+        "area": "1"
+    },
+    "026": {
+        "name": "TT GDTX H. Ba B\u1ec3 t\u1ec9nh B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "011": {
+        "name": "THPT Ch\u1ee3 M\u1edbi",
+        "area": "1"
+    },
+    "020": {
+        "name": "THPT Y\u00ean H\u00e2n",
+        "area": "1"
+    },
+    "032": {
+        "name": "TT GDTX H. Ch\u1ee3 M\u1edbi, t\u1ec9nh B\u1eafc K\u1ea1n",
+        "area": "1"
+    },
+    "016": {
+        "name": "THPT B\u1ed9c B\u1ed1",
+        "area": "1"
+    },
+    "029": {
+        "name": "TT GDTX H. P\u00e1c N\u1eb7m, t\u1ec9nh B\u1eafc K\u1ea1n",
+        "area": "1"
+    }
 }

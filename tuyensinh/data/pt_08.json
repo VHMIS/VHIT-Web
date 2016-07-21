@@ -1,55 +1,226 @@
 {
-    "001": "THPT số 1 Bảo Thắng",
-    "002": "THPT số 2 Bảo Thắng",
-    "003": "THPT số 3 Bảo Thắng",
-    "004": "THPT số 1 Bảo Yên",
-    "005": "THPT số 2 Bảo Yên",
-    "006": "THPT số 3 Bảo Yên",
-    "007": "THPT Số 1 Bát Xát",
-    "008": "THPT Số 2 Bát Xát",
-    "009": "THCS và THPT huyện Bát Xát",
-    "010": "THPT số 1 Bắc Hà",
-    "011": "THPT số 2 Bắc Hà",
-    "012": "PTDT nội trú THCS và THPT H.Bắc Hà",
-    "013": "THPT số 1 Tp Lào Cai",
-    "014": "THPT số 2 Tp Lào Cai",
-    "015": "THPT số 3 Tp Lào Cai",
-    "016": "THPT số 4 Tp Lào Cai",
-    "017": "THPT DTNT tỉnh",
-    "018": "THPT Chuyên tỉnh Lào Cai",
-    "019": "THPT số 1 Mường Khương",
-    "020": "THPT số 2 Mường Khương",
-    "021": "THPT số 3 Mường Khương",
-    "022": "PTDT nội trú THCS và THPT H.Mường Khương",
-    "023": "THPT Số 1 Sa Pa",
-    "024": "THPT số 2 Sa Pa",
-    "025": "PTDT nội trú THCS và THPT H.Sa Pa",
-    "026": "THPT Số 1 Si Ma Cai",
-    "027": "THPT Số 2 Si ma cai",
-    "028": "PTDT nội trú THCS và THPT H.Si Ma Cai",
-    "029": "THPT số 1 Văn Bàn",
-    "030": "THPT số 2 Văn Bàn",
-    "031": "THPT số 3 Văn Bàn",
-    "032": "THPT số 4 Văn Bàn",
-    "033": "TT Dạy nghề và GDTX Bảo Thắng",
-    "034": "TT Dạy nghề và GDTX Bảo Yên",
-    "035": "TT Dạy nghề và GDTX Bát Xát",
-    "036": "TT Dạy nghề và GDTX Bắc Hà",
-    "037": "TT Dạy nghề và GDTX TP Lào Cai",
-    "038": "TTKT-TH-HN-DN&GDTX tỉnh",
-    "039": "TT Dạy nghề và GDTX Mường Khương",
-    "040": "TT Dạy nghề và GDTX Sa Pa",
-    "041": "TT Dạy nghề và GDTX Si Ma Cai",
-    "042": "TT Dạy nghề và GDTX Văn Bàn",
-    "043": "TT GDTX Bảo Thắng",
-    "044": "TT GDTX Bảo Yên",
-    "045": "TT GDTX Bát Xát",
-    "046": "TT GDTX Bắc Hà",
-    "047": "TT GDTX số 1 TP Lào Cai",
-    "048": "TT GDTX số 2 TP Lào Cai",
-    "049": "TT GDTX Mường Khương",
-    "050": "TT GDTX Sa Pa",
-    "051": "TT GDTX Si Ma Cai",
-    "052": "TT GDTX Văn Bàn",
-    "053": "CĐ nghề tỉnh Lào Cai"
+    "001": {
+        "name": "THPT s\u1ed1 1 huy\u1ec7n B\u1ea3o Th\u1eafng",
+        "area": "1"
+    },
+    "002": {
+        "name": "THPT s\u1ed1 2 huy\u1ec7n B\u1ea3o Th\u1eafng",
+        "area": "1"
+    },
+    "003": {
+        "name": "THPT s\u1ed1 3 huy\u1ec7n B\u1ea3o Th\u1eafng",
+        "area": "1"
+    },
+    "033": {
+        "name": "TT DN&GDTX huy\u1ec7n B\u1ea3o Th\u1eafng",
+        "area": "1"
+    },
+    "043": {
+        "name": "TT GDTX huy\u1ec7n B\u1ea3o Th\u1eafng",
+        "area": "1"
+    },
+    "055": {
+        "name": "PTDTNT THCS&THPT huy\u1ec7n B\u1ea3o Th\u1eafng",
+        "area": "1"
+    },
+    "004": {
+        "name": "THPT s\u1ed1 1 huy\u1ec7n B\u1ea3o Y\u00ean",
+        "area": "1"
+    },
+    "005": {
+        "name": "THPT s\u1ed1 2 huy\u1ec7n B\u1ea3o Y\u00ean",
+        "area": "1"
+    },
+    "006": {
+        "name": "THPT s\u1ed1 3 huy\u1ec7n B\u1ea3o Y\u00ean",
+        "area": "1"
+    },
+    "034": {
+        "name": "TT DN&GDTX huy\u1ec7n B\u1ea3o Y\u00ean",
+        "area": "1"
+    },
+    "044": {
+        "name": "TT GDTX huy\u1ec7n B\u1ea3o Y\u00ean",
+        "area": "1"
+    },
+    "056": {
+        "name": "PTDTNT THCS&THPT huy\u1ec7n B\u1ea3o Y\u00ean",
+        "area": "1"
+    },
+    "007": {
+        "name": "THPT s\u1ed1 1 huy\u1ec7n B\u00e1t X\u00e1t",
+        "area": "1"
+    },
+    "008": {
+        "name": "THPT s\u1ed1 2 huy\u1ec7n B\u00e1t X\u00e1t",
+        "area": "1"
+    },
+    "009": {
+        "name": "THCS v\u00e0 THPT huy\u1ec7n B\u00e1t X\u00e1t",
+        "area": "1"
+    },
+    "035": {
+        "name": "TT DN&GDTX huy\u1ec7n B\u00e1t X\u00e1t",
+        "area": "1"
+    },
+    "045": {
+        "name": "TT GDTX huy\u1ec7n B\u00e1t X\u00e1t",
+        "area": "1"
+    },
+    "057": {
+        "name": "PTDTNT THCS&THPT huy\u1ec7n B\u00e1t X\u00e1t",
+        "area": "1"
+    },
+    "010": {
+        "name": "THPT s\u1ed1 1 huy\u1ec7n B\u1eafc H\u00e0",
+        "area": "1"
+    },
+    "011": {
+        "name": "THPT s\u1ed1 2 huy\u1ec7n B\u1eafc H\u00e0",
+        "area": "1"
+    },
+    "012": {
+        "name": "PTDTNT THCS&THPT huy\u1ec7n B\u1eafc H\u00e0",
+        "area": "1"
+    },
+    "036": {
+        "name": "TT DN&GDTX huy\u1ec7n B\u1eafc H\u00e0",
+        "area": "1"
+    },
+    "046": {
+        "name": "TT GDTX huy\u1ec7n B\u1eafc H\u00e0",
+        "area": "1"
+    },
+    "013": {
+        "name": "THPT s\u1ed1 1 Tp L\u00e0o Cai",
+        "area": "1"
+    },
+    "014": {
+        "name": "THPT s\u1ed1 2 Tp L\u00e0o Cai",
+        "area": "1"
+    },
+    "015": {
+        "name": "THPT s\u1ed1 3 Tp L\u00e0o Cai",
+        "area": "1"
+    },
+    "016": {
+        "name": "THPT s\u1ed1 4 Tp L\u00e0o Cai",
+        "area": "1"
+    },
+    "017": {
+        "name": "THPT DTNT t\u1ec9nh",
+        "area": "1"
+    },
+    "018": {
+        "name": "THPT Chuy\u00ean t\u1ec9nh L\u00e0o Cai",
+        "area": "1"
+    },
+    "037": {
+        "name": "TT DN&GDTX TP L\u00e0o Cai",
+        "area": "1"
+    },
+    "038": {
+        "name": "TT KTTH-HNDN&GDTX t\u1ec9nh",
+        "area": "1"
+    },
+    "047": {
+        "name": "TT GDTX s\u1ed1 1 TP L\u00e0o Cai",
+        "area": "1"
+    },
+    "048": {
+        "name": "TT GDTX s\u1ed1 2 TP L\u00e0o Cai",
+        "area": "1"
+    },
+    "019": {
+        "name": "THPT s\u1ed1 1 huy\u1ec7n M\u01b0\u1eddng Kh\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "020": {
+        "name": "THPT s\u1ed1 2 huy\u1ec7n M\u01b0\u1eddng Kh\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "021": {
+        "name": "THPT s\u1ed1 3 huy\u1ec7n M\u01b0\u1eddng Kh\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "022": {
+        "name": "PTDTNT THCS&THPT huy\u1ec7n M\u01b0\u1eddng Kh\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "039": {
+        "name": "TT DN&GDTX huy\u1ec7n M\u01b0\u1eddng Kh\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "049": {
+        "name": "TT GDTX huy\u1ec7n M\u01b0\u1eddng Kh\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "023": {
+        "name": "THPT s\u1ed1 1 huy\u1ec7n Sa Pa",
+        "area": "1"
+    },
+    "024": {
+        "name": "THPT s\u1ed1 2 huy\u1ec7n Sa Pa",
+        "area": "1"
+    },
+    "025": {
+        "name": "PTDTNT THCS&THPT huy\u1ec7n Sa Pa",
+        "area": "1"
+    },
+    "040": {
+        "name": "TT DN&GDTX huy\u1ec7n Sa Pa",
+        "area": "1"
+    },
+    "050": {
+        "name": "TT GDTX huy\u1ec7n Sa Pa",
+        "area": "1"
+    },
+    "026": {
+        "name": "THPT s\u1ed1 1 huy\u1ec7n Si Ma Cai",
+        "area": "1"
+    },
+    "027": {
+        "name": "THPT s\u1ed1 2 huy\u1ec7n Si ma cai",
+        "area": "1"
+    },
+    "028": {
+        "name": "PTDTNT THCS&THPT huy\u1ec7n Si Ma Cai",
+        "area": "1"
+    },
+    "041": {
+        "name": "TT DN&GDTX huy\u1ec7n Si Ma Cai",
+        "area": "1"
+    },
+    "051": {
+        "name": "TT GDTX huy\u1ec7n Si Ma Cai",
+        "area": "1"
+    },
+    "029": {
+        "name": "THPT s\u1ed1 1 huy\u1ec7n V\u0103n B\u00e0n",
+        "area": "1"
+    },
+    "030": {
+        "name": "THPT s\u1ed1 2 huy\u1ec7n V\u0103n B\u00e0n",
+        "area": "1"
+    },
+    "031": {
+        "name": "THPT s\u1ed1 3 huy\u1ec7n V\u0103n B\u00e0n",
+        "area": "1"
+    },
+    "032": {
+        "name": "THPT s\u1ed1 4 huy\u1ec7n V\u0103n B\u00e0n",
+        "area": "1"
+    },
+    "042": {
+        "name": "TT DN&GDTX huy\u1ec7n V\u0103n B\u00e0n",
+        "area": "1"
+    },
+    "052": {
+        "name": "TT GDTX huy\u1ec7n V\u0103n B\u00e0n",
+        "area": "1"
+    },
+    "058": {
+        "name": "PTDTNT THCS&THPT huy\u1ec7n V\u0103n B\u00e0n",
+        "area": "1"
+    }
 }

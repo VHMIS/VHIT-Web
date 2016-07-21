@@ -1,40 +1,154 @@
 {
-    "000": "Sở GD&ĐT Lạng Sơn",
-    "001": "THPT Việt Bắc",
-    "002": "THPT Chuyên Chu Văn An",
-    "003": "THPT DT Nội trú tỉnh",
-    "004": "Cao đẳng nghề Lạng Sơn",
-    "005": "TT GDTX 1 tỉnh",
-    "006": "THPT Ngô Thì Sỹ",
-    "007": "THPT Tràng Định",
-    "008": "TT GDTX Tràng Định",
-    "009": "THPT Bình Độ",
-    "010": "THPT Bình Gia",
-    "011": "TT GDTX Bình Gia",
-    "012": "THPT Pác Khuông",
-    "013": "THPT Văn Lãng",
-    "014": "TT GDTX Văn Lãng",
-    "015": "THPT Bắc Sơn",
-    "016": "THPT Vũ Lễ",
-    "017": "TTGDTX Bắc Sơn",
-    "018": "THPT Lương Văn Tri",
-    "019": "THPT Văn Quan",
-    "020": "TT GDTX Văn Quan",
-    "021": "THPT Đồng Đăng",
-    "022": "THPT Cao Lộc",
-    "023": "TT GDTX Cao Lộc",
-    "024": "THPT Lộc Bình",
-    "025": "THPT Na Dương",
-    "026": "TT GDTX Lộc Bình",
-    "027": "THPT Chi Lăng",
-    "028": "THPT Hòa Bình",
-    "029": "TT GDTX Chi Lăng",
-    "030": "THPT Đình Lập",
-    "031": "TT GDTX Đình Lập",
-    "032": "THPT Hữu Lũng",
-    "033": "THPT Vân Nham",
-    "034": "TT GDTX 2 tỉnh",
-    "035": "THPT Tú Đoạn",
-    "036": "THPT Đồng Bành",
-    "037": "CĐ Nghề và Công nghệ Nông Lâm Đông Bắc"
+    "001": {
+        "name": "THPT Vi\u1ec7t B\u1eafc",
+        "area": "1"
+    },
+    "002": {
+        "name": "THPT Chuy\u00ean Chu V\u0103n An",
+        "area": "1"
+    },
+    "003": {
+        "name": "THPT DT N\u1ed9i tr\u00fa t\u1ec9nh",
+        "area": "1"
+    },
+    "004": {
+        "name": "Cao \u0111\u1eb3ng ngh\u1ec1 L\u1ea1ng S\u01a1n",
+        "area": "1"
+    },
+    "005": {
+        "name": "TT GDTX 1 t\u1ec9nh",
+        "area": "1"
+    },
+    "006": {
+        "name": "THPT Ng\u00f4 Th\u00ec S\u1ef9",
+        "area": "1"
+    },
+    "007": {
+        "name": "THPT Tr\u00e0ng \u0110\u1ecbnh",
+        "area": "1"
+    },
+    "008": {
+        "name": "TT GDTX Tr\u00e0ng \u0110\u1ecbnh",
+        "area": "1"
+    },
+    "009": {
+        "name": "THPT B\u00ecnh \u0110\u1ed9",
+        "area": "1"
+    },
+    "010": {
+        "name": "THPT B\u00ecnh Gia",
+        "area": "1"
+    },
+    "011": {
+        "name": "TT GDTX B\u00ecnh Gia",
+        "area": "1"
+    },
+    "012": {
+        "name": "THPT P\u00e1c Khu\u00f4ng",
+        "area": "1"
+    },
+    "013": {
+        "name": "THPT V\u0103n L\u00e3ng",
+        "area": "1"
+    },
+    "014": {
+        "name": "TT GDTX V\u0103n L\u00e3ng",
+        "area": "1"
+    },
+    "015": {
+        "name": "THPT B\u1eafc S\u01a1n",
+        "area": "1"
+    },
+    "016": {
+        "name": "THPT V\u0169 L\u1ec5",
+        "area": "1"
+    },
+    "017": {
+        "name": "TTGDTX B\u1eafc S\u01a1n",
+        "area": "1"
+    },
+    "018": {
+        "name": "THPT L\u01b0\u01a1ng V\u0103n Tri",
+        "area": "1"
+    },
+    "019": {
+        "name": "THPT V\u0103n Quan",
+        "area": "1"
+    },
+    "020": {
+        "name": "TT GDTX V\u0103n Quan",
+        "area": "1"
+    },
+    "021": {
+        "name": "THPT \u0110\u1ed3ng \u0110\u0103ng",
+        "area": "1"
+    },
+    "022": {
+        "name": "THPT Cao L\u1ed9c",
+        "area": "1"
+    },
+    "023": {
+        "name": "TT GDTX Cao L\u1ed9c",
+        "area": "1"
+    },
+    "024": {
+        "name": "THPT L\u1ed9c B\u00ecnh",
+        "area": "1"
+    },
+    "025": {
+        "name": "THPT Na D\u01b0\u01a1ng",
+        "area": "1"
+    },
+    "026": {
+        "name": "TT GDTX L\u1ed9c B\u00ecnh",
+        "area": "1"
+    },
+    "035": {
+        "name": "THPT T\u00fa \u0110o\u1ea1n",
+        "area": "1"
+    },
+    "027": {
+        "name": "THPT Chi L\u0103ng",
+        "area": "1"
+    },
+    "028": {
+        "name": "THPT H\u00f2a B\u00ecnh",
+        "area": "1"
+    },
+    "029": {
+        "name": "TT GDTX Chi L\u0103ng",
+        "area": "1"
+    },
+    "036": {
+        "name": "THPT \u0110\u1ed3ng B\u00e0nh",
+        "area": "1"
+    },
+    "030": {
+        "name": "THPT \u0110\u00ecnh L\u1eadp",
+        "area": "1"
+    },
+    "031": {
+        "name": "TT GDTX \u0110\u00ecnh L\u1eadp",
+        "area": "1"
+    },
+    "032": {
+        "name": "THPT H\u1eefu L\u0169ng",
+        "area": "1"
+    },
+    "033": {
+        "name": "THPT V\u00e2n Nham",
+        "area": "1"
+    },
+    "034": {
+        "name": "TT GDTX 2 t\u1ec9nh",
+        "area": "1"
+    },
+    "037": {
+        "name": "C\u0110 Ngh\u1ec1 C\u00f4ng ngh\u1ec7 v\u00e0 N\u00f4ng L\u00e2m \u0110\u00f4ng B\u1eafc",
+        "area": "1"
+    },
+    "038": {
+        "name": "THPT T\u00e2n Th\u00e0nh",
+        "area": "1"
+    }
 }

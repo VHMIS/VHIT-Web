@@ -1,57 +1,190 @@
 {
-    "001": "CĐ nghề Nha Trang",
-    "002": "TC Kinh tế Khánh Hòa",
-    "007": "TTGDTX  Khánh Sơn",
-    "009": "THPT Huỳnh Thúc Kháng",
-    "010": "THPT Tô Văn  Ơn",
-    "011": "THPT Nguyễn Thị Minh Khai",
-    "012": "THPT Nguyễn Trãi",
-    "013": "THPT Trần Quý Cáp",
-    "014": "THPT Trần Cao Vân",
-    "015": "THPT Lý Tự Trọng",
-    "016": "THPT Nguyễn Văn Trỗi",
-    "017": "THPT chuyên Lê Quý Đôn",
-    "018": "THPT Hà Huy Tập",
-    "019": "THPT Hoàng Văn Thụ",
-    "020": "THPT BC Nguyễn Trường Tộ",
-    "021": "THCS&THPT iSchool Nha Trang",
-    "022": "THPT DL Nguyễn Thiện Thuật",
-    "023": "THPT DL Lê Thánh Tôn",
-    "024": "THPT Hoàng Hoa Thám",
-    "025": "THPT  BC Lê Lợi",
-    "026": "THPT  BC Nguyễn Bỉnh Khiêm",
-    "027": "THPT Nguyễn Huệ",
-    "028": "THPT Trần Hưng Đạo",
-    "029": "THPT Trần Bình Trọng",
-    "030": "THPT Phan Bội Châu",
-    "031": "THPT Hermann Gmeiner",
-    "032": "BTTH Nha Trang 2",
-    "033": "TT GDTX Ninh Hoà",
-    "034": "TT GDTX Nha Trang",
-    "035": "TT GDTX Diên Khánh",
-    "036": "TT GDTX Cam Ranh",
-    "037": "TT GDTX Vạn Ninh",
-    "038": "THPT Nguyễn Chí Thanh",
-    "039": "PT Dân tộc Nội trú tỉnh KH",
-    "040": "THPT Lạc Long Quân",
-    "041": "THPT Ngô Gia Tự",
-    "042": "Cấp2,3 Khánh Sơn",
-    "043": "THPT Nguyễn Thái Học",
-    "044": "TT GDTX Khánh Vĩnh",
-    "045": "THPT Tôn Đức Thắng",
-    "046": "TT GDTX  Cam Lâm",
-    "047": "Hệ GDTX tại THPT Ngô Gia Tự",
-    "048": "THPT Lê Hồng Phong",
-    "049": "THPT Đoàn Thị Điểm",
-    "050": "CĐ nghề Quốc tế Nam Việt",
-    "051": "TC nghề Ninh Hòa",
-    "052": "TC nghề Cam Ranh",
-    "053": "TC nghề Nha Trang",
-    "054": "Trường APC Nha Trang",
-    "055": "Trường Quốc Tế Hoàn Cầu Nha Trang",
-    "056": "Trường TC Nghề Vạn Ninh",
-    "057": "Trường THPT Đại Việt",
-    "058": "Trường TC KTKT Trần Đại Nghĩa",
-    "059": "Trường dự bị ĐH Dân tộc TW Nha Trang",
-    "060": "THPT Thăng Long"
+    "015": {
+        "name": "THPT L\u00fd T\u1ef1 Tr\u1ecdng",
+        "area": "2"
+    },
+    "016": {
+        "name": "THPT Nguy\u1ec5n V\u0103n Tr\u1ed7i",
+        "area": "2"
+    },
+    "017": {
+        "name": "THPT chuy\u00ean L\u00ea Qu\u00fd \u0110\u00f4n",
+        "area": "2"
+    },
+    "018": {
+        "name": "THPT H\u00e0 Huy T\u1eadp",
+        "area": "2"
+    },
+    "019": {
+        "name": "THPT Ho\u00e0ng V\u0103n Th\u1ee5",
+        "area": "2"
+    },
+    "020": {
+        "name": "THPT BC Nguy\u1ec5n Tr\u01b0\u1eddng T\u1ed9",
+        "area": "2"
+    },
+    "021": {
+        "name": "THCS&THPT iSchool Nha Trang",
+        "area": "2"
+    },
+    "022": {
+        "name": "THPT Nguy\u1ec5n Thi\u1ec7n Thu\u1eadt",
+        "area": "2"
+    },
+    "023": {
+        "name": "THPT L\u00ea Th\u00e1nh T\u00f4n",
+        "area": "1"
+    },
+    "031": {
+        "name": "THPT Hermann Gmeiner",
+        "area": "2"
+    },
+    "032": {
+        "name": "KTTH-HN t\u1ec9nh Kh\u00e1nh H\u00f2a",
+        "area": "2"
+    },
+    "034": {
+        "name": "GDTX&HN Nha Trang",
+        "area": "2"
+    },
+    "039": {
+        "name": "Ph\u1ed5 th\u00f4ng D\u00e2n t\u1ed9c N\u1ed9i tr\u00fa t\u1ec9nh Kh\u00e1nh H\u00f2a",
+        "area": "2"
+    },
+    "057": {
+        "name": "THPT \u0110\u1ea1i Vi\u1ec7t",
+        "area": "2"
+    },
+    "058": {
+        "name": "Trung c\u1ea5p KTKT Tr\u1ea7n \u0110\u1ea1i Ngh\u0129a",
+        "area": "2"
+    },
+    "059": {
+        "name": "Tr\u01b0\u1eddng d\u1ef1 b\u1ecb \u0110H D\u00e2n t\u1ed9c TW Nha Trang",
+        "area": "2"
+    },
+    "061": {
+        "name": "THPT H\u00e0 Huy T\u1eadp (H\u1ec7 GDTX)",
+        "area": "2"
+    },
+    "009": {
+        "name": "THPT Hu\u1ef3nh Th\u00fac Kh\u00e1ng",
+        "area": "2NT"
+    },
+    "010": {
+        "name": "THPT T\u00f4 V\u0103n  \u01a0n",
+        "area": "1"
+    },
+    "011": {
+        "name": "THPT Nguy\u1ec5n Th\u1ecb Minh Khai",
+        "area": "2NT"
+    },
+    "037": {
+        "name": "GDTX&HN V\u1ea1n Ninh",
+        "area": "2NT"
+    },
+    "048": {
+        "name": "THPT L\u00ea H\u1ed3ng Phong",
+        "area": "2NT"
+    },
+    "012": {
+        "name": "THPT Nguy\u1ec5n Tr\u00e3i",
+        "area": "2"
+    },
+    "013": {
+        "name": "THPT Tr\u1ea7n Qu\u00fd C\u00e1p",
+        "area": "2"
+    },
+    "014": {
+        "name": "THPT Tr\u1ea7n Cao V\u00e2n",
+        "area": "2"
+    },
+    "033": {
+        "name": "GDTX&HN Ninh Ho\u00e0",
+        "area": "2"
+    },
+    "038": {
+        "name": "THPT Nguy\u1ec5n Ch\u00ed Thanh",
+        "area": "2"
+    },
+    "045": {
+        "name": "THPT T\u00f4n \u0110\u1ee9c Th\u1eafng",
+        "area": "2"
+    },
+    "024": {
+        "name": "THPT Ho\u00e0ng Hoa Th\u00e1m",
+        "area": "2NT"
+    },
+    "025": {
+        "name": "THPT L\u00ea L\u1ee3i",
+        "area": "2NT"
+    },
+    "026": {
+        "name": "THPT Nguy\u1ec5n B\u1ec9nh Khi\u00eam",
+        "area": "2NT"
+    },
+    "035": {
+        "name": "GDTX&HN Di\u00ean Kh\u00e1nh",
+        "area": "2NT"
+    },
+    "043": {
+        "name": "THPT Nguy\u1ec5n Th\u00e1i H\u1ecdc",
+        "area": "2NT"
+    },
+    "040": {
+        "name": "THPT L\u1ea1c Long Qu\u00e2n",
+        "area": "1"
+    },
+    "044": {
+        "name": "GDTX&HN Kh\u00e1nh V\u0129nh",
+        "area": "1"
+    },
+    "028": {
+        "name": "THPT Tr\u1ea7n H\u01b0ng \u0110\u1ea1o",
+        "area": "2"
+    },
+    "030": {
+        "name": "THPT Phan B\u1ed9i Ch\u00e2u",
+        "area": "2"
+    },
+    "036": {
+        "name": "GDTX&HN Cam Ranh",
+        "area": "2"
+    },
+    "041": {
+        "name": "THPT Ng\u00f4 Gia T\u1ef1",
+        "area": "2"
+    },
+    "047": {
+        "name": "THPT Ng\u00f4 Gia T\u1ef1 (H\u1ec7 GDTX)",
+        "area": "2"
+    },
+    "060": {
+        "name": "THPT Th\u0103ng Long",
+        "area": "2"
+    },
+    "007": {
+        "name": "GDTX&HN Kh\u00e1nh S\u01a1n",
+        "area": "1"
+    },
+    "042": {
+        "name": "THPT Kh\u00e1nh S\u01a1n",
+        "area": "1"
+    },
+    "027": {
+        "name": "THPT Nguy\u1ec5n Hu\u1ec7",
+        "area": "2NT"
+    },
+    "029": {
+        "name": "THPT Tr\u1ea7n B\u00ecnh Tr\u1ecdng",
+        "area": "2NT"
+    },
+    "046": {
+        "name": "GDTX&HN Cam L\u00e2m",
+        "area": "2NT"
+    },
+    "049": {
+        "name": "THPT \u0110o\u00e0n Th\u1ecb \u0110i\u1ec3m",
+        "area": "1"
+    }
 }

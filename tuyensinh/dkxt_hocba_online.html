@@ -181,7 +181,7 @@ header_css: no-banner
                     <div class="form-group">
                         <label class="col-md-2 control-label">Trường</label>
 
-                        <div class="col-md-5">
+                        <div class="col-md-3">
                             <select name="province" class="form-control">
                                 <option value="">Chọn Tỉnh thành</option>
                                 <optgroup label="Miền trung - Tây nguyên">
@@ -269,9 +269,6 @@ header_css: no-banner
                                     <option value="62">Điện Biên</option>
                                     <option value="63">Đắk Nông</option>
                                     <option value="64">Hậu Giang</option>
-
-
-
                                 </optgroup>
                             </select>
                         </div>
@@ -280,19 +277,20 @@ header_css: no-banner
                                 <option>Chọn trường</option>
                             </select>
                         </div>
-
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-2 control-label">Khu vực / Đối tượng ưu tiên</label>
-
-                        <div class="col-md-5">
-                            <select name="priority_area" class="form-control">
+                        <div class="col-md-2">
+                            <input type="hidden" name="priority_area" value="">
+                            <input type="text" class="form-control" name="priority_area_text" value="Khu vực" readonly="">
+                            <!--<select name="priority_area" class="form-control" disabled="">
                                 <option value="1">Khu vực 1</option>
                                 <option value="2">Khu vực 2</option>
                                 <option value="2NT">Khu vực 2 - Nông thôn</option>
                                 <option value="3">Khu vực 3</option>
-                            </select>
+                            </select>-->
                         </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Đối tượng ưu tiên</label>
                         <div class="col-md-5">
                             <select name="priority_object" class="form-control">
                                 <option value="08">Chọn đối tượng ưu tiến nếu có</option>
@@ -305,36 +303,35 @@ header_css: no-banner
                                 <option value="07">07 - Lao động ưu tú, thợ giỏi</option>
                             </select>
                         </div>
-
                     </div>
                     <h3>Thông tin đăng ký</h3>
                     <div class="form-group">
                         <label class="col-md-2 control-label">Ngành học / Nhóm môn</label>
 
                         <div class="col-md-5">
-                            <select name="major" class="form-control">
+                            <select name="major" class="form-control chonnganh">
                                 <option value="">Chọn ngành xét tuyển</option>
-                                <option value="C510302">C510302 - Công nghệ kĩ thuật điện tử, truyền thông</option>
-                                <option value="C510101">C510101 - Công nghệ kĩ thuật kiến trúc</option>
-                                <option value="C210403">C210403 - Thiết kế đồ họa</option>
-                                <option value="C320104">C320104 - Truyền thông đa phương tiện</option>
-                                <option value="C480201">C480201 - Công nghệ thông tin</option>
-                                <option value="C480101">C480101 - Khoa học máy tính</option>
-                                <option value="C480102">C480102 - Truyền thông và mạng máy tính</option>
-                                <option value="C340101">C340101 - Quản trị kinh doanh</option>
-                                <option value="C340115">C340115 - Marketing</option>
+                                <option value="C510302" data-type="1">C510302 - Công nghệ kĩ thuật điện tử, truyền thông</option>
+                                <option value="C510101" data-type="2">C510101 - Công nghệ kĩ thuật kiến trúc</option>
+                                <option value="C210403" data-type="2">C210403 - Thiết kế đồ họa</option>
+                                <option value="C320104" data-type="2">C320104 - Truyền thông đa phương tiện</option>
+                                <option value="C480201" data-type="1">C480201 - Công nghệ thông tin</option>
+                                <option value="C480101" data-type="1">C480101 - Khoa học máy tính</option>
+                                <option value="C480102" data-type="1">C480102 - Truyền thông và mạng máy tính</option>
+                                <option value="C340101" data-type="2">C340101 - Quản trị kinh doanh</option>
+                                <option value="C340115" data-type="2">C340115 - Marketing</option>
                             </select>
                         </div>
                         <div class="col-md-5">
-                            <select name="subject_combination" class="form-control">
+                            <select name="subject_combination" class="form-control chontohop">
                                 <option value="">Chọn nhóm môn xét tuyển</option>
-                                <option value="C00">C00 Ngữ văn - Lịch sử - Địa lí</option>
-                                <option value="D01">D01 Ngữ văn - Toán - Tiếng Anh</option>
-                                <option value="D14">D14 Ngữ văn - Lịch sử - Tiếng Anh</option>
-                                <option value="D15">D15 Ngữ văn - Địa lí - Tiếng Anh</option>
-                                <option value="A01">A01 Toán - Vật lí - Tiếng Anh</option>
-                                <option value="C01">C01 Ngữ văn - Toán - Vật lí</option>
-                                <option value="C04">C04 Ngữ văn - Toán - Địa lí</option>
+                                <option value="A01" data-type="1">A01 Toán - Vật lí - Tiếng Anh</option>
+                                <option value="C00" data-type="2">C00 Ngữ văn - Lịch sử - Địa lí</option>
+                                <option value="C01" data-type="1">C01 Ngữ văn - Toán - Vật lí</option>
+                                <option value="C04" data-type="1">C04 Ngữ văn - Toán - Địa lí</option>
+                                <option value="D01" data-type="1,2">D01 Ngữ văn - Toán - Tiếng Anh</option>
+                                <option value="D14" data-type="2">D14 Ngữ văn - Lịch sử - Tiếng Anh</option>
+                                <option value="D15" data-type="2">D15 Ngữ văn - Địa lí - Tiếng Anh</option>
                             </select>
                         </div>
 
