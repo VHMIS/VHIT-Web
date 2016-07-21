@@ -46,7 +46,7 @@ header_css: no-banner
                     </div>
                     <div class="form-group">
                         <label class="col-md-3 control-label">SBD / CMND</label>
-                        <div class="col-md-9">
+                        <div class="col-md-6">
                             <input type="text" class="form-control" name="registation_code" placeholder="Số báo danh">
                         </div>
                         <div class="col-md-3">
@@ -57,15 +57,6 @@ header_css: no-banner
                         <label class="col-md-3 control-label">Mã đăng ký xét tuyển</label>
                         <div class="col-md-9">
                             <input type="text" class="form-control" name="barcode" placeholder="Mã đăng ký xét tuyển">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label">Thông tin hộ khẩu</label>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control" name="tel" placeholder="Số điện thoại">
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" class="form-control" name="email" placeholder="Email">
                         </div>
                     </div>
                     <div class="form-group">
@@ -224,6 +215,23 @@ header_css: no-banner
                             <input type="text" class="form-control nhapdiemform" name="sub_5" disabled>
                         </div>
                     </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-md-5">
+                            <div class="checkbox">
+                                <label>
+                                    <input name="other_register" type="checkbox"> Có đăng ký xét tuyển vào trường khác
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group other_register" style="display:none">
+                        <div class="col-md-offset-3 col-md-2">
+                            <input type="text" class="form-control" name="other_school" placeholder="Mã trường">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="other_school_name" placeholder="Tên trường" readonly>
+                        </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-3 col-md-9">

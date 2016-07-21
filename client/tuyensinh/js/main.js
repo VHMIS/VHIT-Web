@@ -522,12 +522,59 @@ $(document).ready(function () {
         })
     })
 
+    $('form#xettuyen_ne input[name=other_register]').on('change', function (e) {
+        var me = $(this)
+        if(me.prop('checked')) {
+            $('#xettuyen_ne .other_register').show()
+        } else {
+            $('#xettuyen_ne .other_register').hide()
+        }
+    })
+
+    var caodangdh = null
+    $('form#xettuyen_ne input[name=other_school]').on('change', function (e) {
+        var me = $(this)
+        var college = me.val();
+        if (college == "") {
+            $('form#xettuyen_ne input[name=other_school_name]').val("")
+        } else if (college == "CHV") {
+            alert('Không chọn lại mã CHV : Cao đẳng Việt Hàn')
+            $('form#xettuyen_ne input[name=other_school_name]').val('')
+            me.val('').get(0).focus();
+        } else {
+            if (caodangdh == null) {
+                $.getJSON('data/college.json', function (data) {
+                    caodangdh = data
+                    if (typeof caodangdh[college] == 'undefined') {
+                        alert('Mã trường không chính xác')
+                        $('form#xettuyen_ne input[name=other_school_name]').val('')
+                        me.val('').get(0).focus();
+                    } else {
+                        $('form#xettuyen_ne input[name=other_school_name]').val(caodangdh[college])
+                    }
+                });
+            } else {
+                if (typeof caodangdh[college] == 'undefined') {
+                    alert('Mã trường không chính xác')
+                    $('form#xettuyen_ne input[name=other_school_name]').val('')
+                    me.val('').get(0).focus();
+
+                } else {
+
+                    $('form#xettuyen_ne input[name=other_school_name]').val(caodangdh[college])
+                }
+            }
+
+        }
+    })
+
     $('form#xettuyen_ne').on('submit', function (e) {
         e.preventDefault()
         var me = $(this)
         var data = me.serialize();
         me.find('button').prop('disabled', true);
         $.post('https://vhmis.viethanit.edu.vn/education/public-api/admission/ne-result/add', data, function (data) {
+        //$.post('http://localhost/VHMIS_WWW/education/public-api/admission/ne-result/add', data, function (data) {
             if (data.error == '0') {
                 alert('Cảm ơn bạn đã đăng ký xét tuyển vào trường Việt Hàn, chúng tôi sẽ liên lạc và thông báo kết quả sớm với bạn.')
                 me[0].reset();
