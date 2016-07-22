@@ -2948,6 +2948,13 @@ body.splash .slider .slides {
     margin-bottom: 25px;
   }
 }
+.scv-diplomas {
+  padding-left: 165px;
+}
+.scv-diplomas ul li {
+  margin-bottom: 5px;
+}
+
 .sc-search .search {
   padding: 15px;
 }
