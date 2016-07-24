@@ -2355,6 +2355,9 @@ body.splash .slider .slides {
   margin-bottom: 15px;
   font-weight: 700;
 }
+.sc-admission .card .sub.highlight {
+  color: #000;
+}
 .sc-admission .card .sub::after {
   display: block;
   content: ' ';
@@ -2396,6 +2399,9 @@ body.splash .slider .slides {
   color: #d9534f;
   font-size: 16px;
 }
+.sc-admission .card.info ul {
+  margin-bottom: 10px;
+}
 .sc-admission .card.info li {
   display: block;
   margin-bottom: 6px;
@@ -2427,7 +2433,7 @@ body.splash .slider .slides {
   margin-bottom: 20px;
 }
 .sc-admission .card.links .infolink {
-  padding: 20px 0 22px;
+  padding: 40px 0 42px;
   text-align: center;
 }
 .sc-admission .card.links ul.register_button {
