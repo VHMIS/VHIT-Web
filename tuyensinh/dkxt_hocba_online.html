@@ -494,7 +494,7 @@ header_css: no-banner
                     <div class="form-group">
                         <label class="col-md-2 control-label">Hạnh kiểm</label>
 
-                        <div class="col-md-3 border-right">
+                        <div class="col-md-2 border-right">
                             <select name="conduct_k10" class="form-control">
                                 <option value="1">Tốt</option>
                                 <option value="2">Khá</option>
@@ -502,7 +502,7 @@ header_css: no-banner
                                 <option value="4">Yếu</option>
                             </select>
                         </div>
-                        <div class="col-md-3 border-right">
+                        <div class="col-md-2 border-right">
                             <select name="conduct_k11" class="form-control">
                                 <option value="1">Tốt</option>
                                 <option value="2">Khá</option>
@@ -510,7 +510,7 @@ header_css: no-banner
                                 <option value="4">Yếu</option>
                             </select>
                         </div>
-                        <div class="col-md-3 border-right">
+                        <div class="col-md-2 border-right">
                             <select name="conduct_k12" class="form-control">
                                 <option value="1">Tốt</option>
                                 <option value="2">Khá</option>
@@ -518,20 +518,24 @@ header_css: no-banner
                                 <option value="4">Yếu</option>
                             </select>
                         </div>
-
                     </div>
                     <div class="form-group">
-                        <div class="col-md-offset-2 col-md-5">
-                            <div class="checkbox">
-                                <label>
-                                    <input name="gradute" type="checkbox"> Đã tốt nghiệp trung học phổ thông.
-                                </label>
-                            </div>
+                        <label class="col-md-2 control-label">Năm tốt nghiệp</label>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" name="gradute_year">
                         </div>
                     </div>
-                    <div class="form-group gradute_year" style="display:none">
-                        <div class="col-md-offset-2 col-md-5">
-                            <input type="text" class="form-control" name="gradute_year" placeholder="Năm tốt nghiệp">
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Bạn biết về trường thông qua</label>
+                        <div class="col-md-5">
+                            <select name="known_source" class="form-control">
+                                <option value="1">Facebook</option>
+                                <option value="2">Internet (ngoài Facebook)</option>
+                                <option value="3">Người thân</option>
+                                <option value="4">Tờ rơi tuyển sinh</option>
+                                <option value="5">Cẩm nang tuyển sinh</option>
+                                <option value="0">Khác</option>
+                            </select>
                         </div>
                     </div>
                     <div class="form-group">
