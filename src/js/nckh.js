@@ -136,3 +136,15 @@ $(document).ready(function () {
         $this.addClass('active')
     })
 })
+
+$(document).ready(function () {
+    var pub = true;
+    var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
+
+    // Lấy danh sách & chi tiết lý lịch
+    $('div#job_list').each(function() {
+        $.get(domain + 'enterprise/public-api/job/list', function (data) {
+            $('div#job_list').html(data)
+        })
+    })
+})
