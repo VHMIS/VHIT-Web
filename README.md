@@ -23,7 +23,20 @@ Trang thư viện là trang con thuộc website mới, trang này sẽ thay th�
 - [ ] Tìm kiếm
 - [ ] Duyệt toàn bộ sách
 
-#### Trang cựu sinh viên và doanh nghiệp
+#### Quan hệ doanh nghiệp và hỗ trợ việc làm
+
+Website của trung tâm Quan hệ doanh nghiệp và hỗ trợ việc làm, gồm 2 trang chính:
+
+Cựu sinh viên
+
+- [ ] Form khảo sát dành cho cựu sinh viên
+- [ ] Thông tin cựu sinh viên
+- [ ] Trang việc làm dành cho sinh viên và cựu sinh viên
+
+Doanh nghiệp
+
+- [ ] Giới thiệu
+- [ ] Form dành cho doanh nghiệp gửi tin tuyển dụng
 
 ## Kế hoạch
 
@@ -33,7 +46,7 @@ Trang thư viện là trang con thuộc website mới, trang này sẽ thay th�
 - [x] 03.07 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
 - [x] 03.15 : Hoàn thành chạy thử nghiệm (v.1.0.0)
 - [ ] 04.__ : Xây dựng hoàn chỉnh, có phương án xây dựng trang tiếng Anh, tiếng Hàn dựa theo trang tiếng Việt. (v1.x.0)
-- [ ] 07.15 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
+- [ ] 08.15 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
 - [ ] 09.01 : Hoàn thiện trang thư viện
 
 ## Build website
