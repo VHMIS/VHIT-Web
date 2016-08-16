@@ -934,4 +934,19 @@ $(document).ready(function () {
             $('div#admission-list').html(data)
         })
     }
+
+    $('form#tracuu_trungtuyen').on('submit', function (e) {
+        e.preventDefault()
+
+        var me = $(this)
+
+        var data = me.serialize();
+
+        me.find('button').prop('disabled', true);
+        $.get('https://vhmis.viethanit.edu.vn/education/public-api/admission/search-result', data, function (data) {
+        //$.get('http://localhost/VHMIS_WWW/education/public-api/admission/search-result', data, function (data) {
+            $('#ketqua_trungtuyen').html(data).show()
+            me.find('button').prop('disabled', false);
+        })
+    })
 })
