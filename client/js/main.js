@@ -17630,7 +17630,7 @@ $(document).ready(function () {
 })
 
 $(document).ready(function () {
-    var pub = true;
+    var pub = false;
     var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
 
     // Lấy danh sách & chi tiết lý lịch
