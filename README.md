@@ -11,8 +11,11 @@ Dự án sẽ kế thừa từ trang tuyển sinh 2015.
 ### Các mục và trang con
 - [ ] Tuyển sinh http://viethanit.edu.vn/tuyensinh
 - [x] ACIIDS 2016 http://viethanit.edu.vn/aciids-2016
+- [ ] CEST 2017 http://viethanit.edu.vn/cest-2017
+- [ ] ICIST 2017 http://viethanit.edu.vn/icist-2017
 - [ ] Quan hệ doanh nghiệp và hỗ trợ việc làm
 - [ ] Trang thư viện
+- [ ] Trang tài liệu ISO
 
 #### Trang thư viện
 
