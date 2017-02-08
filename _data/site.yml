@@ -32,6 +32,13 @@ aciids_en:
     css:
         - aciids
 
+cest:
+    title: <span>Hội thảo Khoa học giáo dục và Công nghệ </span>CEST 2017
+    sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
+    locale: vi-VN
+    css:
+        - aciids
+
 doanhnghiep:
     title: Doanh nghiệp
     sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
