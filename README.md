@@ -52,6 +52,32 @@ Doanh nghiệp
 - [ ] 08.15 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
 - [ ] 09.01 : Hoàn thiện trang thư viện
 
+## Phát triển
+
+### Commit tag
+
+Do có nhiều trang con cùng phát triển, nên việc sử dụng tag khi commit là bắt buộc.
+Quy tắt "[TAG] Nội dung commit"
+
+Không cần tag:
+
+- Những nội dung chung
+
+2016:
+
+- TS: Trang tuyển sinh
+
+2017:
+
+- CEST: Trang hội thảo khoa học 3 trường 2017
+- ICIST: Trang hội thảo ICIST 2017 tại Đà Nẵng
+- TS: Trang tuyển sinh
+- TV: Trang thư viện + trung tâm tư liệu
+- DN: Trang doanh nghiệp + trung tâm quan hệ doanh nghiệp
+- CSV: Trang cựu sinh viên + trung tâm quan hệ doanh nghiệp
+- NCKH: Trang thông tin NCKH + phòng HTQT NCKH
+- HTQT: Trang thông tin HTQT + phòng HTQT NCKH
+
 ## Build website
 
 VHIT-Web sử dụng Grunt để build các file CSS và JS, và Jekyll để xây dựng website. CSS được viết dưới ngôn ngữ SASS.
