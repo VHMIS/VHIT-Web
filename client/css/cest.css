@@ -30,7 +30,7 @@
 }
 .sc-important-dates .dates li .date {
   background: #ccc;
-  padding: 8px;
+  padding: 8px 8px 6px 8px;
   width: 110px;
   margin-right: 8px;
   display: inline-block;
