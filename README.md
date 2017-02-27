@@ -41,16 +41,39 @@ Doanh nghiệp
 - [ ] Giới thiệu
 - [ ] Form dành cho doanh nghiệp gửi tin tuyển dụng
 
-## Kế hoạch
+## Kế hoạch 2017
 
-- [x] 02.20 : Xong phát thảo (v0.0.1)
-- [x] 02.24 : Hoàn thiện cấu trúc, các nội dung chính, thống nhất phương án thiết kế cuối cùng. (v0.1.0)
-- [x] 03.02 : Thử nghiệm trang con ACIIDS (http://viethanit.edu.vn/aciids-2016/)
-- [x] 03.07 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
-- [x] 03.15 : Hoàn thành chạy thử nghiệm (v.1.0.0)
-- [ ] 04.__ : Xây dựng hoàn chỉnh, có phương án xây dựng trang tiếng Anh, tiếng Hàn dựa theo trang tiếng Việt. (v1.x.0)
-- [ ] 08.15 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
-- [ ] 09.01 : Hoàn thiện trang thư viện
+- [ ] 15.02 : Thử nghiệm trang con CEST 2017 (http://viethanit.edu.vn/cest-2017/)
+- [ ] 28.02 : Thử nghiệm trang con ICIST
+- [ ] 15.05 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
+- [ ] 30.03 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
+- [ ] 30.04 : Thử nghiệm trang NKCH
+
+## Phát triển
+
+### Commit tag
+
+Do có nhiều trang con cùng phát triển, nên việc sử dụng tag khi commit là bắt buộc.
+Quy tắt "[TAG] Nội dung commit"
+
+Không cần tag:
+
+- Những nội dung chung
+
+2016:
+
+- TS: Trang tuyển sinh
+
+2017:
+
+- CEST: Trang hội thảo khoa học 3 trường 2017
+- ICIST: Trang hội thảo ICIST 2017 tại Đà Nẵng
+- TS: Trang tuyển sinh
+- TV: Trang thư viện + trung tâm tư liệu
+- DN: Trang doanh nghiệp + trung tâm quan hệ doanh nghiệp
+- CSV: Trang cựu sinh viên + trung tâm quan hệ doanh nghiệp
+- NCKH: Trang thông tin NCKH + phòng HTQT NCKH
+- HTQT: Trang thông tin HTQT + phòng HTQT NCKH
 
 ## Build website
 
