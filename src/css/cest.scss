@@ -20,6 +20,29 @@
     }
 }
 
+.sc-important-dates {
+    margin-bottom: 2rem;
+
+    .dates {
+        padding: 1rem;
+
+        li {
+            .date {
+                background: #ccc;
+                padding: 8px;
+                width: 110px;
+                margin-right: 8px;
+                display: inline-block;
+                font-weight: 700;
+            }
+
+            + li {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
 .sc-programme-cc {
     margin-bottom: 2rem;
 }
