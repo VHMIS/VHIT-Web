@@ -37,7 +37,7 @@ cest:
     sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     locale: vi-VN
     css:
-        - aciids
+        - cest
 
 doanhnghiep:
     title: Doanh nghiệp

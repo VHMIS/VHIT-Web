@@ -36,7 +36,8 @@ var
             files: {
                 'client/css/font_icon.css': 'src/css/font_icon.scss',
                 'client/css/main.css': 'src/css/main.scss',
-                'client/css/aciids.css': 'src/css/aciids.scss'
+                'client/css/aciids.css': 'src/css/aciids.scss',
+                'client/css/cest.css': 'src/css/cest.scss'
             }
         }
 
@@ -103,7 +104,8 @@ var
             files: {
                 'client/css/font_icon.css': 'client/css/font_icon.css',
                 'client/css/main.css' : 'client/css/main.css',
-                'client/css/aciids.css' : 'client/css/aciids.css'
+                'client/css/aciids.css' : 'client/css/aciids.css',
+                'client/css/cest.css' : 'client/css/cest.css'
             }
         }
     };
