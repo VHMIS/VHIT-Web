@@ -72,6 +72,44 @@
   padding-top: 8px;
 }
 
+.sc-article-rule .rule-info {
+  float: left;
+  width: 70%;
+}
+.sc-article-rule .rule-info p {
+  padding: 2rem;
+}
+.sc-article-rule .template-download {
+  padding: 3rem 2rem;
+  background: #efe;
+  float: left;
+  width: 30%;
+}
+.sc-article-rule .template-download ul li {
+  font-weight: 700;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.sc-article-submit {
+  margin-bottom: 2rem;
+}
+.sc-article-submit .online {
+  padding: 2rem;
+  float: left;
+  width: 70%;
+}
+.sc-article-submit .offline {
+  background: #efe;
+  width: 30%;
+  float: left;
+  padding: 2rem;
+}
+.sc-article-submit h2 {
+  margin-bottom: 1rem;
+}
+
 .pg-aciids .slider .container {
   height: auto;
 }

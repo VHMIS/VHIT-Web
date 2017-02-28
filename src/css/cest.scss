@@ -78,6 +78,54 @@
     }
 }
 
+.sc-article-rule {
+    .rule-info {
+        float: left;
+        width: 70%;
+
+        p {
+            padding: 2rem;
+        }
+    }
+
+    .template-download {
+        padding: 3rem 2rem;
+        background: #efe;
+        float: left;
+        width: 30%;
+
+        ul {
+            li {
+                font-weight: 700;
+                float: left;
+                width: 50%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.sc-article-submit {
+    margin-bottom: 2rem;
+
+    .online {
+        padding: 2rem;
+        float: left;
+        width: 70%;
+    }
+
+    .offline {
+        background: #efe;
+        width: 30%;
+        float: left;
+        padding: 2rem;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+
 .pg-aciids {
     .slider .container {
         height: auto;
