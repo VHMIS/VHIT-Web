@@ -47,6 +47,37 @@
     margin-bottom: 2rem;
 }
 
+.sc-subject {
+    margin-bottom: 2rem;
+
+    .note {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .subjects {
+        @include clearfix;
+
+        .subject-container {
+            float: left;
+            width: 50%;
+            padding: 15px 30px;
+
+            ul {
+                margin-top: 1rem;
+
+                li {
+                    + li {
+                        margin-top: 8px;
+                        border-top: 1px solid #ccc;
+                        padding-top: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .pg-aciids {
     .slider .container {
         height: auto;

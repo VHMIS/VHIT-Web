@@ -44,6 +44,34 @@
   margin-bottom: 2rem;
 }
 
+.sc-subject {
+  margin-bottom: 2rem;
+}
+.sc-subject .note {
+  text-align: center;
+  padding: 15px;
+}
+.sc-subject .subjects:after, .sc-subject .subjects:before {
+  content: " ";
+  display: table;
+}
+.sc-subject .subjects:after {
+  clear: both;
+}
+.sc-subject .subjects .subject-container {
+  float: left;
+  width: 50%;
+  padding: 15px 30px;
+}
+.sc-subject .subjects .subject-container ul {
+  margin-top: 1rem;
+}
+.sc-subject .subjects .subject-container ul li + li {
+  margin-top: 8px;
+  border-top: 1px solid #ccc;
+  padding-top: 8px;
+}
+
 .pg-aciids .slider .container {
   height: auto;
 }
