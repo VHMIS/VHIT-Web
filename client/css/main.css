@@ -2718,6 +2718,14 @@ body.splash .slider .slides {
   overflow-y: hidden !important;
 }
 
+.clearfix:after, .clearfix:before {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
 .btn {
   display: inline-block;
   padding: 8px 15px 6px 15px;

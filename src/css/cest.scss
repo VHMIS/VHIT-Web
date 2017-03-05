@@ -126,18 +126,7 @@
     }
 }
 
-.pg-aciids {
-    .slider .container {
-        height: auto;
-    }
-    .slide {
-        img {
-            width: 100%;
-        }
-    }
-}
-
-.sc-aciids {
+.sc-cest {
     .section-container {
         .card_info {
             .card {
@@ -170,9 +159,33 @@
             }
         }
 
-        &.intro {
+        &.intro, &.logos {
             p, ul {
                 margin-bottom: 10px;
+            }
+        }
+
+        &.logos {
+            li {
+                float: left;
+                width: 33.33333%;
+                text-align: center;
+                padding: 0 15px;
+
+                span.logo {
+                    height: 130px;
+                    display: block;
+                    line-height: 130px;
+                    overflow: hidden;
+
+                    img {
+                        width: 50%;
+                    }
+                }
+
+                span.title {
+                    font-weight: 700;
+                }
             }
         }
 

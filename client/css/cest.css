@@ -110,22 +110,15 @@
   margin-bottom: 1rem;
 }
 
-.pg-aciids .slider .container {
-  height: auto;
-}
-.pg-aciids .slide img {
-  width: 100%;
-}
-
-.sc-aciids .section-container .card_info .card {
+.sc-cest .section-container .card_info .card {
   width: 50%;
 }
-.sc-aciids .card > div {
+.sc-cest .card > div {
   background-color: #fff;
   padding: 15px;
   position: relative;
 }
-.sc-aciids .card .sub {
+.sc-cest .card .sub {
   color: #ccc;
   text-transform: uppercase;
   font-size: 12px;
@@ -133,27 +126,45 @@
   margin-bottom: 15px;
   font-weight: 700;
 }
-.sc-aciids .card .sub::after {
+.sc-cest .card .sub::after {
   display: block;
   content: ' ';
   border-top: 1px solid #ddd;
   width: 40%;
   margin: 0 auto;
 }
-.sc-aciids .card.intro p, .sc-aciids .card.intro ul {
+.sc-cest .card.intro p, .sc-cest .card.intro ul, .sc-cest .card.logos p, .sc-cest .card.logos ul {
   margin-bottom: 10px;
 }
-.sc-aciids .card.programs span {
+.sc-cest .card.logos li {
+  float: left;
+  width: 33.33333%;
+  text-align: center;
+  padding: 0 15px;
+}
+.sc-cest .card.logos li span.logo {
+  height: 130px;
+  display: block;
+  line-height: 130px;
+  overflow: hidden;
+}
+.sc-cest .card.logos li span.logo img {
+  width: 50%;
+}
+.sc-cest .card.logos li span.title {
   font-weight: 700;
 }
-.sc-aciids .card.programs li {
+.sc-cest .card.programs span {
+  font-weight: 700;
+}
+.sc-cest .card.programs li {
   display: block;
   margin-bottom: 6px;
   border-top: 1px solid #eee;
   padding-top: 5px;
   margin-top: 5px;
 }
-.sc-aciids .card.programs li a {
+.sc-cest .card.programs li a {
   color: #000;
 }
 
