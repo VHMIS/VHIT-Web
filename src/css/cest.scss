@@ -20,6 +20,21 @@
     }
 }
 
+.sc-cfp {
+    margin-bottom: 2rem;
+
+    .download {
+        li {
+            float: right;
+            width: 150px;
+            font-weight: 700;
+            text-align: center;
+            background: #efe;
+            padding: 1rem;
+        }
+    }
+}
+
 .sc-important-dates {
     margin-bottom: 2rem;
 
