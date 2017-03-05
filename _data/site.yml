@@ -46,6 +46,14 @@ cest:
     css:
         - cest
 
+10nam:
+    index: /10-nam/
+    title: <span>ViethanIT 10 Năm</span> - Thành lập và Phát triển
+    sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
+    locale: vi-VN
+    css:
+        - 10nam
+
 doanhnghiep:
     index: /
     title: Doanh nghiệp

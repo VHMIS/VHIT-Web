@@ -11,8 +11,9 @@ Dự án sẽ kế thừa từ trang tuyển sinh 2015.
 ### Các mục và trang con
 - [ ] Tuyển sinh http://viethanit.edu.vn/tuyensinh
 - [x] ACIIDS 2016 http://viethanit.edu.vn/aciids-2016
-- [ ] CEST 2017 http://viethanit.edu.vn/cest-2017
+- [x] CEST 2017 http://viethanit.edu.vn/cest-2017
 - [ ] ICIST 2017 http://viethanit.edu.vn/icist-2017
+- [ ] Trang kỷ niệm 10 năm http://viethanit.edu.vn/10-nam
 - [ ] Quan hệ doanh nghiệp và hỗ trợ việc làm
 - [ ] Trang thư viện
 - [ ] Trang tài liệu ISO
@@ -45,6 +46,7 @@ Doanh nghiệp
 
 - [ ] 15.02 : Thử nghiệm trang con CEST 2017 (http://viethanit.edu.vn/cest-2017/)
 - [ ] 28.02 : Thử nghiệm trang con ICIST
+- [ ] 15.03 : Thử nghiệm trang con 10 năm (http://viethanit.edu.vn/10-nam/)
 - [ ] 15.05 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
 - [ ] 30.03 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
 - [ ] 30.04 : Thử nghiệm trang NKCH
@@ -74,6 +76,7 @@ Không cần tag:
 - CSV: Trang cựu sinh viên + trung tâm quan hệ doanh nghiệp
 - NCKH: Trang thông tin NCKH + phòng HTQT NCKH
 - HTQT: Trang thông tin HTQT + phòng HTQT NCKH
+- 10NAM: Trang 10 năm
 
 ## Build website
 
