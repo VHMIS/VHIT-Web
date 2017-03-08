@@ -285,6 +285,75 @@
     }
 }
 
+.sc-i {
+    .section-container {
+        background-color: #efe;
+    }
+
+    .content-main {
+        background-color: #fff;
+        padding: 1rem;
+        float: left;
+        width: calc(100% - 400px);
+
+        ul {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .content-sub {
+        padding: 1rem;
+        float: left;
+        width: 400px;
+    }
+}
+
+.sc-i-resource {
+    .content-main {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+
+    .content-sub {
+        width: 50%;
+    }
+}
+
+.sc-i-contact {
+    margin-bottom: 2rem;
+
+    .depart {
+        width: 25%;
+        padding: 1rem;
+        float: left;
+
+        ul {
+            margin-top: 15px;
+        }
+
+        li {
+            + li {
+                margin-top: 10px;
+            }
+        }
+
+        span {
+            display: block;
+
+            &.pname {
+                font-weight: 700;
+            }
+
+            &.ppos {
+                font-style: italic;
+            }
+        }
+    }
+}
+
 .page-footer {
     .ow-links {
         text-align: center;
