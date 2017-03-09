@@ -11,8 +11,6 @@
 }
 
 .sc-intro {
-    margin-bottom: 2rem;
-
     .video-player {
         width: 50%;
         float: left;
@@ -60,6 +58,42 @@
 
         .info {
             float: left;
+        }
+    }
+}
+
+.sc-main-events {
+    margin-bottom: 2rem;
+
+    ul {
+        padding: 1rem;
+
+        li {
+            @include clearfix;
+
+            + li {
+                margin-top: 1rem;
+                border-top: 1px solid #eee;
+                padding-top: 1rem;
+            }
+
+            span {
+                display: block;
+                float: left;
+
+                &.etime {
+                    width: 130px;
+                }
+
+                &.etitle {
+                    width: calc(100% - 330px);
+                    font-weight: 700;
+                }
+
+                &.elink {
+                    width: 200px;
+                }
+            }
         }
     }
 }
