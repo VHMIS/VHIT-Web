@@ -49,34 +49,76 @@
 .sc-main-events {
   margin-bottom: 2rem;
 }
-.sc-main-events ul {
+.sc-main-events h2 {
+  margin-bottom: 1rem;
+}
+.sc-main-events .main-events {
+  float: left;
+  width: 50%;
   padding: 1rem;
 }
-.sc-main-events ul li:after, .sc-main-events ul li:before {
+.sc-main-events .main-events ul li:after, .sc-main-events .main-events ul li:before {
   content: " ";
   display: table;
 }
-.sc-main-events ul li:after {
+.sc-main-events .main-events ul li:after {
   clear: both;
 }
-.sc-main-events ul li + li {
+.sc-main-events .main-events ul li + li {
+  margin-top: 6px;
+  border-top: 1px solid #eee;
+  padding-top: 6px;
+}
+.sc-main-events .main-events ul li span {
+  display: block;
+  float: left;
+}
+.sc-main-events .main-events ul li span.eday {
+  width: 80px;
+  margin-right: 20px;
+  padding: 3px 3px 3px 5px;
+  background-color: #1a77cd;
+  color: #fff;
+  border-radius: 2px;
+}
+.sc-main-events .main-events ul li span.etime {
+  width: 70px;
+  padding: 3px;
+}
+.sc-main-events .main-events ul li span.etime.noday {
+  margin-left: 100px;
+}
+.sc-main-events .main-events ul li span.etitle {
+  padding: 3px;
+  width: calc(100% - 170px);
+  font-weight: 700;
+}
+.sc-main-events .other-events {
+  float: left;
+  width: 50%;
+  padding: 1rem;
+}
+.sc-main-events .other-events ul li:after, .sc-main-events .other-events ul li:before {
+  content: " ";
+  display: table;
+}
+.sc-main-events .other-events ul li:after {
+  clear: both;
+}
+.sc-main-events .other-events ul li + li {
   margin-top: 1rem;
   border-top: 1px solid #eee;
   padding-top: 1rem;
 }
-.sc-main-events ul li span {
+.sc-main-events .other-events ul li span {
   display: block;
   float: left;
 }
-.sc-main-events ul li span.etime {
+.sc-main-events .other-events ul li span.etime {
   width: 130px;
 }
-.sc-main-events ul li span.etitle {
-  width: calc(100% - 330px);
-  font-weight: 700;
-}
-.sc-main-events ul li span.elink {
-  width: 200px;
+.sc-main-events .other-events ul li span.etitle {
+  width: calc(100% - 130px);
 }
 
 .sc-news .post {

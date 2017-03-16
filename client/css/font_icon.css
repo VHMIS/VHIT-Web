@@ -44,3 +44,7 @@
 .ic-right:before {
   content: "\f105";
 }
+
+.ic-calendar:before {
+  content: "\f133";
+}

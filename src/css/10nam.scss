@@ -65,33 +65,83 @@
 .sc-main-events {
     margin-bottom: 2rem;
 
-    ul {
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    .main-events {
+        float: left;
+        width: 50%;
         padding: 1rem;
 
-        li {
-            @include clearfix;
+        ul {
+            li {
+                @include clearfix;
 
-            + li {
-                margin-top: 1rem;
-                border-top: 1px solid #eee;
-                padding-top: 1rem;
+                + li {
+                    margin-top: 6px;
+                    border-top: 1px solid #eee;
+                    padding-top: 6px;
+                }
+
+                span {
+                    display: block;
+                    float: left;
+
+                    &.eday {
+                        width: 80px;
+                        margin-right: 20px;
+                        padding: 3px 3px 3px 5px;
+                        background-color: $primary-color;
+                        color: #fff;
+                        border-radius: 2px;
+                    }
+
+                    &.etime {
+                        width: 70px;
+                        padding: 3px;
+
+                        &.noday {
+                            margin-left: 100px;
+                        }
+                    }
+
+                    &.etitle {
+                        padding: 3px;
+                        width: calc(100% - 170px);
+                        font-weight: 700;
+                    }
+                }
             }
+        }
+    }
 
-            span {
-                display: block;
-                float: left;
+    .other-events {
+        float: left;
+        width: 50%;
+        padding: 1rem;
 
-                &.etime {
-                    width: 130px;
+        ul {
+            li {
+                @include clearfix;
+
+                + li {
+                    margin-top: 1rem;
+                    border-top: 1px solid #eee;
+                    padding-top: 1rem;
                 }
 
-                &.etitle {
-                    width: calc(100% - 330px);
-                    font-weight: 700;
-                }
+                span {
+                    display: block;
+                    float: left;
 
-                &.elink {
-                    width: 200px;
+                    &.etime {
+                        width: 130px;
+                    }
+
+                    &.etitle {
+                        width: calc(100% - 130px);
+                    }
                 }
             }
         }
