@@ -423,6 +423,10 @@ body {
 }
 
 .section {
+    &.last {
+        margin-bottom: 2rem;
+    }
+    
     .section-header {
         padding: 23px 0 18px 0;
         text-align: center;
@@ -436,6 +440,10 @@ body {
     .section-container {
         background-color: $section-bg-color;
         overflow: hidden;
+
+        &.empty_with_note {
+            padding: 15px;
+        }
 
         &.for_card {
             background-color: $body-bg-color;

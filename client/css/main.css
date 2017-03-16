@@ -1476,6 +1476,9 @@ body.splash {
     display: block;
   }
 }
+.section.last {
+  margin-bottom: 2rem;
+}
 .section .section-header {
   padding: 23px 0 18px 0;
   text-align: center;
@@ -1487,6 +1490,9 @@ body.splash {
 .section .section-container {
   background-color: #fff;
   overflow: hidden;
+}
+.section .section-container.empty_with_note {
+  padding: 15px;
 }
 .section .section-container.for_card {
   background-color: #e8e8e8;
