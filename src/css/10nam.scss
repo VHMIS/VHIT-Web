@@ -22,6 +22,22 @@
         float: left;
         padding: 1rem;
 
+        p {
+            text-align: justify;
+
+            + p {
+                margin-top: 10px;
+            }
+        }
+
+        .sign {
+            margin-top: 10px;
+            display: block;
+            float: right;
+            width: 300px;
+            text-align: center;
+        }
+
         .info-link {
             margin-top: 1rem;
             font-size: 15px;
