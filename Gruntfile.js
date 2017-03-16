@@ -21,7 +21,8 @@ var
         "vhmis-modal",
         "url",
         "main",
-        "nckh"
+        "nckh",
+        "10nam"
     ].map(function(js) {
         return "src/js/" + js + ".js";
     }),

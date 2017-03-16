@@ -51,6 +51,28 @@
         }
     }
 
+    .highlight {
+        @include clearfix;
+
+        > div {
+            float: left;
+            width: 25%;
+            padding: 15px;
+
+            span {
+                display: block;
+                padding: 3px 5px 0px 5px;
+
+                &.title {
+                    background-color: $primary-color;
+                    color: #fff;
+                    border-radius: 2px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
     &.even {
         .photo {
             float: right;
@@ -61,6 +83,45 @@
         }
     }
 }
+
+ .sc-event-info {
+     div.info {
+         width: 33.3333333%;
+         float: left;
+         padding: 15px;
+
+         h2 {
+             margin-bottom: 10px;
+         }
+
+         p {
+             + ul, + h2 {
+                 margin-top: 10px;
+             }
+         }
+
+         ul {
+             list-style-type: disc;
+             list-style-position: inside;
+
+             li + li {
+                 margin-top: 10px;
+             }
+
+             + h2 {
+                 margin-top: 10px;
+             }
+
+             li {
+                 ul {
+                     margin-top: 10px;
+                     margin-left: 20px;
+                     list-style-type: circle;
+                 }
+             }
+         }
+     }
+ }
 
 .sc-main-events {
     margin-bottom: 2rem;
@@ -91,7 +152,7 @@
                     &.eday {
                         width: 80px;
                         margin-right: 20px;
-                        padding: 3px 3px 3px 5px;
+                        padding: 3px 3px 0px 10px;
                         background-color: $primary-color;
                         color: #fff;
                         border-radius: 2px;
@@ -107,7 +168,7 @@
                     }
 
                     &.etitle {
-                        padding: 3px;
+                        padding: 3px 0 0 0;
                         width: calc(100% - 170px);
                         font-weight: 700;
                     }
@@ -172,6 +233,45 @@
         }
 
         .post-title {
+        }
+    }
+}
+
+.sc-timeline-slide {
+    .section-container {
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+
+        .slide {
+            top: 100%;
+            left: 0;
+            right: 0;
+            height: 100%;
+            position: absolute;
+            // visibility: hidden;
+            transition: transform .6s cubic-bezier(.4,0,.2,1);
+
+            @include clearfix;
+
+            .side_left {
+                width: 50%;
+                height: 100%;
+                float: left;
+            }
+
+            .side_right {
+                width: 50%;
+                height: 100%;
+                background-color: #ccc;
+                float: left;
+            }
+
+            // active slide
+            &.active {
+                // visibility: visible;
+                transform: translateY(-100%);
+            }
         }
     }
 }
