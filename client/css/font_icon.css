@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icon';
-  src: url("../font/icon.eot?6vot2v");
-  src: url("../font/icon.eot?6vot2v#iefix") format("embedded-opentype"), url("../font/icon.ttf?6vot2v") format("truetype"), url("../font/icon.woff?6vot2v") format("woff"), url("../font/icon.svg?6vot2v#icon") format("svg");
+  src: url("../font/icon.eot?6vot21");
+  src: url("../font/icon.eot?6vot21#iefix") format("embedded-opentype"), url("../font/icon.ttf?6vot21") format("truetype"), url("../font/icon.woff?6vot21") format("woff"), url("../font/icon.svg?6vot21#icon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -46,5 +46,5 @@
 }
 
 .ic-calendar:before {
-  content: "\f133";
+  content: "\f073";
 }
