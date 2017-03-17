@@ -1530,6 +1530,35 @@ body.splash {
   background-color: #fff;
 }
 
+.breadcrumb {
+  padding: 10px 0;
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+}
+.breadcrumb:after, .breadcrumb:before {
+  content: " ";
+  display: table;
+}
+.breadcrumb:after {
+  clear: both;
+}
+
+.breadcrumb-item {
+  float: left;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  content: "/";
+}
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: underline;
+}
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: none;
+}
+
 body.overlay {
   overflow-x: hidden;
   overflow-y: hidden;

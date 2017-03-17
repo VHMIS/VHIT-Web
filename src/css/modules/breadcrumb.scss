@@ -1,0 +1,29 @@
+.breadcrumb {
+    @include clearfix;
+
+    padding: 10px 0;
+    // margin-bottom: 1rem;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.breadcrumb-item {
+    float: left;
+
+    + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    content: "/";
+    }
+
+    + .breadcrumb-item:hover::before {
+        text-decoration: underline;
+    }
+    + .breadcrumb-item:hover::before {
+        text-decoration: none;
+    }
+
+    &.active {
+    }
+}
