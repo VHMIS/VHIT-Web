@@ -309,6 +309,11 @@
 }
 .sc-timeline .section-container .event .content h2 {
   color: #303e49;
+  margin-bottom: 10px;
+}
+.sc-timeline .section-container .event .content img {
+  width: 100%;
+  margin-bottom: 10px;
 }
 .sc-timeline .section-container .event .content .date {
   float: left;
