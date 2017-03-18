@@ -112,7 +112,7 @@ body {
         .quickmenu-button {
             position: absolute;
             top: -31px;
-            right: 10px;
+            right: 15px;
             color: $primary-bg-font-color;
             display: none;
 
@@ -232,6 +232,7 @@ body {
                     float: left;
                     text-transform: uppercase;
                     font-weight: 700;
+                    @include text-truncate;
 
                     + li {
                         margin-left: 20px;
@@ -250,7 +251,7 @@ body {
 
         .close-menu-button {
             position: absolute;
-            right: 10px;
+            right: 15px;
             top: -35px;
             color: #fff;
             display: none;
@@ -311,7 +312,7 @@ body {
         .header-menu {
             .top-menu.for-md {
                 top: -85px;
-                width: 100px;
+                width: 120px;
                 visibility: hidden;
                 opacity: 0;
                 transition: top 0.3s ease 0s, opacity 0.6s ease 0s;
@@ -320,7 +321,7 @@ body {
                     content: '';
                     position: absolute;
                     top: -14px;
-                    left: 32px;
+                    left: 52px;
                     height: 0;
                     width: 0;
                     border: 7px solid transparent;
@@ -426,7 +427,7 @@ body {
     &.last {
         margin-bottom: 2rem;
     }
-    
+
     .section-header {
         padding: 23px 0 18px 0;
         text-align: center;
