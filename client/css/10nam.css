@@ -15,6 +15,11 @@
   float: left;
   padding: 1rem;
 }
+.sc-intro .info .box {
+  padding: 1rem;
+  border: 16px solid transparent;
+  border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
+}
 .sc-intro .info h2 {
   margin-bottom: 15px;
 }
@@ -115,6 +120,9 @@
 .sc-main-events h2 {
   margin-bottom: 1rem;
 }
+.sc-main-events h2 + ul {
+  margin-bottom: 1rem;
+}
 .sc-main-events .main-events {
   float: left;
   width: 50%;
@@ -137,9 +145,9 @@
   float: left;
 }
 .sc-main-events .main-events ul li span.eday {
-  width: 80px;
-  margin-right: 20px;
-  padding: 3px 3px 0px 10px;
+  width: 85px;
+  margin-right: 15px;
+  padding: 3px 3px 0px 7px;
   background-color: #1a77cd;
   color: #fff;
   border-radius: 2px;
