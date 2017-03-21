@@ -6,7 +6,11 @@ Nhằm thay đổi website cũ, dự án xây dựng website mới được bắ
 
 Dự án sẽ kế thừa từ trang tuyển sinh 2015.
 
+Đây không phải là dự án chính thức được phê duyệt, dự án này chỉ dựa trên từ yêu cầu thiết kế các trang con, từ đó xây dựng lại một chuẩn thiết kế lại trang chính và đề xuất sau khi hoàn thành.
+
 ### Thành viên
+
+- Lê Nhật Anh, TTCNTT
 
 ### Các mục và trang con
 - [ ] Tuyển sinh 2017 http://viethanit.edu.vn/tuyensinh
