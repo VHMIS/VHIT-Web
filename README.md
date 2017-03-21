@@ -6,14 +6,22 @@ Nhằm thay đổi website cũ, dự án xây dựng website mới được bắ
 
 Dự án sẽ kế thừa từ trang tuyển sinh 2015.
 
+Đây không phải là dự án chính thức được phê duyệt từ ban Truyền thông hay BGH, dự án này chỉ dựa trên yêu cầu thiết kế các trang con, từ đó xây dựng lại một chuẩn thiết kế để làm lại trang chính và đề xuất sau khi hoàn thành.
+
 ### Thành viên
 
+- Lê Nhật Anh, TTCNTT
+
+### Hướng xây dựng
+
+Toàn bộ website public đều được xây dựng theo hướng static web, thuần HTML. Sử dụng API để lấy nội dung từ hệ thống quản lý nếu cần.
+
 ### Các mục và trang con
-- [ ] Tuyển sinh http://viethanit.edu.vn/tuyensinh
+- [ ] Tuyển sinh 2017 http://viethanit.edu.vn/tuyensinh
 - [x] ACIIDS 2016 http://viethanit.edu.vn/aciids-2016
 - [x] CEST 2017 http://viethanit.edu.vn/cest-2017
 - [ ] ICIST 2017 http://viethanit.edu.vn/icist-2017
-- [ ] Trang kỷ niệm 10 năm http://viethanit.edu.vn/10-nam
+- [x] Trang kỷ niệm 10 năm http://viethanit.edu.vn/10-nam
 - [ ] Quan hệ doanh nghiệp và hỗ trợ việc làm
 - [ ] Trang thư viện
 - [ ] Trang tài liệu ISO
@@ -44,10 +52,10 @@ Doanh nghiệp
 
 ## Kế hoạch 2017
 
-- [ ] 15.02 : Thử nghiệm trang con CEST 2017 (http://viethanit.edu.vn/cest-2017/)
+- [x] 15.02 : Xây dựng trang con CEST 2017 (http://viethanit.edu.vn/cest-2017/)
 - [ ] 28.02 : Thử nghiệm trang con ICIST
-- [ ] 15.03 : Thử nghiệm trang con 10 năm (http://viethanit.edu.vn/10-nam/)
-- [ ] 15.05 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
+- [x] 15.03 : Xây dựng trang con 10 năm (http://viethanit.edu.vn/10-nam/)
+- [ ] 15.05 : Xây dựng trang con TUYỂN SINH 2017 (http://viethanit.edu.vn/tuyensinh/)
 - [ ] 30.03 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
 - [ ] 30.04 : Thử nghiệm trang NKCH
 
