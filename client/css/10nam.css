@@ -53,6 +53,11 @@
     width: 100%;
   }
 }
+@media (max-width: 501px) {
+  .sc-intro .info .sign {
+    width: 100%;
+  }
+}
 .sc-event .photo {
   width: 50%;
   float: left;
