@@ -25,6 +25,7 @@
 }
 .sc-intro .info p {
   text-align: justify;
+  text-indent: 20px;
 }
 .sc-intro .info p + p {
   margin-top: 10px;
