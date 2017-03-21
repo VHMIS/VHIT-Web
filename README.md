@@ -44,10 +44,10 @@ Doanh nghiệp
 
 ## Kế hoạch 2017
 
-- [ ] 15.02 : Thử nghiệm trang con CEST 2017 (http://viethanit.edu.vn/cest-2017/)
+- [x] 15.02 : Xây dựng trang con CEST 2017 (http://viethanit.edu.vn/cest-2017/)
 - [ ] 28.02 : Thử nghiệm trang con ICIST
-- [ ] 15.03 : Thử nghiệm trang con 10 năm (http://viethanit.edu.vn/10-nam/)
-- [ ] 15.05 : Thử nghiệm trang con TUYỂN SINH 2016 (http://viethanit.edu.vn/tuyensinh/)
+- [x] 15.03 : Xây dựng trang con 10 năm (http://viethanit.edu.vn/10-nam/)
+- [ ] 15.05 : Xây dựng trang con TUYỂN SINH 2017 (http://viethanit.edu.vn/tuyensinh/)
 - [ ] 30.03 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
 - [ ] 30.04 : Thử nghiệm trang NKCH
 
