@@ -3,30 +3,45 @@ default:
     title: Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     sub_title: Trường công lập thuộc Bộ Thông Tin - Truyền Thông
     locale: vi-VN
+    meta_description: Trường CĐ CNTT Việt Hàn, đào tạo các ngành công nghệ thông tin, điện tử viễn thông, quản trị kinh doanh, đồ họa máy tính.
+    meta_tw_image:
+    meta_og_image:
 
 sub_index:
     index: /
     title: Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     sub_title: Trường công lập thuộc Bộ Thông Tin - Truyền Thông
     locale: vi-VN
+    meta_description: Trường CĐ CNTT Việt Hàn, đào tạo các ngành công nghệ thông tin, điện tử viễn thông, quản trị kinh doanh, đồ họa máy tính.
+    meta_tw_image:
+    meta_og_image:
 
 splash:
     index: /
     title: Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     sub_title: Trường công lập thuộc Bộ Thông Tin - Truyền Thông
     locale: vi-VN
+    meta_description: Trường CĐ CNTT Việt Hàn, đào tạo các ngành công nghệ thông tin, điện tử viễn thông, quản trị kinh doanh, đồ họa máy tính.
+    meta_tw_image:
+    meta_og_image:
 
 tuyensinh:
     index: /tuyensinh/
-    title: Tuyển sinh 2016
+    title: Tuyển sinh 2017
     sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     locale: vi-VN
+    meta_description: Năm 2017, trường CĐ CNTT Việt Hàn tuyển sinh và đào tạo các ngành công nghệ thông tin, điện tử viễn thông, quản trị kinh doanh, đồ họa máy tính.
+    meta_tw_image:
+    meta_og_image:
 
 aciids:
     index: /aciids-2016/
     title: <span>Hội thảo </span>ACIIDS<span> lần thứ 8 - Đà Nẵng</span> 2016
     sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     locale: vi-VN
+    meta_description: Hội thảo khoa học quốc tế ACIIDS 2016 lần thứ 8 diễn ra tại Đà Nẵng được tổ chức bởi Trường CĐ CNTT Hữu nghị Việt Hàn.
+    meta_tw_image:
+    meta_og_image:
     css:
         - aciids
 
@@ -35,6 +50,9 @@ aciids_en:
     title: <span>8th </span>ACIIDS<span> - Danang</span> 2016
     sub_title: Korea-Vietnam Friendship Information Technology College
     locale: en
+    meta_description: ACIIDS 2016 by ViethanIT.
+    meta_tw_image:
+    meta_og_image:
     css:
         - aciids
 
@@ -43,6 +61,9 @@ cest:
     title: <span>Hội thảo Khoa học giáo dục và Công nghệ </span>CEST 2017
     sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     locale: vi-VN
+    meta_description: Hội thảo về Khoa học giáo dục và Công nghệ tổ chức bởi Trường CĐ CNTT Hữu nghị Việt Hàn, CĐ Sư phạm Huế và CĐ Công nghiệp Huế.
+    meta_tw_image:
+    meta_og_image:
     css:
         - cest
 
@@ -51,6 +72,9 @@ cest:
     title: ViethanIT 10 Năm<span> Thành lập và Phát triển</span>
     sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     locale: vi-VN
+    meta_description: Website chính thức về lễ kỷ niệm và các hoạt động chào mừng 10 năm hình thành, xây dựng và phát triển trường CĐ CNTT Hữu nghị Việt Hàn.
+    meta_tw_image: /photo/10nam/site_image.jpg
+    meta_og_image: /photo/10nam/site_image.jpg
     css:
         - 10nam
 
@@ -59,3 +83,6 @@ doanhnghiep:
     title: Doanh nghiệp
     sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
     locale: vi-VN
+    meta_description: Trường CĐ CNTT Việt Hàn, đào tạo các ngành công nghệ thông tin, điện tử viễn thông, quản trị kinh doanh, đồ họa máy tính.
+    meta_tw_image:
+    meta_og_image:

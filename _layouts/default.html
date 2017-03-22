@@ -6,25 +6,19 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{ page.title }}</title>
-        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Trường CĐ CNTT Việt Hàn, đào tạo các ngành công nghệ thông tin, điện tử viễn thông, quản trị kinh doanh, đồ họa máy tính.{% endif %}">
+        <title>{{ page.meta_title }}</title>
+        <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.data.site[page.site].meta_description }}{% endif %}">
 
-        <!-- Twitter Card data -->
-        <!-- <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@publisher_handle">
-        <meta name="twitter:title" content="{{ page.title }}">
-        <meta name="twitter:description" content="Page description less than 200 characters">
-        <meta name="twitter:creator" content="@author_handle">
-        <meta name="twitter:image" content="http://www.example.com/image.jpg"> -->
-
-        <!-- Open Graph data -->
-        <!-- <meta property="og:title" content="{{ page.title }}" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="{{ site.host }}{{ page.url }}" />
-        <meta property="og:image" content="http://example.com/image.jpg" />
-        <meta property="og:description" content="Description Here" />
-        <meta property="og:site_name" content="Site Name, i.e. Moz" />
-        <meta property="fb:admins" content="Facebook numeric ID" /> -->
+        <!-- Social sharing -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="{% if page.tw_title %}{{ page.tw_title }}{% else %}{{ page.meta_title }}{% endif %}">
+        <meta name="twitter:description" content="{% if page.tw_description %}{{ page.tw_description }}{% elsif page.meta_description %}{{ page.meta_description }}{% else %}{{ site.data.site[page.site].meta_description }}{% endif %}">
+        <meta name="twitter:image" content="http://viethanit.edu.vn{% if page.tw_image %}{{ page.tw_image }}{% else %}{{ site.data.site[page.site].meta_tw_image }}{% endif %}">
+{% if page.og_title %}        <meta name="og:title" content="{{ page.og_title }}">{% endif %}
+{% if page.og_description %}        <meta name="og:description" content="{{ page.og_description }}">{% endif %}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://viethanit.edu.vn{{ page.url }}" />
+        <meta property="og:image" content="http://viethanit.edu.vn{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.data.site[page.site].meta_og_image }}{% endif %}" />
 
         <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
         <link rel="icon" type="image/png" href="/client/img/logo.png" />
@@ -71,7 +65,7 @@
             </div>
         </header>
 
-        {{ content }}
+{{ content }}
 
         <footer class="page-footer">
             <div class="container">
