@@ -21,8 +21,6 @@
 }
 
 .sc-cfp {
-    margin-bottom: 2rem;
-
     .download {
         li {
             float: right;
@@ -36,8 +34,6 @@
 }
 
 .sc-important-dates {
-    margin-bottom: 2rem;
-
     .dates {
         padding: 1rem;
 
@@ -59,12 +55,9 @@
 }
 
 .sc-programme-cc {
-    margin-bottom: 2rem;
 }
 
 .sc-subject {
-    margin-bottom: 2rem;
-
     .note {
         text-align: center;
         padding: 15px;
@@ -121,8 +114,6 @@
 }
 
 .sc-article-submit {
-    margin-bottom: 2rem;
-
     .online {
         padding: 2rem;
         float: left;
@@ -304,135 +295,6 @@
     }
 }
 
-.sc-events {
-    .section-container {
-        .card_info {
-            .card {
-                width: -col-percent-width(1, 3);
-            }
-        }
-    }
-
-    .card {
-        > div {
-            background-color: $section-bg-color;
-            padding: 15px;
-            position: relative;
-        }
-
-        .photo {
-            img {
-                width: 100%;
-            }
-        }
-
-        h2 {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-    }
-}
-
-.comfirm-booking, .comfirm-registration {
-    padding: 15px;
-    background-color: #fff;
-
-}
-
-.pr {
-    @include clearfix;
-
-    margin-left: -15px;
-    margin-right: -15px;
-
-    .press-release, .contact {
-        padding-left: 15px;
-        padding-right: 15px;
-        float: left;
-    }
-
-    .press-release {
-        width: -col-percent-width(2, 3);
-
-        article {
-            background-color: #fff;
-            padding: 15px;
-
-            h2 {
-                font-size: 18px;
-                line-height: 24px;
-                border-bottom: 1px solid #ddd;
-                padding-bottom: 5px;
-                margin-bottom: 15px;
-            }
-
-            p {
-                margin-bottom: 15px;
-            }
-        }
-    }
-
-    .contact {
-        width: -col-percent-width(1, 3);
-
-        h2 {
-            background-color: $primary-bg-color;
-            color: #fff;
-            padding: 15px;
-            font-size: 18px;
-            font-weight: 400;
-        }
-
-        div {
-            background-color: #fff;
-            padding: 15px;
-        }
-    }
-}
-
-.fb {
-    @include clearfix;
-
-    margin-left: -15px;
-    margin-right: -15px;
-
-    .form-booking, .form-registration, .info {
-        padding-left: 15px;
-        padding-right: 15px;
-        float: left;
-    }
-
-    .form-booking, .form-registration {
-        width: -col-percent-width(2, 3);
-
-        .form {
-            padding: 15px;
-            background-color: #fff;
-        }
-    }
-
-    .info {
-        width: -col-percent-width(1, 3);
-
-        h2 {
-            background-color: $primary-bg-color;
-            color: #fff;
-            padding: 15px;
-            font-size: 18px;
-            font-weight: 400;
-        }
-
-        div {
-            background-color: #fff;
-            padding: 15px;
-
-            + h2 {
-                margin-top: 30px;
-            }
-        }
-    }
-}
-
 .sc-news {
     margin-bottom: 30px;
 
@@ -465,263 +327,8 @@
     }
 }
 
-.sc-partners {
-
-    .partners {
-        padding-top: 20px;
-
-        .partner {
-            width: -col-percent-width(1, 5);
-        }
-    }
-
-}
-
 .sc-page {
     margin-bottom: 30px;
-}
-
-.sc-timeline {
-    margin-bottom: 30px;
-
-    .section-container {
-        position: relative;
-
-        .event {
-            position: relative;
-            @include clearfix;
-            margin-bottom: 30px;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            .icon {
-                position: absolute;
-                background: #fff;
-                top: 0;
-                left: 5px;
-                width: 40px;
-                height: 40px;
-                border-radius: 50%;
-
-                img {
-                    display: block;
-                    width: 36px;
-                    height: 36px;
-                    position: relative;
-                    left: 50%;
-                    top: 50%;
-                    margin-left: -18px;
-                    margin-top: -18px;
-                }
-            }
-
-
-            .content {
-                @include clearfix;
-                position: relative;
-                margin-left: 65px;
-                background: #fff;
-                border-radius: 0.25em;
-                padding: 1em;
-
-                h2 {
-                    color: #303e49;
-                }
-
-                .date {
-                    float: left;
-                    padding: .8em 0;
-                    font-weight: 700;
-                }
-
-                &::before {
-                    content: '';
-                    position: absolute;
-                    top: 16px;
-                    right: 100%;
-                    height: 0;
-                    width: 0;
-                    border: 7px solid transparent;
-                    border-right: 7px solid white;
-                }
-            }
-        }
-
-        &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 23px;
-            height: 100%;
-            width: 4px;
-            background: #d7e4ed;
-        }
-    }
-}
-
-@media (min-width: 700px) {
-    .sc-timeline {
-        .section-container {
-
-            .event {
-                margin-bottom: 30px;
-
-                .icon {
-                    width: 60px;
-                    height: 60px;
-                    left: 50%;
-                    margin-left: -30px;
-                }
-
-
-
-                .content {
-                    margin-left: 0;
-                    padding: 1.6em;
-                    width: 45%;
-
-                    &::before {
-                        top: 24px;
-                        left: 100%;
-                        border-color: transparent;
-                        border-left-color: white;
-                    }
-
-                    .date {
-                        position: absolute;
-                        width: 100%;
-                        left: 122%;
-                        top: 6px;
-                        font-size: 16px;
-                        font-size: 1rem;
-                    }
-                }
-
-                &:last-child {
-                    margin-bottom: 0;
-                }
-
-                &:nth-child(even) {
-                    .content {
-                        float: right;
-
-                        &::before {
-                            top: 24px;
-                            left: auto;
-                            right: 100%;
-                            border-color: transparent;
-                            border-right-color: white;
-                        }
-
-                        .date {
-                            left: auto;
-                            right: 122%;
-                            text-align: right;
-                        }
-                    }
-                }
-            }
-
-            &::before {
-                left: 50%;
-                margin-left: -2px;
-            }
-        }
-    }
-}
-
-
-/*
- * Form
- */
-.form {
-    overflow: hidden;
-    padding: 15px;
-}
-
-.form_row {
-    margin-bottom: 10px;
-}
-
-label {
-    font-size: 11px;
-    text-transform: uppercase;
-    color: #333;
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    height: 38px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #c5c5c5;
-    box-shadow: none;
-}
-
-.form-control:focus {
-    outline: 0;
-}
-
-textarea.form-control {
-    height: 70px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 8px 15px 6px 15px;
-    margin-bottom: 0;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-      touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-}
-.btn.disabled,
-.btn[disabled] {
-    cursor: not-allowed;
-    filter: alpha(opacity=65);
-    opacity: .65;
-}
-.btn:hover,
-.btn:focus,
-.btn.focus {
-    color: #000;
-    text-decoration: none;
-}
-
-.btn-default {
-    color: #fff;
-    background-color: #000;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus {
-    color: #fff;
-    text-decoration: none;
-}
-
-.btn-default.inactive {
-    background-color: #8a8a8a;
 }
 
 .page-footer {
@@ -738,16 +345,6 @@ textarea.form-control {
                 text-decoration: none;
             }
         }
-    }
-}
-
-
-// responsive
-@media (max-width: 1179px) {
-    .container {
-        width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 }
 
