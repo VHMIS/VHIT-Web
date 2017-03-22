@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ page.title }}</title>
-        <meta name="description" content="Trường CĐ CNTT Việt Hàn, đào tạo các ngành công nghệ thông tin, điện tử viễn thông, quản trị kinh doanh, đồ họa máy tính.">
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Trường CĐ CNTT Việt Hàn, đào tạo các ngành công nghệ thông tin, điện tử viễn thông, quản trị kinh doanh, đồ họa máy tính.{% endif %}">
 
         <!-- Twitter Card data -->
         <!-- <meta name="twitter:card" content="summary">
