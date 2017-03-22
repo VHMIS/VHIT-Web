@@ -45,3 +45,4 @@
 
 - Twitter Card: https://dev.twitter.com/cards/overview
 - Shareing on Facebook: https://developers.facebook.com/docs/sharing
+- SEO check: https://seositecheckup.com/
