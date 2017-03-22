@@ -267,6 +267,14 @@ body {
 
 @media (max-width: 970px) {
     .page-header {
+        .title {
+            .header-title {
+                span {
+                    display: none;
+                }
+            }
+        }
+
         .header-menu {
             .main-menu {
                 @include clearfix;

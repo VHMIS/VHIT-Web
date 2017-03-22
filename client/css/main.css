@@ -1365,6 +1365,9 @@ body.splash {
 }
 
 @media (max-width: 970px) {
+  .page-header .title .header-title span {
+    display: none;
+  }
   .page-header .header-menu .main-menu {
     float: none;
   }
