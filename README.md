@@ -2,11 +2,9 @@
 
 ## Về dự án
 
-Nhằm thay đổi website cũ, dự án xây dựng website mới được bắt đầu từ tháng 1.2016, chính thức bắt đầu thiết kế và code từ tháng giữa tháng 2.
+Nhằm thay đổi website cũ, dự án xây dựng website mới được bắt đầu từ tháng 1.2016, chính thức bắt đầu thiết kế và code từ tháng giữa tháng 2. Dự án sẽ kế thừa từ trang tuyển sinh 2015.
 
-Dự án sẽ kế thừa từ trang tuyển sinh 2015.
-
-Đây không phải là dự án chính thức được phê duyệt từ ban Truyền thông hay BGH, dự án này chỉ dựa trên yêu cầu thiết kế các trang con, từ đó xây dựng lại một chuẩn thiết kế để làm lại trang chính và đề xuất sau khi hoàn thành.
+**Đây không phải là dự án chính thức được phê duyệt từ Ban Truyền Thông hay Ban Giám Hiệu, dự án này chỉ dựa trên yêu cầu thiết kế các trang con, từ đó xây dựng lại một chuẩn thiết kế để làm lại trang chính và đề xuất sau khi hoàn thành.**
 
 ### Thành viên
 
