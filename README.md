@@ -130,3 +130,4 @@ Copy các file vào webserver để xem hoặc chạy trực tiếp file index.h
 
 - SASS : http://sass-lang.com/documentation/file.SASS_REFERENCE.html
 - Jekyll : http://jekyllrb.com/docs/home/
+- Liqui : http://shopify.github.io/liquid/
