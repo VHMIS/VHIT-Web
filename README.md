@@ -20,7 +20,7 @@ Toàn bộ website public đều được xây dựng theo hướng static web, 
 - [ ] Tuyển sinh 2017 http://viethanit.edu.vn/tuyensinh
 - [x] ACIIDS 2016 http://viethanit.edu.vn/aciids-2016
 - [x] CEST 2017 http://viethanit.edu.vn/cest-2017
-- [ ] ICIST 2017 http://viethanit.edu.vn/icist-2017
+- [ ] ICIST 2017
 - [x] Trang kỷ niệm 10 năm http://viethanit.edu.vn/10-nam
 - [ ] Quan hệ doanh nghiệp và hỗ trợ việc làm
 - [ ] Trang thư viện
@@ -53,7 +53,6 @@ Doanh nghiệp
 ## Kế hoạch 2017
 
 - [x] 15.02 : Xây dựng trang con CEST 2017 (http://viethanit.edu.vn/cest-2017/)
-- [ ] 28.02 : Thử nghiệm trang con ICIST
 - [x] 15.03 : Xây dựng trang con 10 năm (http://viethanit.edu.vn/10-nam/)
 - [ ] 15.05 : Xây dựng trang con TUYỂN SINH 2017 (http://viethanit.edu.vn/tuyensinh/)
 - [ ] 30.03 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
