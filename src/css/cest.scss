@@ -7,6 +7,7 @@
     li {
         width: 33.33333%;
         display: block;
+        padding: 0 15px;
         float: left;
         text-align: center;
         margin-bottom: 1rem;
@@ -262,6 +263,30 @@
             .card_info {
                 .card {
                     width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 521px) {
+    .sc-cest {
+        .card {
+            &.logos {
+                li {
+                    width: 100%;
+
+                    span.logo {
+                        height: 130px;
+                        display: block;
+                        width: 130px;
+                        margin: auto;
+                        overflow: hidden;
+
+                        img {
+                            width: 70%;
+                        }
+                    }
                 }
             }
         }
