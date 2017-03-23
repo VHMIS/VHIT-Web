@@ -20,6 +20,14 @@
     }
 }
 
+@media (max-width: 700px) {
+    .members {
+        li {
+            width: 100%;
+        }
+    }
+}
+
 .sc-cfp {
     .download {
         li {
@@ -86,6 +94,16 @@
     }
 }
 
+@media (max-width: 600px) {
+    .sc-subject {
+        .subjects {
+            .subject-container {
+                width: 100%;
+            }
+        }
+    }
+}
+
 .sc-article-rule {
     .rule-info {
         float: left;
@@ -113,6 +131,18 @@
     }
 }
 
+@media (max-width: 1100px) {
+    .sc-article-rule {
+        .rule-info {
+            width: 100%;
+        }
+
+        .template-download {
+            width: 100%;
+        }
+    }
+}
+
 .sc-article-submit {
     .online {
         padding: 2rem;
@@ -129,6 +159,18 @@
 
     h2 {
         margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .sc-article-submit {
+        .online {
+            width: 100%;
+        }
+
+        .offline {
+            width: 100%;
+        }
     }
 }
 
@@ -208,6 +250,18 @@
 
                 a {
                     color: #000;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 801px) {
+    .sc-cest {
+        .section-container {
+            .card_info {
+                .card {
+                    width: 100%;
                 }
             }
         }
