@@ -24,7 +24,7 @@ header_css: no-banner
 
         <div class="col-md-8">
             <div class="block_component">
-                <p class="alert alert-info">Trường Cao đẳng Công nghệ thông tin Hữu nghị Việt - Hàn công bố phương án tuyển sinh năm 2016 như sau</p>
+                <p class="alert alert-info">Trường Cao đẳng Công nghệ thông tin Hữu nghị Việt - Hàn công bố phương án tuyển sinh năm 2017 như sau</p>
                 <h3>Phương thức tuyển sinh</h3>
                 <p>
                     Trong năm 2017, Trường Cao đẳng Công nghệ thông tin Hữu nghị Việt – Hàn tuyển sinh 1.200 chỉ tiêu hệ Cao đẳng và Trung cấp theo phương thức:
@@ -44,11 +44,13 @@ header_css: no-banner
                         </tr>
                     </thead>
                     <tbody>
+                        {% for major in site.data.tuyensinh.nganh_cd_2017 %}
                         <tr>
-                            <th scope="row">1</th>
-                            <td>6210402</td>
-                            <td>Thiết kế đồ họa</td>
+                            <th scope="row">{{ forloop.index }}</th>
+                            <td>{{ major[1].code }}</td>
+                            <td>{{ major[1].title }}</td>
                         </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
                 <h4>Trung cấp</h4>
@@ -61,11 +63,13 @@ header_css: no-banner
                         </tr>
                     </thead>
                     <tbody>
+                        {% for major in site.data.tuyensinh.nganh_tc_2017 %}
                         <tr>
-                            <th scope="row">1</th>
-                            <td>6210402</td>
-                            <td>Thiết kế đồ họa</td>
+                            <th scope="row">{{ forloop.index }}</th>
+                            <td>{{ major[1].code }}</td>
+                            <td>{{ major[1].title }}</td>
                         </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
 
@@ -96,7 +100,7 @@ header_css: no-banner
                     <li>Sinh viên có hộ khẩu thường trú tại khu vực 1: Học bổng tương đương 75% học phí;</li>
                     <li>Sinh viên có hộ khẩu thường trú tại khu vực 2 nông thôn: Học bổng tương đương 50% học phí;</li>
                     <li>Sinh viên có hộ khẩu thường trú tại khu vực 2: Học bổng tương đương 25% học phí;</li>
-                </ul>              
+                </ul>
                 <h3>Địa chỉ nộp hồ sơ</h3>
                 <p>Thí sinh nộp hồ sơ trực tiếp tại Phòng Đào tạo hoặc chuyển phát nhanh qua đường bưu điện theo địa chỉ:</p>
                 <p class="alert alert-danger">
