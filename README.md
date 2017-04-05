@@ -1,5 +1,7 @@
 # Trang web ViethanIT mới (2016)
 
+``Cập nhật lần cuối 10:12 05/04/2017``
+
 ## Về dự án
 
 Nhằm thay đổi website cũ, dự án xây dựng website mới được bắt đầu từ tháng 1.2016, chính thức bắt đầu thiết kế và code từ tháng giữa tháng 2. Dự án sẽ kế thừa từ trang tuyển sinh 2015.
@@ -20,7 +22,7 @@ Toàn bộ website public đều được xây dựng theo hướng static web, 
 - [ ] Tuyển sinh 2017 http://viethanit.edu.vn/tuyensinh
 - [x] ACIIDS 2016 http://viethanit.edu.vn/aciids-2016
 - [x] CEST 2017 http://viethanit.edu.vn/cest-2017
-- [ ] ICIST 2017
+- [x] ICIST 2017 http://viethanit.edu.vn/icist-2017
 - [x] Trang kỷ niệm 10 năm http://viethanit.edu.vn/10-nam
 - [ ] Quan hệ doanh nghiệp và hỗ trợ việc làm
 - [ ] Trang thư viện
@@ -52,9 +54,10 @@ Doanh nghiệp
 
 ## Kế hoạch 2017
 
-- [x] 15.02 : Xây dựng trang con CEST 2017 (http://viethanit.edu.vn/cest-2017/)
-- [x] 15.03 : Xây dựng trang con 10 năm (http://viethanit.edu.vn/10-nam/)
-- [ ] 15.05 : Xây dựng trang con TUYỂN SINH 2017 (http://viethanit.edu.vn/tuyensinh/)
+- [x] 15.02 : Xây dựng trang CEST 2017 (http://viethanit.edu.vn/cest-2017/)
+- [x] 15.03 : Xây dựng trang 10 năm (http://viethanit.edu.vn/10-nam/)
+- [x] 14.04 : Xây dựng trang ICIST 2017 (http://viethanit.edu.vn/icist-2017/)
+- [x] 15.05 : Xây dựng trang TUYỂN SINH 2017 (http://viethanit.edu.vn/tuyensinh/)
 - [ ] 30.03 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
 - [ ] 30.04 : Thử nghiệm trang NKCH
 
