@@ -56,6 +56,28 @@ aciids_en:
     css:
         - aciids
 
+icist:
+    index: /icist-2017/
+    title: <span>Hội thảo </span>ICIST<span> lần thứ 7 - Đà Nẵng</span> 2017
+    sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
+    locale: vi-VN
+    meta_description: Hội thảo khoa học quốc tế ICIST 2017 lần thứ 7 diễn ra tại Đà Nẵng được tổ chức bởi Trường CĐ CNTT Hữu nghị Việt Hàn và đại học thành phố Hongkong.
+    meta_tw_image:
+    meta_og_image:
+    css:
+        - aciids
+
+icist_en:
+    index: /icist-2017/en/
+    title: <span>7th </span>ICIST<span> - Danang</span> 2017
+    sub_title: Korea-Vietnam Friendship Information Technology College
+    locale: en
+    meta_description: 7th International Conference on Information Science and Technology - Danang 2017.
+    meta_tw_image:
+    meta_og_image:
+    css:
+        - aciids
+
 cest:
     index: /cest-2017/
     title: <span>Hội thảo Khoa học giáo dục và Công nghệ </span>CEST 2017
