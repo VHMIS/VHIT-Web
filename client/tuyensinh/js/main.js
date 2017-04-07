@@ -588,6 +588,77 @@ $(document).ready(function () {
         '3': 'Khu vực 3',
     }
 
+    var majors = {
+        cd: {
+            '6210402': 'Thiết kế đồ họa',
+            '6210404': 'Thiết kế nội thất',
+            '6220202' : 'Phiên dịch tiếng Anh thương mại',
+            '6220203' : 'Phiên dịch tiếng Anh du lịch',
+            '6220211' : 'Tiếng Hàn Quốc',
+            '6320101' : 'Phóng viên, biên tập đài cơ sở',
+            '6320103' : 'Truyền thông đa phương tiện',
+            '6340136' : 'Marketing du lịch',
+            '6340140' : 'Quan hệ công chúng',
+            '6340141' : 'Logistic',
+            '6340303' : 'Kế toán lao động, tiền lương và bảo hiểm xã hội',
+            '6480102' : 'Kỹ thuật sửa chữa, lắp ráp  máy tính',
+            '6480103' : 'Thiết kế mạch điện tử trên máy tính',
+            '6480202' : 'Công nghệ thông tin (ứng dụng phần mềm)',
+            '6480204' : 'Tin học văn phòng',
+            '6480205' : 'Tin học viễn thông ứng dụng',
+            '6480207' : 'Xử lý dữ liệu',
+            '6480208' : 'Lập trình máy tính',
+            '6480209' : 'Quản trị cơ sở dữ liệu',
+            '6480210' : 'Quản trị mạng máy tính',
+            '6480215' : 'Thương mại điện tử',
+            '6480217' : 'Thiết kế trang Web',
+            '6480219' : 'An ninh mạng',
+            '6510101' : 'Công nghệ kỹ thuật kiến trúc',
+            '6520224' : 'Điện tử dân dụng',
+            '6810201' : 'Quản trị khách sạn'
+        },
+        tc: {
+            '5210419': 'Thiết kế trang trí sản phẩm, bao bì',
+            '5220202': 'Phiên dịch tiếng Anh thương mại',
+            '5220203': 'Phiên dịch tiếng Anh du lịch',
+            '5220211': 'Tiếng Hàn Quốc',
+            '5340138': 'Nghiệp vụ bán hàng',
+            '5340304': 'Kế toán vật tư',
+            '5480102': 'Kỹ thuật sửa chữa, lắp ráp máy tính',
+            '5480103': 'Thiết kế mạch điện tử trên máy tính',
+            '5480204': 'Tin học văn phòng',
+            '5480205': 'Tin học viễn thông ứng dụng',
+            '5480217': 'Thiết kế trang Web',
+            '5520224': 'Điện tử dân dụng',
+            '5580102': 'Họa viên kiến trúc'
+        }
+    };
+
+    var makeMajorSelect = function (data) {
+        var html = ''
+        $.each(data, function (index, value) {
+            html += '<option value="' + index + '">' + value + '</option>'
+        })
+        $('form#xettuyen select[name=major_1], form#xettuyen select[name=major_2]').html(html).prop('disabled', false)
+    }
+
+    var makeDisableMajor = function() {
+        var major = $("form#xettuyen select[name=major_1]").val()
+        $("form#xettuyen select[name=major_2] option").attr('disabled', false)
+        $("form#xettuyen select[name=major_2] option[value='"+ major + "']").attr('disabled', true)
+    }
+
+    $('form#xettuyen input[name=level]').on('click', function (e) {
+        var me = $(this)
+        var level = me.val()
+        makeMajorSelect(majors[level])
+        makeDisableMajor()
+    })
+
+    $('form#xettuyen select[name=major_1]').on('change', function (e) {
+        makeDisableMajor()
+    })
+
     $('form#xettuyen select[name=school], form#xettuyen_ne select[name=school]').on('change', function (e) {
         var me = $(this)
         var school = me.val()
@@ -733,18 +804,11 @@ $(document).ready(function () {
 
     $('form#xettuyen').on('submit', function (e) {
         e.preventDefault()
-
-        $('form#xettuyen input[name=fa_province_name]').val($('form#xettuyen select[name=fa_province] option:selected').text())
-        $('form#xettuyen input[name=fa_district_name]').val($('form#xettuyen select[name=fa_district] option:selected').text())
-        $('form#xettuyen input[name=fa_ward_name]').val($('form#xettuyen select[name=fa_ward] option:selected').text())
-
         var me = $(this)
-
         var data = me.serialize();
-
         me.find('button').prop('disabled', true);
-        $.post('https://vhmis.viethanit.edu.vn/education/public-api/admission/school-report/add', data, function (data) {
-        //$.post('http://localhost/VHMIS_WWW/education/public-api/admission/school-report/add', data, function (data) {
+        $.post('https://vhmis.viethanit.edu.vn/education/public-api/admission/add', data, function (data) {
+        //$.post('http://localhost/VHMIS_WWW/education/public-api/admission/add', data, function (data) {
             if (data.error == '0') {
                 alert('Cảm ơn bạn đã đăng ký xét tuyển vào trường Việt Hàn, chúng tôi sẽ liên lạc và thông báo kết quả sớm với bạn.')
                 me[0].reset();
@@ -759,6 +823,35 @@ $(document).ready(function () {
             me.find('button').prop('disabled', false);
         }, 'json')
     })
+
+    // $('form#xettuyen').on('submit', function (e) {
+    //     e.preventDefault()
+    //
+    //     $('form#xettuyen input[name=fa_province_name]').val($('form#xettuyen select[name=fa_province] option:selected').text())
+    //     $('form#xettuyen input[name=fa_district_name]').val($('form#xettuyen select[name=fa_district] option:selected').text())
+    //     $('form#xettuyen input[name=fa_ward_name]').val($('form#xettuyen select[name=fa_ward] option:selected').text())
+    //
+    //     var me = $(this)
+    //
+    //     var data = me.serialize();
+    //
+    //     me.find('button').prop('disabled', true);
+    //     $.post('https://vhmis.viethanit.edu.vn/education/public-api/admission/school-report/add', data, function (data) {
+    //     //$.post('http://localhost/VHMIS_WWW/education/public-api/admission/school-report/add', data, function (data) {
+    //         if (data.error == '0') {
+    //             alert('Cảm ơn bạn đã đăng ký xét tuyển vào trường Việt Hàn, chúng tôi sẽ liên lạc và thông báo kết quả sớm với bạn.')
+    //             me[0].reset();
+    //         } else {
+    //             if(data.error == '2') {
+    //                 console.log(data.form_error.code + "\n");
+    //                 console.log(data.form_error.message + "\n");
+    //                 console.log(data.form_error.field + "\n");
+    //             }
+    //             alert(data.message)
+    //         }
+    //         me.find('button').prop('disabled', false);
+    //     }, 'json')
+    // })
 
     /* Form xét tuyển điểm thi */
     $('form#xettuyen_ne select.chontohop').on('change', function (e) {
