@@ -653,6 +653,14 @@ $(document).ready(function () {
         var level = me.val()
         makeMajorSelect(majors[level])
         makeDisableMajor()
+        $('#major_1').removeClass('hide')
+        $('#major_2').removeClass('hide')
+        $('#gradute_school_k12').removeClass('hide')
+        $('#gradute_school_k9').removeClass('hide')
+        if (level === 'cd') {
+            $('#gradute_school_k9').addClass('hide')
+        }
+
     })
 
     $('form#xettuyen select[name=major_1]').on('change', function (e) {
