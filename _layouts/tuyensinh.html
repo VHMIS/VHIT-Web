@@ -60,15 +60,9 @@
                     <li class="dropdown">
                         <a href="#">Giới thiệu ngành đào tạo <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="/tuyensinh/nganh_dt_tt.html">Công nghệ kĩ thuật điện tử, truyền thông</a></li>
-                            <li><a href="/tuyensinh/nganh_kt.html">Công nghệ kĩ thuật kiến trúc</a></li>
-                            <li><a href="/tuyensinh/nganh_tkdh.html">Thiết kế đồ họa</a></li>
-                            <li><a href="/tuyensinh/nganh_ttdpt.html">Truyền thông đa phương tiện</a>
-                            <li><a href="/tuyensinh/nganh_cntt.html">Công nghệ thông tin</a>
-                            <li><a href="/tuyensinh/nganh_khmt.html">Khoa học máy tính</a></li>
-                            <li><a href="/tuyensinh/nganh_tt_mmt.html">Truyền thông và mạng máy tính</a>
-                            <li><a href="/tuyensinh/nganh_qtkd.html">Quản trị kinh doanh</a></li>
-                            <li><a href="/tuyensinh/nganh_marketing.html">Marketing</a></li>
+                            {% for nhomnganh in site.data.tuyensinh.nhomnganh_2017 %}
+                            <li><a href="nganh-{{ nhomnganh.slug }}.html"> {{ nhomnganh.name }}</a></li>
+                            {% endfor %}
                         </ul>
                     </li>
                     <li class="dropdown">
