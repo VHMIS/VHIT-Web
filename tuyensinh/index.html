@@ -6,7 +6,7 @@ page: index
 
         <div class="container sc-main">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="flash-card flash-intro">
                         <h1 class="flash-header">Thông báo tuyển sinh 2017</h1>
                         <div class="flash-photo">
@@ -41,24 +41,6 @@ page: index
                             <p><b><a href="thongbao_diemtrungtuyen_2015.html">Điểm trúng tuyển dự kiến: 12đ</a></b></p> -->
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="flash-card flash-majors">
-                        <h1 class="flash-header">Các ngành tuyển sinh</h1>
-                        <div class="flash-photo">
-                            <img src="/client/tuyensinh/img/flash_marjors.jpg" alt=""/>
-                        </div>
-                        <div class="flash-body">
-                            <ul>
-                                {% for nhomnganh in site.data.tuyensinh.nhomnganh_2017 %}
-                                <li><a href="nganh-{{ nhomnganh.slug }}.html"><span class="glyphicon glyphicon-chevron-right"></span> {{ nhomnganh.name }}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
                     <div class="flash-card flash-about">
                         <h1 class="flash-header">Về trường CĐ CNTT Hữu nghị Việt-Hàn</h1>
                         <div class="flash-video flash-photo embed-responsive embed-responsive-16by9">
@@ -78,6 +60,31 @@ page: index
                             </ul>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="flash-card flash-majors">
+                        <h1 class="flash-header">Các ngành tuyển sinh</h1>
+                        <div class="flash-photo">
+                            <img src="/client/tuyensinh/img/flash_marjors.jpg" alt=""/>
+                        </div>
+                        <div class="flash-body">
+                            <ul>
+                                {% for nhomnganh in site.data.tuyensinh.nhomnganh_2017 %}
+                                <li><a href="nganh-{{ nhomnganh.slug }}.html"><span class="glyphicon glyphicon-chevron-right"></span> <strong>{{ nhomnganh.name }}</strong></a></li>
+                                {% for manganh in nhomnganh.majors.cd %}
+                                <li>- (CĐ) {{ site.data.tuyensinh.nganh_cd_2017[manganh].title }}</li>
+                                {% endfor %}
+                                {% for manganh in nhomnganh.majors.tc %}
+                                <li>- (TC) {{ site.data.tuyensinh.nganh_tc_2017[manganh].title }}</li>
+                                {% endfor %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
                 </div>
             </div>
         </div>
