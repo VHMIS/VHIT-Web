@@ -1,8 +1,8 @@
 6210402:
     code: 6210402
     title: Thiết kế đồ họa
-6210404:
-    code: 6210404
+6210403:
+    code: 6210403
     title: Thiết kế nội thất
 6220202:
     code: 6220202
@@ -16,18 +16,21 @@
 6320101:
     code: 6320101
     title: Phóng viên, biên tập đài cơ sở
-6320103:
-    code: 6320103
+6320106:
+    code: 6320106
     title: Truyền thông đa phương tiện
-6340136:
-    code: 6340136
+6340117:
+    code: 6340117
     title: Marketing du lịch
-6340140:
-    code: 6340140
+6320108:
+    code: 6320108
     title: Quan hệ công chúng
-6340141:
-    code: 6340141
+6340113:
+    code: 6340113
     title: Logistic
+6340122:
+    code: 6340122
+    title: Thương mại điện tử
 6340303:
     code: 6340303
     title: Kế toán lao động, tiền lương và bảo hiểm xã hội
@@ -40,39 +43,39 @@
 6480202:
     code: 6480202
     title: Công nghệ thông tin (ứng dụng phần mềm)
+6480203:
+    code: 6480203
+    title: Tin học văn phòng
 6480204:
     code: 6480204
-    title: Tin học văn phòng
-6480205:
-    code: 6480205
     title: Tin học viễn thông ứng dụng
+6480206:
+    code: 6480206
+    title: Xử lý dữ liệu
 6480207:
     code: 6480207
-    title: Xử lý dữ liệu
+    title: Lập trình máy tính
 6480208:
     code: 6480208
-    title: Lập trình máy tính
+    title: Quản trị cơ sở dữ liệu
 6480209:
     code: 6480209
-    title: Quản trị cơ sở dữ liệu
-6480210:
-    code: 6480210
     title: Quản trị mạng máy tính
-6480215:
-    code: 6480215
-    title: Thương mại điện tử
-6480217:
-    code: 6480217
+6480214:
+    code: 6480214
     title: Thiết kế trang Web
-6480219:
-    code: 6480219
+6480216:
+    code: 6480216
     title: An ninh mạng
 6510101:
     code: 6510101
     title: Công nghệ kỹ thuật kiến trúc
-6520224:
-    code: 6520224
-    title: Điện tử dân dụng
+6510304:
+    code: 6510304
+    title: Công nghệ kỹ thuật cơ điện tử
+6520226:
+    code: 6520226
+    title: Điện dân dụng
 6810201:
     code: 6810201
     title: Quản trị khách sạn

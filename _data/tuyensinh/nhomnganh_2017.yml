@@ -1,18 +1,74 @@
 -
     slug: mythuat-ungdung-kientruc
     name: Mỹ thuật, Ứng dụng, Kiến trúc
+    majors:
+        tc:
+            - 5210418
+            - 5580102
+        cd:
+            - 6210402
+            - 6320106
+            - 6210403
+            - 6510101
 -
     slug: dien-dientu-vienthong
     name: Điện, Điện tử, Viễn thông
+    majors:
+        tc:
+            - 5520226
+            - 5480103
+            - 5480204
+        cd:
+            - 6520226
+            - 6510304
+            - 6480103
+            - 6480204
 -
     slug: mangmaytinh-cntt
     name: Mạng máy tính và công nghệ thông tin
+    majors:
+        tc:
+            - 5480102
+            - 5480214
+            - 5480203
+        cd:
+            - 6480209
+            - 6480216
+            - 6480208
+            - 6480206
+            - 6480207
+            - 6480214
+            - 6480202
+            - 6480102
+            - 6480203
 -
     slug: ngonngu
     name: Ngôn ngữ
+    majors:
+        tc: []
+        cd:
+            - 6220202
+            - 6220203
+            - 6220211
 -
     slug: baochi-truyenthong
     name: Báo chí truyền thông
+    majors:
+        tc:
+            - 5340119
+            - 5340122
+        cd:
+            - 6320101
+            - 6320108
+            - 6340117
+            - 6340113
+            - 6340122
 -
     slug: khachsan-nhahang-ketoan-kiemtoan
     name: Khách sạn, Nhà hàng, Kế toán, Kiểm toán
+    majors:
+        tc:
+            - 5340304
+        cd:
+            - 6810201
+            - 6340303
