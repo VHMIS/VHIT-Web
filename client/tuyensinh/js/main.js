@@ -594,7 +594,6 @@ $(document).ready(function () {
             '6210403': 'Thiết kế nội thất',
             '6220202': 'Phiên dịch tiếng Anh thương mại',
             '6220203': 'Phiên dịch tiếng Anh du lịch',
-            '6220211': 'Tiếng Hàn Quốc',
             '6320101': 'Phóng viên, biên tập đài cơ sở',
             '6320106': 'Truyền thông đa phương tiện',
             '6340117': 'Marketing du lịch',
@@ -614,7 +613,6 @@ $(document).ready(function () {
             '6480214': 'Thiết kế trang Web',
             '6480216': 'An ninh mạng',
             '6510101': 'Công nghệ kỹ thuật kiến trúc',
-            '6510304': 'Công nghệ kỹ thuật cơ điện tử',
             '6520226': 'Điện dân dụng',
             '6810201': 'Quản trị khách sạn'
         },
