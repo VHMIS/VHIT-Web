@@ -594,7 +594,7 @@ $(document).ready(function () {
             '6210403': 'Thiết kế nội thất',
             '6220202': 'Phiên dịch tiếng Anh thương mại',
             '6220203': 'Phiên dịch tiếng Anh du lịch',
-            '6320101': 'Phóng viên, biên tập đài cơ sở',
+            '6320103': 'Báo chí',
             '6320106': 'Truyền thông đa phương tiện',
             '6340117': 'Marketing du lịch',
             '6320108': 'Quan hệ công chúng',
