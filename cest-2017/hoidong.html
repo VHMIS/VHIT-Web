@@ -25,55 +25,18 @@ layout: default
                     <h1>Ban tổ chức</h1>
                 </div>
                 <div class="section-container">
-                    <ul class="members">
-                        <li class="center"><span class="name big">TS. Trần Thế Sơn</span><br>Phó hiệu trưởng<br>VHIT<br><span class="title">Trưởng ban</span></li>
-                    </ul>
-                    <ul class="members">
-                        <li><span class="name">TS. Đặng Thị Quỳnh Lan</span><br>Phó Hiệu trưởng<br> HCE</li>
-                        <li><span class="name">TS. Lê Văn Luận</span><br>Phó Hiệu trưởng<br>HUEIC</li>
-                        <li><span class="name">ThS. Võ Duy Thanh</span><br>Phó hiệu trưởng<br>VHIT</li>
-                        <li><span class="name">TS. Nguyễn Hữu Chúc</span><br>Trưởng phòng Quản lý Khoa học và Hợp tác Quốc tế<br> HUEIC</li>
-                        <li><span class="name">ThS. Phạm Thanh Hải</span><br>Trưởng phòng Đào tạo - Quản lý Khoa học<br>HCE</li>
-                        <li><span class="name">TS. Đào Ngọc Lâm</span><br> Phó trưởng phòng HTQT &amp; KHCN<br>VHIT</li>
-                    </ul>
-                    <h2>Danh sách thành viên</h2>
+                    {% for board in site.data.cest2017.org_b %}
+                    <h2>{{ board.title }}</h2>
                     <ul class="list-members">
+                        {% for member in board.members %}
                         <li>
-                            <span class="name">TS. Nguyễn Quang Vũ</span>
-                            <span class="pos">Phó khoa CNTT, VHIT</span>
-                            <span class="duty">Phụ trách truyền thông</span>
+                            <span class="name">{{ member.name }}</span>
+                            <span class="pos">{{ member.pos }}</span>
+                            <span class="duty">{{ member.note }}</span>
                         </li>
-                        <li>
-                            <span class="name">ThS. Nguyễn Văn Tân</span>
-                            <span class="pos">Trưởng phòng KHTC, VHIT</span>
-                            <span class="duty">Phụ trách tài chính</span>
-                        </li>
-                        <li>
-                            <span class="name">ThS. Nguyễn Ngọc Hòa</span>
-                            <span class="pos">Giám đốc TT TTTL, VHIT</span>
-                            <span class="duty">Phụ trách in ấn, xuất bản</span>
-                        </li>
-                        <li>
-                            <span class="name">ThS. Nguyễn Văn Phi</span>
-                            <span class="pos">Giám đốc Trung tâm CNTT, VHIT</span>
-                            <span class="duty">Phụ trách trang thiết bị hỗ trợ</span>
-                        </li>
-                        <li>
-                            <span class="name">Nguyễn Hải</span>
-                            <span class="pos">Trưởng phòng HCQT, VHIT</span>
-                            <span class="duty">Phụ trách công tác hậu cần</span>
-                        </li>
-                        <li>
-                            <span class="name">Hoàng Thị Khánh Vân</span>
-                            <span class="pos">Phó phòng HTQT &amp; KHCN, VHIT</span>
-                            <span class="duty">Phụ trách lễ tân</span>
-                        </li>
-                        <li>
-                            <span class="name">ThS. Phạm Thị Hồng Hạnh</span>
-                            <span class="pos">Chuyên viên phòng HTQT &amp; KHCN, VHIT</span>
-                            <span class="duty">Thư ký</span>
-                        </li>
+                        {% endfor %}
                     </ul>
+                    {% endfor %}
                 </div>
             </div>
         </section>
