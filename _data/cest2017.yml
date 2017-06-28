@@ -74,11 +74,11 @@ pro_b:
         col: VHIT
         field: Hệ thống thông tin quản lý
     -
-        name: TS Nguyễn Thị Hoa Huệ
+        name: TS. Nguyễn Thị Hoa Huệ
         col: VHIT
         field: Công nghệ thông tin
     -
-        name: TS Đào Ngọc Lâm
+        name: TS. Đào Ngọc Lâm
         col: VHIT
         field: Viễn Thông
     -
