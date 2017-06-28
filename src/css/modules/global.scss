@@ -66,7 +66,7 @@ body {
         .header-title {
             display: block;
             font-weight: 700;
-            background: url(../img/logo.png) 0 0 no-repeat;
+            background: url(../img/logo.png) 0 5px no-repeat;
             background-size: 50px 47px; /* 100 94 */
             padding-top: .3rem;
             padding-left: 67px;
@@ -74,10 +74,23 @@ body {
             margin: 0;
             font-size: 2rem;
             color: $primary-color;
-            height: 50px;
+            height: 55px;
             text-transform: uppercase;
 
             @include text-truncate;
+        }
+
+        .header-title2 {
+            display: block;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: $primary-color;
+            height: 50px;
+            text-transform: uppercase;
+            @include text-truncate;
+            padding-top: .3rem;
+            padding-left: 67px;
+            padding-right: 67px;
         }
 
         .intro_text {
@@ -222,8 +235,12 @@ body {
 
         .top-menu {
             position: absolute;
-            top: -104px;
+            top: -109px;
             right: 0;
+
+            &.has-title2 {
+              top: -159px;
+            }
 
             ul {
                 li {

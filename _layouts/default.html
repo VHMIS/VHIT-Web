@@ -42,6 +42,11 @@
                             <span class="header-title">
                                 {{ site.data.site[page.site].title }}
                             </span>
+                            {% if site.data.site[page.site].title2 %}
+                            <span class="header-title2">
+                                {{ site.data.site[page.site].title2 }}
+                            </span>
+                            {% endif %}
                         </a>
                         <div class="intro_text">
                             <span class="intro_text_1">{{ site.data.site[page.site].sub_title }}</span>
