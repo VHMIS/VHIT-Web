@@ -1,10 +1,20 @@
 @import "modules/base";
 
+.sc-organizing-cc h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 .members {
     @include clearfix;
     padding-top: 1rem;
 
     li {
+        &.center {
+            margin: 0 auto 1rem auto;
+            float: none
+        }
+
         width: 33.33333%;
         display: block;
         padding: 0 15px;
@@ -18,6 +28,16 @@
                 font-size: 1.3rem;
             }
         }
+
+        .title {
+            margin-top: 6px;
+            display: inline-block;
+            background: #1a77cd;
+            color: #fff;
+            font-weight: 700;
+            padding: 3px 5px;
+            border-radius: 3px;
+        }
     }
 }
 
@@ -25,6 +45,36 @@
     .members {
         li {
             width: 100%;
+        }
+    }
+}
+
+.list-members {
+    padding: 1rem 2rem 0 2rem;
+
+    li {
+        display: block;
+        @include clearfix;
+        margin-bottom: 1rem;
+        border-top: 1px solid #eee;
+
+        span {
+            display: block;
+            float: left;
+            padding: 1rem 0;
+
+            &.name {
+                width: 30%;
+                font-weight: 700;
+            }
+
+            &.pos {
+                width: 40%;
+            }
+
+            &.duty {
+                width: 30%;
+            }
         }
     }
 }
