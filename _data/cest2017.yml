@@ -1,6 +1,6 @@
 org_b:
     -
-        title: Trường CĐ CNTT Hữu nghị Việt-Hàn (BTC Địa phương)
+        title: Trường CĐ Công nghệ thông tin Hữu nghị Việt-Hàn (BTC Địa phương)
         members:
             -
                 name: Trần Thế Sơn
@@ -13,7 +13,7 @@ org_b:
                 pos: Phó trưởng phòng HTQT &amp; KHCN
             -
                 name: Nguyễn Quang Vũ
-                pos: Phó khoa CNTT
+                pos: Phó khoa Công nghệ thông tin
             -
                 name: Nguyễn Văn Tân
                 pos: Trưởng phòng KHTC
@@ -24,11 +24,11 @@ org_b:
                 note: Phụ trách in ấn, xuất bản
             -
                 name: Nguyễn Văn Phi
-                pos: Giám đốc Trung tâm CNTT
+                pos: Giám đốc Trung tâm Công nghệ thông tin
                 note: Phụ trách trang thiết bị hỗ trợ
             -
                 name: Nguyễn Hải
-                pos: Phó khoa CNTT
+                pos: Phó khoa Công nghệ thông tin
                 note: Phụ trách công tác hậu cần
             -
                 name: Hoàng Thị Khánh Vân
@@ -56,3 +56,164 @@ org_b:
             -
                 name: Phạm Thanh Hải
                 pos: Trưởng phòng Đào tạo - Quản lý Khoa học
+pro_b:
+    -
+        name: TS. Hoàng Bảo Hùng
+        col: VHIT
+        field: Công nghệ thông tin
+    -
+        name: TS. Hồ Văn Thành
+        col: HCE
+        field: Hóa học
+    -
+        name: TS. Cung Trọng Cường
+        col: HUEIC
+        field: Công nghệ thông tin
+    -
+        name: TS. Lê Thị Minh Đức
+        col: VHIT
+        field: Hệ thống thông tin quản lý
+    -
+        name: TS Nguyễn Thị Hoa Huệ
+        col: VHIT
+        field: Công nghệ thông tin
+    -
+        name: TS Đào Ngọc Lâm
+        col: VHIT
+        field: Viễn Thông
+    -
+        name: TS. Lê Phước Cửu Long
+        col: VHIT
+        field: Marketing
+    -
+        name: TS. Nguyễn Văn Lợi
+        col: VHIT
+        field: Công nghệ thông tin
+    -
+        name: TS. Hồ Văn Phi
+        col: VHIT
+        field: Công nghệ thông tin
+    -
+        name: TS. Nguyễn Vũ Anh Quang
+        col: VHIT
+        field: Viễn Thông
+    -
+        name: TS. Trần Thế Sơn
+        col: VHIT
+        field: Công nghệ thông tin
+    -
+        name: TS. Lê Tân
+        col: VHIT
+        field: Công nghệ thông tin
+    -
+        name: TS. Nguyễn Thị Kiều Trang
+        col: VHIT
+        field: Quản trị kinh doanh
+    -
+        name: TS. Văn Hùng Trọng
+        col: VHIT
+        field: Quản trị kinh doanh
+    -
+        name: TS. Nguyễn Quang Vũ
+        col: VHIT
+        field: Công nghệ thông tin
+    -
+        name: TS. Nguyễn Văn Anh
+        col: HUEIC
+        field: Cơ khí
+    -
+        name: TS. Nguyễn Hữu Chúc
+        col: HUEIC
+        field: Cơ điện tử
+    -
+        name: TS. Trần Hòa Duân
+        col: HUEIC
+        field: Vi sinh
+    -
+        name: TS Nguyễn Thị Hồng
+        col: HUEIC
+        field: Công nghệ Hóa - Vật liệu
+    -
+        name: TS Nguyễn Đăng Khoa
+        col: HUEIC
+        field: Công nghệ thông tin
+    -
+        name: TS. Lê Văn Luận
+        col: HUEIC
+        field: Công nghệ hóa thực phẩm
+    -
+        name: TS. Trần Phương Nam
+        col: HUEIC
+        field: Điện
+    -
+        name: TS. Đào Anh Quang
+        col: HUEIC
+        field: Công nghệ Hóa
+    -
+        name: TS. Nguyễn Khánh Quang
+        col: HUEIC
+        field: Công nghệ tự động
+    -
+        name: TS. Nguyễn Văn Sum
+        col: HUEIC
+        field: Điện tử - Viễn thông
+    -
+        name: TS. Đặng Ngọc Hoàng Thành
+        col: HUEIC
+        field: Công nghệ thông tin
+    -
+        name: TS. Hồ Thị Hạnh Tiên
+        col: HUEIC
+        field: Quản lý giáo dục
+    -
+        name: TS. Phan Hồng Tín
+        col: HUEIC
+        field: Toán học
+    -
+        name: TS. Nguyễn Vũ Trọng Thi
+        col: HUEIC
+        field: Kiến trúc - Xây dựng
+    -
+        name: TS. Nguyễn Ngọc Trác
+        col: HUEIC
+        field: Công nghệ Hóa - Vật liệu
+    -
+        name: TS. Lê Minh Trí
+        col: HUEIC
+        field: Công nghệ nhiệt lạnh
+    -
+        name: TS. Đặng Anh Tuấn
+        col: HUEIC
+        field: Công nghệ Hóa - Vật liệu
+    -
+        name: TS. Hà Xuân Vinh
+        col: HUEIC
+        field: Điện tử - Truyền thông
+    -
+        name: TS. Lê Đại Vương
+        col: HUEIC
+        field: Vật liệu
+    -
+        name: TS. Bùi Như Hải
+        col: HCE
+        field: Ngữ Văn
+    -
+        name: TS. Đặng Thị Quỳnh Lan
+        col: HCE
+        field: Hóa học
+    -
+        name: TS. Nguyễn Viết Thanh Minh
+        col: HCE
+        field: Vật lý
+    -
+        name: TS. Nguyễn Thị Anh Phương
+        col: HCE
+        field: Văn Học
+    -
+        name: TS. Hoàng Thị Thu Thủy
+        col: HCE
+        field: Ngữ văn
+    -
+        name: TS. Nguyễn Quang Hưng
+        col: Tạp chí CNTT&amp;TT
+        field: Công nghệ thông tin

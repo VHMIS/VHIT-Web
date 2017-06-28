@@ -79,6 +79,50 @@
     }
 }
 
+.list-members2 {
+    padding: 1rem 2rem 0 2rem;
+
+    li {
+        display: block;
+        float: left;
+        width: 50%;
+        @include clearfix;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #eee;
+
+        span {
+            // display: block;
+
+            &.name {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .list-members2 {
+        li {
+            span {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .list-members2 {
+        li {
+            width: 100%;
+
+            span {
+                display: inline;
+            }
+        }
+    }
+}
+
 .sc-cfp {
     .download {
         li {
