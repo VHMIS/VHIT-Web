@@ -4,7 +4,7 @@ org_b:
         members:
             -
                 name: Trần Thế Sơn
-                pos: Phó hiệu trưởng, Trương ban tổ chức
+                pos: Phó hiệu trưởng, Trưởng ban tổ chức
             -
                 name: Võ Duy Thanh
                 pos: Phó hiệu trường
@@ -24,7 +24,7 @@ org_b:
                 note: Phụ trách in ấn, xuất bản
             -
                 name: Nguyễn Văn Phi
-                pos: Giám đốc Trung tâm CNTT
+                pos: Giám đốc TT CNTT
                 note: Phụ trách trang thiết bị hỗ trợ
             -
                 name: Nguyễn Hải
@@ -80,7 +80,7 @@ pro_b:
     -
         name: TS. Đào Ngọc Lâm
         col: VHIT
-        field: Viễn Thông
+        field: Viễn thông
     -
         name: TS. Lê Phước Cửu Long
         col: VHIT
@@ -96,7 +96,7 @@ pro_b:
     -
         name: TS. Nguyễn Vũ Anh Quang
         col: VHIT
-        field: Viễn Thông
+        field: Viễn thông
     -
         name: TS. Trần Thế Sơn
         col: VHIT
