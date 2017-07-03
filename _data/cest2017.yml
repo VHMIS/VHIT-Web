@@ -1,3 +1,90 @@
+events_by_days_hours:
+    -
+        date: Thứ 6, 14/07/2017
+        events:
+            -
+                time: '07:00'
+                duration: 07:00 - 08:00
+                type: off
+                name: Đón tiếp đại biểu
+                loc: Tiền sảnh khu A
+            -
+                time: '08:00'
+                duration: 08:00 - 08:15
+                name: Khai mạc
+                type: ceremony
+                loc: Hội trường tròn
+                speaker: Hiệu trưởng Hoàng Bảo Hùng (VHIT)
+            -
+                time: '08:15'
+                duration: 08:15 - 08:30
+                name: Báo cáo tổng quan định hướng nghiên cứu của hội thảo
+                loc: Hội trường tròn
+                type: ceremony
+                speaker: Phó hiệu trưởng Trần Thế Sơn (VHIT)
+            -
+                time: '09:00'
+                duration: 09:00 - 09:30
+                name: Phiên toàn thể 01
+                type: report
+                loc: Hội trường tròn
+                speaker: Ts. Hồ Văn Thành (HCE)
+                chair: Ts. Hoàng Bảo Hùng (VHIT)
+            -
+                time: '09:30'
+                duration: 09:30 - 10:00
+                name: Phiên toàn thể 02
+                loc: Hội trường tròn
+                type: report
+                speaker: Ts. Cung Trọng Cường (HUEIC)
+                chair: Ts. Trần Thế Sơn (VHIT)
+            -
+                time: '10:00'
+                duration: 10:00 - 10:15
+                name: Tea break
+                type: off
+                loc: Hội trường tròn
+            -
+                time: '10:15'
+                duration: 10:15 - 12:15
+                name: Các phiên song song 01 (theo lĩnh vực)
+                type: off
+                loc: Địa điểm cho các lĩnh vực thông báo sau
+            -
+                time: '12:15'
+                duration: 12:15 – 13:30
+                name: Ăn trưa
+                type: off
+                loc: Căn tin
+            -
+                time: '13:30'
+                duration: 13:30 - 14:00
+                name: Phiên toàn thể 03
+                loc: Hội trường tròn
+                type: report
+                speaker: Microsoft Edu Vietnam
+                chair: Ts. Cung Trọng Cường (HUEIC)
+            -
+                time: '14:00'
+                duration: 14:00 - 17:30
+                name: Các phiên song song 02 (theo lĩnh vực)
+                type: off
+                loc: Địa điểm cho các lĩnh vực thông báo sau
+            -
+                time: '18:00'
+                duration: 18:00 - 20:00
+                name: Tiệc tối
+                type: off
+                loc: Căn tin
+    -
+        date: Thứ 7, 15/07/2017
+        events:
+            -
+                time: '08:00'
+                duration: 08:00 - 12:00
+                type: off
+                name: Giao lưu, tham quan trường Việt Hàn, danh thắng chùa Linh Ứng, núi Ngũ Hành Sơn
+                loc: Tp. Đà Nẵng
 org_b:
     -
         title: Trường CĐ Công nghệ thông tin Hữu nghị Việt-Hàn (BTC Địa phương)

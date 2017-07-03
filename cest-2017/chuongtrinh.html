@@ -4,8 +4,27 @@ meta_title: Chương trình | CEST 2017
 layout: default
 ---
 
-        <section class="section sc-coming-soon">
+        {% for hour_event in site.data.cest2017.events_by_days_hours %}
+        <section class="section sc-events">
             <div class="container">
-                Thông tin sẽ được cập nhật sau
+                <div class="section-header">
+                    <h1>{{ hour_event.date }}</h1>
+                </div>
+                <div class="section-container">
+                    <ul class="hour-events">
+                        {% for event in hour_event.events %}
+                        <li>
+                            <div class="hour">{{ event.time }}</div>
+                            <div class="event">
+                                <h4>{{ event.name }}</h4>
+                                {% if event.type == 'report' %}<span class="person">Trình bày: <span class="name">{{ event.speaker }}</span> - Điều hành: <span class="name">{{ event.chair }}</span></span>{% endif %}
+                                {% if event.type == 'ceremony' and event.speaker %}<span class="person"><span class="name">{{ event.speaker }}</span></span>{% endif %}
+                                <span class="loc">{{ event.loc }} - {{ event.duration }}</span>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
         </section>
+        {% endfor %}
