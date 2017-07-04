@@ -19,6 +19,11 @@ layout: default
                                 <h4>{{ event.name }}</h4>
                                 {% if event.type == 'report' %}<span class="person">Trình bày: <span class="name">{{ event.speaker }}</span> - Điều hành: <span class="name">{{ event.chair }}</span></span>{% endif %}
                                 {% if event.type == 'ceremony' and event.speaker %}<span class="person"><span class="name">{{ event.speaker }}</span></span>{% endif %}
+                                <ul>
+                                {% for field in event.fields %}
+                                  <li>- {{ field }}</li>
+                                {% endfor %}
+                                <ul>
                                 <span class="loc">{{ event.loc }}</span>
                             </div>
                         </li>

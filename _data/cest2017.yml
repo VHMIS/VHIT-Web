@@ -48,6 +48,11 @@ events_by_days_hours:
                 time: '10:15'
                 duration: 10:15 - 12:15
                 name: Các phiên song song 01 (theo lĩnh vực)
+                fields:
+                    - Khoa học giáo dục
+                    - CNTT - TT
+                    - Kỹ thuật công nghệ
+                    - Khoa học cơ bản
                 type: off
                 loc: Địa điểm cho các lĩnh vực thông báo sau
             -
@@ -68,6 +73,12 @@ events_by_days_hours:
                 time: '14:00'
                 duration: 14:00 - 17:30
                 name: Các phiên song song 02 (theo lĩnh vực)
+                fields:
+                    - Khoa học giáo dục (tt)
+                    - CNTT - TT (tt)
+                    - Kỹ thuật công nghệ (tt)
+                    - Khoa học cơ bản (tt)
+                    - Khoa học xã hội
                 type: off
                 loc: Địa điểm cho các lĩnh vực thông báo sau
             -

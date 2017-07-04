@@ -592,7 +592,7 @@
 
   .hour-events {
     > li {
-      padding: 1rem 0;
+      padding: 0.5rem 0;
       margin: 0 2rem;
 
       + li {
@@ -619,7 +619,7 @@
         display: block;
 
         &.loc {
-          margin-top: 0.8rem;
+          margin-top: 0.4rem;
           // font-weight: 600;
         }
 
