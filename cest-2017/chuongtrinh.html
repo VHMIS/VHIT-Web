@@ -14,12 +14,12 @@ layout: default
                     <ul class="hour-events">
                         {% for event in hour_event.events %}
                         <li>
-                            <div class="hour">{{ event.time }}</div>
+                            <div class="hour">{{ event.duration }}</div>
                             <div class="event">
                                 <h4>{{ event.name }}</h4>
                                 {% if event.type == 'report' %}<span class="person">Trình bày: <span class="name">{{ event.speaker }}</span> - Điều hành: <span class="name">{{ event.chair }}</span></span>{% endif %}
                                 {% if event.type == 'ceremony' and event.speaker %}<span class="person"><span class="name">{{ event.speaker }}</span></span>{% endif %}
-                                <span class="loc">{{ event.loc }} - {{ event.duration }}</span>
+                                <span class="loc">{{ event.loc }}</span>
                             </div>
                         </li>
                         {% endfor %}
