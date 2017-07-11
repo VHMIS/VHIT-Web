@@ -3,36 +3,36 @@ events_by_days_hours:
         date: Thứ 7, 15/07/2017
         events:
             -
-                time: '07:00'
-                duration: 07:00 - 08:00
+                time: '08:00'
+                duration: 08:00 - 09:00
                 type: off
                 name: Đón tiếp đại biểu
                 loc: Tiền sảnh khu A
             -
-                time: '08:00'
-                duration: 08:00 - 08:15
+                time: '09:00'
+                duration: 09:00 - 09:15
                 name: Khai mạc
                 type: ceremony
                 loc: Hội trường tròn
                 speaker: Hiệu trưởng Hoàng Bảo Hùng (VHIT)
             -
-                time: '08:15'
-                duration: 08:15 - 08:30
-                name: Báo cáo tổng quan định hướng nghiên cứu của hội thảo
+                time: '09:15'
+                duration: 09:15 - 09:20
+                name: Báo cáo tổng quan
                 loc: Hội trường tròn
                 type: ceremony
                 speaker: Phó hiệu trưởng Trần Thế Sơn (VHIT)
             -
-                time: '09:00'
-                duration: 09:00 - 09:30
+                time: '09:20'
+                duration: 09:20 - 09:40
                 name: Phiên toàn thể 01
                 type: report
                 loc: Hội trường tròn
                 speaker: Ts. Hồ Văn Thành (HCE)
                 chair: Ts. Hoàng Bảo Hùng (VHIT)
             -
-                time: '09:30'
-                duration: 09:30 - 10:00
+                time: '09:40'
+                duration: 09:40 - 10:00
                 name: Phiên toàn thể 02
                 loc: Hội trường tròn
                 type: report
@@ -41,23 +41,28 @@ events_by_days_hours:
             -
                 time: '10:00'
                 duration: 10:00 - 10:15
-                name: Tea break
+                name: Chụp hình lưu niệm
                 type: off
-                loc: Hội trường tròn
+                loc: Tiền sảnh khu A và khu vực đài kỷ niệm
             -
                 time: '10:15'
-                duration: 10:15 - 12:15
-                name: Các phiên song song 01 (theo lĩnh vực)
-                fields:
-                    - Khoa học giáo dục
-                    - CNTT - TT
-                    - Kỹ thuật công nghệ
-                    - Khoa học cơ bản
+                duration: 10:15 - 10:30
+                name: Tea break
                 type: off
-                loc: Địa điểm cho các lĩnh vực thông báo sau
             -
-                time: '12:15'
-                duration: 12:15 – 13:30
+                time: '10:30'
+                duration: 10:30 - 12:00
+                name: Các phiên song song 01
+                fields:
+                    - '<b>Phòng A101</b> - Phiên 01: Khoa học giáo dục (Bài 01-06)'
+                    - '<b>Phòng A103</b> - Phiên 02: Kỹ thuật - Công nghệ (Bài 01-06)'
+                    - '<b>Phòng A105</b> - Phiên 03: CNTT - TT (Bài 01-06)'
+                    - '<b>Phòng A107</b> - Phiên 04: Khoa học cơ bản (Bài 01-06)'
+                type: off
+                loc: Mỗi bài trình bày trong vòng 15 phút bao gồm cả phần hỏi - đáp (Danh sách bài thông báo sau)
+            -
+                time: '12:00'
+                duration: 12:00 – 13:30
                 name: Ăn trưa
                 type: off
                 loc: Căn tin
@@ -67,20 +72,24 @@ events_by_days_hours:
                 name: Phiên toàn thể 03
                 loc: Hội trường tròn
                 type: report
-                speaker: Microsoft Edu Vietnam
+                speaker: Microsoft Edu Vietnam, Cty Đỉnh Bạch Mã
                 chair: Ts. Cung Trọng Cường (HUEIC)
             -
                 time: '14:00'
-                duration: 14:00 - 17:30
-                name: Các phiên song song 02 (theo lĩnh vực)
-                fields:
-                    - Khoa học giáo dục (tt)
-                    - CNTT - TT (tt)
-                    - Kỹ thuật công nghệ (tt)
-                    - Khoa học cơ bản (tt)
-                    - Khoa học xã hội
+                duration: 14:00 - 14:15
+                name: Tea break
                 type: off
-                loc: Địa điểm cho các lĩnh vực thông báo sau
+            -
+                time: '14:15'
+                duration: 14:15 - 17:15
+                name: Các phiên song song 02
+                fields:
+                    - '<b>Phòng A101</b> - Phiên 05: Khoa học giáo dục (Bài 07-19)'
+                    - '<b>Phòng A103</b> - Phiên 06: Kỹ thuật - Công nghệ (Bài 07-15)'
+                    - '<b>Phòng A105</b> - Phiên 07: CNTT - TT (Bài 07-12), Phiên 08: Khoa học xã hội (Bài 01-04)'
+                    - '<b>Phòng A107</b> - Phiên 09: Khoa học cơ bản (Bài 07-09), Phiên 10: Kỹ thuật - Công nghệ (Bài 16-20)'
+                type: off
+                loc: Mỗi bài trình bày trong vòng 15 phút bao gồm cả phần hỏi - đáp (Danh sách bài thông báo sau)
             -
                 time: '18:00'
                 duration: 18:00 - 20:00
@@ -94,8 +103,8 @@ events_by_days_hours:
                 time: '08:00'
                 duration: 08:00 - 12:00
                 type: off
-                name: Giao lưu, tham quan trường Việt Hàn, danh thắng chùa Linh Ứng, núi Ngũ Hành Sơn
-                loc: Tp. Đà Nẵng
+                name: Tham quan và ăn trưa
+                loc: Địa điểm thông báo sau
 org_b:
     -
         title: Trường CĐ Công nghệ thông tin Hữu nghị Việt-Hàn (BTC Địa phương)
