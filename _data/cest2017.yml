@@ -59,7 +59,7 @@ events_by_days_hours:
                     - '<b>Phòng A105</b> - Phiên 03: CNTT - TT (Bài 01-06)'
                     - '<b>Phòng A107</b> - Phiên 04: Khoa học cơ bản (Bài 01-06)'
                 type: off
-                loc: Mỗi bài trình bày trong vòng 15 phút bao gồm cả phần hỏi - đáp (<a target="_blank" href="/cest-2017/data/Conference_Program_CEST 2017_v7.1.pdf">Danh sách các bài có trong chương trình chi tiết</a>)
+                loc: Mỗi bài trình bày trong vòng 15 phút bao gồm cả phần hỏi - đáp (<a target="_blank" href="/cest-2017/data/Conference_Program_CEST 2017_v7.2.pdf">Danh sách các bài có trong chương trình chi tiết</a>)
             -
                 time: '12:00'
                 duration: 12:00 – 13:30
@@ -89,7 +89,7 @@ events_by_days_hours:
                     - '<b>Phòng A105</b> - Phiên 07: CNTT - TT (Bài 07-12), Phiên 08: Khoa học xã hội (Bài 01-04)'
                     - '<b>Phòng A107</b> - Phiên 09: Khoa học cơ bản (Bài 07-09), Phiên 10: Kỹ thuật - Công nghệ (Bài 16-20)'
                 type: off
-                loc: Mỗi bài trình bày trong vòng 15 phút bao gồm cả phần hỏi - đáp (<a target="_blank" href="/cest-2017/data/Conference_Program_CEST 2017_v7.1.pdf">Danh sách các bài có trong chương trình chi tiết</a>)
+                loc: Mỗi bài trình bày trong vòng 15 phút bao gồm cả phần hỏi - đáp (<a target="_blank" href="/cest-2017/data/Conference_Program_CEST 2017_v7.2.pdf">Danh sách các bài có trong chương trình chi tiết</a>)
             -
                 time: '18:00'
                 duration: 18:00 - 20:00
