@@ -1,182 +1,247 @@
 {
-    "002": {
-        "name": "THPT DTNT t\u1ec9nh Cao B\u1eb1ng",
-        "area": "1"
+    "01": {
+        "name": "Th\u00e0nh ph\u1ed1 Cao B\u1eb1ng",
+        "school": {
+            "002": {
+                "name": "THPT DTNT t\u1ec9nh Cao B\u1eb1ng",
+                "area": "1"
+            },
+            "003": {
+                "name": "THPT Th\u00e0nh ph\u1ed1 Cao B\u1eb1ng",
+                "area": "1"
+            },
+            "004": {
+                "name": "THPT Chuy\u00ean Cao B\u1eb1ng",
+                "area": "1"
+            },
+            "005": {
+                "name": "TT GDTX Th\u00e0nh ph\u1ed1 Cao B\u1eb1ng",
+                "area": "1"
+            },
+            "006": {
+                "name": "TT KTTH-HN t\u1ec9nh Cao B\u1eb1ng",
+                "area": "1"
+            },
+            "028": {
+                "name": "THPT Cao B\u00ecnh",
+                "area": "1"
+            },
+            "044": {
+                "name": "THPT B\u1ebf V\u0103n \u0110\u00e0n",
+                "area": "1"
+            },
+            "058": {
+                "name": "TTGDTX T\u1ec9nh",
+                "area": "1"
+            }
+        }
     },
-    "003": {
-        "name": "THPT Th\u00e0nh ph\u1ed1 Cao B\u1eb1ng",
-        "area": "1"
+    "02": {
+        "name": "Huy\u1ec7n B\u1ea3o L\u1ea1c",
+        "school": {
+            "008": {
+                "name": "THPT B\u1ea3o L\u1ea1c",
+                "area": "1"
+            },
+            "055": {
+                "name": "THPT B\u1ea3n Ng\u00e0",
+                "area": "1"
+            },
+            "056": {
+                "name": "TTGDTX B\u1ea3o L\u1ea1c",
+                "area": "1"
+            }
+        }
     },
-    "004": {
-        "name": "THPT Chuy\u00ean Cao B\u1eb1ng",
-        "area": "1"
+    "03": {
+        "name": "Huy\u1ec7n Th\u00f4ng N\u00f4ng",
+        "school": {
+            "010": {
+                "name": "THPT Th\u00f4ng N\u00f4ng",
+                "area": "1"
+            },
+            "053": {
+                "name": "TTGDTX Th\u00f4ng N\u00f4ng",
+                "area": "1"
+            }
+        }
     },
-    "005": {
-        "name": "TT GDTX Th\u00e0nh ph\u1ed1 Cao B\u1eb1ng",
-        "area": "1"
+    "04": {
+        "name": "Huy\u1ec7n H\u00e0 Qu\u1ea3ng",
+        "school": {
+            "012": {
+                "name": "THPT H\u00e0 Qu\u1ea3ng",
+                "area": "1"
+            },
+            "013": {
+                "name": "THPT N\u00e0 Gi\u00e0ng",
+                "area": "1"
+            },
+            "047": {
+                "name": "TTGDTX H\u00e0 Qu\u1ea3ng",
+                "area": "1"
+            },
+            "054": {
+                "name": "THPT L\u1ee5c Khu",
+                "area": "1"
+            }
+        }
     },
-    "006": {
-        "name": "TT KTTH-HN t\u1ec9nh Cao B\u1eb1ng",
-        "area": "1"
+    "05": {
+        "name": "Huy\u1ec7n Tr\u00e0 L\u0129nh",
+        "school": {
+            "015": {
+                "name": "THPT Tr\u00e0 L\u0129nh",
+                "area": "1"
+            },
+            "016": {
+                "name": "THPT Quang Trung",
+                "area": "1"
+            },
+            "046": {
+                "name": "TTGDTX Tr\u00e0 L\u0129nh",
+                "area": "1"
+            }
+        }
     },
-    "028": {
-        "name": "THPT Cao B\u00ecnh",
-        "area": "1"
+    "06": {
+        "name": "Huy\u1ec7n Tr\u00f9ng Kh\u00e1nh",
+        "school": {
+            "018": {
+                "name": "THPT Tr\u00f9ng Kh\u00e1nh",
+                "area": "1"
+            },
+            "019": {
+                "name": "THPT P\u00f2 T\u1ea5u",
+                "area": "1"
+            },
+            "020": {
+                "name": "THPT Th\u00f4ng Hu\u1ec1",
+                "area": "1"
+            },
+            "021": {
+                "name": "TTGDTX Tr\u00f9ng Kh\u00e1nh",
+                "area": "1"
+            }
+        }
     },
-    "044": {
-        "name": "THPT B\u1ebf V\u0103n \u0110\u00e0n",
-        "area": "1"
+    "07": {
+        "name": "Huy\u1ec7n Nguy\u00ean B\u00ecnh",
+        "school": {
+            "023": {
+                "name": "THPT Nguy\u00ean B\u00ecnh",
+                "area": "1"
+            },
+            "024": {
+                "name": "THPT Tinh T\u00fac",
+                "area": "1"
+            },
+            "025": {
+                "name": "THPT N\u00e0 Bao",
+                "area": "1"
+            },
+            "052": {
+                "name": "TTGDTX  Nguy\u00ean B\u00ecnh",
+                "area": "1"
+            }
+        }
     },
-    "058": {
-        "name": "TTGDTX T\u1ec9nh",
-        "area": "1"
+    "08": {
+        "name": "Huy\u1ec7n H\u00f2a An",
+        "school": {
+            "027": {
+                "name": "THPT Ho\u00e0 An",
+                "area": "1"
+            },
+            "029": {
+                "name": "TTGDTX Ho\u00e0 An",
+                "area": "1"
+            }
+        }
     },
-    "008": {
-        "name": "THPT B\u1ea3o L\u1ea1c",
-        "area": "1"
+    "09": {
+        "name": "Huy\u1ec7n Qu\u1ea3ng Uy\u00ean",
+        "school": {
+            "031": {
+                "name": "THPT Qu\u1ea3ng Uy\u00ean",
+                "area": "1"
+            },
+            "032": {
+                "name": "THPT \u0110\u1ed1ng \u0110a",
+                "area": "1"
+            },
+            "033": {
+                "name": "TT GDTX Qu\u1ea3ng Uy\u00ean",
+                "area": "1"
+            }
+        }
     },
-    "055": {
-        "name": "THPT B\u1ea3n Ng\u00e0",
-        "area": "1"
+    "10": {
+        "name": "Huy\u1ec7n Th\u1ea1ch An",
+        "school": {
+            "035": {
+                "name": "THPT Th\u1ea1ch An",
+                "area": "1"
+            },
+            "036": {
+                "name": "THPT Canh T\u00e2n",
+                "area": "1"
+            },
+            "048": {
+                "name": "TTGDTX Th\u1ea1ch An",
+                "area": "1"
+            }
+        }
     },
-    "056": {
-        "name": "TTGDTX B\u1ea3o L\u1ea1c",
-        "area": "1"
+    "11": {
+        "name": "Huy\u1ec7n H\u1ea1 Lang",
+        "school": {
+            "038": {
+                "name": "THPT H\u1ea1 Lang",
+                "area": "1"
+            },
+            "039": {
+                "name": "THPT B\u1eb1ng Ca",
+                "area": "1"
+            },
+            "051": {
+                "name": "TTGDTX H\u1ea1 Lang",
+                "area": "1"
+            }
+        }
     },
-    "010": {
-        "name": "THPT Th\u00f4ng N\u00f4ng",
-        "area": "1"
+    "12": {
+        "name": "Huy\u1ec7n B\u1ea3o L\u00e2m",
+        "school": {
+            "041": {
+                "name": "THPT B\u1ea3o L\u00e2m",
+                "area": "1"
+            },
+            "050": {
+                "name": "TTGDTX B\u1ea3o L\u00e2m",
+                "area": "1"
+            },
+            "057": {
+                "name": "THPT L\u00fd B\u00f4n",
+                "area": "1"
+            }
+        }
     },
-    "053": {
-        "name": "TTGDTX Th\u00f4ng N\u00f4ng",
-        "area": "1"
-    },
-    "012": {
-        "name": "THPT H\u00e0 Qu\u1ea3ng",
-        "area": "1"
-    },
-    "013": {
-        "name": "THPT N\u00e0 Gi\u00e0ng",
-        "area": "1"
-    },
-    "047": {
-        "name": "TTGDTX H\u00e0 Qu\u1ea3ng",
-        "area": "1"
-    },
-    "054": {
-        "name": "THPT L\u1ee5c Khu",
-        "area": "1"
-    },
-    "015": {
-        "name": "THPT Tr\u00e0 L\u0129nh",
-        "area": "1"
-    },
-    "016": {
-        "name": "THPT Quang Trung",
-        "area": "1"
-    },
-    "046": {
-        "name": "TTGDTX Tr\u00e0 L\u0129nh",
-        "area": "1"
-    },
-    "018": {
-        "name": "THPT Tr\u00f9ng Kh\u00e1nh",
-        "area": "1"
-    },
-    "019": {
-        "name": "THPT P\u00f2 T\u1ea5u",
-        "area": "1"
-    },
-    "020": {
-        "name": "THPT Th\u00f4ng Hu\u1ec1",
-        "area": "1"
-    },
-    "021": {
-        "name": "TTGDTX Tr\u00f9ng Kh\u00e1nh",
-        "area": "1"
-    },
-    "023": {
-        "name": "THPT Nguy\u00ean B\u00ecnh",
-        "area": "1"
-    },
-    "024": {
-        "name": "THPT Tinh T\u00fac",
-        "area": "1"
-    },
-    "025": {
-        "name": "THPT N\u00e0 Bao",
-        "area": "1"
-    },
-    "052": {
-        "name": "TTGDTX  Nguy\u00ean B\u00ecnh",
-        "area": "1"
-    },
-    "027": {
-        "name": "THPT Ho\u00e0 An",
-        "area": "1"
-    },
-    "029": {
-        "name": "TTGDTX Ho\u00e0 An",
-        "area": "1"
-    },
-    "031": {
-        "name": "THPT Qu\u1ea3ng Uy\u00ean",
-        "area": "1"
-    },
-    "032": {
-        "name": "THPT \u0110\u1ed1ng \u0110a",
-        "area": "1"
-    },
-    "033": {
-        "name": "TT GDTX Qu\u1ea3ng Uy\u00ean",
-        "area": "1"
-    },
-    "035": {
-        "name": "THPT Th\u1ea1ch An",
-        "area": "1"
-    },
-    "036": {
-        "name": "THPT Canh T\u00e2n",
-        "area": "1"
-    },
-    "048": {
-        "name": "TTGDTX Th\u1ea1ch An",
-        "area": "1"
-    },
-    "038": {
-        "name": "THPT H\u1ea1 Lang",
-        "area": "1"
-    },
-    "039": {
-        "name": "THPT B\u1eb1ng Ca",
-        "area": "1"
-    },
-    "051": {
-        "name": "TTGDTX H\u1ea1 Lang",
-        "area": "1"
-    },
-    "041": {
-        "name": "THPT B\u1ea3o L\u00e2m",
-        "area": "1"
-    },
-    "050": {
-        "name": "TTGDTX B\u1ea3o L\u00e2m",
-        "area": "1"
-    },
-    "057": {
-        "name": "THPT L\u00fd B\u00f4n",
-        "area": "1"
-    },
-    "043": {
-        "name": "THPT Ph\u1ee5c Ho\u00e0",
-        "area": "1"
-    },
-    "045": {
-        "name": "THPT C\u00e1ch Linh",
-        "area": "1"
-    },
-    "049": {
-        "name": "TTGDTX Ph\u1ee5c Ho\u00e0",
-        "area": "1"
+    "13": {
+        "name": "Huy\u1ec7n Ph\u1ee5c H\u00f2a",
+        "school": {
+            "043": {
+                "name": "THPT Ph\u1ee5c Ho\u00e0",
+                "area": "1"
+            },
+            "045": {
+                "name": "THPT C\u00e1ch Linh",
+                "area": "1"
+            },
+            "049": {
+                "name": "TTGDTX Ph\u1ee5c Ho\u00e0",
+                "area": "1"
+            }
+        }
     }
 }

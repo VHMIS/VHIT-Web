@@ -1,306 +1,371 @@
 {
-    "001": {
-        "name": "Tr\u01b0\u1eddng THPT Chuy\u00ean H\u00f9ng V\u01b0\u01a1ng",
-        "area": "2"
-    },
-    "002": {
-        "name": "Tr\u01b0\u1eddng THPT Vi\u1ec7t Tr\u00ec",
-        "area": "2"
-    },
-    "003": {
-        "name": "Tr\u01b0\u1eddng THPT C\u00f4ng nghi\u1ec7p Vi\u1ec7t Tr\u00ec",
-        "area": "2"
-    },
-    "004": {
-        "name": "Tr\u01b0\u1eddng THPT K\u1ef9 thu\u1eadt Vi\u1ec7t Tr\u00ec",
-        "area": "2"
-    },
-    "005": {
-        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n T\u1ea5t Th\u00e0nh",
-        "area": "2"
-    },
-    "006": {
-        "name": "Tr\u01b0\u1eddng THPT V\u0169 Th\u00ea Lang",
-        "area": "2"
-    },
-    "007": {
-        "name": "Tr\u01b0\u1eddng PT Hermann Gmeiner Vi\u1ec7t Tr\u00ec",
-        "area": "2"
-    },
-    "008": {
-        "name": "Tr\u01b0\u1eddng THPT Tr\u1ea7n Ph\u00fa",
-        "area": "2"
-    },
-    "009": {
-        "name": "Trung t\u00e2m GDNN-GDTX Vi\u1ec7t Tr\u00ec",
-        "area": "2"
-    },
-    "060": {
-        "name": "Trung t\u00e2m KTTH-HN t\u1ec9nh Ph\u00fa Th\u1ecd",
-        "area": "2"
-    },
-    "071": {
-        "name": "Tr\u01b0\u1eddng THPT L\u00ea Qu\u00fd \u0110\u00f4n",
-        "area": "2"
-    },
-    "073": {
-        "name": "Tr\u01b0\u1eddng Cao \u0111\u1eb3ng C\u00f4ng nghi\u1ec7p th\u1ef1c ph\u1ea9m",
-        "area": "2"
-    },
-    "075": {
-        "name": "Tr\u01b0\u1eddng Cao \u0111\u1eb3ng D\u01b0\u1ee3c Ph\u00fa Th\u1ecd",
-        "area": "2"
-    },
-    "076": {
-        "name": "Tr\u01b0\u1eddng THPT D\u00e2n l\u1eadp \u00c2u c\u01a1",
-        "area": "2"
-    },
-    "077": {
-        "name": "Tr\u01b0\u1eddng THPT D\u00e2n l\u1eadp V\u00e2n Ph\u00fa",
-        "area": "2"
-    },
-    "087": {
-        "name": "Tr\u01b0\u1eddng THPT B\u00e1n c\u00f4ng C\u00f4ng nghi\u1ec7p Vi\u1ec7t Tr\u00ec",
-        "area": "2"
-    },
-    "010": {
-        "name": "Tr\u01b0\u1eddng THPT H\u00f9ng V\u01b0\u01a1ng",
-        "area": "2"
-    },
-    "011": {
-        "name": "Tr\u01b0\u1eddng PT D\u00e2n t\u1ed9c n\u1ed9i tr\u00fa t\u1ec9nh Ph\u00fa Th\u1ecd",
-        "area": "2"
-    },
-    "012": {
-        "name": "Tr\u01b0\u1eddng THPT Th\u1ecb x\u00e3 Ph\u00fa Th\u1ecd",
-        "area": "2"
-    },
-    "013": {
-        "name": "Tr\u01b0\u1eddng THPT Tr\u01b0\u1eddng Th\u1ecbnh",
-        "area": "2"
-    },
-    "014": {
-        "name": "Trung t\u00e2m GDNN-GDTX Th\u1ecb x\u00e3 Ph\u00fa Th\u1ecd",
-        "area": "2"
-    },
-    "061": {
-        "name": "Trung t\u00e2m KTTH-HN th\u1ecb x\u00e3 Ph\u00fa Th\u1ecd",
-        "area": "2"
-    },
-    "078": {
-        "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng H\u00f9ng V\u01b0\u01a1ng",
-        "area": "2"
-    },
-    "015": {
-        "name": "Tr\u01b0\u1eddng THPT \u0110oan H\u00f9ng",
-        "area": "1"
-    },
-    "016": {
-        "name": "Tr\u01b0\u1eddng THPT Ch\u00e2n M\u1ed9ng",
-        "area": "1"
-    },
-    "017": {
-        "name": "Tr\u01b0\u1eddng THPT Qu\u1ebf L\u00e2m",
-        "area": "1"
-    },
-    "018": {
-        "name": "Trung t\u00e2m GDNN-GDTX \u0110oan H\u00f9ng",
-        "area": "1"
-    },
-    "079": {
-        "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng \u0110oan H\u00f9ng",
-        "area": "1"
-    },
-    "019": {
-        "name": "Tr\u01b0\u1eddng THPT Thanh Ba",
-        "area": "1"
-    },
-    "020": {
-        "name": "Tr\u01b0\u1eddng THPT Y\u1ec3n Kh\u00ea",
-        "area": "1"
-    },
-    "021": {
-        "name": "Trung t\u00e2m GDNN-GDTX Thanh Ba",
-        "area": "1"
-    },
-    "080": {
-        "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Thanh Ba",
-        "area": "1"
-    },
-    "022": {
-        "name": "Tr\u01b0\u1eddng THPT H\u1ea1 Ho\u00e0",
-        "area": "1"
-    },
-    "023": {
-        "name": "Tr\u01b0\u1eddng THPT V\u0129nh Ch\u00e2n",
-        "area": "1"
-    },
-    "024": {
-        "name": "Tr\u01b0\u1eddng THPT Xu\u00e2n \u00e1ng",
-        "area": "1"
-    },
-    "025": {
-        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n B\u1ec9nh Khi\u00eam",
-        "area": "1"
-    },
-    "026": {
-        "name": "Trung t\u00e2m GDNN-GDTX H\u1ea1 Ho\u00e0",
-        "area": "1"
-    },
-    "027": {
-        "name": "Tr\u01b0\u1eddng THPT C\u1ea9m Kh\u00ea",
-        "area": "1"
-    },
-    "028": {
-        "name": "Tr\u01b0\u1eddng THPT Hi\u1ec1n \u0110a",
-        "area": "2NT"
-    },
-    "029": {
-        "name": "Tr\u01b0\u1eddng THPT Ph\u01b0\u01a1ng X\u00e1",
-        "area": "2NT"
-    },
-    "030": {
-        "name": "Trung t\u00e2m GDNN-GDTX C\u1ea9m Kh\u00ea",
-        "area": "1"
-    },
-    "081": {
-        "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng C\u1ea9m Kh\u00ea",
-        "area": "1"
-    },
-    "031": {
-        "name": "Tr\u01b0\u1eddng THPT Y\u00ean L\u1eadp",
-        "area": "1"
-    },
-    "032": {
-        "name": "Tr\u01b0\u1eddng THPT L\u01b0\u01a1ng S\u01a1n",
-        "area": "1"
-    },
-    "033": {
-        "name": "Tr\u01b0\u1eddng THPT Minh Ho\u00e0",
-        "area": "1"
-    },
-    "034": {
-        "name": "Trung t\u00e2m GDNN-GDTX Y\u00ean L\u1eadp",
-        "area": "1"
-    },
-    "035": {
-        "name": "Tr\u01b0\u1eddng THPT Thanh S\u01a1n",
-        "area": "1"
-    },
-    "036": {
-        "name": "Tr\u01b0\u1eddng THPT V\u0103n Mi\u1ebfu",
-        "area": "1"
-    },
-    "037": {
-        "name": "Tr\u01b0\u1eddng THPT H\u01b0\u01a1ng C\u1ea7n",
-        "area": "1"
-    },
-    "038": {
-        "name": "Trung t\u00e2m GDNN-GDTX Thanh S\u01a1n",
-        "area": "1"
-    },
-    "067": {
-        "name": "Tr\u01b0\u1eddng Trung c\u1ea5p ngh\u1ec1 D\u00e2n t\u1ed9c n\u1ed9i tr\u00fa Ph\u00fa Th\u1ecd",
-        "area": "1"
-    },
-    "082": {
-        "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Thanh S\u01a1n",
-        "area": "1"
-    },
-    "039": {
-        "name": "Tr\u01b0\u1eddng THPT Ph\u00f9 Ninh",
-        "area": "1"
-    },
-    "040": {
-        "name": "Tr\u01b0\u1eddng THPT T\u1eed \u0110\u00e0",
-        "area": "2NT"
-    },
-    "041": {
-        "name": "Tr\u01b0\u1eddng THPT Trung Gi\u00e1p",
-        "area": "1"
-    },
-    "042": {
-        "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Hu\u1ec7",
-        "area": "1"
-    },
-    "043": {
-        "name": "Trung t\u00e2m GDNN-GDTX Ph\u00f9 Ninh",
-        "area": "1"
-    },
-    "083": {
-        "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Ph\u00f9 Ninh",
-        "area": "1"
-    },
-    "084": {
-        "name": "Tr\u01b0\u1eddng THPT Phan \u0110\u0103ng L\u01b0u",
-        "area": "1"
-    },
-    "044": {
-        "name": "Tr\u01b0\u1eddng THPT Long Ch\u00e2u Sa",
-        "area": "2NT"
-    },
-    "045": {
-        "name": "Tr\u01b0\u1eddng THPT Phong Ch\u00e2u",
-        "area": "1"
-    },
-    "046": {
-        "name": "Tr\u01b0\u1eddng THPT L\u00e2m Thao",
-        "area": "2NT"
-    },
-    "047": {
-        "name": "Trung t\u00e2m GDNN-GDTX L\u00e2m Thao",
-        "area": "2NT"
-    },
-    "085": {
-        "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Phong Ch\u00e2u",
-        "area": "1"
-    },
-    "049": {
-        "name": "Tr\u01b0\u1eddng THPT Tam N\u00f4ng",
-        "area": "1"
-    },
-    "050": {
-        "name": "Tr\u01b0\u1eddng THPT M\u1ef9 V\u0103n",
-        "area": "1"
-    },
-    "051": {
-        "name": "Tr\u01b0\u1eddng THPT H\u01b0ng Ho\u00e1",
-        "area": "1"
-    },
-    "052": {
-        "name": "Trung t\u00e2m GDNN-GDTX Tam N\u00f4ng",
-        "area": "1"
-    },
-    "086": {
-        "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Tam N\u00f4ng",
-        "area": "1"
-    },
-    "053": {
-        "name": "Tr\u01b0\u1eddng THPT Thanh Thu\u1ef7",
-        "area": "1"
-    },
-    "054": {
-        "name": "Tr\u01b0\u1eddng THPT Trung Ngh\u0129a",
-        "area": "1"
-    },
-    "055": {
-        "name": "Tr\u01b0\u1eddng THPT T\u1ea3n \u0110\u00e0",
-        "area": "1"
-    },
-    "056": {
-        "name": "Trung t\u00e2m GDNN-GDTX Thanh Thu\u1ef7",
-        "area": "1"
-    },
-    "057": {
-        "name": "Tr\u01b0\u1eddng THPT Minh \u0110\u00e0i",
-        "area": "1"
-    },
-    "058": {
-        "name": "Tr\u01b0\u1eddng THPT Th\u1ea1ch Ki\u1ec7t",
-        "area": "1"
-    },
-    "059": {
-        "name": "Trung t\u00e2m GDNN-GDTX T\u00e2n S\u01a1n",
-        "area": "1"
+    "01": {
+        "name": "Th\u00e0nh ph\u1ed1 Vi\u1ec7t Tr\u00ec",
+        "school": {
+            "001": {
+                "name": "Tr\u01b0\u1eddng THPT Chuy\u00ean H\u00f9ng V\u01b0\u01a1ng",
+                "area": "2"
+            },
+            "002": {
+                "name": "Tr\u01b0\u1eddng THPT Vi\u1ec7t Tr\u00ec",
+                "area": "2"
+            },
+            "003": {
+                "name": "Tr\u01b0\u1eddng THPT C\u00f4ng nghi\u1ec7p Vi\u1ec7t Tr\u00ec",
+                "area": "2"
+            },
+            "004": {
+                "name": "Tr\u01b0\u1eddng THPT K\u1ef9 thu\u1eadt Vi\u1ec7t Tr\u00ec",
+                "area": "2"
+            },
+            "005": {
+                "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n T\u1ea5t Th\u00e0nh",
+                "area": "2"
+            },
+            "006": {
+                "name": "Tr\u01b0\u1eddng THPT V\u0169 Th\u00ea Lang",
+                "area": "2"
+            },
+            "007": {
+                "name": "Tr\u01b0\u1eddng PT Hermann Gmeiner Vi\u1ec7t Tr\u00ec",
+                "area": "2"
+            },
+            "008": {
+                "name": "Tr\u01b0\u1eddng THPT Tr\u1ea7n Ph\u00fa",
+                "area": "2"
+            },
+            "009": {
+                "name": "Trung t\u00e2m GDNN-GDTX Vi\u1ec7t Tr\u00ec",
+                "area": "2"
+            },
+            "060": {
+                "name": "Trung t\u00e2m KTTH-HN t\u1ec9nh Ph\u00fa Th\u1ecd",
+                "area": "2"
+            },
+            "071": {
+                "name": "Tr\u01b0\u1eddng THPT L\u00ea Qu\u00fd \u0110\u00f4n",
+                "area": "2"
+            },
+            "073": {
+                "name": "Tr\u01b0\u1eddng Cao \u0111\u1eb3ng C\u00f4ng nghi\u1ec7p th\u1ef1c ph\u1ea9m",
+                "area": "2"
+            },
+            "075": {
+                "name": "Tr\u01b0\u1eddng Cao \u0111\u1eb3ng D\u01b0\u1ee3c Ph\u00fa Th\u1ecd",
+                "area": "2"
+            },
+            "076": {
+                "name": "Tr\u01b0\u1eddng THPT D\u00e2n l\u1eadp \u00c2u c\u01a1",
+                "area": "2"
+            },
+            "077": {
+                "name": "Tr\u01b0\u1eddng THPT D\u00e2n l\u1eadp V\u00e2n Ph\u00fa",
+                "area": "2"
+            },
+            "087": {
+                "name": "Tr\u01b0\u1eddng THPT B\u00e1n c\u00f4ng C\u00f4ng nghi\u1ec7p Vi\u1ec7t Tr\u00ec",
+                "area": "2"
+            }
+        }
+    },
+    "02": {
+        "name": "Th\u1ecb x\u00e3 Ph\u00fa Th\u1ecd",
+        "school": {
+            "010": {
+                "name": "Tr\u01b0\u1eddng THPT H\u00f9ng V\u01b0\u01a1ng",
+                "area": "2"
+            },
+            "011": {
+                "name": "Tr\u01b0\u1eddng PT D\u00e2n t\u1ed9c n\u1ed9i tr\u00fa t\u1ec9nh Ph\u00fa Th\u1ecd",
+                "area": "2"
+            },
+            "012": {
+                "name": "Tr\u01b0\u1eddng THPT Th\u1ecb x\u00e3 Ph\u00fa Th\u1ecd",
+                "area": "2"
+            },
+            "013": {
+                "name": "Tr\u01b0\u1eddng THPT Tr\u01b0\u1eddng Th\u1ecbnh",
+                "area": "2"
+            },
+            "014": {
+                "name": "Trung t\u00e2m GDNN-GDTX Th\u1ecb x\u00e3 Ph\u00fa Th\u1ecd",
+                "area": "2"
+            },
+            "061": {
+                "name": "Trung t\u00e2m KTTH-HN th\u1ecb x\u00e3 Ph\u00fa Th\u1ecd",
+                "area": "2"
+            },
+            "078": {
+                "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng H\u00f9ng V\u01b0\u01a1ng",
+                "area": "2"
+            }
+        }
+    },
+    "03": {
+        "name": "Huy\u1ec7n \u0110oan H\u00f9ng",
+        "school": {
+            "015": {
+                "name": "Tr\u01b0\u1eddng THPT \u0110oan H\u00f9ng",
+                "area": "1"
+            },
+            "016": {
+                "name": "Tr\u01b0\u1eddng THPT Ch\u00e2n M\u1ed9ng",
+                "area": "1"
+            },
+            "017": {
+                "name": "Tr\u01b0\u1eddng THPT Qu\u1ebf L\u00e2m",
+                "area": "1"
+            },
+            "018": {
+                "name": "Trung t\u00e2m GDNN-GDTX \u0110oan H\u00f9ng",
+                "area": "1"
+            },
+            "079": {
+                "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng \u0110oan H\u00f9ng",
+                "area": "1"
+            }
+        }
+    },
+    "04": {
+        "name": "Huy\u1ec7n Thanh Ba",
+        "school": {
+            "019": {
+                "name": "Tr\u01b0\u1eddng THPT Thanh Ba",
+                "area": "1"
+            },
+            "020": {
+                "name": "Tr\u01b0\u1eddng THPT Y\u1ec3n Kh\u00ea",
+                "area": "1"
+            },
+            "021": {
+                "name": "Trung t\u00e2m GDNN-GDTX Thanh Ba",
+                "area": "1"
+            },
+            "080": {
+                "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Thanh Ba",
+                "area": "1"
+            }
+        }
+    },
+    "05": {
+        "name": "Huy\u1ec7n H\u1ea1 H\u00f2a",
+        "school": {
+            "022": {
+                "name": "Tr\u01b0\u1eddng THPT H\u1ea1 Ho\u00e0",
+                "area": "1"
+            },
+            "023": {
+                "name": "Tr\u01b0\u1eddng THPT V\u0129nh Ch\u00e2n",
+                "area": "1"
+            },
+            "024": {
+                "name": "Tr\u01b0\u1eddng THPT Xu\u00e2n \u00e1ng",
+                "area": "1"
+            },
+            "025": {
+                "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n B\u1ec9nh Khi\u00eam",
+                "area": "1"
+            },
+            "026": {
+                "name": "Trung t\u00e2m GDNN-GDTX H\u1ea1 Ho\u00e0",
+                "area": "1"
+            }
+        }
+    },
+    "06": {
+        "name": "Huy\u1ec7n C\u1ea9m Kh\u00ea",
+        "school": {
+            "027": {
+                "name": "Tr\u01b0\u1eddng THPT C\u1ea9m Kh\u00ea",
+                "area": "1"
+            },
+            "028": {
+                "name": "Tr\u01b0\u1eddng THPT Hi\u1ec1n \u0110a",
+                "area": "2NT"
+            },
+            "029": {
+                "name": "Tr\u01b0\u1eddng THPT Ph\u01b0\u01a1ng X\u00e1",
+                "area": "2NT"
+            },
+            "030": {
+                "name": "Trung t\u00e2m GDNN-GDTX C\u1ea9m Kh\u00ea",
+                "area": "1"
+            },
+            "081": {
+                "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng C\u1ea9m Kh\u00ea",
+                "area": "1"
+            }
+        }
+    },
+    "07": {
+        "name": "Huy\u1ec7n Y\u00ean L\u1eadp",
+        "school": {
+            "031": {
+                "name": "Tr\u01b0\u1eddng THPT Y\u00ean L\u1eadp",
+                "area": "1"
+            },
+            "032": {
+                "name": "Tr\u01b0\u1eddng THPT L\u01b0\u01a1ng S\u01a1n",
+                "area": "1"
+            },
+            "033": {
+                "name": "Tr\u01b0\u1eddng THPT Minh Ho\u00e0",
+                "area": "1"
+            },
+            "034": {
+                "name": "Trung t\u00e2m GDNN-GDTX Y\u00ean L\u1eadp",
+                "area": "1"
+            }
+        }
+    },
+    "08": {
+        "name": "Huy\u1ec7n Thanh S\u01a1n",
+        "school": {
+            "035": {
+                "name": "Tr\u01b0\u1eddng THPT Thanh S\u01a1n",
+                "area": "1"
+            },
+            "036": {
+                "name": "Tr\u01b0\u1eddng THPT V\u0103n Mi\u1ebfu",
+                "area": "1"
+            },
+            "037": {
+                "name": "Tr\u01b0\u1eddng THPT H\u01b0\u01a1ng C\u1ea7n",
+                "area": "1"
+            },
+            "038": {
+                "name": "Trung t\u00e2m GDNN-GDTX Thanh S\u01a1n",
+                "area": "1"
+            },
+            "067": {
+                "name": "Tr\u01b0\u1eddng Trung c\u1ea5p ngh\u1ec1 D\u00e2n t\u1ed9c n\u1ed9i tr\u00fa Ph\u00fa Th\u1ecd",
+                "area": "1"
+            },
+            "082": {
+                "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Thanh S\u01a1n",
+                "area": "1"
+            }
+        }
+    },
+    "09": {
+        "name": "Huy\u1ec7n Ph\u00f9 Ninh",
+        "school": {
+            "039": {
+                "name": "Tr\u01b0\u1eddng THPT Ph\u00f9 Ninh",
+                "area": "1"
+            },
+            "040": {
+                "name": "Tr\u01b0\u1eddng THPT T\u1eed \u0110\u00e0",
+                "area": "2NT"
+            },
+            "041": {
+                "name": "Tr\u01b0\u1eddng THPT Trung Gi\u00e1p",
+                "area": "1"
+            },
+            "042": {
+                "name": "Tr\u01b0\u1eddng THPT Nguy\u1ec5n Hu\u1ec7",
+                "area": "1"
+            },
+            "043": {
+                "name": "Trung t\u00e2m GDNN-GDTX Ph\u00f9 Ninh",
+                "area": "1"
+            },
+            "083": {
+                "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Ph\u00f9 Ninh",
+                "area": "1"
+            },
+            "084": {
+                "name": "Tr\u01b0\u1eddng THPT Phan \u0110\u0103ng L\u01b0u",
+                "area": "1"
+            }
+        }
+    },
+    "10": {
+        "name": "Huy\u1ec7n L\u00e2m Thao",
+        "school": {
+            "044": {
+                "name": "Tr\u01b0\u1eddng THPT Long Ch\u00e2u Sa",
+                "area": "2NT"
+            },
+            "045": {
+                "name": "Tr\u01b0\u1eddng THPT Phong Ch\u00e2u",
+                "area": "1"
+            },
+            "046": {
+                "name": "Tr\u01b0\u1eddng THPT L\u00e2m Thao",
+                "area": "2NT"
+            },
+            "047": {
+                "name": "Trung t\u00e2m GDNN-GDTX L\u00e2m Thao",
+                "area": "2NT"
+            },
+            "085": {
+                "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Phong Ch\u00e2u",
+                "area": "1"
+            }
+        }
+    },
+    "11": {
+        "name": "Huy\u1ec7n Tam N\u00f4ng",
+        "school": {
+            "049": {
+                "name": "Tr\u01b0\u1eddng THPT Tam N\u00f4ng",
+                "area": "1"
+            },
+            "050": {
+                "name": "Tr\u01b0\u1eddng THPT M\u1ef9 V\u0103n",
+                "area": "1"
+            },
+            "051": {
+                "name": "Tr\u01b0\u1eddng THPT H\u01b0ng Ho\u00e1",
+                "area": "1"
+            },
+            "052": {
+                "name": "Trung t\u00e2m GDNN-GDTX Tam N\u00f4ng",
+                "area": "1"
+            },
+            "086": {
+                "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Tam N\u00f4ng",
+                "area": "1"
+            }
+        }
+    },
+    "12": {
+        "name": "Huy\u1ec7n Thanh Th\u1ee7y",
+        "school": {
+            "053": {
+                "name": "Tr\u01b0\u1eddng THPT Thanh Thu\u1ef7",
+                "area": "1"
+            },
+            "054": {
+                "name": "Tr\u01b0\u1eddng THPT Trung Ngh\u0129a",
+                "area": "1"
+            },
+            "055": {
+                "name": "Tr\u01b0\u1eddng THPT T\u1ea3n \u0110\u00e0",
+                "area": "1"
+            },
+            "056": {
+                "name": "Trung t\u00e2m GDNN-GDTX Thanh Thu\u1ef7",
+                "area": "1"
+            }
+        }
+    },
+    "13": {
+        "name": "Huy\u1ec7n T\u00e2n S\u01a1n",
+        "school": {
+            "057": {
+                "name": "Tr\u01b0\u1eddng THPT Minh \u0110\u00e0i",
+                "area": "1"
+            },
+            "058": {
+                "name": "Tr\u01b0\u1eddng THPT Th\u1ea1ch Ki\u1ec7t",
+                "area": "1"
+            },
+            "059": {
+                "name": "Trung t\u00e2m GDNN-GDTX T\u00e2n S\u01a1n",
+                "area": "1"
+            }
+        }
     }
 }

@@ -1,154 +1,204 @@
 {
-    "001": {
-        "name": "THPT Phan B\u1ed9i Ch\u00e2u",
-        "area": "2"
+    "01": {
+        "name": "Th\u00e0nh ph\u1ed1 Phan Thi\u1ebft",
+        "school": {
+            "001": {
+                "name": "THPT Phan B\u1ed9i Ch\u00e2u",
+                "area": "2"
+            },
+            "012": {
+                "name": "THPT Phan Chu Trinh",
+                "area": "2"
+            },
+            "013": {
+                "name": "THPT Chuy\u00ean Tr\u1ea7n H\u01b0ng \u0110\u1ea1o",
+                "area": "2"
+            },
+            "017": {
+                "name": "THCS v\u00e0 THPT L\u00ea L\u1ee3i",
+                "area": "2"
+            },
+            "022": {
+                "name": "TH B\u1ed5 t\u00fac Phan B\u1ed9i Ch\u00e2u",
+                "area": "2"
+            },
+            "032": {
+                "name": "THPT B\u00f9i Th\u1ecb Xu\u00e2n",
+                "area": "2"
+            },
+            "036": {
+                "name": "THPT Phan Thi\u1ebft",
+                "area": "2"
+            },
+            "037": {
+                "name": "TH, THCS v\u00e0 THPT L\u00ea Qu\u00fd \u0110\u00f4n",
+                "area": "2"
+            },
+            "038": {
+                "name": "TH, THCS, THPT Ch\u00e2u A' Th\u00e1i B\u00ecnh D\u01b0\u01a1ng",
+                "area": "2"
+            },
+            "044": {
+                "name": "TT GDTX T\u1ec9nh B\u00ecnh Thu\u1eadn",
+                "area": "2"
+            }
+        }
     },
-    "012": {
-        "name": "THPT Phan Chu Trinh",
-        "area": "2"
+    "02": {
+        "name": "Huy\u1ec7n Tuy Phong",
+        "school": {
+            "002": {
+                "name": "THPT Tuy Phong",
+                "area": "2NT"
+            },
+            "009": {
+                "name": "THPT H\u00f2a \u0110a",
+                "area": "2NT"
+            },
+            "020": {
+                "name": "THPT L\u00ea Qu\u00fd \u0110\u00f4n",
+                "area": "2NT"
+            },
+            "021": {
+                "name": "THPT Nguy\u1ec5n Khuy\u1ebfn",
+                "area": "2NT"
+            }
+        }
     },
-    "013": {
-        "name": "THPT Chuy\u00ean Tr\u1ea7n H\u01b0ng \u0110\u1ea1o",
-        "area": "2"
+    "03": {
+        "name": "Huy\u1ec7n B\u1eafc B\u00ecnh",
+        "school": {
+            "003": {
+                "name": "THPT B\u1eafc B\u00ecnh",
+                "area": "1"
+            },
+            "015": {
+                "name": "THPT Nguy\u1ec5n Th\u1ecb Minh Khai",
+                "area": "1"
+            },
+            "027": {
+                "name": "TT GDTX-HN B\u1eafc B\u00ecnh",
+                "area": "1"
+            }
+        }
     },
-    "017": {
-        "name": "THCS v\u00e0 THPT L\u00ea L\u1ee3i",
-        "area": "2"
+    "04": {
+        "name": "Huy\u1ec7n H\u00e0m Thu\u1eadn B\u1eafc",
+        "school": {
+            "004": {
+                "name": "THPT H\u00e0m Thu\u1eadn B\u1eafc",
+                "area": "2NT"
+            },
+            "010": {
+                "name": "THPT D\u00e2n t\u1ed9c n\u1ed9i tr\u00fa T\u1ec9nh",
+                "area": "2NT"
+            },
+            "031": {
+                "name": "THPT Nguy\u1ec5n V\u0103n Linh",
+                "area": "2NT"
+            }
+        }
     },
-    "022": {
-        "name": "TH B\u1ed5 t\u00fac Phan B\u1ed9i Ch\u00e2u",
-        "area": "2"
+    "05": {
+        "name": "Huy\u1ec7n H\u00e0m Thu\u1eadn Nam",
+        "school": {
+            "005": {
+                "name": "THPT H\u00e0m Thu\u1eadn Nam",
+                "area": "1"
+            },
+            "030": {
+                "name": "THPT L\u01b0\u01a1ng Th\u1ebf Vinh",
+                "area": "2NT"
+            }
+        }
     },
-    "032": {
-        "name": "THPT B\u00f9i Th\u1ecb Xu\u00e2n",
-        "area": "2"
+    "06": {
+        "name": "Huy\u1ec7n H\u00e0m T\u00e2n",
+        "school": {
+            "014": {
+                "name": "THPT \u0110\u1ee9c T\u00e2n",
+                "area": "1"
+            },
+            "033": {
+                "name": "THPT H\u00e0m T\u00e2n",
+                "area": "1"
+            },
+            "039": {
+                "name": "THPT Hu\u1ef3nh Th\u00fac Kh\u00e1ng",
+                "area": "1"
+            }
+        }
     },
-    "036": {
-        "name": "THPT Phan Thi\u1ebft",
-        "area": "2"
+    "07": {
+        "name": "Huy\u1ec7n \u0110\u1ee9c Linh",
+        "school": {
+            "007": {
+                "name": "THPT \u0110\u1ee9c Linh",
+                "area": "1"
+            },
+            "016": {
+                "name": "THPT Chu V\u0103n An",
+                "area": "1"
+            },
+            "019": {
+                "name": "THPT H\u00f9ng V\u01b0\u01a1ng",
+                "area": "1"
+            },
+            "023": {
+                "name": "TT GDTX-HN \u0110\u1ee9c Linh",
+                "area": "1"
+            },
+            "025": {
+                "name": "THPT Quang Trung",
+                "area": "1"
+            }
+        }
     },
-    "037": {
-        "name": "TH, THCS v\u00e0 THPT L\u00ea Qu\u00fd \u0110\u00f4n",
-        "area": "2"
+    "08": {
+        "name": "Huy\u1ec7n T\u00e1nh Linh",
+        "school": {
+            "008": {
+                "name": "THPT T\u00e1nh Linh",
+                "area": "1"
+            },
+            "026": {
+                "name": "THPT Nguy\u1ec5n V\u0103n Tr\u1ed7i",
+                "area": "1"
+            },
+            "028": {
+                "name": "TT GDTX-HN T\u00e1nh Linh",
+                "area": "1"
+            }
+        }
     },
-    "038": {
-        "name": "TH, THCS, THPT Ch\u00e2u A' Th\u00e1i B\u00ecnh D\u01b0\u01a1ng",
-        "area": "2"
+    "09": {
+        "name": "Huy\u1ec7n \u0111\u1ea3o Ph\u00fa Qu\u00fd",
+        "school": {
+            "018": {
+                "name": "THPT Ng\u00f4 Quy\u1ec1n",
+                "area": "1"
+            }
+        }
     },
-    "044": {
-        "name": "TT GDTX T\u1ec9nh B\u00ecnh Thu\u1eadn",
-        "area": "2"
-    },
-    "002": {
-        "name": "THPT Tuy Phong",
-        "area": "2NT"
-    },
-    "009": {
-        "name": "THPT H\u00f2a \u0110a",
-        "area": "2NT"
-    },
-    "020": {
-        "name": "THPT L\u00ea Qu\u00fd \u0110\u00f4n",
-        "area": "2NT"
-    },
-    "021": {
-        "name": "THPT Nguy\u1ec5n Khuy\u1ebfn",
-        "area": "2NT"
-    },
-    "003": {
-        "name": "THPT B\u1eafc B\u00ecnh",
-        "area": "1"
-    },
-    "015": {
-        "name": "THPT Nguy\u1ec5n Th\u1ecb Minh Khai",
-        "area": "1"
-    },
-    "027": {
-        "name": "TT GDTX-HN B\u1eafc B\u00ecnh",
-        "area": "1"
-    },
-    "004": {
-        "name": "THPT H\u00e0m Thu\u1eadn B\u1eafc",
-        "area": "2NT"
-    },
-    "010": {
-        "name": "THPT D\u00e2n t\u1ed9c n\u1ed9i tr\u00fa T\u1ec9nh",
-        "area": "2NT"
-    },
-    "031": {
-        "name": "THPT Nguy\u1ec5n V\u0103n Linh",
-        "area": "2NT"
-    },
-    "005": {
-        "name": "THPT H\u00e0m Thu\u1eadn Nam",
-        "area": "1"
-    },
-    "030": {
-        "name": "THPT L\u01b0\u01a1ng Th\u1ebf Vinh",
-        "area": "2NT"
-    },
-    "014": {
-        "name": "THPT \u0110\u1ee9c T\u00e2n",
-        "area": "1"
-    },
-    "033": {
-        "name": "THPT H\u00e0m T\u00e2n",
-        "area": "1"
-    },
-    "039": {
-        "name": "THPT Hu\u1ef3nh Th\u00fac Kh\u00e1ng",
-        "area": "1"
-    },
-    "007": {
-        "name": "THPT \u0110\u1ee9c Linh",
-        "area": "1"
-    },
-    "016": {
-        "name": "THPT Chu V\u0103n An",
-        "area": "1"
-    },
-    "019": {
-        "name": "THPT H\u00f9ng V\u01b0\u01a1ng",
-        "area": "1"
-    },
-    "023": {
-        "name": "TT GDTX-HN \u0110\u1ee9c Linh",
-        "area": "1"
-    },
-    "025": {
-        "name": "THPT Quang Trung",
-        "area": "1"
-    },
-    "008": {
-        "name": "THPT T\u00e1nh Linh",
-        "area": "1"
-    },
-    "026": {
-        "name": "THPT Nguy\u1ec5n V\u0103n Tr\u1ed7i",
-        "area": "1"
-    },
-    "028": {
-        "name": "TT GDTX-HN T\u00e1nh Linh",
-        "area": "1"
-    },
-    "018": {
-        "name": "THPT Ng\u00f4 Quy\u1ec1n",
-        "area": "1"
-    },
-    "006": {
-        "name": "THPT L\u00fd Th\u01b0\u1eddng Ki\u1ec7t",
-        "area": "2"
-    },
-    "011": {
-        "name": "THPT Nguy\u1ec5n Hu\u1ec7",
-        "area": "2"
-    },
-    "024": {
-        "name": "TT GDTX-HN La Gi",
-        "area": "2"
-    },
-    "029": {
-        "name": "THPT Nguy\u1ec5n Tr\u01b0\u1eddng T\u1ed9",
-        "area": "2"
+    "10": {
+        "name": "Th\u1ecb x\u00e3 La Gi",
+        "school": {
+            "006": {
+                "name": "THPT L\u00fd Th\u01b0\u1eddng Ki\u1ec7t",
+                "area": "2"
+            },
+            "011": {
+                "name": "THPT Nguy\u1ec5n Hu\u1ec7",
+                "area": "2"
+            },
+            "024": {
+                "name": "TT GDTX-HN La Gi",
+                "area": "2"
+            },
+            "029": {
+                "name": "THPT Nguy\u1ec5n Tr\u01b0\u1eddng T\u1ed9",
+                "area": "2"
+            }
+        }
     }
 }
