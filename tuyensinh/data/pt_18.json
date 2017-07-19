@@ -153,11 +153,11 @@
     },
     "026": {
         "name": "THPT Hi\u1ec7p H\u00f2a s\u1ed1 1",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "027": {
         "name": "THPT Hi\u1ec7p H\u00f2a s\u1ed1 2",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "028": {
         "name": "THPT Hi\u1ec7p H\u00f2a s\u1ed1 3",
@@ -165,7 +165,7 @@
     },
     "056": {
         "name": "THPT Hi\u1ec7p H\u00f2a s\u1ed1 5",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "057": {
         "name": "THPT D\u00e2n l\u1eadp s\u1ed1 2 Hi\u1ec7p H\u00f2a",
@@ -173,7 +173,7 @@
     },
     "058": {
         "name": "TT GDTX DN H. Hi\u1ec7p H\u00f2a",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "074": {
         "name": "THPT Hi\u1ec7p H\u00f2a s\u1ed1 4",
@@ -205,15 +205,15 @@
     },
     "062": {
         "name": "TT GDTX DN H.L\u1ea1ng Giang",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "032": {
         "name": "THPT Vi\u1ec7t Y\u00ean s\u1ed1 1",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "033": {
         "name": "THPT Vi\u1ec7t Y\u00ean s\u1ed1 2",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "034": {
         "name": "THPT L\u00fd Th\u01b0\u1eddng Ki\u1ec7t",
@@ -221,11 +221,11 @@
     },
     "063": {
         "name": "TH, THCS, THPT Nguy\u1ec5n B\u1ec9nh Khi\u00eam",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "064": {
         "name": "TT GDTX DN H.Vi\u1ec7t Y\u00ean",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "035": {
         "name": "THPT Y\u00ean D\u0169ng s\u1ed1 1",

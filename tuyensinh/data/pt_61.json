@@ -57,7 +57,7 @@
     },
     "028": {
         "name": "THPT Nguy\u1ec5n V\u0103n Nguy\u1ec5n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "044": {
         "name": "TTGDNN Th\u1edbi B\u00ecnh",
@@ -113,19 +113,19 @@
     },
     "011": {
         "name": "THPT C\u00e1i N\u01b0\u1edbc",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "012": {
         "name": "THPT Nguy\u1ec5n Mai",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "025": {
         "name": "TTGDTX C\u00e1i N\u01b0\u1edbc",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "029": {
         "name": "THPT Ph\u00fa H\u01b0ng",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "047": {
         "name": "TTGDNN C\u00e1i N\u01b0\u1edbc",
@@ -145,7 +145,7 @@
     },
     "034": {
         "name": "THPT T\u00e2n \u0110\u1ee9c",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "048": {
         "name": "TTGDNN \u0110\u1ea7m D\u01a1i",
@@ -153,7 +153,7 @@
     },
     "032": {
         "name": "TTGDTX Ng\u1ecdc Hi\u1ec3n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "035": {
         "name": "THPT Vi\u00ean An",
@@ -161,31 +161,31 @@
     },
     "038": {
         "name": "THPT Ng\u1ecdc Hi\u1ec3n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "049": {
         "name": "TTGDNN Ng\u1ecdc Hi\u1ec3n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "014": {
         "name": "THPT Phan Ng\u1ecdc Hi\u1ec3n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "027": {
         "name": "TTGDTX N\u0103m C\u0103n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "050": {
         "name": "TTGDNN N\u0103m C\u0103n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "013": {
         "name": "THPT Nguy\u1ec5n Th\u1ecb Minh Khai",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "033": {
         "name": "TTGDTX Ph\u00fa T\u00e2n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "036": {
         "name": "THPT Ph\u00fa T\u00e2n",
@@ -193,6 +193,6 @@
     },
     "051": {
         "name": "TTGDNN Ph\u00fa T\u00e2n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     }
 }

@@ -109,15 +109,15 @@
     },
     "029": {
         "name": "THPT Qu\u1ef3nh L\u01b0u 1",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "030": {
         "name": "THPT Qu\u1ef3nh L\u01b0u 2",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "031": {
         "name": "THPT Qu\u1ef3nh L\u01b0u 3",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "032": {
         "name": "THPT Qu\u1ef3nh L\u01b0u 4",
@@ -125,19 +125,19 @@
     },
     "033": {
         "name": "THPT Nguy\u1ec5n \u0110\u1ee9c M\u1eadu",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "035": {
         "name": "THPT C\u00f9 Ch\u00ednh Lan",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "102": {
         "name": "THPT L\u00fd T\u1ef1 Tr\u1ecdng",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "109": {
         "name": "TTGDTX Qu\u1ef3nh L\u01b0u",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "037": {
         "name": "THPT K\u1ef3 S\u01a1n",
@@ -189,11 +189,11 @@
     },
     "048": {
         "name": "THPT Y\u00ean Th\u00e0nh 2",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "049": {
         "name": "THPT Phan Th\u00fac Tr\u1ef1c",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "050": {
         "name": "THPT B\u1eafc Y\u00ean Th\u00e0nh",
@@ -201,7 +201,7 @@
     },
     "051": {
         "name": "THPT L\u00ea Do\u00e3n Nh\u00e3",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "052": {
         "name": "THPT Y\u00ean Th\u00e0nh 3",
@@ -209,59 +209,59 @@
     },
     "054": {
         "name": "THPT Phan \u0110\u0103ng L\u01b0u",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "100": {
         "name": "THPT Tr\u1ea7n \u0110\u00ecnh Phong",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "114": {
         "name": "TTGDTX Y\u00ean Th\u00e0nh",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "127": {
         "name": "THPT Nam Y\u00ean Th\u00e0nh",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "055": {
         "name": "THPT Di\u1ec5n Ch\u00e2u 2",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "056": {
         "name": "THPT Di\u1ec5n Ch\u00e2u 3",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "057": {
         "name": "THPT Di\u1ec5n Ch\u00e2u 4",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "058": {
         "name": "THPT Nguy\u1ec5n V\u0103n T\u1ed1",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "059": {
         "name": "THPT Ng\u00f4 Tr\u00ed Ho\u00e0",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "061": {
         "name": "THPT Nguy\u1ec5n Xu\u00e2n \u00d4n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "062": {
         "name": "THPT Di\u1ec5n Ch\u00e2u 5",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "103": {
         "name": "THPT Quang Trung",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "115": {
         "name": "TTGDTX Di\u1ec5n Ch\u00e2u",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "129": {
         "name": "THPT Nguy\u1ec5n Du",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "063": {
         "name": "THPT Anh S\u01a1n 3",
@@ -281,11 +281,11 @@
     },
     "067": {
         "name": "THPT \u0110\u00f4 L\u01b0\u01a1ng 3",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "068": {
         "name": "THPT \u0110\u00f4 L\u01b0\u01a1ng 1",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "069": {
         "name": "THPT \u0110\u00f4 L\u01b0\u01a1ng 2",
@@ -293,7 +293,7 @@
     },
     "071": {
         "name": "THPT V\u0103n Tr\u00e0ng",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "072": {
         "name": "THPT Duy T\u00e2n",
@@ -301,11 +301,11 @@
     },
     "117": {
         "name": "TTGDTX \u0110\u00f4 L\u01b0\u01a1ng",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "128": {
         "name": "THPT \u0110\u00f4 L\u01b0\u01a1ng 4",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "073": {
         "name": "THPT Thanh Ch\u01b0\u01a1ng 3",
@@ -321,19 +321,19 @@
     },
     "076": {
         "name": "THPT Nguy\u1ec5n C\u1ea3nh Ch\u00e2n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "078": {
         "name": "THPT Thanh Ch\u01b0\u01a1ng 1",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "079": {
         "name": "THPT \u0110\u1eb7ng Thai Mai",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "118": {
         "name": "TTGDTX Thanh Ch\u01b0\u01a1ng",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "123": {
         "name": "THPT C\u00e1t Ng\u1ea1n",
@@ -341,27 +341,27 @@
     },
     "080": {
         "name": "THPT Nghi L\u1ed9c 3",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "081": {
         "name": "THPT Nguy\u1ec5n Duy Trinh",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "082": {
         "name": "THPT Nghi L\u1ed9c 2",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "084": {
         "name": "THPT Nguy\u1ec5n Th\u1ee9c T\u1ef1",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "085": {
         "name": "THPT Nghi L\u1ed9c 4",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "119": {
         "name": "TTGDTX Nghi L\u1ed9c",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "126": {
         "name": "THPT Nghi L\u1ed9c 5",
@@ -369,51 +369,51 @@
     },
     "087": {
         "name": "THPT Nam \u0110\u00e0n 1",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "088": {
         "name": "THPT Nam \u0110\u00e0n 2",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "089": {
         "name": "THPT Kim Li\u00ean",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "090": {
         "name": "THPT  S\u00e0o Nam",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "120": {
         "name": "TTGDTX Nam \u0110\u00e0n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "124": {
         "name": "THPT Mai H\u1eafc \u0110\u1ebf",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "092": {
         "name": "THPT L\u00ea H\u1ed3ng Phong",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "093": {
         "name": "THPT Ph\u1ea1m H\u1ed3ng Th\u00e1i",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "094": {
         "name": "THPT Th\u00e1i L\u00e3o",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "095": {
         "name": "THPT \u0110inh B\u1ea1t T\u1ee5y",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "121": {
         "name": "TTGDTX H\u01b0ng Nguy\u00ean",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "125": {
         "name": "THPT Nguy\u1ec5n Tr\u01b0\u1eddng T\u1ed9-H\u01b0ng Nguy\u00ean",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "097": {
         "name": "THPT Qu\u1ebf Phong",

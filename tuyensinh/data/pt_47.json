@@ -41,19 +41,19 @@
     },
     "002": {
         "name": "THPT Tuy Phong",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "009": {
         "name": "THPT H\u00f2a \u0110a",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "020": {
         "name": "THPT L\u00ea Qu\u00fd \u0110\u00f4n",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "021": {
         "name": "THPT Nguy\u1ec5n Khuy\u1ebfn",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "003": {
         "name": "THPT B\u1eafc B\u00ecnh",
@@ -69,15 +69,15 @@
     },
     "004": {
         "name": "THPT H\u00e0m Thu\u1eadn B\u1eafc",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "010": {
         "name": "THPT D\u00e2n t\u1ed9c n\u1ed9i tr\u00fa T\u1ec9nh",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "031": {
         "name": "THPT Nguy\u1ec5n V\u0103n Linh",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "005": {
         "name": "THPT H\u00e0m Thu\u1eadn Nam",
@@ -85,7 +85,7 @@
     },
     "030": {
         "name": "THPT L\u01b0\u01a1ng Th\u1ebf Vinh",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "014": {
         "name": "THPT \u0110\u1ee9c T\u00e2n",

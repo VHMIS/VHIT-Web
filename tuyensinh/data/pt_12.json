@@ -145,27 +145,27 @@
     },
     "008": {
         "name": "TTGDTX Huy\u1ec7n Ph\u00fa B\u00ecnh",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "028": {
         "name": "THPT Ph\u00fa B\u00ecnh",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "036": {
         "name": "THPT L\u01b0\u01a1ng Ph\u00fa",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "058": {
         "name": "THPT \u0110i\u1ec1m Thu\u1ef5",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "009": {
         "name": "TTGDTX Th\u1ecb x\u00e3 Ph\u1ed5 Y\u00ean",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "029": {
         "name": "THPT L\u00ea H\u1ed3ng Phong",
-        "area": "KV 2-NT"
+        "area": "2NT"
     },
     "030": {
         "name": "THPT B\u1eafc S\u01a1n",
@@ -173,6 +173,6 @@
     },
     "037": {
         "name": "THPT Ph\u1ed5 Y\u00ean",
-        "area": "KV 2-NT"
+        "area": "2NT"
     }
 }
