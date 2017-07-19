@@ -436,8 +436,8 @@ $(document).ready(function () {
         var me = $(this)
         var data = me.serialize();
         me.find('button').prop('disabled', true);
-        $.post('https://vhmis.viethanit.edu.vn/education/public-api/admission/add', data, function (data) {
-        //$.post('http://localhost/VHMIS_WWW/education/public-api/admission/add', data, function (data) {
+        //$.post('https://vhmis.viethanit.edu.vn/education/public-api/admission/add', data, function (data) {
+        $.post('http://localhost/VHMIS_WWW/education/public-api/admission/add', data, function (data) {
             if (data.error == '0') {
                 alert('Cảm ơn bạn đã đăng ký xét tuyển vào trường Việt Hàn, chúng tôi sẽ liên lạc và thông báo kết quả sớm với bạn.')
                 me[0].reset();
