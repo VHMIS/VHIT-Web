@@ -65,7 +65,7 @@
     },
     "008": {
         "name": "THPT H\u00f2n \u0110\u1ea5t",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "038": {
         "name": "THPT S\u00f3c S\u01a1n",
@@ -73,11 +73,11 @@
     },
     "045": {
         "name": "Trung t\u00e2m GDTX H\u00f2n \u0110\u1ea5t",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "055": {
         "name": "THPT B\u00ecnh S\u01a1n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "062": {
         "name": "THPT Phan Th\u1ecb R\u00e0ng",
@@ -85,31 +85,31 @@
     },
     "071": {
         "name": "THPT Nguy\u1ec5n H\u00f9ng Hi\u1ec7p",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "077": {
         "name": "THPT Nam Th\u00e1i S\u01a1n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "009": {
         "name": "THPT T\u00e2n Hi\u1ec7p",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "011": {
         "name": "THPT Th\u1ea1nh \u0110\u00f4ng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "046": {
         "name": "Trung t\u00e2m GDTX T\u00e2n Hi\u1ec7p",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "056": {
         "name": "THPT C\u00e2y D\u01b0\u01a1ng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "075": {
         "name": "THPT Th\u1ea1nh T\u00e2y",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "012": {
         "name": "THPT Ch\u00e2u Th\u00e0nh",
@@ -121,7 +121,7 @@
     },
     "067": {
         "name": "THPT Mong Th\u1ecd",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "014": {
         "name": "THPT Gi\u1ed3ng Ri\u1ec1ng",
@@ -197,15 +197,15 @@
     },
     "017": {
         "name": "THPT An Minh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "051": {
         "name": "Trung t\u00e2m GDTX An Minh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "059": {
         "name": "THPT Nguy\u1ec5n V\u0103n Xi\u1ec7n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "010": {
         "name": "THPT V\u0129nh Phong",

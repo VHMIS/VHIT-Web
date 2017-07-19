@@ -65,11 +65,11 @@
     },
     "041": {
         "name": "THPT Gia Vi\u1ec5n A",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "042": {
         "name": "THPT Gia Vi\u1ec5n B",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "043": {
         "name": "THPT Gia Vi\u1ec5n C",
@@ -77,23 +77,23 @@
     },
     "044": {
         "name": "TTGDTX Gia Vi\u1ec5n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "051": {
         "name": "THPT Hoa L\u01b0 A",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "052": {
         "name": "THPT Tr\u01b0\u01a1ng H\u00e1n Si\u00eau",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "053": {
         "name": "TTGDTX Hoa L\u01b0",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "093": {
         "name": "THPT d\u00e2n l\u1eadp Hoa L\u01b0",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "061": {
         "name": "THPT Y\u00ean M\u00f4 A",
@@ -105,54 +105,54 @@
     },
     "063": {
         "name": "TTGDTX Y\u00ean M\u00f4",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "064": {
         "name": "THPT T\u1ea1 Uy\u00ean",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "071": {
         "name": "THPT Kim S\u01a1n A",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "072": {
         "name": "THPT Kim S\u01a1n B",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "073": {
         "name": "THPT B\u00ecnh Minh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "074": {
         "name": "TTGDTX Kim S\u01a1n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "075": {
         "name": "THPT Kim S\u01a1n C",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "081": {
         "name": "THPT Y\u00ean Kh\u00e1nh A",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "082": {
         "name": "THPT Y\u00ean Kh\u00e1nh B",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "083": {
         "name": "THPT V\u0169 Duy Thanh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "084": {
         "name": "TTGDTX Y\u00ean Kh\u00e1nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "085": {
         "name": "THPT Y\u00ean Kh\u00e1nh C",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "094": {
         "name": "THPT d\u00e2n l\u1eadp Y\u00ean Kh\u00e1nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     }
 }

@@ -33,27 +33,27 @@
     },
     "011": {
         "name": "THPT Tr\u1ea7n Ph\u00fa",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "012": {
         "name": "THPT Nguy\u1ec5n An Ninh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "013": {
         "name": "THPT L\u01b0\u01a1ng Th\u1ebf Vinh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "014": {
         "name": "TTGDTX T\u00e2n Bi\u00ean",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "015": {
         "name": "THPT T\u00e2n Ch\u00e2u",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "016": {
         "name": "THPT L\u00ea Du\u1ea9n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "017": {
         "name": "THPT T\u00e2n H\u01b0ng",
@@ -65,11 +65,11 @@
     },
     "019": {
         "name": "TTGDTX T\u00e2n Ch\u00e2u",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "020": {
         "name": "THPT D\u01b0\u01a1ng Minh  Ch\u00e2u",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "021": {
         "name": "THPT Nguy\u1ec5n \u0110\u00ecnh Chi\u1ec3u",
@@ -77,19 +77,19 @@
     },
     "022": {
         "name": "THPT Nguy\u1ec5n Th\u00e1i B\u00ecnh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "023": {
         "name": "TTGDTX   D\u01b0\u01a1ng Minh Ch\u00e2u",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "024": {
         "name": "THPT Ho\u00e0ng V\u0103n Th\u1ee5",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "025": {
         "name": "THPT Ch\u00e2u Th\u00e0nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "026": {
         "name": "THPT L\u00ea H\u1ed3ng Phong",
@@ -97,11 +97,11 @@
     },
     "027": {
         "name": "TTGDTX  Ch\u00e2u Th\u00e0nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "029": {
         "name": "THPT L\u00fd Th\u01b0\u1eddng Ki\u1ec7t",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "030": {
         "name": "THPT Nguy\u1ec5n Ch\u00ed Thanh",
@@ -109,19 +109,19 @@
     },
     "031": {
         "name": "THPT Nguy\u1ec5n Trung Tr\u1ef1c",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "032": {
         "name": "TTGDTX Ho\u00e0 Th\u00e0nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "034": {
         "name": "THPT Nguy\u1ec5n Hu\u1ec7",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "035": {
         "name": "THPT  Hu\u1ef3nh Th\u00fac Kh\u00e1ng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "036": {
         "name": "TTGDTX B\u1ebfn C\u1ea7u",
@@ -129,35 +129,35 @@
     },
     "037": {
         "name": "THPT Quang Trung",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "038": {
         "name": "THPT Nguy\u1ec5n V\u0103n Tr\u1ed7i",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "039": {
         "name": "THPT Tr\u1ea7n Qu\u1ed1c \u0110\u1ea1i",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "040": {
         "name": "THPT Ng\u00f4 Gia T\u1ef1",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "041": {
         "name": "TTGDTX G\u00f2 D\u1ea7u",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "042": {
         "name": "THPT Nguy\u1ec5n Tr\u00e3i",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "043": {
         "name": "THPT  Tr\u1ea3ng B\u00e0ng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "044": {
         "name": "THPT L\u1ed9c H\u01b0ng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "045": {
         "name": "THPT B\u00ecnh Th\u1ea1nh",
@@ -165,6 +165,6 @@
     },
     "046": {
         "name": "TTGDTX Tr\u1ea3ng B\u00e0ng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     }
 }

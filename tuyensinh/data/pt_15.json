@@ -153,11 +153,11 @@
     },
     "028": {
         "name": "Tr\u01b0\u1eddng THPT Hi\u1ec1n \u0110a",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "029": {
         "name": "Tr\u01b0\u1eddng THPT Ph\u01b0\u01a1ng X\u00e1",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "030": {
         "name": "Trung t\u00e2m GDNN-GDTX C\u1ea9m Kh\u00ea",
@@ -213,7 +213,7 @@
     },
     "040": {
         "name": "Tr\u01b0\u1eddng THPT T\u1eed \u0110\u00e0",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "041": {
         "name": "Tr\u01b0\u1eddng THPT Trung Gi\u00e1p",
@@ -237,7 +237,7 @@
     },
     "044": {
         "name": "Tr\u01b0\u1eddng THPT Long Ch\u00e2u Sa",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "045": {
         "name": "Tr\u01b0\u1eddng THPT Phong Ch\u00e2u",
@@ -245,11 +245,11 @@
     },
     "046": {
         "name": "Tr\u01b0\u1eddng THPT L\u00e2m Thao",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "047": {
         "name": "Trung t\u00e2m GDNN-GDTX L\u00e2m Thao",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "085": {
         "name": "Tr\u01b0\u1eddng THPT B\u00e1n C\u00f4ng Phong Ch\u00e2u",

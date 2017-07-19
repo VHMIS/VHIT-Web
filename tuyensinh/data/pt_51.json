@@ -69,11 +69,11 @@
     },
     "010": {
         "name": "THPT An Ph\u00fa",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "011": {
         "name": "THPT  An Ph\u00fa 2",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "012": {
         "name": "THPT Qu\u1ed1c Th\u00e1i",
@@ -81,15 +81,15 @@
     },
     "062": {
         "name": "TTDN-GDTX An Ph\u00fa",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "066": {
         "name": "THPT V\u0129nh L\u1ed9c",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "092": {
         "name": "TT GDNN-GDTX An Ph\u00fa",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "013": {
         "name": "THPT T\u00e2n Ch\u00e2u",
@@ -117,35 +117,35 @@
     },
     "016": {
         "name": "THPT Chu V\u0103n An",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "017": {
         "name": "PT Ph\u00fa T\u00e2n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "018": {
         "name": "THPT Nguy\u1ec5n Ch\u00ed Thanh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "046": {
         "name": "THPT Ho\u00e0 L\u1ea1c",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "052": {
         "name": "THPT B\u00ecnh Th\u1ea1nh \u0110\u00f4ng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "057": {
         "name": "TTDN-GDTX Ph\u00fa T\u00e2n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "079": {
         "name": "THCS-THPT Ph\u00fa T\u00e2n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "087": {
         "name": "TT GDNN-GDTX Ph\u00fa T\u00e2n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "024": {
         "name": "THPT T\u1ecbnh Bi\u00ean",
@@ -205,15 +205,15 @@
     },
     "019": {
         "name": "THPT Tr\u1ea7n V\u0103n Th\u00e0nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "020": {
         "name": "THPT Ch\u00e2u Ph\u00fa",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "021": {
         "name": "THPT Th\u1ea1nh M\u1ef9 T\u00e2y",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "022": {
         "name": "THPT B\u00ecnh M\u1ef9",
@@ -221,83 +221,83 @@
     },
     "023": {
         "name": "PT  B\u00ecnh Long",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "061": {
         "name": "TTDN-GDTX Ch\u00e2u Ph\u00fa",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "080": {
         "name": "THCS-THPT  B\u00ecnh Long",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "091": {
         "name": "TT GDNN-GDTX Ch\u00e2u Ph\u00fa",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "030": {
         "name": "THPT Nguy\u1ec5n H\u1eefu C\u1ea3nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "031": {
         "name": "THPT Ch\u00e2u V\u0103n Li\u00eam",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "032": {
         "name": "THPT Hu\u1ef3nh Th\u1ecb H\u01b0\u1edfng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "033": {
         "name": "THPT Long Ki\u1ebfn",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "034": {
         "name": "THPT M\u1ef9 Hi\u1ec7p",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "047": {
         "name": "THPT M\u1ef9 H\u1ed9i \u0110\u00f4ng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "049": {
         "name": "THPT H\u00f2a B\u00ecnh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "058": {
         "name": "TT. GDTX Ch\u1ee3 M\u1edbi",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "059": {
         "name": "TT. GDTX M\u1ef9 Lu\u00f4ng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "082": {
         "name": "THPT Ung V\u0103n Khi\u00eam",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "083": {
         "name": "THPT Nguy\u1ec5n V\u0103n H\u01b0\u1edfng",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "084": {
         "name": "THPT L\u01b0\u01a1ng V\u0103n C\u00f9",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "085": {
         "name": "THPT V\u00f5 Th\u00e0nh Trinh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "088": {
         "name": "TT GDNN-GDTX Ch\u1ee3 M\u1edbi",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "037": {
         "name": "THPT Nguy\u1ec5n B\u1ec9nh Khi\u00eam",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "039": {
         "name": "THPT V\u0129nh B\u00ecnh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "053": {
         "name": "THPT C\u1ea7n \u0110\u0103ng",
@@ -305,19 +305,19 @@
     },
     "063": {
         "name": "TTDN-GDTX Ch\u00e2u Th\u00e0nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "093": {
         "name": "TT GDNN-GDTX Ch\u00e2u Th\u00e0nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "040": {
         "name": "THPT Nguy\u1ec5n V\u0103n Tho\u1ea1i",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "041": {
         "name": "THPT Nguy\u1ec5n Khuy\u1ebfn",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "044": {
         "name": "THPT V\u1ecdng Th\u00ea",
@@ -325,14 +325,14 @@
     },
     "048": {
         "name": "THPT V\u0129nh Tr\u1ea1ch",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "060": {
         "name": "TTDN-GDTX Tho\u1ea1i S\u01a1n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "090": {
         "name": "TT GDNN-GDTX Tho\u1ea1i S\u01a1n",
-        "area": "2NT"
+        "area": "KV 2-NT"
     }
 }

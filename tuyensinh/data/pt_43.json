@@ -49,11 +49,11 @@
     },
     "010": {
         "name": "THPT Ch\u01a1n Th\u00e0nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "011": {
         "name": "THPT Chu V\u0103n An",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "012": {
         "name": "THCS & THPT Nguy\u1ec5n B\u1ec9nh Khi\u00eam",
@@ -61,7 +61,7 @@
     },
     "013": {
         "name": "Trung t\u00e2m GDTX Ch\u01a1n Th\u00e0nh",
-        "area": "2NT"
+        "area": "KV 2-NT"
     },
     "015": {
         "name": "THPT Th\u1ecb x\u00e3 B\u00ecnh Long",
