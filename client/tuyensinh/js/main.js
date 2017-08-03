@@ -409,6 +409,12 @@ $(document).ready(function () {
         })
     }
 
+    if(w_page == 'thongke') {
+        $.get('https://vhmis.viethanit.edu.vn/education/public-api/admission/lastest', function (data) {
+            $('div#lastest_ad').html(data)
+        })
+    }
+
     if(w_page == 'xettuyen') {
         $.get('https://vhmis.viethanit.edu.vn/education/public-api/admission/list-ne-result', function (data) {
             $('div#admission-list').html(data)

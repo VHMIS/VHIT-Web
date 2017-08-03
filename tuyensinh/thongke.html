@@ -1,0 +1,152 @@
+---
+layout: tuyensinh
+title: Thống kê tuyển sinh | Tuyển sinh 2017
+page: thongke
+---
+
+        <div class="container sc-breadcrumb">
+            <div>
+                <ol class="breadcrumb">
+                    <li><a href="/tuyensinh/index.html">Trang tuyển sinh 2017</a></li>
+                    <li class="active">Thống kê tuyển sinh</li>
+                </ol>
+            </div>
+        </div>
+
+        <style>
+
+        .arc text {
+          font: 10px sans-serif;
+          text-anchor: middle;
+        }
+
+        .arc path {
+          stroke: #fff;
+        }
+
+</style>
+
+        <div class="container sc-main">
+            <div class="statistic">
+                <div class=row>
+                    <div class="col-md-6">
+                        <h2>Số lượng đăng ký</h2>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <svg id="total" width="200" height="200"></svg>
+                            </div>
+                            <div class="col-md-7 pie_status">
+                                <p>
+                                    <b>Chỉ tiêu tuyển sinh</b>: 1200<br>
+                                    <b>Tổng số hồ sơ đăng ký</b>: <span id="total_all"></span><br>
+                                    <b>Tổng số hồ sơ phù hợp</b>: <span id="total_done"></span><br>
+                                    <b>Tổng số hồ sơ đang chờ</b>: <span id="total_process"></span><br>
+                                    <b>Ngày công bố kết quả</b>: 15/08/2017
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Hồ sơ mới đăng ký</h2>
+                        <div id="lastest_ad"></div>
+                    </div>
+                </div>
+                <h2>Tổng số thí sinh đăng ký theo ngày</h2>
+                <div>
+                    <svg id="daily" width="1080" height="500"></svg>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script>
+            // Pie
+            var svg1 = d3.select("#total"),
+                width1 = +svg1.attr("width"),
+                height1 = +svg1.attr("height"),
+                radius1 = Math.min(width1, height1) / 2,
+                g1 = svg1.append("g").attr("transform", "translate(" + width1 / 2 + "," + height1 / 2 + ")"),
+                color1 = d3.scaleOrdinal(["#ff7f0e", "#aec7e8"]);
+
+            var pie1 = d3.pie()
+                .sort(null)
+                .value(function(d) { return d.number; });
+
+            var path1 = d3.arc()
+                .outerRadius(radius1 - 10)
+                .innerRadius(0);
+
+            var label1 = d3.arc()
+                .outerRadius(radius1 - 40)
+                .innerRadius(radius1 - 40);
+
+            // Bar
+            var svg = d3.select("#daily"),
+                margin = {top: 20, right: 20, bottom: 30, left: 40},
+                width = +svg.attr("width") - margin.left - margin.right,
+                height = +svg.attr("height") - margin.top - margin.bottom,
+                g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            var x = d3.scaleBand()
+                .rangeRound([0, width])
+                .paddingInner(0.2)
+                .paddingOuter(0.3)
+                .align(0.1);
+
+            var y = d3.scaleLinear()
+                .rangeRound([height, 0]);
+
+            var formatDate = d3.timeFormat("%d/%m")
+
+            d3.json('https://vhmis.viethanit.edu.vn/education/admission/statistic/dailyinfo', function(error, data) {
+                if (error) throw error
+
+                x.domain(data.daily.map(function(d) { return new Date(d.date); }));
+                y.domain([0, d3.max(data.daily, function(d) { return d.totalInfo.vall; })]).nice();
+
+                g.append("g")
+                    .attr("class", "axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x).tickFormat(d3.timeFormat("%d-%m")));
+
+                g.append("g")
+                    .attr("class", "axis")
+                    .call(d3.axisLeft(y).ticks(null, "s"))
+                .append("text")
+                    .attr("x", 2)
+                    .attr("y", y(y.ticks().pop()) + 0.5)
+                    .attr("dy", "0.32em")
+                    .attr("fill", "#000")
+                    .attr("font-weight", "bold")
+                    .attr("text-anchor", "start")
+                    .text("Số lượng ĐK");
+
+                g.selectAll(".bar")
+                    .data(data.daily)
+                .enter().append("rect")
+                    .attr("fill", "#1f77b4")
+                    .attr("x", function(d) { return x(new Date(d.date)); })
+                    .attr("y", function(d) { return y(d.totalInfo.vall); })
+                    .attr("width", x.bandwidth())
+                    .attr("height", function(d) { return height - y(d.totalInfo.vall); });
+
+                var arc = g1.selectAll(".arc")
+                    .data(pie1(data.overall.data))
+                    .enter().append("g")
+                        .attr("class", "arc");
+
+                arc.append("path")
+                    .attr("d", path1)
+                    .attr("fill", function(d) { return color1(d.data.number); });
+
+                arc.append("text")
+                    .attr("transform", function(d) {return  "translate(" + label1.centroid(d) + ")";})
+                    .attr("dy", "0.35em")
+                    .text(function(d) { return d.data.number; });
+
+                //d3.select('#total_all').text(data.overall.data[0])
+                d3.select('#total_all').text(data.overall.data[0].number + data.overall.data[1].number)
+                d3.select('#total_done').text(data.overall.data[0].number)
+                d3.select('#total_process').text(data.overall.data[1].number)
+            })
+        </script>

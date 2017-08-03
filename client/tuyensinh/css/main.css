@@ -590,3 +590,35 @@ body.site_overlay_active {
 .list-row-header:hover {
     background: #D9534F;
 }
+
+.statistic {
+  background: #fff;
+  padding: 30px;
+}
+
+.statistic h2 {
+  font-size: 22px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.pie_status {
+    padding-top: 10px;
+}
+
+.pie_status p {
+    line-height: 2
+}
+
+#total_done {
+    background-color: #ff7f0e;
+    color: #fff;
+    padding: 4px;
+}
+
+#total_process {
+    background-color: #aec7e8;
+    color: #fff;
+    padding: 4px;
+}
