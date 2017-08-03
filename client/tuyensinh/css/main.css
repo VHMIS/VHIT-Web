@@ -622,3 +622,9 @@ body.site_overlay_active {
     color: #fff;
     padding: 4px;
 }
+
+.alert-address {
+  background-color: #1f77b4;
+  color: #fff;
+  border: 0px;
+}
