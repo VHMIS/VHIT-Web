@@ -19,7 +19,7 @@ Nhằm thay đổi website cũ, dự án xây dựng website mới được bắ
 Toàn bộ website public đều được xây dựng theo hướng static web, thuần HTML. Sử dụng API để lấy nội dung từ hệ thống quản lý nếu cần.
 
 ### Các mục và trang con
-- [ ] Tuyển sinh 2017 http://viethanit.edu.vn/tuyensinh
+- [x] Tuyển sinh 2017 http://viethanit.edu.vn/tuyensinh
 - [x] ACIIDS 2016 http://viethanit.edu.vn/aciids-2016
 - [x] CEST 2017 http://viethanit.edu.vn/cest-2017
 - [x] ICIST 2017 http://viethanit.edu.vn/icist-2017
