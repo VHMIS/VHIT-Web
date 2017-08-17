@@ -89,15 +89,15 @@ $(document).ready(function () {
     )
 
     // Always top
-    if(w_page != 'index') {
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > 80) {
-                $('.sc-header').addClass('fixed')
-            } else {
-                $('.sc-header').removeClass('fixed')
-            }
-        })
-    }
+    // if(w_page != 'index') {
+    //     $(window).scroll(function () {
+    //         if ($(window).scrollTop() > 80) {
+    //             $('.sc-header').addClass('fixed')
+    //         } else {
+    //             $('.sc-header').removeClass('fixed')
+    //         }
+    //     })
+    // }
 
     // To top
     $(window).scroll(function () {
