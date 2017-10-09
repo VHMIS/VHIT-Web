@@ -39,7 +39,8 @@ var
                 'client/css/main.css': 'src/css/main.scss',
                 'client/css/aciids.css': 'src/css/aciids.scss',
                 'client/css/cest.css': 'src/css/cest.scss',
-                'client/css/10nam.css': 'src/css/10nam.scss'
+                'client/css/10nam.css': 'src/css/10nam.scss',
+                'client/css/library.css': 'src/css/library.scss'
             }
         }
 
@@ -108,7 +109,8 @@ var
                 'client/css/main.css' : 'client/css/main.css',
                 'client/css/aciids.css' : 'client/css/aciids.css',
                 'client/css/cest.css' : 'client/css/cest.css',
-                'client/css/10nam.css' : 'client/css/10nam.css'
+                'client/css/10nam.css' : 'client/css/10nam.css',
+                'client/css/library.css' : 'client/css/library.css'
             }
         }
     };

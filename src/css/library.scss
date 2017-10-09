@@ -1,0 +1,61 @@
+@import "modules/base";
+
+.sc-new-docs ul li {
+  display: block;
+  float: left;
+  width: 236px;
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+  padding: 30px 15px 0 15px;
+
+  h2 {
+    margin-top: 7px;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+}
+
+.sc-search-form {
+  .section-container {
+    padding: 30px;
+  }
+  form {
+    text-align: center;
+
+    input {
+      width: 500px;
+    }
+  }
+
+  div.cate {
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+
+    h2 {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+
+    ul li {
+      float: left;
+      width: auto;
+      margin-right: 5px;
+      margin-bottom: 5px;
+
+      a {
+        border: 2px solid #ddd;
+        padding: 4px 10px;
+        border-radius: 16px;
+        text-decoration: none;
+
+        &:hover, &:active {
+          background: $primary-bg-color;
+          color: $primary-bg-font-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

@@ -34,6 +34,17 @@ tuyensinh:
     meta_tw_image:
     meta_og_image:
 
+library:
+    index: /thuvien/
+    title: Trung tâm thông tin tư liệu
+    sub_title: Trường Cao Đẳng Công Nghệ Thông Tin Hữu Nghị Việt - Hàn
+    locale: vi-VN
+    meta_description: "Thư viện trường CĐ CNTT Việt Hàn: cung cấp các dịch vụ về  mua bán, mượn trả sách tham khảo, giáo trình, đồ án tốt nghiệp và các dịch vụ in ấn, photocopy, thiết kế chỉnh sửa bản in."
+    meta_tw_image:
+    meta_og_image:
+    css:
+        - library
+
 aciids:
     index: /aciids-2016/
     title: <span>Hội thảo </span>ACIIDS<span> lần thứ 8 - Đà Nẵng</span> 2016

@@ -1,0 +1,50 @@
+.sc-new-docs ul li {
+  display: block;
+  float: left;
+  width: 236px;
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+  padding: 30px 15px 0 15px;
+}
+.sc-new-docs ul li h2 {
+  margin-top: 7px;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.sc-search-form .section-container {
+  padding: 30px;
+}
+.sc-search-form form {
+  text-align: center;
+}
+.sc-search-form form input {
+  width: 500px;
+}
+.sc-search-form div.cate {
+  margin-top: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+.sc-search-form div.cate h2 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+.sc-search-form div.cate ul li {
+  float: left;
+  width: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.sc-search-form div.cate ul li a {
+  border: 2px solid #ddd;
+  padding: 4px 10px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+.sc-search-form div.cate ul li a:hover, .sc-search-form div.cate ul li a:active {
+  background: #1a77cd;
+  color: #fff;
+  text-decoration: none;
+}
