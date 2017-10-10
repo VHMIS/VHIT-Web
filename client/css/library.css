@@ -53,6 +53,7 @@
   float: left;
   padding: 30px;
   width: 20%;
+  height: 300px;
 }
 .biblios .biblio-item a {
   display: block;
@@ -65,5 +66,11 @@
   display: block;
 }
 .biblios .biblio-item a span.title {
+  max-height: 3.9em;
+  line-height: 1.3em;
+  width: 100%;
   margin-top: 7px;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
 }

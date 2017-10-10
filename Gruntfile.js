@@ -22,6 +22,7 @@ var
         "url",
         "main",
         "nckh",
+        "library",
         "10nam"
     ].map(function(js) {
         return "src/js/" + js + ".js";
