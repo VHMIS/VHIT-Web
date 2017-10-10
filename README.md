@@ -58,8 +58,9 @@ Doanh nghiệp
 - [x] 15.03 : Xây dựng trang 10 năm (http://viethanit.edu.vn/10-nam/)
 - [x] 14.04 : Xây dựng trang ICIST 2017 (http://viethanit.edu.vn/icist-2017/)
 - [x] 15.05 : Xây dựng trang TUYỂN SINH 2017 (http://viethanit.edu.vn/tuyensinh/)
-- [ ] 30.03 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
-- [ ] 30.04 : Thử nghiệm trang NKCH
+- [ ] 30.11 : Thử nghiệm trang cựu sinh viên & Quan hệ doanh nghiệp
+- [ ] 30.11 : Thử nghiệm trang NKCH
+- [ ] 15.10 : Thử nghiệm trang thông tin tư liệu
 
 ## Phát triển
 
