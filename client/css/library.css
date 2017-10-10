@@ -48,3 +48,22 @@
   color: #fff;
   text-decoration: none;
 }
+
+.biblios .biblio-item {
+  float: left;
+  padding: 30px;
+  width: 20%;
+}
+.biblios .biblio-item a {
+  display: block;
+  text-decoration: none;
+}
+.biblios .biblio-item a:hover {
+  text-decoration: none;
+}
+.biblios .biblio-item a span {
+  display: block;
+}
+.biblios .biblio-item a span.title {
+  margin-top: 7px;
+}

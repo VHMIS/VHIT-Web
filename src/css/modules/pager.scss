@@ -1,0 +1,19 @@
+.pager {
+  position: relative;
+  @include clearfix;
+
+  ul {
+    // @include clearfix;
+    margin-top: 10px;
+
+    &.right {
+      float: right;
+    }
+
+    li {
+      float: left;
+      padding: 0 4px;
+      width: auto;
+    }
+  }
+}

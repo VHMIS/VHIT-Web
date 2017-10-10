@@ -59,3 +59,28 @@
     }
   }
 }
+
+.biblios {
+  .biblio-item {
+    float: left;
+    padding: 30px;
+    width: 20%;
+
+    a {
+      display: block;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      span {
+        display: block;
+
+        &.title {
+          margin-top: 7px;
+        }
+      }
+    }
+  }
+}

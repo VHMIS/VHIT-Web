@@ -1800,6 +1800,28 @@ body.splash .slider .slides {
   height: 450px;
 }
 
+.pager {
+  position: relative;
+}
+.pager:after, .pager:before {
+  content: " ";
+  display: table;
+}
+.pager:after {
+  clear: both;
+}
+.pager ul {
+  margin-top: 10px;
+}
+.pager ul.right {
+  float: right;
+}
+.pager ul li {
+  float: left;
+  padding: 0 4px;
+  width: auto;
+}
+
 .sc-admission .section-container .card_info .card {
   width: 33.33333%;
 }
