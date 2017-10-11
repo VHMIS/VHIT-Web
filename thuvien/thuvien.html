@@ -1,22 +1,9 @@
 ---
 site: library
-meta_title: Thư viện | Trường CĐ Công Nghệ Thông Tin Hữu Nghị Việt Hàn
+meta_title: Thư viện | Trung tâm thông tin tư liệu
 link_en: /
 layout: default
 ---
-
-        <section id="new-docs" class="section sc-new-docs">
-            <div class="container">
-                <div class="section-header">
-                    <h1>Tài liệu mới</h1>
-                </div>
-                <div class="section-container">
-                    <div id="list-new-docs">
-
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <section id="search-form" class="section sc-search-form">
             <div class="container">
@@ -27,6 +14,7 @@ layout: default
                     <div>
                         <form>
                             <div>
+                                <input type="hidden" name="page" value="1">
                                 <select name="k">
                                     <option value="title">Tiêu đề</option>
                                     <option value="author">Tác giả</option>
@@ -34,7 +22,7 @@ layout: default
                                     <option value="isbn">ISBN</option>
                                     <option value="issn">ISSN</option>
                                 </select>
-                                <input name="q">
+                                <input type="text" name="q">
                                 <button type="submit">Tìm kiếm</button>
                             </div>
                         </form>
@@ -52,30 +40,14 @@ layout: default
             </div>
         </section>
 
-        <section id="biblios" class="section">
-
-        </section>
-
-        <section class="section sc-services last">
+        <section id="biblios" class="section last">
             <div class="container">
                 <div class="section-header">
-                    <h1>Giới thiệu</h1>
+                    <h1>Tài liệu mới</h1>
                 </div>
                 <div class="section-container">
-                    <div class="services">
-                      <div>
-                        <h2>Thời gian làm việc</h2>
-                        <p>Thứ 2 - Thứ 6<br>Sáng : 8h00 - 11h00<br>Chiều : 13:30 - 16:30</p>
-                      </div>
-                      <div>
-                        <h2>Dịch vụ</h2>
-                        <ul>
-                          <li>Thư viện truyền thống và số</li>
-                          <li>Phòng tự học sinh viên, hội thảo</li>
-                          <li>In ấn, photocopy</li>
-                          <li>Điểm truy cập Internet miễn phí</li>
-                        </ul>
-                      </div>
+                    <div id="list-new-docs">
+
                     </div>
                 </div>
             </div>
