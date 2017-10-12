@@ -1,6 +1,6 @@
 $(document).ready(function () {
   var pub = true;
-  var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/'
+  var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
 
   // Sach moi
   $('#biblios').each(function () {
@@ -44,6 +44,17 @@ $(document).ready(function () {
 
     $.get(domain + 'library/public-api/biblio/search', data, function (data) {
       $('#biblios').html(data)
+    })
+  })
+
+  $('#biblio-full').each(function () {
+    var biblionumber = $.url('query')
+    $.get(domain + 'library/public-api/biblio/' + biblionumber, function (data) {
+      $('#biblio-full').html(data)
+      document.title = "Biên mục # " + biblio.number + " | " + document.title
+      $('meta[property=og\\:description]').attr('content', biblio.abstract)
+      $('meta[property=og\\:title]').attr('content', biblio.title)
+      $('meta[property=og\\:url]').attr('content', 'http://viethanit.edu.vn/thuvien/bienmuc.html?' + biblio.number)
     })
   })
 })

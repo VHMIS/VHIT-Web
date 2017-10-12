@@ -86,3 +86,40 @@
     }
   }
 }
+
+.sc-biblio {
+  margin-top: 15px;
+
+  .biblio {
+    @include clearfix;
+
+    .biblio-cover {
+      float: left;
+      width: 350px;
+      border-right: 1px solid #eee;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .biblio-info {
+      float: left;
+      width: calc(100% - 350px);
+      padding: 30px;
+
+      .title {
+        font-size: 1.3rem;
+      }
+
+      .author {
+        font-size: 1.1rem;
+      }
+
+      .desc {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        margin: 10px 0;
+        padding: 10px 0;
+      }
+    }
+  }
+}

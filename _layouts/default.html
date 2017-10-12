@@ -14,8 +14,8 @@
         <meta name="twitter:title" content="{% if page.tw_title %}{{ page.tw_title }}{% else %}{{ page.meta_title }}{% endif %}">
         <meta name="twitter:description" content="{% if page.tw_description %}{{ page.tw_description }}{% elsif page.meta_description %}{{ page.meta_description }}{% else %}{{ site.data.site[page.site].meta_description }}{% endif %}">
         <meta name="twitter:image" content="http://viethanit.edu.vn{% if page.tw_image %}{{ page.tw_image }}{% else %}{{ site.data.site[page.site].meta_tw_image }}{% endif %}">
-{% if page.og_title %}        <meta name="og:title" content="{{ page.og_title }}">{% endif %}
-{% if page.og_description %}        <meta name="og:description" content="{{ page.og_description }}">{% endif %}
+{% if page.og_title %}        <meta property="og:title" content="{{ page.og_title }}">{% endif %}
+{% if page.og_description %}        <meta property="og:description" content="{{ page.og_description }}">{% endif %}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://viethanit.edu.vn{{ page.url }}" />
         <meta property="og:image" content="http://viethanit.edu.vn{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.data.site[page.site].meta_og_image }}{% endif %}" />
