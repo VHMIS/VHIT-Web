@@ -8,7 +8,7 @@ page: index
             <div class="row">
                 <div class="col-md-6">
                     <div class="flash-card flash-intro">
-                        <h1 class="flash-header">Thông báo tuyển sinh 2017</h1>
+                        <h1 class="flash-header">Thông báo tuyển sinh 2018</h1>
                         <div class="flash-photo">
                             <img src="/client/tuyensinh/img/flash_info.jpg" alt=""/>
                         </div>
@@ -20,13 +20,13 @@ page: index
                                 <li>Hệ trung cấp: Xét tuyển theo kết quả học THCS/THPT</li>
                             </ul>
                         </div>
-                        <div class="flash-detail-link">
+                        <!-- <div class="flash-detail-link">
                             <a href="thongtin_tuyensinh2017.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> Xem chi tiết</a>
                             <a href="dkxt_online.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> ĐK xét tuyển online</a><br><br>
                             <a href="tracuu.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> Kết quả trúng tuyển đợt 1</a>
                             <a href="thongbao_nhaphoc.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> Thông báo nhập học đợt 1</a><br><br>
                             <a href="/tuyensinh/data/TKB_HKI_7_18_khoa_11.xls"> <span class="glyphicon glyphicon-circle-arrow-bottom"></span> Tải thời khóa biểu học tập đợt 1</a>
-                        </div>
+                        </div> -->
                         <div class="flash-more">
                             <p><b>Địa chỉ nộp hồ sơ</b></p>
                             <p class="alert alert-warning alert-address">
@@ -71,10 +71,10 @@ page: index
                                 {% for nhomnganh in site.data.tuyensinh.nhomnganh_2017 %}
                                 <li><a href="nganh-{{ nhomnganh.slug }}.html"><span class="glyphicon glyphicon-chevron-right"></span> <strong>{{ nhomnganh.name }}</strong></a></li>
                                 {% for manganh in nhomnganh.majors.cd %}
-                                <li>- (CĐ) {{ site.data.tuyensinh.nganh_cd_2017[manganh].title }}</li>
+                                <!--<li>- (CĐ) {{ site.data.tuyensinh.nganh_cd_2017[manganh].title }}</li>-->
                                 {% endfor %}
                                 {% for manganh in nhomnganh.majors.tc %}
-                                <li>- (TC) {{ site.data.tuyensinh.nganh_tc_2017[manganh].title }}</li>
+                                <!--<li>- (TC) {{ site.data.tuyensinh.nganh_tc_2017[manganh].title }}</li>-->
                                 {% endfor %}
                                 {% endfor %}
                             </ul>
