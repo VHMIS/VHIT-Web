@@ -2,7 +2,7 @@
  * File javascript của các trang liên quan đến nội dung NCKH
  */
 $(document).ready(function () {
-    var pub = true;
+    var pub = false;
     var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
 
     // Form tra cứu lý lịch khoa khọc
@@ -134,6 +134,18 @@ $(document).ready(function () {
         $('.scv-works .work.' + select).show()
         $('.works-fields li').removeClass('active')
         $this.addClass('active')
+    })
+
+    $('div.full_issue').each(function () {
+      var journal = $(this).data('journal')
+      var issue = $(this).data('issue')
+      $.getJSON(domain + 'research/public-api/journal/' + journal + '/issue/' + issue, function (data) {
+          //alert(data)
+          console.log(data)
+          for (sub of data.submissions) {
+            var a = $('<li class="work" />').html('<div class="title"><a href="#">' + sub.title + '</a></div>').appendTo('.works')
+          }
+      })
     })
 })
 
