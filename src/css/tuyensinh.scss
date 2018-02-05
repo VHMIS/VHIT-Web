@@ -1,0 +1,114 @@
+@import "modules/base";
+
+.sc-admission-info {
+  background: #fff;
+  width: 100%;
+
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 30px 0px;
+  }
+
+  .admission-info-fact {
+    background-color: $primary-bg-color;
+    padding: 40px;
+    color: #fff;
+
+    .facts {
+      .fact {
+        display: block;
+        width: 33.333333333%;
+        float: left;
+
+        span {
+          text-align: center;
+          display: block;
+
+          &.fact-number {
+            font-size: 3rem;
+          }
+
+          &.fact-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+          }
+
+          &.fact-desc {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .admission-info-time {
+    padding: 20px 0;
+
+    .periods {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #ddd;
+
+      .period {
+        display: block;
+        width: 33.333333333%;
+        float: left;
+        border: 4px solid #fff;
+        padding: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+
+        &.active {
+          border-color: #ddd;
+          background-color: #eee;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .admission-info-connect {
+    padding-bottom: 30px;
+
+    .connects {
+      .connect {
+        display: block;
+        float: left;
+
+        &.register {
+          width: 33.3333333%;
+
+          a.big-button {
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #eee;
+            font-size: 1.2rem;
+            font-weight: bold;
+            width: 100%;
+            color: #111;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+
+            &:hover, &:active {
+              text-decoration: none;
+              color: #111;
+            }
+          }
+        }
+
+        &.contact {
+          width: 66.6666666%;
+          font-size: 1.2rem;
+          padding: 10px;
+          text-align: center;
+
+          a {
+            color: #111;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

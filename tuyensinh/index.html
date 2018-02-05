@@ -10,128 +10,42 @@ layout: default
                 <img src="/photo/slide/tuyensinh2018.png" width="100%">
             </div>
         </section>
-        <div class="container sc-main">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="flash-card flash-intro">
-                        <h1 class="flash-header">Thông báo tuyển sinh 2018</h1>
-                        <div class="flash-photo">
-                            <img src="/client/tuyensinh/img/flash_info.jpg" alt=""/>
-                        </div>
-                        <div class="flash-body">
-                            <p><strong>Chỉ tiêu tuyển sinh:</strong> 1200 CĐ &amp; TC (toàn quốc)</p>
-                            <p><strong>Hình thức tuyển sinh:</strong></p>
-                            <ul>
-                                <li>Hệ cao đẳng: Xét tuyển theo kết quả học THPT</li>
-                                <li>Hệ trung cấp: Xét tuyển theo kết quả học THCS/THPT</li>
-                            </ul>
-                        </div>
-                        <!-- <div class="flash-detail-link">
-                            <a href="thongtin_tuyensinh2017.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> Xem chi tiết</a>
-                            <a href="dkxt_online.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> ĐK xét tuyển online</a><br><br>
-                            <a href="tracuu.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> Kết quả trúng tuyển đợt 1</a>
-                            <a href="thongbao_nhaphoc.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> Thông báo nhập học đợt 1</a><br><br>
-                            <a href="/tuyensinh/data/TKB_HKI_7_18_khoa_11.xls"> <span class="glyphicon glyphicon-circle-arrow-bottom"></span> Tải thời khóa biểu học tập đợt 1</a>
-                        </div> -->
-                        <div class="flash-more">
-                            <p><b>Địa chỉ nộp hồ sơ</b></p>
-                            <p class="alert alert-warning alert-address">
-                                Địa chỉ 1:<br>
-                                <strong>Phòng Đào tạo - Trường Cao đẳng CNTT Hữu nghị Việt – Hàn<br>
-                                136 Trần Đại Nghĩa - Phường Hòa Quý - Quận Ngũ Hành Sơn - Thành phố Đà Nẵng</strong><br>
-                                <br>
-                                Địa chỉ 2:<br>
-                                <strong>Văn phòng đại diện bộ Thông tin - Truyền Thông tại Miền Trung Tây Nguyên<br>
-                                42 Trần Quốc Toản - Quận Hải Châu - Thành phố Đà Nẵng</strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="flash-card flash-about">
-                        <h1 class="flash-header">Về trường CĐ CNTT Hữu nghị Việt-Hàn</h1>
-                        <div class="flash-video flash-photo embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bZ5GNf_5WmY" allowfullscreen></iframe>
-                        </div>
-                        <div class="flash-body">
-                            <p>Trường cao đẳng công nghệ thông tin hữu nghị Việt-Hàn là trường CĐ công lập về CNTT và ứng dụng CNTT chuyên sâu tại Đà Nẵng và miền Trung.</p>
-                            <ul>
-                                <li><a href="gioithieu_viethan.html"><span class="glyphicon glyphicon-chevron-right"></span> Giới thiệu về trường</a></li>
-                                <li><a href="gioithieu_viethan.html"><span class="glyphicon glyphicon-chevron-right"></span> Cơ sở vật chất</a></li>
-                                <li><a href="gioithieu_viethan.html"><span class="glyphicon glyphicon-chevron-right"></span> Đối tác và thành tích</a></li>
-                            </ul>
-                            <p>Học tập tại trường, sinh viên có cơ hội nhận được nhiều chương trình học bổng và cơ hội việc làm sau khi ra trường.</p>
-                            <ul>
-                                <li><a href="hocbong.html"><span class="glyphicon glyphicon-chevron-right"></span> Chương trình học bổng</a></li>
-                                <li><a href="cohoivieclam.html"><span class="glyphicon glyphicon-chevron-right"></span> Cơ hội việc làm sau khi ra trường</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="flash-card flash-majors">
-                        <h1 class="flash-header">Các ngành tuyển sinh</h1>
-                        <div class="flash-photo">
-                            <img src="/client/tuyensinh/img/flash_marjors.jpg" alt=""/>
-                        </div>
-                        <div class="flash-body">
-                            <ul>
-                                {% for nhomnganh in site.data.tuyensinh.nhomnganh_2017 %}
-                                <li><a href="nganh-{{ nhomnganh.slug }}.html"><span class="glyphicon glyphicon-chevron-right"></span> <strong>{{ nhomnganh.name }}</strong></a></li>
-                                {% for manganh in nhomnganh.majors.cd %}
-                                <!--<li>- (CĐ) {{ site.data.tuyensinh.nganh_cd_2017[manganh].title }}</li>-->
-                                {% endfor %}
-                                {% for manganh in nhomnganh.majors.tc %}
-                                <!--<li>- (TC) {{ site.data.tuyensinh.nganh_tc_2017[manganh].title }}</li>-->
-                                {% endfor %}
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-4">
-
+        <section class="sc-admission-info">
+            <h1>Tuyển sinh 2018</h1>
+            <div class="admission-info-fact">
+                <div class="container">
+                    <ul class="facts clearfix">
+                        <li class="fact"><span class="fact-title">Chỉ tiêu Cao đẳng</span> <span class="fact-number">1021</span> <span class="fact-desc">Xét tuyển theo kết quả học tập THPT</span></li>
+                        <li class="fact"><span class="fact-title">Chỉ tiêu Trung cấp</span> <span class="fact-number">532</span> <span class="fact-desc">Xét tuyển theo kết quả học tập THCS &amp; THPT</li>
+                        <li class="fact"><span class="fact-title">Ngành nghề đào tạo</span> <span class="fact-number">19</span> <span class="fact-desc">Cơ hội việc làm cao</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-
-        <div class="container sc-main">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page-heading">
-                        <h1 class="">Thông tin thêm</h1>
-                    </div>
+            <div class="admission-info-time">
+                <div class="container">
+                    <ul class="periods clearfix">
+                        <li class="period active">Đợt 1: 05/06 - 15/07</li>
+                        <li class="period">Đợt 2: 20/07 - 30/08</li>
+                        <li class="period">Đợt 3: 05/09 - 15/10</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-
-        <div class="container sc-main">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="block-info contact-info">
-                        <h2 class="">Liên hệ với chúng tôi</h2>
-                        <div class="block-info-1">
-                            <i class="glyphicon glyphicon glyphicon-earphone"></i> 0236 3962 888
-                        </div>
-                        <div class="block-info-2">
-                            <a href="" class="open_send_question" data-target="send_question_modal"><i class="glyphicon glyphicon-pencil"></i> Gửi câu hỏi trực tuyến</a> | <a href="hoidap.html">Mục hỏi đáp</a><br>
-                            <i class="glyphicon glyphicon-envelope"></i> tuyensinh@viethanit.edu.vn
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="block-info news-info">
-                        <h2 class="">Tin tức</h2>
-                        <div class="block-info-2">
-                            <ul>
-                            {% for post in site.categories.tuyensinh limit:3 %}
-                                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                            {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
+            <div class="admission-info-connect">
+                <div class="container">
+                    <ul class="connects clearfix">
+                        <li class="connect register"><a href="" class="big-button">Đăng ký xét tuyển và tư vấn trực tuyến</a></li>
+                        <li class="connect contact">
+                            <i class="fas fa-phone"></i> (0236) 3962 888
+                            <a href="mailto:tuyensinh@viethanit.edu.vn"><i class="fas fa-envelope"></i> tuyensinh@viethanit.edu.vn</a>
+                            <a href="https://www.facebook.com/viethanicu"><i class="fab fa-facebook"></i>/viethanicu</a>
+                            <a href="hoidap.html"><i class="fas fa-question"></i> Hỏi đáp tuyển sinh</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-{% include tuyensinh/ask_question_modal.html %}
+        <section class="sc-college-intro">
+            <h1>Học với chúng tôi</h1>
+        </section>

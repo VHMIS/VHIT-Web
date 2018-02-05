@@ -33,6 +33,8 @@ tuyensinh:
     meta_description: Năm 2018, trường CĐ CNTT Việt Hàn tuyển sinh và đào tạo các ngành công nghệ thông tin, điện tử viễn thông, quản trị kinh doanh, đồ họa máy tính.
     meta_tw_image:
     meta_og_image:
+    css:
+        - tuyensinh
 
 library:
     index: /thuvien/
