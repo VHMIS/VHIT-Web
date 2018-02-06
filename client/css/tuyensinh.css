@@ -47,6 +47,23 @@
   font-size: 1.2rem;
   text-align: center;
 }
+.sc-admission-info .admission-info-time .periods .period a.big-button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #0069d9;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+.sc-admission-info .admission-info-time .periods .period a.big-button:hover, .sc-admission-info .admission-info-time .periods .period a.big-button:active {
+  text-decoration: none;
+  color: #fff;
+}
 .sc-admission-info .admission-info-time .periods .period.active {
   border-color: #ddd;
   background-color: #eee;
@@ -55,36 +72,110 @@
 .sc-admission-info .admission-info-connect {
   padding-bottom: 30px;
 }
+.sc-admission-info .admission-info-connect .connects {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
 .sc-admission-info .admission-info-connect .connects .connect {
   display: block;
   float: left;
-}
-.sc-admission-info .admission-info-connect .connects .connect.register {
-  width: 33.3333333%;
-}
-.sc-admission-info .admission-info-connect .connects .connect.register a.big-button {
-  padding: 10px;
-  border-radius: 4px;
-  background-color: #eee;
-  font-size: 1.2rem;
-  font-weight: bold;
-  width: 100%;
-  color: #111;
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-}
-.sc-admission-info .admission-info-connect .connects .connect.register a.big-button:hover, .sc-admission-info .admission-info-connect .connects .connect.register a.big-button:active {
-  text-decoration: none;
-  color: #111;
-}
-.sc-admission-info .admission-info-connect .connects .connect.contact {
-  width: 66.6666666%;
+  width: 25%;
   font-size: 1.2rem;
   padding: 10px;
   text-align: center;
 }
-.sc-admission-info .admission-info-connect .connects .connect.contact a {
+.sc-admission-info .admission-info-connect .connects .connect a {
   color: #111;
   margin-left: 10px;
+}
+.sc-admission-info .admission-info-major .majors > div {
+  width: 33.33333%;
+  float: left;
+  padding-right: 90px;
+}
+.sc-admission-info .admission-info-major .majors .major-list ul {
+  padding: 10px 0;
+}
+.sc-admission-info .admission-info-major .majors .major-list ul + ul {
+  border-top: 1px solid #eee;
+}
+.sc-admission-info .admission-info-major .majors .major-list ul li + li {
+  margin-top: 3px;
+}
+
+.sc-college-intro h1 {
+  text-align: center;
+  margin: 0;
+  padding: 50px 0 20px 0;
+}
+.sc-college-intro p.intro-text {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.sc-college-intro .intro-video {
+  border-top: 2px solid #fff;
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/photo/slide/tuyensinh2018_video.png);
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sc-college-intro .intro-video span {
+  background-color: #0069d9;
+  color: #fff;
+  padding: 3px 6px;
+  display: block;
+  position: relative;
+  font-size: 1.5rem;
+}
+.sc-college-intro .intro-field {
+  background-color: #fff;
+  padding: 90px 0;
+}
+.sc-college-intro .intro-field .intro-text {
+  padding-bottom: 60px;
+}
+.sc-college-intro .intro-field h2 {
+  width: 33.33333%;
+  float: left;
+  padding-right: 90px;
+}
+.sc-college-intro .intro-field p {
+  width: 66.66666%;
+  float: left;
+  padding-right: 90px;
+  font-size: 1.1rem;
+  margin-top: 7px;
+}
+.sc-college-intro .intro-field .photos img {
+  width: 20%;
+  display: block;
+  float: left;
+  border-right: 3px solid #fff;
+}
+.sc-college-intro .intro-field .photos.intro-education {
+  margin-left: 33.333333%;
+}
+.sc-college-intro .intro-field .photos.intro-education img {
+  width: 50%;
+}
+.sc-college-intro .intro-field:nth-child(2n + 1) {
+  background-color: #e8e8e8;
+}
+.sc-college-intro .intro-field:nth-child(2n + 1) .photos img {
+  border-right-color: #e8e8e8;
 }

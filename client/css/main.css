@@ -1,33 +1,3 @@
-@font-face {
-  font-family: "ProximaNova";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../font/pn_400.woff?6vot21") format("woff");
-}
-@font-face {
-  font-family: "ProximaNova";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../font/pn_400_i.woff?6vot21") format("woff");
-}
-@font-face {
-  font-family: "ProximaNova";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../font/pn_600.woff?6vot21") format("woff");
-}
-@font-face {
-  font-family: "ProximaNova";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../font/pn_700.woff?6vot21") format("woff");
-}
-@font-face {
-  font-family: "ProximaNova";
-  font-style: italic;
-  font-weight: 700;
-  src: url("../font/pn_700_i.woff?6vot21") format("woff");
-}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -433,7 +403,7 @@ optgroup {
 
 html {
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 *,
@@ -469,15 +439,15 @@ p {
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 h4, h5, h6 {

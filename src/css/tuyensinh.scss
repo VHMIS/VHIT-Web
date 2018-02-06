@@ -58,6 +58,25 @@
         font-size: 1.2rem;
         text-align: center;
 
+        a.big-button {
+          margin-top: 10px;
+          padding: 10px;
+          border-radius: 4px;
+          background-color: $primary-bg-color;
+          font-size: 1.2rem;
+          font-weight: bold;
+          width: 100%;
+          color: #fff;
+          display: block;
+          text-decoration: none;
+          text-align: center;
+
+          &:hover, &:active {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+
         &.active {
           border-color: #ddd;
           background-color: #eee;
@@ -71,42 +90,139 @@
     padding-bottom: 30px;
 
     .connects {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #ddd;
+
       .connect {
         display: block;
         float: left;
+        width: 25%;
+        font-size: 1.2rem;
+        padding: 10px;
+        text-align: center;
 
-        &.register {
-          width: 33.3333333%;
+        a {
+          color: #111;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
 
-          a.big-button {
-            padding: 10px;
-            border-radius: 4px;
-            background-color: #eee;
-            font-size: 1.2rem;
-            font-weight: bold;
-            width: 100%;
-            color: #111;
-            display: inline-block;
-            text-decoration: none;
-            text-align: center;
+  .admission-info-major {
+    .majors {
+      > div {
+        width: 33.33333%;
+        float: left;
+        padding-right: 90px;
+      }
 
-            &:hover, &:active {
-              text-decoration: none;
-              color: #111;
+      .major-list {
+        ul {
+          padding: 10px 0;
+
+          + ul {
+            border-top: 1px solid #eee;
+          }
+
+          li {
+            + li {
+              margin-top: 3px;
             }
           }
         }
+      }
+    }
+  }
+}
 
-        &.contact {
-          width: 66.6666666%;
-          font-size: 1.2rem;
-          padding: 10px;
-          text-align: center;
 
-          a {
-            color: #111;
-            margin-left: 10px;
-          }
+.sc-college-intro {
+  // background-color: $primary-bg-color;
+
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 50px 0 20px 0;
+    // color: #fff;
+  }
+
+  p.intro-text {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    // color: #fff;
+  }
+
+  .intro-video {
+    border-top: 2px solid #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url(/photo/slide/tuyensinh2018_video.png);
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+
+    span {
+      background-color: $primary-bg-color;
+      color: #fff;
+      padding: 3px 6px;
+      display: block;
+      position: relative;
+      font-size: 1.5rem;
+    }
+  }
+
+  .intro-field {
+    background-color: #fff;
+    padding: 90px 0;
+
+    .intro-text {
+      padding-bottom: 60px;
+    }
+
+    h2 {
+      width: 33.33333%;
+      float: left;
+      padding-right: 90px;
+    }
+
+    p {
+      width: 66.66666%;
+      float: left;
+      padding-right: 90px;
+      font-size: 1.1rem;
+      margin-top: 7px;
+    }
+
+    .photos {
+      img {
+        width: 20%;
+        display: block;
+        float: left;
+        border-right: 3px solid #fff;
+      }
+
+      &.intro-education {
+        margin-left: 33.333333%;
+        img {
+          width: 50%;
+        }
+      }
+    }
+
+    &:nth-child(2n + 1) {
+      background-color: #e8e8e8;
+
+      .photos {
+        img {
+          border-right-color: #e8e8e8;
         }
       }
     }

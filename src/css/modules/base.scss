@@ -1,5 +1,5 @@
 // font
-$font-size : 15px;
+$font-size : 16px;
 $font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
 // $font-family: $font-sans;
 // $font-family: 'ProximaNova', $font-sans;
@@ -21,8 +21,8 @@ $grid-gutter: 15px;
 $primary-bg-font-color: #fff;
 
 // font size
-$default-font-size: 14px;
-$default-line-height: 18px;
+$default-font-size: 16px;
+$default-line-height: 1.5;
 
 // clearfix
 @mixin clearfix {
