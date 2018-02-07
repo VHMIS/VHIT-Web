@@ -3,6 +3,7 @@
 .sc-admission-info {
   background: #fff;
   width: 100%;
+  padding-bottom: 30px;
 
   h1 {
     text-align: center;
@@ -43,7 +44,7 @@
   }
 
   .admission-info-time {
-    padding: 20px 0;
+    padding: 30px 0;
 
     .periods {
       padding-bottom: 30px;
@@ -98,12 +99,15 @@
         float: left;
         width: 25%;
         font-size: 1.2rem;
-        padding: 10px;
+        padding: 10px 5px;
         text-align: center;
 
-        a {
-          color: #111;
-          margin-left: 10px;
+        a, span {
+          color: $primary-bg-color;
+          font-weight: 700;
+          //border: 1px solid $primary-bg-color;
+          border-radius: 4px;
+          padding: 10px 5px;
         }
       }
     }
@@ -115,6 +119,12 @@
         width: 33.33333%;
         float: left;
         padding-right: 90px;
+      }
+
+      .major-intro {
+        p {
+          margin-top: 10px;
+        }
       }
 
       .major-list {
@@ -130,6 +140,131 @@
               margin-top: 3px;
             }
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .sc-admission-info {
+    .admission-info-fact {
+      background-color: $primary-bg-color;
+      padding: 40px;
+      color: #fff;
+
+      .facts {
+        .fact {
+          width: 100%;
+
+          + .fact {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .sc-admission-info {
+    .admission-info-time {
+
+
+      .periods {
+
+
+        .period {
+
+          width: 100%;
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1170px) {
+  .sc-admission-info {
+    .admission-info-connect {
+      padding-bottom: 30px;
+
+      .connects {
+
+
+        .connect {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sc-admission-info {
+    .admission-info-connect {
+      padding-bottom: 30px;
+
+      .connects {
+
+
+        .connect {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .sc-admission-info {
+    .admission-info-major {
+      .majors {
+        > div {
+          width: 50%;
+        }
+
+        > div:nth-child(1) {
+          width: 100%;
+          text-align: center;
+          margin-bottom: 30px;
+          padding-right: 0px;
+        }
+
+        .major-intro {
+          p {
+            margin-top: 10px;
+          }
+        }
+
+        .major-list {
+          ul {
+            padding: 10px 0;
+
+            + ul {
+              border-top: 1px solid #eee;
+            }
+
+            li {
+              + li {
+                margin-top: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sc-admission-info {
+    .admission-info-major {
+      .majors {
+        > div {
+          width: 100%;
+          padding-right: 0px;
         }
       }
     }
@@ -203,13 +338,15 @@
 
     .photos {
       img {
-        width: 20%;
+        width: 25%;
         display: block;
         float: left;
         border-right: 3px solid #fff;
       }
+    }
 
-      &.intro-education {
+    &.intro-dorm, &.intro-education, &.intro-support-policy {
+      .photos {
         margin-left: 33.333333%;
         img {
           width: 50%;
@@ -226,5 +363,77 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 800px) {
+  .sc-college-intro {
+    .intro-field {
+      h2, p {
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+      }
+
+      p {
+        margin-top: 25px;
+      }
+
+      .photos {
+        img {
+          width: 50%;
+          border-top: 3px solid #fff;
+        }
+      }
+
+      &.intro-dorm, &.intro-education, &.intro-support-policy {
+        .photos {
+          margin-left: 0;
+          img {
+            width: 50%;
+          }
+        }
+      }
+
+      &:nth-child(2n + 1) {
+        .photos {
+          img {
+            border-top-color: #e8e8e8;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .sc-college-intro {
+    .intro-field {
+
+      .photos {
+        img {
+          width: 100%;
+        }
+      }
+
+      &.intro-dorm, &.intro-education, &.intro-support-policy {
+        .photos {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sc-extra-contact {
+  background-color: #efe;
+
+  p {
+    width: 60%;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
   }
 }
