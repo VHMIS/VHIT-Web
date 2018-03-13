@@ -23,438 +23,47 @@ header_css: no-banner
                     <a href="https://www.facebook.com/viethanicu" target="_blank">Trang facebook của trường</a><!-- | <a href="thongke.html">Tình hình tuyển sinh 2017 của trường</a>-->
                 </p>
                 <form id="xettuyen" class="form-horizontal">
-                    <h3>Thông tin học sinh</h3>
                     <div class="form-group">
-                        <label class="col-md-2 control-label">Họ và tên</label>
-                        <div class="col-md-6">
+                        <label class="col-md-3 control-label">Họ và tên</label>
+                        <div class="col-md-3">
                             <input type="text" class="form-control" name="name" placeholder="Họ, tên đệm và tên">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-md-2 control-label">Giới tính</label>
-                        <div class="col-md-9">
+                        <label class="col-md-3 control-label">Giới tính</label>
+                        <div class="col-md-3">
                             <label class="radio-inline">
                                 <input type="radio" name="gender" value="1" checked="checked"> Nam
                             </label>
                             <label class="radio-inline">
-                                <input type="radio" name="gender" value="2" checked="checked"> Nữ
+                                <input type="radio" name="gender" value="2"> Nữ
                             </label>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-md-2 control-label">Ngày sinh / CMND</label>
+                        <label class="col-md-3 control-label">Năm sinh</label>
                         <div class="col-md-3">
-                            <input type="text" class="form-control" name="birthday" placeholder="ngày/tháng/năm">
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" class="form-control" name="id_number" placeholder="Chứng minh nhân dân">
+                            <input type="text" class="form-control" name="yob">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-md-2 control-label">Thông tin liên lạc</label>
-
+                        <label class="col-md-3 control-label">Thông tin liên lạc</label>
                         <div class="col-md-3">
-                            <input type="text" class="form-control" name="tel" placeholder="Số điện thoại">
+                            <input type="text" class="form-control" name="phone" placeholder="Số điện thoại">
                         </div>
                         <div class="col-md-3">
                             <input type="text" class="form-control" name="email" placeholder="Email">
                         </div>
-                        <div class="col-md-4">
-                            <input type="text" class="form-control" name="facebook" placeholder="Facebook https://www.facebook.com/username">
-                        </div>
-                    </div>
-                    <!-- <div class="form-group">
-                        <label class="col-md-2 control-label">Hộ khẩu thường trú</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" name="fa" placeholder="">
-                        </div>
-                    </div> -->
-                    <div class="form-group">
-                        <label class="col-md-2 control-label">Thông tin hộ khẩu</label>
-                        <div class="col-md-2">
-                            <select name="fa_province" class="form-control">
-                                <option value="">Chọn Tỉnh thành</option>
-                                <optgroup label="Miền trung - Tây nguyên">
-                                    <option value="04">Đà Nẵng</option>
-                                    <option value="34">Quảng Nam</option>
-                                    <option value="35">Quảng Ngãi</option>
-                                    <option value="39">Phú Yên</option>
-                                    <option value="37">Bình Định</option>
-                                    <option value="36">Kon Tum</option>
-                                    <option value="38">Gia Lai</option>
-                                    <option value="63">Đắk Nông</option>
-                                    <option value="33">Thừa Thiên Huế</option>
-                                    <option value="32">Quảng Trị</option>
-                                    <option value="31">Quảng Bình</option>
-                                    <option value="30">Hà Tĩnh</option>
-                                    <option value="29">Nghệ An</option>
-                                    <option value="41">Khánh Hòa</option>
-                                    <option value="40">Đắk Lắk</option>
-                                    <option value="47">Bình Thuận</option>
-                                    <option value="45">Ninh Thuận</option>
-                                    <option value="28">Thanh Hóa</option>
-                                    <option value="42">Lâm Đồng</option>
-                                </optgroup>
-                                <optgroup label="Cả nước">
-                                    <option value="01">Hà Nội</option>
-                                    <option value="02">Tp. Hồ Chí Minh</option>
-                                    <option value="03">Hải Phòng</option>
-                                    <option value="04">Đà Nẵng</option>
-                                    <option value="05">Hà Giang</option>
-                                    <option value="06">Cao Bằng</option>
-                                    <option value="07">Lai Châu</option>
-                                    <option value="08">Lào Cai</option>
-                                    <option value="09">Tuyên Quang</option>
-                                    <option value="10">Lạng Sơn</option>
-                                    <option value="11">Bắc Kạn</option>
-                                    <option value="12">Thái Nguyên</option>
-                                    <option value="13">Yên Bái</option>
-                                    <option value="14">Sơn La</option>
-                                    <option value="15">Phú Thọ</option>
-                                    <option value="16">Vĩnh Phúc</option>
-                                    <option value="17">Quảng Ninh</option>
-                                    <option value="18">Bắc Giang</option>
-                                    <option value="19">Bắc Ninh</option>
-                                    <option value="21">Hải Dương</option>
-                                    <option value="22">Hưng Yên</option>
-                                    <option value="23">Hoà Bình</option>
-                                    <option value="24">Hà Nam</option>
-                                    <option value="25">Nam Định</option>
-                                    <option value="26">Thái Bình</option>
-                                    <option value="27">Ninh Bình</option>
-                                    <option value="28">Thanh Hoá</option>
-                                    <option value="29">Nghệ An</option>
-                                    <option value="30">Hà Tĩnh</option>
-                                    <option value="31">Quảng Bình</option>
-                                    <option value="32">Quảng Trị</option>
-                                    <option value="33">Thừa Thiên -Huế</option>
-                                    <option value="34">Quảng Nam</option>
-                                    <option value="35">Quảng Ngãi</option>
-                                    <option value="36">Kon Tum</option>
-                                    <option value="37">Bình Định</option>
-                                    <option value="38">Gia Lai</option>
-                                    <option value="39">Phú Yên</option>
-                                    <option value="40">Đắk Lắk</option>
-                                    <option value="41">Khánh Hoà</option>
-                                    <option value="42">Lâm Đồng</option>
-                                    <option value="43">Bình Phước</option>
-                                    <option value="44">Bình Dương</option>
-                                    <option value="45">Ninh Thuận</option>
-                                    <option value="46">Tây Ninh</option>
-                                    <option value="47">Bình Thuận</option>
-                                    <option value="48">Đồng Nai</option>
-                                    <option value="49">Long An</option>
-                                    <option value="50">Đồng Tháp</option>
-                                    <option value="51">An Giang</option>
-                                    <option value="52">Bà Rịa-Vũng Tàu</option>
-                                    <option value="53">Tiền Giang</option>
-                                    <option value="54">Kiên Giang</option>
-                                    <option value="55">Cần Thơ</option>
-                                    <option value="56">Bến Tre</option>
-                                    <option value="57">Vĩnh Long</option>
-                                    <option value="58">Trà Vinh</option>
-                                    <option value="59">Sóc Trăng</option>
-                                    <option value="60">Bạc Liêu</option>
-                                    <option value="61">Cà Mau</option>
-                                    <option value="62">Điện Biên</option>
-                                    <option value="63">Đắk Nông</option>
-                                    <option value="64">Hậu Giang</option>
-                                </optgroup>
-                            </select>
-                        </div>
-
-                        <div class="col-md-2">
-                            <select name="fa_district" class="form-control" disabled="disabled">
-                                <option value="">Chọn Huyện thị</option>
-                            </select>
-                        </div>
-
-                        <div class="col-md-4">
-                            <input type="text" class="form-control" name="fa_ward_name" placeholder="Xã phường">
-                        </div>
-
-                        <input type="hidden" name="fa_province_name">
-                        <input type="hidden" name="fa_district_name">
-
                     </div>
                     <div class="form-group">
-                        <label class="col-md-2 control-label">Khu vực ưu tiên</label>
-                        <div class="col-md-5">
-                            <select name="priority_area" class="form-control">
-                                <option value="kv1">Khu vực 1</option>
-                                <option value="kv2">Khu vực 2</option>
-                                <option value="kv2-nt">Khu vực 2-NT</option>
-                                <option value="kv3">Khu vực 3</option>
-                            </select>
+                        <label class="col-md-3 control-label">Địa chỉ liên lạc</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="address_line1" placeholder="Số nhà, đường, thôn, xóm, khu phố...">
+                            <input type="text" class="form-control" name="address_line2" placeholder="Xã (phường), Huyện (thị), Tỉnh (Thành phố)" style="margin-top: 3px;">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-md-2 control-label">Địa chỉ liên lạc</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" name="address" placeholder="Nơi nhận giấy báo trúng tuyển">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-2 control-label">Đối tượng ưu tiên</label>
-                        <div class="col-md-5">
-                            <select name="priority_object" class="form-control">
-                                <option value="08">Chọn đối tượng ưu tiến nếu có</option>
-                                <option value="01">01 - Dân tộc thiểu số</option>
-                                <option value="02">02 - CSƯT, Chiến sĩ thi đua</option>
-                                <option value="03">03 - Thương binh, bệnh binh, quân nhân...</option>
-                                <option value="04">04 - Con liệt sĩ, thương bệnh binh nặng</option>
-                                <option value="05">05 - Quân nhân, Công an, Thanh niên xung phong</option>
-                                <option value="06">06 - Con thương bệnh binh dưới 81%</option>
-                                <option value="07">07 - Lao động ưu tú, thợ giỏi</option>
-                            </select>
-                        </div>
-                    </div>
-                    <!--<h3>Thông tin đăng ký</h3>
-
-                    <div class="form-group">
-                        <label class="col-md-2 control-label">Đăng ký dự tuyển</label>
-                        <div class="col-md-9">
-                            <label class="radio-inline">
-                                <input type="radio" name="level" value="cd" data-tc="2"> Trình độ cao đẳng
-                            </label>
-                            <label class="radio-inline">
-                                <input type="radio" name="level" value="tc" data-tc="1"> Trình độ trung cấp (sử dụng bằng TN THCS)
-                            </label>
-                            <label class="radio-inline">
-                                <input type="radio" name="level" value="tc" data-tc="2"> Trình độ trung cấp (sử dụng bằng TN THPT)
-                            </label>
-                        </div>
-                    </div>
-                    <div id="gradute_school_k9" class="form-group" style="display:none">
-                        <label class="col-md-2 control-label">Nơi tốt nghiệp THCS</label>
-                        <div class="col-md-2">
-                            <select name="gradute_school_k9_province" class="form-control">
-                                <option value="">Chọn Tỉnh thành</option>
-                                <optgroup label="Miền trung - Tây nguyên">
-                                    <option value="04">Đà Nẵng</option>
-                                    <option value="34">Quảng Nam</option>
-                                    <option value="35">Quảng Ngãi</option>
-                                    <option value="39">Phú Yên</option>
-                                    <option value="37">Bình Định</option>
-                                    <option value="36">Kon Tum</option>
-                                    <option value="38">Gia Lai</option>
-                                    <option value="63">Đắk Nông</option>
-                                    <option value="33">Thừa Thiên Huế</option>
-                                    <option value="32">Quảng Trị</option>
-                                    <option value="31">Quảng Bình</option>
-                                    <option value="30">Hà Tĩnh</option>
-                                    <option value="29">Nghệ An</option>
-                                    <option value="41">Khánh Hòa</option>
-                                    <option value="40">Đắk Lắk</option>
-                                    <option value="47">Bình Thuận</option>
-                                    <option value="45">Ninh Thuận</option>
-                                    <option value="28">Thanh Hóa</option>
-                                    <option value="42">Lâm Đồng</option>
-                                </optgroup>
-                                <optgroup label="Cả nước">
-                                    <option value="01">Hà Nội</option>
-                                    <option value="02">Tp. Hồ Chí Minh</option>
-                                    <option value="03">Hải Phòng</option>
-                                    <option value="04">Đà Nẵng</option>
-                                    <option value="05">Hà Giang</option>
-                                    <option value="06">Cao Bằng</option>
-                                    <option value="07">Lai Châu</option>
-                                    <option value="08">Lào Cai</option>
-                                    <option value="09">Tuyên Quang</option>
-                                    <option value="10">Lạng Sơn</option>
-                                    <option value="11">Bắc Kạn</option>
-                                    <option value="12">Thái Nguyên</option>
-                                    <option value="13">Yên Bái</option>
-                                    <option value="14">Sơn La</option>
-                                    <option value="15">Phú Thọ</option>
-                                    <option value="16">Vĩnh Phúc</option>
-                                    <option value="17">Quảng Ninh</option>
-                                    <option value="18">Bắc Giang</option>
-                                    <option value="19">Bắc Ninh</option>
-                                    <option value="21">Hải Dương</option>
-                                    <option value="22">Hưng Yên</option>
-                                    <option value="23">Hoà Bình</option>
-                                    <option value="24">Hà Nam</option>
-                                    <option value="25">Nam Định</option>
-                                    <option value="26">Thái Bình</option>
-                                    <option value="27">Ninh Bình</option>
-                                    <option value="28">Thanh Hoá</option>
-                                    <option value="29">Nghệ An</option>
-                                    <option value="30">Hà Tĩnh</option>
-                                    <option value="31">Quảng Bình</option>
-                                    <option value="32">Quảng Trị</option>
-                                    <option value="33">Thừa Thiên -Huế</option>
-                                    <option value="34">Quảng Nam</option>
-                                    <option value="35">Quảng Ngãi</option>
-                                    <option value="36">Kon Tum</option>
-                                    <option value="37">Bình Định</option>
-                                    <option value="38">Gia Lai</option>
-                                    <option value="39">Phú Yên</option>
-                                    <option value="40">Đắk Lắk</option>
-                                    <option value="41">Khánh Hoà</option>
-                                    <option value="42">Lâm Đồng</option>
-                                    <option value="43">Bình Phước</option>
-                                    <option value="44">Bình Dương</option>
-                                    <option value="45">Ninh Thuận</option>
-                                    <option value="46">Tây Ninh</option>
-                                    <option value="47">Bình Thuận</option>
-                                    <option value="48">Đồng Nai</option>
-                                    <option value="49">Long An</option>
-                                    <option value="50">Đồng Tháp</option>
-                                    <option value="51">An Giang</option>
-                                    <option value="52">Bà Rịa-Vũng Tàu</option>
-                                    <option value="53">Tiền Giang</option>
-                                    <option value="54">Kiên Giang</option>
-                                    <option value="55">Cần Thơ</option>
-                                    <option value="56">Bến Tre</option>
-                                    <option value="57">Vĩnh Long</option>
-                                    <option value="58">Trà Vinh</option>
-                                    <option value="59">Sóc Trăng</option>
-                                    <option value="60">Bạc Liêu</option>
-                                    <option value="61">Cà Mau</option>
-                                    <option value="62">Điện Biên</option>
-                                    <option value="63">Đắk Nông</option>
-                                    <option value="64">Hậu Giang</option>
-                                </optgroup>
-                            </select>
-                        </div>
-                        <div class="col-md-2">
-                            <select name="gradute_school_k9_district" class="form-control" disabled>
-                                <option value='0'>Chọn quận huyện</option>
-                            </select>
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control" name="gradute_school_k9_school" placeholder="Tên trường">
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control" name="gradute_year_k9" placeholder="Năm TN">
-                        </div>
-                    </div>
-                    <div id="gradute_school_k12" class="form-group" style="display:none">
-                        <label class="col-md-2 control-label">Nơi tốt nghiệp THPT</label>
-                        <div class="col-md-2">
-                            <select name="gradute_school_k12_province" class="form-control">
-                                <option value="">Chọn Tỉnh thành</option>
-                                <optgroup label="Miền trung - Tây nguyên">
-                                    <option value="04">Đà Nẵng</option>
-                                    <option value="34">Quảng Nam</option>
-                                    <option value="35">Quảng Ngãi</option>
-                                    <option value="39">Phú Yên</option>
-                                    <option value="37">Bình Định</option>
-                                    <option value="36">Kon Tum</option>
-                                    <option value="38">Gia Lai</option>
-                                    <option value="63">Đắk Nông</option>
-                                    <option value="33">Thừa Thiên Huế</option>
-                                    <option value="32">Quảng Trị</option>
-                                    <option value="31">Quảng Bình</option>
-                                    <option value="30">Hà Tĩnh</option>
-                                    <option value="29">Nghệ An</option>
-                                    <option value="41">Khánh Hòa</option>
-                                    <option value="40">Đắk Lắk</option>
-                                    <option value="47">Bình Thuận</option>
-                                    <option value="45">Ninh Thuận</option>
-                                    <option value="28">Thanh Hóa</option>
-                                    <option value="42">Lâm Đồng</option>
-                                </optgroup>
-                                <optgroup label="Cả nước">
-                                    <option value="01">Hà Nội</option>
-                                    <option value="02">Tp. Hồ Chí Minh</option>
-                                    <option value="03">Hải Phòng</option>
-                                    <option value="04">Đà Nẵng</option>
-                                    <option value="05">Hà Giang</option>
-                                    <option value="06">Cao Bằng</option>
-                                    <option value="07">Lai Châu</option>
-                                    <option value="08">Lào Cai</option>
-                                    <option value="09">Tuyên Quang</option>
-                                    <option value="10">Lạng Sơn</option>
-                                    <option value="11">Bắc Kạn</option>
-                                    <option value="12">Thái Nguyên</option>
-                                    <option value="13">Yên Bái</option>
-                                    <option value="14">Sơn La</option>
-                                    <option value="15">Phú Thọ</option>
-                                    <option value="16">Vĩnh Phúc</option>
-                                    <option value="17">Quảng Ninh</option>
-                                    <option value="18">Bắc Giang</option>
-                                    <option value="19">Bắc Ninh</option>
-                                    <option value="21">Hải Dương</option>
-                                    <option value="22">Hưng Yên</option>
-                                    <option value="23">Hoà Bình</option>
-                                    <option value="24">Hà Nam</option>
-                                    <option value="25">Nam Định</option>
-                                    <option value="26">Thái Bình</option>
-                                    <option value="27">Ninh Bình</option>
-                                    <option value="28">Thanh Hoá</option>
-                                    <option value="29">Nghệ An</option>
-                                    <option value="30">Hà Tĩnh</option>
-                                    <option value="31">Quảng Bình</option>
-                                    <option value="32">Quảng Trị</option>
-                                    <option value="33">Thừa Thiên -Huế</option>
-                                    <option value="34">Quảng Nam</option>
-                                    <option value="35">Quảng Ngãi</option>
-                                    <option value="36">Kon Tum</option>
-                                    <option value="37">Bình Định</option>
-                                    <option value="38">Gia Lai</option>
-                                    <option value="39">Phú Yên</option>
-                                    <option value="40">Đắk Lắk</option>
-                                    <option value="41">Khánh Hoà</option>
-                                    <option value="42">Lâm Đồng</option>
-                                    <option value="43">Bình Phước</option>
-                                    <option value="44">Bình Dương</option>
-                                    <option value="45">Ninh Thuận</option>
-                                    <option value="46">Tây Ninh</option>
-                                    <option value="47">Bình Thuận</option>
-                                    <option value="48">Đồng Nai</option>
-                                    <option value="49">Long An</option>
-                                    <option value="50">Đồng Tháp</option>
-                                    <option value="51">An Giang</option>
-                                    <option value="52">Bà Rịa-Vũng Tàu</option>
-                                    <option value="53">Tiền Giang</option>
-                                    <option value="54">Kiên Giang</option>
-                                    <option value="55">Cần Thơ</option>
-                                    <option value="56">Bến Tre</option>
-                                    <option value="57">Vĩnh Long</option>
-                                    <option value="58">Trà Vinh</option>
-                                    <option value="59">Sóc Trăng</option>
-                                    <option value="60">Bạc Liêu</option>
-                                    <option value="61">Cà Mau</option>
-                                    <option value="62">Điện Biên</option>
-                                    <option value="63">Đắk Nông</option>
-                                    <option value="64">Hậu Giang</option>
-                                </optgroup>
-                            </select>
-                        </div>
-                        <div class="col-md-2">
-                            <select name="gradute_school_k12_district" class="form-control" disabled>
-                                <option value='0'>Chọn quận huyện</option>
-                            </select>
-                        </div>
-                        <div class="col-md-2">
-                            <select name="gradute_school_k12_school" class="form-control" disabled>
-                                <option value='0'>Chọn trường</option>
-                            </select>
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" class="form-control" name="gradute_year_k12" placeholder="Năm TN">
-                        </div>
-                    </div>
-                    <div id="major_1" class="form-group" style="display:none">
-                        <label class="col-md-2 control-label">Nguyện vọng 1</label>
-                        <div class="col-md-5">
-                            <select name="major_1" class="form-control chonnganh">
-                                <option value="">Chọn cấp đăng ký</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div id="major_2" class="form-group" style="display:none">
-                        <label class="col-md-2 control-label">Nguyện vọng 2</label>
-                        <div class="col-md-5">
-                            <select name="major_2" class="form-control chonnganh">
-                                <option value="">Chọn cấp đăng ký</option>
-                            </select>
-                        </div>
-                    </div>-->
-                    <div class="form-group">
-                        <label class="col-md-2 control-label">Bạn biết về trường thông qua</label>
+                        <label class="col-md-3 control-label">Bạn biết về trường thông qua</label>
                         <div class="col-md-5">
                             <select name="known_source" class="form-control">
                                 <option value="1">Facebook</option>
@@ -467,8 +76,15 @@ header_css: no-banner
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-md-offset-2 col-md-10">
-                            <button type="submit" class="btn btn-primary btn-lg">Đăng ký xét tuyển</button>
+                        <label class="col-md-3 control-label"></label>
+                        <div class="col-md-5">
+                            <input type="checkbox" name="application" value="1" checked> Đăng ký xét tuyển<br>
+                            <input type="checkbox" name="advisory_request" value="1" checked> Đăng ký tư vấn
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button type="submit" class="btn btn-primary btn-lg">Đăng ký xét tuyển và tư vấn</button>
                         </div>
                     </div>
                 </form>
