@@ -1,94 +1,107 @@
 ---
-layout: tuyensinh
-title: Đăng ký xét tuyển trực tuyến | Tuyển sinh 2018
-header_css: no-banner
+site: tuyensinh
+meta_title: Đăng ký xét tuyển 2018 | VietHanIT
+meta_description: Trang đăng ký xét tuyển tuyển sinh 2018 trực tuyến tại trường CĐ CNTT Hữu nghị Việt Hàn.
+layout: default
+page: tuyensinh_xettuyen
 ---
 
 <div class="container sc-breadcrumb">
-    <div>
-        <ol class="breadcrumb">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul>
             <li><a href="/tuyensinh/index.html">Trang tuyển sinh 2018</a></li>
-            <li class="active">Đăng ký xét tuyển </li>
-        </ol>
+            <li class="is-active"><a href="/tuyensinh/dkxt_online.html" aria-current="page">Đăng ký xét tuyển và tư vấn</a></li>
+        </ul>
     </div>
 </div>
 
-<div class="container sc-main">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="block_component form_register">
-                <h2>Đăng ký xét tuyển trực tuyến</h2>
-                <p class="alert alert-success">
-                    Để đăng ký xét tuyển vào Trường Cao đẳng Công nghệ thông tin Hữu nghị Việt – Hàn năm 2018, bạn vui lòng điền đầy đủ thông tin bên dưới. Chúng tôi sẽ liên lạc ngay sau khi nhận được đăng ký. Mọi thắc mắc xin liên hệ: 0236 3962 888.<br><br>
-                    <a href="https://www.facebook.com/viethanicu" target="_blank">Trang facebook của trường</a><!-- | <a href="thongke.html">Tình hình tuyển sinh 2017 của trường</a>-->
-                </p>
-                <form id="xettuyen" class="form-horizontal">
-                    <div class="form-group">
-                        <label class="col-md-3 control-label">Họ và tên</label>
-                        <div class="col-md-3">
-                            <input type="text" class="form-control" name="name" placeholder="Họ, tên đệm và tên">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label">Giới tính</label>
-                        <div class="col-md-3">
-                            <label class="radio-inline">
-                                <input type="radio" name="gender" value="1" checked="checked"> Nam
-                            </label>
-                            <label class="radio-inline">
-                                <input type="radio" name="gender" value="2"> Nữ
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label">Năm sinh</label>
-                        <div class="col-md-3">
-                            <input type="text" class="form-control" name="yob">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label">Thông tin liên lạc</label>
-                        <div class="col-md-3">
-                            <input type="text" class="form-control" name="phone" placeholder="Số điện thoại">
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" class="form-control" name="email" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label">Địa chỉ liên lạc</label>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" name="address_line1" placeholder="Số nhà, đường, thôn, xóm, khu phố...">
-                            <input type="text" class="form-control" name="address_line2" placeholder="Xã (phường), Huyện (thị), Tỉnh (Thành phố)" style="margin-top: 3px;">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label">Bạn biết về trường thông qua</label>
-                        <div class="col-md-5">
-                            <select name="known_source" class="form-control">
-                                <option value="1">Facebook</option>
-                                <option value="2">Internet (ngoài Facebook)</option>
-                                <option value="3">Người thân</option>
-                                <option value="4">Tờ rơi tuyển sinh</option>
-                                <option value="5">Cẩm nang tuyển sinh</option>
-                                <option value="0">Khác</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-md-3 control-label"></label>
-                        <div class="col-md-5">
-                            <input type="checkbox" name="application" value="1" checked> Đăng ký xét tuyển<br>
-                            <input type="checkbox" name="advisory_request" value="1" checked> Đăng ký tư vấn
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-md-offset-3 col-md-9">
-                            <button type="submit" class="btn btn-primary btn-lg">Đăng ký xét tuyển và tư vấn</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+<div class="container sc-main form-dkxt">
+    <h2>Đăng ký xét tuyển trực tuyến</h2>
+    <div class="for-message">
+        <div class="message is-info">
+            <p class="message-body">
+                Để đăng ký xét tuyển vào Trường Cao đẳng Công nghệ thông tin Hữu nghị Việt – Hàn năm 2018, bạn vui lòng điền đầy đủ thông tin bên dưới. Chúng tôi sẽ liên lạc ngay sau khi nhận được đăng ký. Mọi thắc mắc xin liên hệ: 0236 3962 888.<br><br>
+                <a href="https://www.facebook.com/viethanicu" target="_blank">Trang facebook của trường</a><!-- | <a href="thongke.html">Tình hình tuyển sinh 2017 của trường</a>-->
+            </p>
         </div>
     </div>
+    <form id="xettuyen" class="form-horizontal">
+        <div class="field">
+            <label class="label">Họ và tên</label>
+            <div class="control">
+                <input type="text" class="input" name="name" placeholder="Họ, tên đệm và tên">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Giới tính</label>
+            <div class="radio">
+                <label class="radio">
+                    <input type="radio" name="gender" value="1" checked="checked"> Nam
+                </label>
+                <label class="radio">
+                    <input type="radio" name="gender" value="2"> Nữ
+                </label>
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Năm sinh</label>
+            <div class="control">
+                <input type="text" class="input" name="yob">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Thông tin liên lạc</label>
+            <div class="control">
+                <input type="text" class="input" name="phone" placeholder="Số điện thoại">
+            </div>
+        </div>
+        <div class="field">
+            <div class="control">
+                <input type="text" class="input" name="email" placeholder="Email">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Địa chỉ liên lạc</label>
+            <div class="control">
+                <input type="text" class="input" name="address_line1" placeholder="Số nhà, đường, thôn, xóm, khu phố...">
+            </div>
+        </div>
+        <div class="field">
+            <div class="control">
+                <input type="text" class="input" name="address_line2" placeholder="Xã (phường), Huyện (thị), Tỉnh (Thành phố)" style="margin-top: 3px;">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Bạn biết về trường thông qua</label>
+            <div class="control">
+                <div class="select">
+                  <select name="known_source" class="form-control">
+                      <option value="1">Facebook</option>
+                      <option value="2">Internet (ngoài Facebook)</option>
+                      <option value="3">Người thân</option>
+                      <option value="4">Tờ rơi tuyển sinh</option>
+                      <option value="5">Cẩm nang tuyển sinh</option>
+                      <option value="0">Khác</option>
+                  </select>
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <div class="control">
+                <label class="checkbox">
+                    <input type="checkbox" name="application" value="1" checked> Đăng ký xét tuyển
+                </label>
+            </div>
+            <div class="control">
+                <label class="checkbox">
+                    <input type="checkbox" name="advisory_request" value="1" checked> Đăng ký tư vấn
+                </label>
+            </div>
+        </div>
+        <div class="field is-grouped">
+            <div class="control">
+                <button type="submit" class="button is-link">Đăng ký xét tuyển và tư vấn</button>
+            </div>
+        </div>
+    </form>
 </div>

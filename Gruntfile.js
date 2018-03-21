@@ -23,7 +23,8 @@ var
         "main",
         "nckh",
         "library",
-        "10nam"
+        "10nam",
+        "tuyensinh"
     ].map(function(js) {
         return "src/js/" + js + ".js";
     }),

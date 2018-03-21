@@ -1,29 +1,58 @@
-.breadcrumb {
-    @include clearfix;
+$breadcrumb-item-color: $link-color !default;
+$breadcrumb-item-hover-color: $link-color !default;
+$breadcrumb-item-active-color: #000 !default;
+$breadcrumb-item-separator-color: #000 !default;
 
-    padding: 10px 0;
-    // margin-bottom: 1rem;
-    list-style: none;
-    border-bottom: 1px solid #ddd;
+.breadcrumb {
+  @include unselectable;
+  align-items: stretch;
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0.75em;
+  }
+
+  li {
+    align-items: center;
+    display: flex;
+    &:first-child a {
+      padding-left: 0;
+    }
+    &.is-active {
+      a {
+        color: $breadcrumb-item-active-color;
+        cursor: default;
+        pointer-events: none;
+      }
+    }
+    & + li::before {
+      color: $breadcrumb-item-separator-color;
+      content: "\0002f";
+    }
+  }
+  ul, ol {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: flex-start;
+  }
+  .icon {
+    &:first-child {
+      margin-right: 0.5em;
+    }
+    &:last-child {
+      margin-left: 0.5em;
+    }
+  }
 }
 
-.breadcrumb-item {
-    float: left;
-
-    + .breadcrumb-item::before {
-    display: inline-block;
-    padding-right: 10px;
-    padding-left: 10px;
-    content: "/";
-    }
-
-    + .breadcrumb-item:hover::before {
-        text-decoration: underline;
-    }
-    + .breadcrumb-item:hover::before {
-        text-decoration: none;
-    }
-
-    &.active {
-    }
+.sc-breadcrumb {
+  border-bottom: 1px solid #ddd;
 }

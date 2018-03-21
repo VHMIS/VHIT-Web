@@ -13,6 +13,7 @@ $body-bg-color: #e8e8e8;
 $link-color: #0069d9;
 $section-bg-color: #fff;
 $container-bg-color: #fff;
+$body-font-color: #000;
 
 // width
 $container-width: 1180px;
@@ -52,6 +53,89 @@ $default-line-height: 1.5;
     min-height: 1px;
 }
 
+// Responsiveness
+
+$gap: 32px !default;
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px !default;
+// 960px container + 4rem
+$desktop: 960px + (2 * $gap) !default;
+// 1152px container + 4rem
+$widescreen: 1152px + (2 * $gap) !default;
+// 1344px container + 4rem
+$fullhd: 1344px + (2 * $gap) !default;
+$variable-columns: true !default;
+
+@mixin from($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@mixin until($device) {
+  @media screen and (max-width: $device - 1px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $tablet - 1px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: $tablet), print {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
+    @content;
+  }
+}
+
+@mixin touch {
+  @media screen and (max-width: $desktop - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin desktop-only {
+  @media screen and (min-width: $desktop) and (max-width: $widescreen - 1px) {
+    @content;
+  }
+}
+
+@mixin widescreen {
+  @media screen and (min-width: $widescreen) {
+    @content;
+  }
+}
+
+@mixin widescreen-only {
+  @media screen and (min-width: $widescreen) and (max-width: $fullhd - 1px) {
+    @content;
+  }
+}
+
+@mixin fullhd {
+  @media screen and (min-width: $fullhd) {
+    @content;
+  }
+}
+
+@mixin unselectable {
+  user-select: none
+}
+
 // Text truncate
 // Very long tit...
 @mixin text-truncate() {
@@ -66,4 +150,282 @@ $default-line-height: 1.5;
 
 @function -col-percent-width($blocks, $total) {
     @return $blocks / $total * 100%;
+}
+
+//bulma f
+@function powerNumber($number, $exp) {
+  $value: 1;
+
+  @if $exp > 0 {
+    @for $i from 1 through $exp {
+      $value: $value * $number;
+    }
+  }
+  @else if $exp < 0 {
+    @for $i from 1 through -$exp {
+      $value: $value / $number;
+    }
+  }
+
+  @return $value;
+}
+
+@function colorLuminance($color) {
+  $color-rgb: ("red": red($color), "green": green($color), "blue": blue($color));
+
+  @each $name, $value in $color-rgb {
+    $adjusted: 0;
+    $value: $value / 255;
+
+    @if $value < 0.03928 {
+      $value: $value / 12.92;
+    }
+    @else {
+      $value: ($value + 0.055) / 1.055;
+      $value: powerNumber($value, 2);
+    }
+
+    $color-rgb: map-merge($color-rgb, ($name: $value));
+  }
+
+  @return map-get($color-rgb, "red") * 0.2126 + map-get($color-rgb, "green") * 0.7152 + map-get($color-rgb, "blue") * 0.0722;
+}
+
+@function findColorInvert($color) {
+  @if colorLuminance($color) > 0.55 {
+    @return rgba(#000, 0.7);
+  }
+  @else {
+    @return #fff;
+  }
+}
+
+//bulma ini
+$black:        hsl(0, 0%, 4%) !default;
+$black-bis:    hsl(0, 0%, 7%) !default;
+$black-ter:    hsl(0, 0%, 14%) !default;
+
+$grey-darker:  hsl(0, 0%, 21%) !default;
+$grey-dark:    hsl(0, 0%, 29%) !default;
+$grey:         hsl(0, 0%, 48%) !default;
+$grey-light:   hsl(0, 0%, 71%) !default;
+$grey-lighter: hsl(0, 0%, 86%) !default;
+
+$white-ter:    hsl(0, 0%, 96%) !default;
+$white-bis:    hsl(0, 0%, 98%) !default;
+$white:        hsl(0, 0%, 100%) !default;
+
+$orange:       hsl(14,  100%, 53%) !default;
+$yellow:       hsl(48,  100%, 67%) !default;
+$green:        hsl(141, 71%,  48%) !default;
+$turquoise:    hsl(171, 100%, 41%) !default;
+$cyan:         hsl(204, 86%,  53%) !default;
+$blue:         hsl(217, 71%,  53%) !default;
+$purple:       hsl(271, 100%, 71%) !default;
+$red:          hsl(348, 100%, 61%) !default;
+
+$size-1: 3rem !default;
+$size-2: 2.5rem !default;
+$size-3: 2rem !default;
+$size-4: 1.5rem !default;
+$size-5: 1.25rem !default;
+$size-6: 1rem !default;
+$size-7: 0.75rem !default;
+
+$weight-light: 300 !default;
+$weight-normal: 400 !default;
+$weight-medium: 500 !default;
+$weight-semibold: 600 !default;
+$weight-bold: 700 !default;
+
+//bulma
+$primary: $turquoise !default;
+
+$info: $cyan !default;
+$success: $green !default;
+$warning: $yellow !default;
+$danger: $red !default;
+
+$light: $white-ter !default;
+$dark: $grey-darker !default;
+
+// Invert colors
+
+$orange-invert: findColorInvert($orange) !default;
+$yellow-invert: findColorInvert($yellow) !default;
+$green-invert: findColorInvert($green) !default;
+$turquoise-invert: findColorInvert($turquoise) !default;
+$cyan-invert: findColorInvert($cyan) !default;
+$blue-invert: findColorInvert($blue) !default;
+$purple-invert: findColorInvert($purple) !default;
+$red-invert: findColorInvert($red) !default;
+
+$primary-invert: $turquoise-invert !default;
+$info-invert: $cyan-invert !default;
+$success-invert: $green-invert !default;
+$warning-invert: $yellow-invert !default;
+$danger-invert: $red-invert !default;
+$light-invert: $dark !default;
+$dark-invert: $light !default;
+
+// General colors
+
+$background: $white-ter !default;
+
+$border: $grey-lighter !default;
+$border-hover: $grey-light !default;
+
+// Text colors
+
+$text: $grey-dark !default;
+$text-invert: findColorInvert($text) !default;
+$text-light: $grey !default;
+$text-strong: $grey-darker !default;
+
+// Code colors
+
+$code: $red !default;
+$code-background: $background !default;
+
+$pre: $text !default;
+$pre-background: $background !default;
+
+// Link colors
+
+$link: $blue !default;
+$link-invert: $blue-invert !default;
+$link-visited: $purple !default;
+
+$link-hover: $grey-darker !default;
+$link-hover-border: $grey-light !default;
+
+$link-focus: $grey-darker !default;
+$link-focus-border: $blue !default;
+
+$link-active: $grey-darker !default;
+$link-active-border: $grey-dark !default;
+
+$size-small: $size-7 !default;
+$size-normal: $size-6 !default;
+$size-medium: $size-5 !default;
+$size-large: $size-4 !default;
+
+$colors: ("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert), "link": ($link, $link-invert), "info": ($info, $info-invert), "success": ($success, $success-invert), "warning": ($warning, $warning-invert), "danger": ($danger, $danger-invert)) !default;
+$shades: ("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis) !default;
+
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default;
+
+@mixin arrow($color) {
+  border: 1px solid $color;
+  border-right: 0;
+  border-top: 0;
+  content: " ";
+  display: block;
+  height: 0.5em;
+  pointer-events: none;
+  position: absolute;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  width: 0.5em;
+}
+
+@mixin loader {
+  animation: spinAround 500ms infinite linear;
+  border: 2px solid $border;
+  border-radius: $radius-rounded;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: "";
+  display: block;
+  height: 1em;
+  position: relative;
+  width: 1em;
+}
+
+// bulma form
+$radius-small: 2px !default;
+$radius: 3px !default;
+$radius-large: 5px !default;
+$radius-rounded: 290486px !default;
+
+
+$control-radius: $radius !default;
+$control-radius-small: $radius-small !default;
+
+$control-padding-vertical: calc(0.375em - 1px) !default;
+$control-padding-horizontal: calc(0.625em - 1px) !default;
+
+@mixin placeholder {
+  $placeholders: ":-moz" ":-webkit-input" "-moz" "-ms-input";
+
+  @each $placeholder in $placeholders {
+    &:#{$placeholder}-placeholder {
+      @content;
+    }
+  }
+}
+
+@mixin control {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: $control-radius;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: $size-normal;
+  height: 2.25em;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: $control-padding-vertical;
+  padding-left: $control-padding-horizontal;
+  padding-right: $control-padding-horizontal;
+  padding-top: $control-padding-vertical;
+  position: relative;
+  vertical-align: top;
+
+  // States
+  &:focus,
+  &.is-focused,
+  &:active,
+  &.is-active {
+    outline: none;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+  }
+}
+
+// The controls sizes use mixins so they can be used at different breakpoints
+@mixin control-small {
+  border-radius: $control-radius-small;
+  font-size: $size-small;
+}
+
+@mixin control-medium {
+  font-size: $size-medium;
+}
+
+@mixin control-large {
+  font-size: $size-large;
+}
+
+@mixin center($width, $height: 0) {
+  position: absolute;
+
+  @if $height != 0 {
+    left: calc(50% - (#{$width} / 2));
+    top: calc(50% - (#{$height} / 2));
+  }
+  @else {
+    left: calc(50% - (#{$width} / 2));
+    top: calc(50% - (#{$width} / 2));
+  }
+}
+
+@mixin block {
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
 }
