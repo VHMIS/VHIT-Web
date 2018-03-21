@@ -341,8 +341,8 @@ $(document).ready(function () {
     $('form#xettuyen').on('submit', function (e) {
         e.preventDefault()
 
-        $('form#xettuyen input[name=fa_province_name]').val($('form#xettuyen select[name=fa_province] option:selected').text())
-        $('form#xettuyen input[name=fa_district_name]').val($('form#xettuyen select[name=fa_district] option:selected').text())
+        //$('form#xettuyen input[name=fa_province_name]').val($('form#xettuyen select[name=fa_province] option:selected').text())
+        //$('form#xettuyen input[name=fa_district_name]').val($('form#xettuyen select[name=fa_district] option:selected').text())
 
         var me = $(this)
         var data = me.serialize();
@@ -353,16 +353,6 @@ $(document).ready(function () {
             if (data.error == '0') {
                 alert('Cảm ơn bạn đã đăng ký xét tuyển vào trường Việt Hàn, chúng tôi sẽ liên lạc và thông báo kết quả sớm với bạn.')
                 me[0].reset();
-                $('#major_1').hide()
-                $('#major_2').hide()
-                $('#gradute_school_k12').hide()
-                $('#gradute_school_k9').hide()
-                $('form#xettuyen select[name=gradute_school_k9_province]').val('')
-                $('form#xettuyen select[name=gradute_school_k9_district]').html('<option value="0">Chọn quận huyện</option>').prop('disabled', true)
-                $('form#xettuyen input[name=gradute_school_k9_school]').val('');
-                $('form#xettuyen select[name=gradute_school_k12_province]').val('')
-                $('form#xettuyen select[name=gradute_school_k12_district]').html('<option value="0">Chọn quận huyện</option>').prop('disabled', true)
-                $('form#xettuyen select[name=gradute_school_k12_school]').html('<option value="0">Chọn trường</option>').prop('disabled', true)
             } else {
                 if(data.error == '2') {
                     console.log(data.form_error.code + "\n");

@@ -8,7 +8,7 @@ Nhằm thay đổi website cũ, dự án xây dựng website mới được bắ
 
 **Đây không phải là dự án chính thức được phê duyệt từ Ban Truyền Thông hay Ban Giám Hiệu, dự án này chỉ dựa trên yêu cầu thiết kế các trang con, từ đó xây dựng lại một chuẩn thiết kế để làm lại trang chính và đề xuất sau khi hoàn thành.**
 
-**Để đảm bảo tính đúng đắn của nội dung, nội dung website mới nên được lấy từ cuốn brochure chuẩn của trường và tham khảo thêm ở website hiện tại** 
+**Để đảm bảo tính đúng đắn của nội dung, nội dung website mới nên được lấy từ cuốn brochure chuẩn của trường và tham khảo thêm ở website hiện tại**
 
 ### Thành viên
 
@@ -59,6 +59,10 @@ Doanh nghiệp
 - [ ] 20.02 : Thử nghiệm trang thông tin tư liệu
 
 ## Phát triển
+
+Xem DEV.md
+
+Kể  từ 2018, Website sử dụng một số component từ CSS Framework Bulma (Bulma.io)
 
 ### Commit tag
 

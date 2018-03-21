@@ -23,7 +23,8 @@ var
         "main",
         "nckh",
         "library",
-        "10nam"
+        "10nam",
+        "tuyensinh"
     ].map(function(js) {
         return "src/js/" + js + ".js";
     }),
@@ -41,7 +42,8 @@ var
                 'client/css/aciids.css': 'src/css/aciids.scss',
                 'client/css/cest.css': 'src/css/cest.scss',
                 'client/css/10nam.css': 'src/css/10nam.scss',
-                'client/css/library.css': 'src/css/library.scss'
+                'client/css/library.css': 'src/css/library.scss',
+                'client/css/tuyensinh.css': 'src/css/tuyensinh.scss'
             }
         }
 
@@ -111,7 +113,8 @@ var
                 'client/css/aciids.css' : 'client/css/aciids.css',
                 'client/css/cest.css' : 'client/css/cest.css',
                 'client/css/10nam.css' : 'client/css/10nam.css',
-                'client/css/library.css' : 'client/css/library.css'
+                'client/css/library.css' : 'client/css/library.css',
+                'client/css/tuyensinh.css': 'src/css/tuyensinh.scss'
             }
         }
     };

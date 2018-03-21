@@ -1,53 +1,94 @@
 ---
-layout: tuyensinh
-title: Hỏi đáp | Tuyển sinh 2018
-page: hoidap
+site: tuyensinh
+meta_title: Hỏi đáp tuyển sinh 2018 | VietHanIT
+meta_description: Trang hỏi đáp các thắc mắc liên quan đến tuyển sinh và học tập tại trường CĐ CNTT Hữu nghị Việt Hàn.
+layout: default
+page: tuyensinh_hoidap
 ---
 
         <div class="container sc-breadcrumb">
-            <div>
-                <ol class="breadcrumb">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
                     <li><a href="/tuyensinh/index.html">Trang tuyển sinh 2018</a></li>
-                    <li class="active">Hỏi đáp</li>
-                </ol>
+                    <li class="is-active"><a href="/tuyensinh/hoidap.html" aria-current="page">Hỏi đáp</a></li>
+                </ul>
             </div>
         </div>
 
-        <div class="container sc-main">
-            <div class="row">
-                <div class="col-md-4 pull-right">
-                    <div class="flash-card flash-intro">
-                        <h1 class="flash-header"><a href="/tuyensinh/hoidap.html" class="open_send_question" data-target="send_question_modal"><i class="glyphicon glyphicon-pencil"></i> Gửi câu hỏi</a></h1>
-                    </div>
-                    <div class="flash-card flash-about">
-                        <h1 class="flash-header">Thông báo tuyển sinh 2018</h1>
-                        <div class="flash-photo">
-                            <img src="/client/tuyensinh/img/flash_info.jpg" alt=""/>
-                        </div>
-                        <div class="flash-body">
-                            <p><strong>Chỉ tiêu tuyển sinh:</strong> 1200 CĐ &amp; TC (toàn quốc)</p>
-                            <p><strong>Hình thức tuyển sinh:</strong></p>
-                            <ul>
-                                <li>Hệ cao đẳng: Xét tuyển theo kết quả học THPT</li>
-                                <li>Hệ trung cấp: Xét tuyển theo kết quả học THCS/THPT</li>
-                            </ul>
-                        </div>
-                        <div class="flash-detail-link">
-                            <a href="thongtin_tuyensinh2017.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> Xem chi tiết</a>
-                            <a href="dkxt_online.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span> ĐK xét tuyển online</a>
-                        </div>
-                    </div>
+        <div class="container sc-main last">
+            <div class="columns">
+              <div class="column question-form">
+                <h3>Gửi câu hỏi trực tuyến</h3>
+                <div class="for-message">
+                  <div class="message is-info for_question">
+                      <p class="message-body">
+                        Bạn có thể hỏi trực tiếp với phòng đào tạo qua số <strong>0236 3962 888</strong>
+                      </p>
+                  </div>
+                  <div class="message is-success for_response hidden">
+                      <p class="message-body">
+                        Cảm ơn bạn đã gửi câu hỏi, chúng tôi sẽ liên lạc và trả lời trong thời gian sớm nhất.<br><br><a href="#" id="ask_other_question" ><strong>Gửi câu hỏi khác</strong></a>
+                      </p>
+                  </div>
                 </div>
-
-                <div class="col-md-8 pull-left">
-                    <div class="block_component">
-                        <h1 class="hidden">Danh sách câu hỏi</h1>
-                        <div id="question-list" class="questions-list">
-                            <p>Đang tải nội dung</p>
+                <form id="ask_question" class="">
+                    <div class="field">
+                        <label class="label">Tên của bạn</label>
+                        <div class="control">
+                            <input type="text" class="input" name="name">
                         </div>
                     </div>
-                </div>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                            <input type="text" class="input"  name="email" placeholder="Địa chỉ email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Điện thoại</label>
+                        <div class="control">
+                            <input type="text" class="input" name="tel" placeholder="Số điện thoại">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Câu hỏi</label>
+                        <div class="control">
+                            <textarea class="textarea" name="question" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button type="submit" class="button is-link">GỬi câu hỏi</button>
+                        </div>
+                        <div class="control">
+                            <button type="reset" class="button is-text">Soạn lại</button>
+                        </div>
+                    </div>
+                </form>
+              </div>
+              <div id="question-list" class="column is-8 question-list">
+                <!-- <article>
+                  <h3><i class="fas fa-question-circle"></i> Cho em hỏi là: Em đang theo học khối B là: Toán, hóa, Sinh. Vậy em có thể vào ngành công nghệ thông tin, lập trình máy tính và thiết kế đồ họa được không ạ? (06/03/2018)</h3>
+                  <p class="info">
+                    Huỳnh thanh Minh Đức( Senpai Huỳnh ). (0162942****, d*********n@gmail.com)
+                  </p>
+                  <p>
+                    Thân gửi Đức!<br>
+                    Nhà trường xét tuyển kết quả học tập trung học phổ thông 3 năm em nhé, Vì vậy em có thể xét bất kỳ ngành nào mà em yêu thích.<br>
+                    Chúc em học tập tốt!
+                  </p>
+                </article>
+                <article>
+                  <h3><i class="fas fa-question-circle"></i> Cho em hỏi là: Em đang theo học khối B là: Toán, hóa, Sinh. Vậy em có thể vào ngành công nghệ thông tin, lập trình máy tính và thiết kế đồ họa được không ạ? (06/03/2018)</h3>
+                  <p class="info">
+                    Huỳnh thanh Minh Đức( Senpai Huỳnh ). (0162942****, d*********n@gmail.com)
+                  </p>
+                  <p>
+                    Thân gửi Đức!<br>
+                    Nhà trường xét tuyển kết quả học tập trung học phổ thông 3 năm em nhé, Vì vậy em có thể xét bất kỳ ngành nào mà em yêu thích.<br>
+                    Chúc em học tập tốt!
+                  </p>
+                </article> -->
+              </div>
             </div>
         </div>
-
-{% include /tuyensinh/ask_question_modal.html %}

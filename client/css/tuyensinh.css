@@ -1,0 +1,377 @@
+.sc-admission-info {
+  background: #fff;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.sc-admission-info h1 {
+  text-align: center;
+  margin: 0;
+  padding: 30px 0px;
+}
+.sc-admission-info .admission-info-fact {
+  background-color: #0069d9;
+  padding: 40px;
+  color: #fff;
+}
+.sc-admission-info .admission-info-fact .facts .fact {
+  display: block;
+  width: 33.333333333%;
+  float: left;
+}
+.sc-admission-info .admission-info-fact .facts .fact span {
+  text-align: center;
+  display: block;
+}
+.sc-admission-info .admission-info-fact .facts .fact span.fact-number {
+  font-size: 3rem;
+}
+.sc-admission-info .admission-info-fact .facts .fact span.fact-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.sc-admission-info .admission-info-fact .facts .fact span.fact-desc {
+  font-size: 1rem;
+}
+.sc-admission-info .admission-info-time {
+  padding: 30px 0;
+}
+.sc-admission-info .admission-info-time .periods {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.sc-admission-info .admission-info-time .periods .period {
+  display: block;
+  width: 33.333333333%;
+  float: left;
+  border: 4px solid #fff;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.sc-admission-info .admission-info-time .periods .period a.big-button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #0069d9;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+.sc-admission-info .admission-info-time .periods .period a.big-button:hover, .sc-admission-info .admission-info-time .periods .period a.big-button:active {
+  text-decoration: none;
+  color: #fff;
+}
+.sc-admission-info .admission-info-time .periods .period.active {
+  border-color: #ddd;
+  background-color: #eee;
+  font-weight: bold;
+}
+.sc-admission-info .admission-info-connect {
+  padding-bottom: 30px;
+}
+.sc-admission-info .admission-info-connect .connects {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.sc-admission-info .admission-info-connect .connects .connect {
+  display: block;
+  float: left;
+  width: 25%;
+  font-size: 1.2rem;
+  padding: 10px 5px;
+  text-align: center;
+}
+.sc-admission-info .admission-info-connect .connects .connect a, .sc-admission-info .admission-info-connect .connects .connect span {
+  color: #0069d9;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 10px 5px;
+}
+.sc-admission-info .admission-info-major .majors > div {
+  width: 33.33333%;
+  float: left;
+  padding-right: 90px;
+}
+.sc-admission-info .admission-info-major .majors .major-intro p {
+  margin-top: 10px;
+}
+.sc-admission-info .admission-info-major .majors .major-list ul {
+  padding: 10px 0;
+}
+.sc-admission-info .admission-info-major .majors .major-list ul + ul {
+  border-top: 1px solid #eee;
+}
+.sc-admission-info .admission-info-major .majors .major-list ul li + li {
+  margin-top: 3px;
+}
+
+@media (max-width: 800px) {
+  .sc-admission-info .admission-info-fact {
+    background-color: #0069d9;
+    padding: 40px;
+    color: #fff;
+  }
+  .sc-admission-info .admission-info-fact .facts .fact {
+    width: 100%;
+  }
+  .sc-admission-info .admission-info-fact .facts .fact + .fact {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .sc-admission-info .admission-info-time .periods .period {
+    width: 100%;
+  }
+}
+@media (max-width: 1170px) {
+  .sc-admission-info .admission-info-connect {
+    padding-bottom: 30px;
+  }
+  .sc-admission-info .admission-info-connect .connects .connect {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .sc-admission-info .admission-info-connect {
+    padding-bottom: 30px;
+  }
+  .sc-admission-info .admission-info-connect .connects .connect {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .sc-admission-info .admission-info-major .majors > div {
+    width: 50%;
+  }
+  .sc-admission-info .admission-info-major .majors > div:nth-child(1) {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-right: 0px;
+  }
+  .sc-admission-info .admission-info-major .majors .major-intro p {
+    margin-top: 10px;
+  }
+  .sc-admission-info .admission-info-major .majors .major-list ul {
+    padding: 10px 0;
+  }
+  .sc-admission-info .admission-info-major .majors .major-list ul + ul {
+    border-top: 1px solid #eee;
+  }
+  .sc-admission-info .admission-info-major .majors .major-list ul li + li {
+    margin-top: 3px;
+  }
+}
+@media (max-width: 600px) {
+  .sc-admission-info .admission-info-major .majors > div {
+    width: 100%;
+    padding-right: 0px;
+  }
+}
+.sc-college-intro h1 {
+  text-align: center;
+  margin: 0;
+  padding: 50px 0 20px 0;
+}
+.sc-college-intro p.intro-text {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.sc-college-intro .intro-video {
+  border-top: 2px solid #fff;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  background-image: url(/photo/slide/tuyensinh2018_video.png);
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.sc-college-intro .intro-video span {
+  background-color: #0069d9;
+  color: #fff;
+  padding: 3px 6px;
+  display: block;
+  position: relative;
+  font-size: 1.5rem;
+}
+.sc-college-intro .intro-field {
+  background-color: #fff;
+  padding: 90px 0;
+}
+.sc-college-intro .intro-field .intro-text {
+  padding-bottom: 60px;
+}
+.sc-college-intro .intro-field h2 {
+  width: 33.33333%;
+  float: left;
+  padding-right: 90px;
+}
+.sc-college-intro .intro-field p {
+  width: 66.66666%;
+  float: left;
+  padding-right: 90px;
+  font-size: 1.1rem;
+  margin-top: 7px;
+}
+.sc-college-intro .intro-field .photos img {
+  width: 25%;
+  display: block;
+  float: left;
+  border-right: 3px solid #fff;
+}
+.sc-college-intro .intro-field.intro-dorm .photos, .sc-college-intro .intro-field.intro-education .photos, .sc-college-intro .intro-field.intro-support-policy .photos {
+  margin-left: 33.333333%;
+}
+.sc-college-intro .intro-field.intro-dorm .photos img, .sc-college-intro .intro-field.intro-education .photos img, .sc-college-intro .intro-field.intro-support-policy .photos img {
+  width: 50%;
+}
+.sc-college-intro .intro-field:nth-child(2n + 1) {
+  background-color: #e8e8e8;
+}
+.sc-college-intro .intro-field:nth-child(2n + 1) .photos img {
+  border-right-color: #e8e8e8;
+}
+
+@media (max-width: 800px) {
+  .sc-college-intro .intro-field h2, .sc-college-intro .intro-field p {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+  }
+  .sc-college-intro .intro-field p {
+    margin-top: 25px;
+  }
+  .sc-college-intro .intro-field .photos img {
+    width: 50%;
+    border-top: 3px solid #fff;
+  }
+  .sc-college-intro .intro-field.intro-dorm .photos, .sc-college-intro .intro-field.intro-education .photos, .sc-college-intro .intro-field.intro-support-policy .photos {
+    margin-left: 0;
+  }
+  .sc-college-intro .intro-field.intro-dorm .photos img, .sc-college-intro .intro-field.intro-education .photos img, .sc-college-intro .intro-field.intro-support-policy .photos img {
+    width: 50%;
+  }
+  .sc-college-intro .intro-field:nth-child(2n + 1) .photos img {
+    border-top-color: #e8e8e8;
+  }
+}
+@media (max-width: 400px) {
+  .sc-college-intro .intro-field .photos img {
+    width: 100%;
+  }
+  .sc-college-intro .intro-field.intro-dorm .photos img, .sc-college-intro .intro-field.intro-education .photos img, .sc-college-intro .intro-field.intro-support-policy .photos img {
+    width: 100%;
+  }
+}
+.sc-extra-contact {
+  background-color: #efe;
+}
+.sc-extra-contact p {
+  width: 60%;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-dkxt > h2 {
+  background-color: #0069d9;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.form-dkxt > .for-message {
+  background-color: #fff;
+  padding: 2rem 2rem 0rem 2rem;
+}
+.form-dkxt > form {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.question-form {
+  -ms-flex-order: 2;
+      order: 2;
+}
+.question-form > h3 {
+  background-color: #0069d9;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.question-form > .for-message {
+  background-color: #fff;
+  padding: 1rem 1rem 1rem 1rem;
+}
+.question-form > form {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.question-list > article {
+  background-color: #fff;
+}
+.question-list > article h3 {
+  background: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: 500;
+}
+.question-list > article p {
+  padding: 1rem;
+}
+.question-list > article p.info {
+  font-style: italic;
+  color: #888;
+  padding-top: 0px;
+  border-bottom: 1px solid #ddd;
+}
+.question-list > article + article {
+  margin-top: 2rem;
+}
+
+.site-modal .site_modal_container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.site_modal_container .site_modal_header {
+  background: #00A0E9;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.site_modal_container .site_modal_header button.close {
+  margin-top: -22px;
+  color: #fff;
+  opacity: 1;
+  text-shadow: none;
+}
+
+.site_modal_container .site_modal_header h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.site-modal.send_question_modal {
+  width: 800px;
+}
+
+.site-modal.send_question_modal p {
+  margin-bottom: 15px;
+}

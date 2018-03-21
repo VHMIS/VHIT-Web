@@ -1,0 +1,547 @@
+@import "modules/base";
+
+.sc-admission-info {
+  background: #fff;
+  width: 100%;
+  padding-bottom: 30px;
+
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 30px 0px;
+  }
+
+  .admission-info-fact {
+    background-color: $primary-bg-color;
+    padding: 40px;
+    color: #fff;
+
+    .facts {
+      .fact {
+        display: block;
+        width: 33.333333333%;
+        float: left;
+
+        span {
+          text-align: center;
+          display: block;
+
+          &.fact-number {
+            font-size: 3rem;
+          }
+
+          &.fact-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+          }
+
+          &.fact-desc {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .admission-info-time {
+    padding: 30px 0;
+
+    .periods {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #ddd;
+
+      .period {
+        display: block;
+        width: 33.333333333%;
+        float: left;
+        border: 4px solid #fff;
+        padding: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+
+        a.big-button {
+          margin-top: 10px;
+          padding: 10px;
+          border-radius: 4px;
+          background-color: $primary-bg-color;
+          font-size: 1.2rem;
+          font-weight: bold;
+          width: 100%;
+          color: #fff;
+          display: block;
+          text-decoration: none;
+          text-align: center;
+
+          &:hover, &:active {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+
+        &.active {
+          border-color: #ddd;
+          background-color: #eee;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .admission-info-connect {
+    padding-bottom: 30px;
+
+    .connects {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #ddd;
+
+      .connect {
+        display: block;
+        float: left;
+        width: 25%;
+        font-size: 1.2rem;
+        padding: 10px 5px;
+        text-align: center;
+
+        a, span {
+          color: $primary-bg-color;
+          font-weight: 700;
+          //border: 1px solid $primary-bg-color;
+          border-radius: 4px;
+          padding: 10px 5px;
+        }
+      }
+    }
+  }
+
+  .admission-info-major {
+    .majors {
+      > div {
+        width: 33.33333%;
+        float: left;
+        padding-right: 90px;
+      }
+
+      .major-intro {
+        p {
+          margin-top: 10px;
+        }
+      }
+
+      .major-list {
+        ul {
+          padding: 10px 0;
+
+          + ul {
+            border-top: 1px solid #eee;
+          }
+
+          li {
+            + li {
+              margin-top: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .sc-admission-info {
+    .admission-info-fact {
+      background-color: $primary-bg-color;
+      padding: 40px;
+      color: #fff;
+
+      .facts {
+        .fact {
+          width: 100%;
+
+          + .fact {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .sc-admission-info {
+    .admission-info-time {
+
+
+      .periods {
+
+
+        .period {
+
+          width: 100%;
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1170px) {
+  .sc-admission-info {
+    .admission-info-connect {
+      padding-bottom: 30px;
+
+      .connects {
+
+
+        .connect {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sc-admission-info {
+    .admission-info-connect {
+      padding-bottom: 30px;
+
+      .connects {
+
+
+        .connect {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .sc-admission-info {
+    .admission-info-major {
+      .majors {
+        > div {
+          width: 50%;
+        }
+
+        > div:nth-child(1) {
+          width: 100%;
+          text-align: center;
+          margin-bottom: 30px;
+          padding-right: 0px;
+        }
+
+        .major-intro {
+          p {
+            margin-top: 10px;
+          }
+        }
+
+        .major-list {
+          ul {
+            padding: 10px 0;
+
+            + ul {
+              border-top: 1px solid #eee;
+            }
+
+            li {
+              + li {
+                margin-top: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sc-admission-info {
+    .admission-info-major {
+      .majors {
+        > div {
+          width: 100%;
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+}
+
+
+.sc-college-intro {
+  // background-color: $primary-bg-color;
+
+  h1 {
+    text-align: center;
+    margin: 0;
+    padding: 50px 0 20px 0;
+    // color: #fff;
+  }
+
+  p.intro-text {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    // color: #fff;
+  }
+
+  .intro-video {
+    border-top: 2px solid #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url(/photo/slide/tuyensinh2018_video.png);
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+
+    span {
+      background-color: $primary-bg-color;
+      color: #fff;
+      padding: 3px 6px;
+      display: block;
+      position: relative;
+      font-size: 1.5rem;
+    }
+  }
+
+  .intro-field {
+    background-color: #fff;
+    padding: 90px 0;
+
+    .intro-text {
+      padding-bottom: 60px;
+    }
+
+    h2 {
+      width: 33.33333%;
+      float: left;
+      padding-right: 90px;
+    }
+
+    p {
+      width: 66.66666%;
+      float: left;
+      padding-right: 90px;
+      font-size: 1.1rem;
+      margin-top: 7px;
+    }
+
+    .photos {
+      img {
+        width: 25%;
+        display: block;
+        float: left;
+        border-right: 3px solid #fff;
+      }
+    }
+
+    &.intro-dorm, &.intro-education, &.intro-support-policy {
+      .photos {
+        margin-left: 33.333333%;
+        img {
+          width: 50%;
+        }
+      }
+    }
+
+    &:nth-child(2n + 1) {
+      background-color: #e8e8e8;
+
+      .photos {
+        img {
+          border-right-color: #e8e8e8;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .sc-college-intro {
+    .intro-field {
+      h2, p {
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+      }
+
+      p {
+        margin-top: 25px;
+      }
+
+      .photos {
+        img {
+          width: 50%;
+          border-top: 3px solid #fff;
+        }
+      }
+
+      &.intro-dorm, &.intro-education, &.intro-support-policy {
+        .photos {
+          margin-left: 0;
+          img {
+            width: 50%;
+          }
+        }
+      }
+
+      &:nth-child(2n + 1) {
+        .photos {
+          img {
+            border-top-color: #e8e8e8;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .sc-college-intro {
+    .intro-field {
+
+      .photos {
+        img {
+          width: 100%;
+        }
+      }
+
+      &.intro-dorm, &.intro-education, &.intro-support-policy {
+        .photos {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sc-extra-contact {
+  background-color: #efe;
+
+  p {
+    width: 60%;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.form-dkxt {
+  > h2 {
+    background-color: $primary-bg-color;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  > .for-message {
+    background-color: #fff;
+    padding: 2rem 2rem 0rem 2rem;
+  }
+
+  > form {
+    background-color: #fff;
+    padding: 2rem;
+  }
+}
+
+.question-form {
+  order: 2;
+
+  > h3 {
+    background-color: $primary-bg-color;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  > .for-message {
+    background-color: #fff;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  > form {
+    background-color: #fff;
+    padding: 1rem;
+  }
+}
+
+.question-list {
+  > article {
+    background-color: #fff;
+
+    h3 {
+      background: #fff;
+      font-size: 1rem;
+      padding: 1rem;
+      font-weight: 500;
+    }
+
+    p {
+      padding: 1rem;
+
+      &.info {
+        font-style: italic;
+        color: #888;
+        padding-top: 0px;
+        border-bottom: 1px solid #ddd;
+      }
+    }
+
+    + article {
+      margin-top: 2rem;
+    }
+  }
+}
+
+
+
+.site-modal .site_modal_container {
+    width: 100%;
+    overflow: hidden;
+}
+
+// .site-overlay.active,
+// .site-modal.active {
+//     display: block;
+// }
+
+.site_modal_container .site_modal_header {
+    background: #00A0E9;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.site_modal_container .site_modal_header button.close {
+    margin-top: -22px;
+    color: #fff;
+    opacity: 1;
+    text-shadow: none;
+}
+
+.site_modal_container .site_modal_header h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.site-modal.send_question_modal {
+    width: 800px;
+}
+
+.site-modal.send_question_modal p {
+    margin-bottom: 15px;
+}
