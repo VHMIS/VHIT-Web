@@ -275,7 +275,7 @@
 .sc-college-intro {
   // background-color: $primary-bg-color;
 
-  h1 {
+  h2 {
     text-align: center;
     margin: 0;
     padding: 50px 0 20px 0;
@@ -322,7 +322,7 @@
       padding-bottom: 60px;
     }
 
-    h2 {
+    h3 {
       width: 33.33333%;
       float: left;
       padding-right: 90px;
@@ -369,7 +369,7 @@
 @media (max-width: 800px) {
   .sc-college-intro {
     .intro-field {
-      h2, p {
+      h3, p {
         width: 100%;
         text-align: center;
         padding-right: 0;
