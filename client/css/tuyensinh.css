@@ -172,7 +172,7 @@
     padding-right: 0px;
   }
 }
-.sc-college-intro h1 {
+.sc-college-intro h2 {
   text-align: center;
   margin: 0;
   padding: 50px 0 20px 0;
@@ -215,7 +215,7 @@
 .sc-college-intro .intro-field .intro-text {
   padding-bottom: 60px;
 }
-.sc-college-intro .intro-field h2 {
+.sc-college-intro .intro-field h3 {
   width: 33.33333%;
   float: left;
   padding-right: 90px;
@@ -247,7 +247,7 @@
 }
 
 @media (max-width: 800px) {
-  .sc-college-intro .intro-field h2, .sc-college-intro .intro-field p {
+  .sc-college-intro .intro-field h3, .sc-college-intro .intro-field p {
     width: 100%;
     text-align: center;
     padding-right: 0;
