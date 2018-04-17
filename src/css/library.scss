@@ -88,12 +88,14 @@
   }
 }
 
+#biblios {
+  .section-container {
+    padding: 1rem;
+  }
+}
+
 .biblios {
   .biblio-item {
-    float: left;
-    padding: 30px;
-    width: 20%;
-    height: 300px;
     // overflow: hidden;
 
     a {
