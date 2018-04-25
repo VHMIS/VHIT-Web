@@ -1,0 +1,96 @@
+@import "modules/base";
+
+.main_container {
+  color: #fff;
+  background-image: url(/photo/thethao/fwc_darkbluebg.png);
+  background-position: top -1px left 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  color: rgb(101, 210, 119);
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  thead {
+    color: #ccc;
+  }
+
+  .top .cell {
+    border-top: 1px solid #ccc;
+  }
+
+  .cell {
+    border-bottom: 1px solid #ccc;
+    padding: 0.25rem;
+    text-align: right;
+    font-family: monospace;
+
+    &.is-points {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+
+    &.is-name {
+      text-align: left;
+    }
+
+    &.is-name-home {
+      text-align: right;
+    }
+
+    &.is-gamesPlayed {
+      border-left: 2px solid #ccc;
+      padding-left: 0.75rem;
+    }
+
+    &.is-gamesLost {
+      border-right: 2px solid #ccc;
+      padding-right: 0.75rem;
+    }
+
+    &.is-score {
+      text-align: center;
+    }
+
+    &.is-win {
+      font-weight: 700;
+    }
+  }
+
+  tbody {
+    tr {
+
+    }
+  }
+}
+
+.score.is-win {
+    background-color: rgba(255, 227, 15, 0.3);
+    font-weight: 700;
+
+}
+.score {
+
+    border-radius: 2px;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    min-width: 24px;
+
+}
+
+.num.is-positive {
+  font-weight: 700;
+}
+
+.num.is-negative {
+  color: #ddd;
+}
