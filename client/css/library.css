@@ -70,12 +70,10 @@
   text-decoration: none;
 }
 
-.biblios .biblio-item {
-  float: left;
-  padding: 30px;
-  width: 20%;
-  height: 300px;
+#biblios .section-container {
+  padding: 1rem;
 }
+
 .biblios .biblio-item a {
   display: block;
   text-decoration: none;
