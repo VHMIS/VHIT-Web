@@ -16666,8 +16666,9 @@ $(document).ready(function () {
 
   // Sach moi
   $('#biblios').each(function () {
-    $.get(domain + 'library/public-api/lastest-biblios', function (data) {
-      $('div#list-new-docs').html(data)
+    // $.get(domain + 'library/public-api/lastest-biblios', function (data) {
+    $.get(domain + 'library/public-api/biblio/search', {'k': 'dc.kohaitemtype', 'q': 'SGT'}, function (data) {
+      $('#biblios').html(data)
     })
   })
 
