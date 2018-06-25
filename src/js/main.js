@@ -147,6 +147,22 @@ $(document).ready(function () {
         $("form#aciids-booking").trigger( "submit" );
     })
 
+    $('form#eps2018').on('submit', function (e) {
+      e.preventDefault()
+      var me = $(this)
+      var data = me.serialize()
+      me.find('button').prop('disabled', true);
+      $.post('https://vhmis.viethanit.edu.vn/office/public-api/eps/register', data, function (data) {
+        if (data.error == '0') {
+            alert('Cảm ơn bạn đã đăng ký, chúng tôi sẽ liên lạc với bạn sớm.')
+            me[0].reset()
+        } else {
+            alert(data.message)
+        }
+        me.find('button').prop('disabled', false);
+      }, 'json')
+    })
+
     $('form#aciids-booking').on('submit', function (e) {
         e.preventDefault()
         var me = $(this)
