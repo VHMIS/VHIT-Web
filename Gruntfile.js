@@ -115,8 +115,8 @@ var
                 'client/css/cest.css' : 'client/css/cest.css',
                 'client/css/10nam.css' : 'client/css/10nam.css',
                 'client/css/library.css' : 'client/css/library.css',
-                'client/css/tuyensinh.css': 'src/css/tuyensinh.css',
-                'client/css/thethao.css': 'src/css/thethao.css'
+                'client/css/tuyensinh.css': 'client/css/tuyensinh.css',
+                'client/css/thethao.css': 'client/css/thethao.css'
             }
         }
     };

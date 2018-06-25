@@ -109,6 +109,11 @@
       span {
         display: block;
 
+        &.image {
+          padding: 0 30px;
+          // min-height: 200px;
+        }
+
         &.title {
           max-height: 3.9em;
           line-height: 1.3em;
