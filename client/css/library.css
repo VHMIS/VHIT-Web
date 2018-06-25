@@ -85,8 +85,7 @@
   display: block;
 }
 .biblios .biblio-item a span.image {
-  padding: 0 10px;
-  min-height: 250px;
+  padding: 0 30px;
 }
 .biblios .biblio-item a span.title {
   max-height: 3.9em;
