@@ -16371,6 +16371,22 @@ $(document).ready(function () {
         $("form#aciids-booking").trigger( "submit" );
     })
 
+    $('form#eps2018').on('submit', function (e) {
+      e.preventDefault()
+      var me = $(this)
+      var data = me.serialize()
+      me.find('button').prop('disabled', true);
+      $.post('https://vhmis.viethanit.edu.vn/office/public-api/eps/register', data, function (data) {
+        if (data.error == '0') {
+            alert('Cảm ơn bạn đã đăng ký, chúng tôi sẽ liên lạc với bạn sớm.')
+            me[0].reset()
+        } else {
+            alert(data.message)
+        }
+        me.find('button').prop('disabled', false);
+      }, 'json')
+    })
+
     $('form#aciids-booking').on('submit', function (e) {
         e.preventDefault()
         var me = $(this)
@@ -16660,6 +16676,29 @@ $(document).ready(function () {
     })
 })
 
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+      }
+  }
+  return "";
+}
+
 $(document).ready(function () {
   var pub = true;
   var domain = pub ? 'https://vhmis.viethanit.edu.vn/' : 'http://localhost/VHMIS_WWW/'
@@ -16718,6 +16757,11 @@ $(document).ready(function () {
       $('meta[property=og\\:description]').attr('content', biblio.abstract)
       $('meta[property=og\\:title]').attr('content', biblio.title)
       $('meta[property=og\\:url]').attr('content', 'http://viethanit.edu.vn/thuvien/bienmuc.html?' + biblio.number)
+
+      $('<button>').addClass('button is-primary').css('margin-top', '16px').html('Thêm vào giở sách').appendTo('#biblio-full .biblio-cover').on('click', function(e){
+        setCookie('giosach', biblionumber, 1)
+        console.log(getCookie('giosach'))
+      })
     })
   })
 })
