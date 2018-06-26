@@ -70,6 +70,21 @@
   text-decoration: none;
 }
 
+.sc-cart .section-container {
+  padding: 1rem;
+}
+.sc-cart .columns {
+  margin-bottom: 1rem;
+}
+.sc-cart .column.is-cover {
+  -ms-flex: none;
+      flex: none;
+  width: 100px;
+}
+.sc-cart .column.is-cover img {
+  width: 100%;
+}
+
 #biblios .section-container {
   padding: 1rem;
 }

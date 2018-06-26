@@ -16759,9 +16759,36 @@ $(document).ready(function () {
       $('meta[property=og\\:url]').attr('content', 'http://viethanit.edu.vn/thuvien/bienmuc.html?' + biblio.number)
 
       $('<button>').addClass('button is-primary').css('margin-top', '16px').html('Thêm vào giở sách').appendTo('#biblio-full .biblio-cover').on('click', function(e){
-        setCookie('giosach', biblionumber, 1)
-        console.log(getCookie('giosach'))
+        var ids = getCookie('giosach')
+        var items = ids.split(',')
+        if (!items.find(ele => {
+          return ele == biblionumber
+        })) {
+          items.push(biblionumber)
+          setCookie('giosach', items.join(','), 1)
+          alert('Đã thêm cuốn sách này vào giỏ mượn')
+        } else {
+          alert('Cuốn sách đã được chọn')
+        }
       })
+    })
+  })
+
+  $('#cart').each(function () {
+    var ids = getCookie('giosach')
+    $.getJSON(domain + 'library/public-api/biblios?ids=' + ids, function (data) {
+      for(var index in data) {
+        var element = data[index];
+        $('<div>').addClass('columns').html(`
+          <div class="column is-cover">
+            <img src="/photo/thuvien/biasach/${element.biblionumber}.jpg">
+          </div>
+          <div class="column is-info">
+            <a href="/thuvien/bienmuc.html?${element.biblionumber}">${element.title}</a><br>
+            ${element.author}
+          </div>
+        `).appendTo('#cart')
+      }
     })
   })
 })
