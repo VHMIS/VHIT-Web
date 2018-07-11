@@ -71,6 +71,25 @@ $(document).ready(function () {
     })
   })
 
+  $('#library-request').on('submit', function (e) {
+    e.preventDefault()
+    var me = $(this)
+    var data = me.serialize()
+    me.find('button').prop('disabled', true)
+    $.post(domain + 'library/public-api/request', data, function (data) {
+      if (data.error == 0) {
+        alert('Yêu cầu mượn sách của bạn đã được gửi tới thư viện.')
+        setCookie('giosach', '', -1)
+        $('#library-request').find('input[name=ids]').val('')
+        $('#cart').empty()
+        me[0].reset()
+      } else {
+        alert(data.message)
+      }
+      me.find('button').prop('disabled', false);
+    }, 'json')
+  })
+
   $('#biblio-full').each(function () {
     var biblionumber = $.url('query')
     $.get(domain + 'library/public-api/biblio/' + biblionumber, function (data) {
@@ -98,6 +117,7 @@ $(document).ready(function () {
 
   $('#cart').each(function () {
     var ids = getCookie('giosach')
+    $('#library-request').find('input[name=ids]').val(ids)
     $.getJSON(domain + 'library/public-api/biblios?ids=' + ids, function (data) {
       for(var index in data) {
         var element = data[index];
